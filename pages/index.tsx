@@ -1,78 +1,105 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import Head from 'next/head'
+import Link from 'next/link'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const CATEGORIES = [
+  { name: 'Home', slug: 'home', description: 'Appliances, systems, and materials in your home', count: '50+', icon: '🏠' },
+  { name: 'Auto', slug: 'auto', description: 'Car parts, tires, and vehicle components', count: '30+', icon: '🚗' },
+  { name: 'Personal', slug: 'personal', description: 'Everyday items and personal products', count: '20+', icon: '🪥' },
+  { name: 'Outdoor', slug: 'outdoor', description: 'Yard, deck, driveway, and exterior products', count: '20+', icon: '🏡' },
+]
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const POPULAR = [
+  { name: 'Roof', slug: 'home/roof', lifespan: '20-30 years' },
+  { name: 'Water Heater', slug: 'home/water-heater', lifespan: '8-12 years' },
+  { name: 'Furnace', slug: 'home/furnace', lifespan: '15-20 years' },
+  { name: 'Car Battery', slug: 'auto/battery', lifespan: '3-5 years' },
+  { name: 'Tires', slug: 'auto/tires', lifespan: '3-5 years' },
+  { name: 'Mattress', slug: 'personal/mattress', lifespan: '7-10 years' },
+  { name: 'Windows', slug: 'home/windows', lifespan: '15-30 years' },
+  { name: 'Carpet', slug: 'home/carpet', lifespan: '8-15 years' },
+  { name: 'Air Conditioner', slug: 'home/air-conditioner', lifespan: '15-20 years' },
+  { name: 'Dishwasher', slug: 'home/dishwasher', lifespan: '9-12 years' },
+  { name: 'Brake Pads', slug: 'auto/brake-pads', lifespan: '25-65K miles' },
+  { name: 'Deck', slug: 'outdoor/deck', lifespan: '10-30 years' },
+]
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
-    >
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the index.tsx file.
+    <>
+      <Head>
+        <title>ReplacementGuide.com — Know When to Replace Everything in Your Home, Car, and Life</title>
+        <meta name="description" content="How long does it last? When should you replace it? Repair or replace? Straight answers for every product in your home, car, and life." />
+        <link rel="canonical" href="https://replacementguide.com" />
+      </Head>
+
+      {/* Hero */}
+      <div className="bg-slate-900 text-white py-16 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Know When to Replace It
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-slate-300 text-lg mb-8">
+            How long does it last? What are the warning signs? Should you repair or replace?
+            Straight answers... no sales pitch.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs/pages/getting-started?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </div>
+
+      <div className="max-w-5xl mx-auto px-4 py-12">
+        {/* Categories */}
+        <h2 className="text-2xl font-bold mb-6">Browse by Category</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+          {CATEGORIES.map(cat => (
+            <Link
+              key={cat.slug}
+              href={`/${cat.slug}`}
+              className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group"
+            >
+              <span className="text-3xl mb-3 block">{cat.icon}</span>
+              <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors">{cat.name}</h3>
+              <p className="text-xs text-slate-400 mt-1">{cat.description}</p>
+              <p className="text-xs text-emerald-600 mt-2">{cat.count} guides</p>
+            </Link>
+          ))}
         </div>
-      </main>
-    </div>
-  );
+
+        {/* Popular */}
+        <h2 className="text-2xl font-bold mb-6">Most Searched</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-16">
+          {POPULAR.map(item => (
+            <Link
+              key={item.slug}
+              href={`/${item.slug}`}
+              className="flex items-center justify-between border border-slate-200 rounded-lg px-4 py-3 hover:border-slate-400 transition-colors group"
+            >
+              <span className="text-sm font-medium text-slate-700 group-hover:text-slate-900">{item.name}</span>
+              <span className="text-xs text-slate-400">{item.lifespan}</span>
+            </Link>
+          ))}
+        </div>
+
+        {/* What we cover */}
+        <div className="bg-slate-50 rounded-xl p-8 text-center">
+          <h2 className="text-xl font-bold mb-3">Every page answers three questions</h2>
+          <div className="grid md:grid-cols-3 gap-6 mt-6 text-left">
+            <div>
+              <p className="text-2xl mb-2">⏱️</p>
+              <h3 className="font-semibold mb-1">How long does it last?</h3>
+              <p className="text-sm text-slate-500">Average lifespan, what affects it, and what to expect from yours.</p>
+            </div>
+            <div>
+              <p className="text-2xl mb-2">⚠️</p>
+              <h3 className="font-semibold mb-1">When to replace it</h3>
+              <p className="text-sm text-slate-500">The warning signs that mean it&apos;s time... before something breaks.</p>
+            </div>
+            <div>
+              <p className="text-2xl mb-2">🔧</p>
+              <h3 className="font-semibold mb-1">Repair or replace?</h3>
+              <p className="text-sm text-slate-500">When fixing it makes sense and when you&apos;re throwing money away.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
