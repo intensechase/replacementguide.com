@@ -27,6 +27,26 @@ export default function TroubleshootPage({ guide }: Props) {
         <title>{g.metaTitle}</title>
         <meta name="description" content={g.metaDescription} />
         <link rel="canonical" href={`https://replacementguide.com/troubleshoot/${g.slug}`} />
+        <meta property="og:title" content={g.title} />
+        <meta property="og:description" content={g.metaDescription} />
+        <meta property="og:url" content={`https://replacementguide.com/troubleshoot/${g.slug}`} />
+        <meta property="og:type" content="article" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'HowTo',
+          name: g.title,
+          description: g.intro,
+          step: g.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.title, text: s.detail + ' Fix: ' + s.fix })),
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://replacementguide.com' },
+            { '@type': 'ListItem', position: 2, name: 'Troubleshoot', item: 'https://replacementguide.com/troubleshoot' },
+            { '@type': 'ListItem', position: 3, name: g.title },
+          ],
+        }) }} />
       </Head>
 
       <div className="max-w-3xl mx-auto px-4 py-12">

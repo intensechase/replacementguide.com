@@ -25,6 +25,28 @@ export default function BlogArticlePage({ article: a }: Props) {
         <title>{a.metaTitle}</title>
         <meta name="description" content={a.metaDescription} />
         <link rel="canonical" href={`https://replacementguide.com/blog/${a.slug}`} />
+        <meta property="og:title" content={a.title} />
+        <meta property="og:description" content={a.metaDescription} />
+        <meta property="og:url" content={`https://replacementguide.com/blog/${a.slug}`} />
+        <meta property="og:type" content="article" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: a.title,
+          description: a.metaDescription,
+          datePublished: a.publishDate,
+          url: `https://replacementguide.com/blog/${a.slug}`,
+          publisher: { '@type': 'Organization', name: 'ReplacementGuide.com' },
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://replacementguide.com' },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://replacementguide.com/blog' },
+            { '@type': 'ListItem', position: 3, name: a.title },
+          ],
+        }) }} />
       </Head>
 
       <div className="max-w-3xl mx-auto px-4 py-12">

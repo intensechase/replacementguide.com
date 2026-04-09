@@ -27,6 +27,27 @@ export default function InsurancePage({ guide }: Props) {
         <title>{g.metaTitle}</title>
         <meta name="description" content={g.metaDescription} />
         <link rel="canonical" href={`https://replacementguide.com/insurance/${g.slug}`} />
+        <meta property="og:title" content={g.title} />
+        <meta property="og:description" content={g.quickAnswer.slice(0, 200)} />
+        <meta property="og:url" content={`https://replacementguide.com/insurance/${g.slug}`} />
+        <meta property="og:type" content="article" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: [
+            { '@type': 'Question', name: g.title, acceptedAnswer: { '@type': 'Answer', text: g.quickAnswer }},
+            ...g.coveredScenarios.slice(0, 3).map(s => ({ '@type': 'Question', name: `Is ${s.scenario.toLowerCase()} covered?`, acceptedAnswer: { '@type': 'Answer', text: s.detail }})),
+          ],
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://replacementguide.com' },
+            { '@type': 'ListItem', position: 2, name: 'Insurance Guides', item: 'https://replacementguide.com/insurance' },
+            { '@type': 'ListItem', position: 3, name: g.title },
+          ],
+        }) }} />
       </Head>
 
       <div className="max-w-3xl mx-auto px-4 py-12">

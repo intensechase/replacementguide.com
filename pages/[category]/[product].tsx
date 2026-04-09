@@ -63,6 +63,34 @@ export default function ProductPage({ product, related, content }: Props) {
         <title>{p.name} Replacement Guide — Lifespan, Cost &amp; When to Replace ({new Date().getFullYear()}) | ReplacementGuide</title>
         <meta name="description" content={`How long does a ${p.name.toLowerCase()} last? Average lifespan is ${lifespan}. Cost to replace: ${formatCost(p.costLow, p.costHigh)}. Warning signs, repair vs replace, and maintenance tips.`} />
         <link rel="canonical" href={`https://replacementguide.com/${p.category}/${p.slug}`} />
+        <meta property="og:title" content={`${p.name} Replacement Guide — When to Replace`} />
+        <meta property="og:description" content={`Average lifespan: ${lifespan}. Cost: ${formatCost(p.costLow, p.costHigh)}. Warning signs, repair vs replace, and maintenance tips.`} />
+        <meta property="og:url" content={`https://replacementguide.com/${p.category}/${p.slug}`} />
+        <meta property="og:type" content="article" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: `When to Replace Your ${p.name}`,
+          description: `How long does a ${p.name.toLowerCase()} last? Average lifespan is ${lifespan}. Cost to replace: ${formatCost(p.costLow, p.costHigh)}.`,
+          url: `https://replacementguide.com/${p.category}/${p.slug}`,
+          publisher: { '@type': 'Organization', name: 'ReplacementGuide.com' },
+          mainEntity: {
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: `How long does a ${p.name.toLowerCase()} last?`, acceptedAnswer: { '@type': 'Answer', text: `The average ${p.name.toLowerCase()} lasts ${lifespan}.` }},
+              { '@type': 'Question', name: `How much does it cost to replace a ${p.name.toLowerCase()}?`, acceptedAnswer: { '@type': 'Answer', text: `${p.name} replacement costs ${formatCost(p.costLow, p.costHigh)}.` }},
+            ],
+          },
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://replacementguide.com' },
+            { '@type': 'ListItem', position: 2, name: catName, item: `https://replacementguide.com/${p.category}` },
+            { '@type': 'ListItem', position: 3, name: p.name },
+          ],
+        }) }} />
       </Head>
 
       <div className="max-w-3xl mx-auto px-4 py-12">

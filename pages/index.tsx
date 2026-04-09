@@ -30,6 +30,16 @@ export default function HomePage() {
         <title>ReplacementGuide.com — Know When to Replace Everything in Your Home, Car, and Life</title>
         <meta name="description" content="How long does it last? When should you replace it? Repair or replace? Straight answers for every product in your home, car, and life." />
         <link rel="canonical" href="https://replacementguide.com" />
+        <meta property="og:title" content="ReplacementGuide.com — Know When to Replace It" />
+        <meta property="og:description" content="How long does it last? When should you replace it? Repair or replace? Straight answers for every product in your home, car, and life." />
+        <meta property="og:url" content="https://replacementguide.com" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: 'ReplacementGuide.com',
+          url: 'https://replacementguide.com',
+          description: 'How long does it last? When should you replace it? Repair or replace? Straight answers for every product in your home, car, and life.',
+        }) }} />
       </Head>
 
       {/* Hero */}
