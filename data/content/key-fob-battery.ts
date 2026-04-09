@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'key-fob-battery',
+  lifespanDetail: `Key fob batteries last 2 to 4 years, with most needing replacement around the 3-year mark. The battery is almost always a CR2032 or CR2025 coin cell (lithium 3V), though some older fobs use CR2016, CR1632, or other sizes. Check your owner's manual or pop the fob open to see the battery type before buying. Usage is the biggest factor in battery life. Every button press (lock, unlock, trunk, panic) sends a radio signal that draws power. But even if you never press a button, the fob passively drains battery by periodically broadcasting a low-power signal for proximity detection (walk-up unlock, push-button start). Cars with push-button start drain the fob battery faster than traditional key-turn ignition because the car and fob are constantly communicating when you're near the vehicle. Temperature extremes shorten battery life. Cold weather temporarily reduces lithium battery output (the fob may not work from as far away in winter), and extreme heat can permanently degrade the battery's chemistry. A fob left on a dashboard in Arizona summer heat ages faster than one kept in a pocket. Most key fobs have a hidden physical key blade inside for emergency situations. If your fob battery dies, slide out the mechanical key, unlock the door manually, and hold the dead fob against the start button... most push-button start cars can detect the fob at very close range even with a dead battery. This gets you home, but replace the battery immediately.`,
+  warningSigns: [
+    { sign: 'Reduced range (have to be closer to lock/unlock)', detail: 'The first sign of a dying battery. If you used to lock the car from 30 feet away and now need to be 10 feet away, the signal strength is dropping because the battery voltage is low.' },
+    { sign: 'Intermittent response (sometimes works, sometimes doesn\'t)', detail: 'The battery is at the threshold where it sometimes has enough power and sometimes doesn\'t. Cold mornings are usually when it fails first.' },
+    { sign: 'Low battery warning on the dashboard', detail: 'Many modern cars display a "key fob battery low" message on the instrument panel or infotainment screen. This usually gives you a few weeks before complete failure.' },
+    { sign: 'Multiple button presses needed to get a response', detail: 'Having to press the lock or unlock button 2-3 times before the car responds means the signal isn\'t transmitting reliably.' },
+    { sign: 'Push-button start requires holding the fob against the button', detail: 'When the car can\'t detect the fob from the normal distance and you need to hold it right against the start button, the battery is nearly dead.' },
+  ],
+  repairOrReplace: `Key fob battery replacement is one of the easiest and cheapest car repairs. A CR2032 battery costs $3 to $6, and replacing it takes 2 minutes. Most fobs have a small notch or slot where you insert a coin or flathead screwdriver to pry the case open, swap the battery (note the + and - orientation), and snap it closed. No tools beyond a coin or small screwdriver. The dealership charges $20 to $50 for this same 2-minute battery swap. Save your money and DIY. If the fob itself is damaged (cracked case, broken buttons, water damage), replacement fobs cost $50 to $400 depending on the vehicle. Basic key fobs for older cars are $20-$50 on Amazon and need to be programmed (some cars let you self-program, others require a locksmith or dealer). Smart key fobs for push-button start vehicles cost $150-$400 through the dealer and require dealer programming ($50-$100). A locksmith can often program aftermarket smart keys for less. Key fob case/shell replacements are available for $5-$15 on Amazon. If your buttons are worn or the case is cracked but the electronics work, you can transfer the circuit board into a new shell.`,
+  maintenanceTips: [
+    'Buy a 2-pack of the correct battery type and keep the spare in your glovebox or wallet. When the fob starts showing low-battery symptoms, you can replace it immediately.',
+    'Don\'t store the key fob near electronics or in a metal-lined container (Faraday pouch) for extended periods unless that\'s intentional for security. Some signal blocking pouches drain the battery faster as the fob repeatedly tries to communicate.',
+    'If you have two key fobs, rotate their use. Using one fob exclusively while the other sits in a drawer for 3 years means the unused fob\'s battery is still aging without the benefit of use.',
+    'Avoid exposing the fob to water. Most fobs are not waterproof. If it gets wet, open it immediately and let it dry completely before reassembling. Moisture corrodes the battery contacts.',
+    'When replacing the battery, clean the battery contacts inside the fob with a dry cloth. Corrosion on the contacts can cause intermittent issues even with a fresh battery.',
+  ],
+  costBreakdown: {
+    replaceLow: 3,
+    replaceHigh: 10,
+    repairLow: 3,
+    repairHigh: 10,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Energizer CR2032 Lithium Coin Battery (6-pack)', description: 'The most common key fob battery. A 6-pack gives you 3+ years of replacements for under $1 each. Also used in garage door remotes, watches, and small electronics.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Energizer+CR2032+lithium+battery+6+pack&tag=replacementgu-20' },
+    { name: 'Key Fob Replacement Shell/Case', description: 'Aftermarket fob cases for most major brands. Transfer your existing electronics into a new case when buttons are worn or the shell is cracked. Search by your car make and model.', priceRange: '$5-$15', amazonUrl: 'https://www.amazon.com/s?k=key+fob+replacement+shell+case&tag=replacementgu-20' },
+    { name: 'Duracell CR2025 Lithium Battery (4-pack)', description: 'The second most common key fob battery. Slightly thinner than CR2032. Check your fob to confirm the correct size before buying.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Duracell+CR2025+lithium+battery&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Battery replacement (DIY)', cost: '$3-$6', notes: 'The only repair most fobs ever need. 2 minutes with a coin or small screwdriver.' },
+    { repair: 'Battery replacement (dealer)', cost: '$20-$50', notes: 'The dealership charges a premium for a 2-minute job. Not recommended unless you\'re already there.' },
+    { repair: 'Fob case/shell replacement', cost: '$5-$15', notes: 'Transfer electronics to a new case. Fixes worn buttons and cracked shells.' },
+    { repair: 'Replacement fob (basic)', cost: '$50-$150 + programming', notes: 'For lost or damaged fobs. Locksmith programming is usually cheaper than dealer.' },
+    { repair: 'Replacement smart key fob', cost: '$150-$400 + $50-$100 programming', notes: 'Push-button start fobs are expensive. Aftermarket options available for some vehicles.' },
+  ],
+  bestBrands: [
+    { name: 'Energizer', knownFor: 'The most trusted battery brand. Their CR2032 and CR2025 coin cells are the default recommendation for key fobs. Consistent quality and wide availability.' },
+    { name: 'Duracell', knownFor: 'Equal quality to Energizer with slightly different availability. Both brands are essentially interchangeable for key fob use. Buy whichever is cheaper or more convenient.' },
+    { name: 'Panasonic', knownFor: 'Japanese manufacturer of the original CR2032 format. OEM battery in many key fobs from the factory. Excellent quality, sometimes harder to find in retail stores.' },
+    { name: 'Maxell', knownFor: 'Budget-friendly alternative that works fine for key fobs. Slightly shorter lifespan than Energizer/Duracell in some tests, but at 30-50% less cost per battery.' },
+  ],
+  installationTime: `Key fob battery replacement takes 1 to 3 minutes. Most fobs have a small slot or seam where you insert a coin (a quarter or dime works) or small flathead screwdriver to pry the case open. Some have a small screw on the back.\n\nSteps: identify the battery type (printed on the old battery), open the fob, note the battery orientation (+ side up or down), remove the old battery, insert the new one in the same orientation, snap the case closed, and test all buttons.\n\nIf the fob doesn't work after battery replacement: check that the battery is oriented correctly (most common mistake), make sure the contacts are touching the battery properly, and verify you installed the correct battery type.\n\nSome vehicles require "re-pairing" the fob after a battery change: stand near the car, press lock and unlock simultaneously for 5 seconds, or follow the specific procedure in your owner's manual. Most modern cars re-pair automatically.\n\nEmergency start with a dead fob: hold the fob directly against the start button and press. The car can detect the fob's passive RFID chip at extremely close range, even without battery power.`,
+}

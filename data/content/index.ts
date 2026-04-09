@@ -50,6 +50,61 @@ import { content as fence } from './fence'
 import { content as electricalPanel } from './electrical-panel'
 import { content as alternator } from './alternator'
 import { content as transmission } from './transmission'
+import { content as timingBelt } from './timing-belt'
+import { content as laptop } from './laptop'
+import { content as tv } from './tv'
+import { content as insulation } from './insulation'
+import { content as catalyticConverter } from './catalytic-converter'
+import { content as faucet } from './faucet'
+import { content as hardwoodFloors } from './hardwood-floors'
+import { content as exteriorPaint } from './exterior-paint'
+import { content as driveway } from './driveway'
+import { content as hotTub } from './hot-tub'
+import { content as smartphone } from './smartphone'
+import { content as waterFilter } from './water-filter'
+import { content as muffler } from './muffler'
+import { content as shocksStruts } from './shocks-struts'
+import { content as poolLiner } from './pool-liner'
+import { content as radiator } from './radiator'
+import { content as headlights } from './headlights'
+import { content as concreteDriveway } from './concrete-driveway'
+import { content as sprinklerSystem } from './sprinkler-system'
+import { content as interiorPaint } from './interior-paint'
+import { content as carbonMonoxideDetector } from './carbon-monoxide-detector'
+import { content as serpentineBelt } from './serpentine-belt'
+import { content as starterMotor } from './starter-motor'
+import { content as brakeRotors } from './brake-rotors'
+import { content as grill } from './grill'
+import { content as propaneTank } from './propane-tank'
+import { content as retainingWall } from './retaining-wall'
+import { content as shed } from './shed'
+import { content as outdoorFurniture } from './outdoor-furniture'
+import { content as keyFobBattery } from './key-fob-battery'
+import { content as clutch } from './clutch'
+import { content as fireExtinguisher } from './fire-extinguisher'
+import { content as britaFilter } from './brita-filter'
+import { content as hvacAirFilter } from './hvac-air-filter'
+import { content as mulch } from './mulch'
+import { content as artificialGrass } from './artificial-grass'
+import { content as pillows } from './pillows'
+import { content as runningShoes } from './running-shoes'
+import { content as toothbrush } from './toothbrush'
+import { content as contactLenses } from './contact-lenses'
+import { content as razorBlades } from './razor-blades'
+import { content as printer } from './printer'
+import { content as sunglasses } from './sunglasses'
+import { content as workBoots } from './work-boots'
+import { content as electricToothbrushHead } from './electric-toothbrush-head'
+import { content as hearingAidBatteries } from './hearing-aid-batteries'
+import { content as bicycleTires } from './bicycle-tires'
+import { content as smartDoorbell } from './smart-doorbell'
+import { content as vacuumCleaner } from './vacuum-cleaner'
+import { content as vinylPlankFlooring } from './vinyl-plank-flooring'
+import { content as stucco } from './stucco'
+import { content as chestFreezer } from './chest-freezer'
+import { content as carAirFilter } from './car-air-filter'
+import { content as oilFilter } from './oil-filter'
+import { content as cabinAirFilter } from './cabin-air-filter'
 
 export interface ProductContent {
   slug: string
@@ -125,6 +180,61 @@ const contentMap: Record<string, ProductContent> = {
   'electrical-panel': electricalPanel,
   'alternator': alternator,
   'transmission': transmission,
+  'timing-belt': timingBelt,
+  'laptop': laptop,
+  'tv': tv,
+  'insulation': insulation,
+  'catalytic-converter': catalyticConverter,
+  'faucet': faucet,
+  'hardwood-floors': hardwoodFloors,
+  'exterior-paint': exteriorPaint,
+  'driveway': driveway,
+  'hot-tub': hotTub,
+  'smartphone': smartphone,
+  'water-filter': waterFilter,
+  'muffler': muffler,
+  'shocks-struts': shocksStruts,
+  'pool-liner': poolLiner,
+  'radiator': radiator,
+  'headlights': headlights,
+  'concrete-driveway': concreteDriveway,
+  'sprinkler-system': sprinklerSystem,
+  'interior-paint': interiorPaint,
+  'carbon-monoxide-detector': carbonMonoxideDetector,
+  'serpentine-belt': serpentineBelt,
+  'starter-motor': starterMotor,
+  'brake-rotors': brakeRotors,
+  'grill': grill,
+  'propane-tank': propaneTank,
+  'retaining-wall': retainingWall,
+  'shed': shed,
+  'outdoor-furniture': outdoorFurniture,
+  'key-fob-battery': keyFobBattery,
+  'clutch': clutch,
+  'fire-extinguisher': fireExtinguisher,
+  'brita-filter': britaFilter,
+  'hvac-air-filter': hvacAirFilter,
+  'mulch': mulch,
+  'artificial-grass': artificialGrass,
+  'pillows': pillows,
+  'running-shoes': runningShoes,
+  'toothbrush': toothbrush,
+  'contact-lenses': contactLenses,
+  'razor-blades': razorBlades,
+  'printer': printer,
+  'sunglasses': sunglasses,
+  'work-boots': workBoots,
+  'electric-toothbrush-head': electricToothbrushHead,
+  'hearing-aid-batteries': hearingAidBatteries,
+  'bicycle-tires': bicycleTires,
+  'smart-doorbell': smartDoorbell,
+  'vacuum-cleaner': vacuumCleaner,
+  'vinyl-plank-flooring': vinylPlankFlooring,
+  'stucco': stucco,
+  'chest-freezer': chestFreezer,
+  'car-air-filter': carAirFilter,
+  'oil-filter': oilFilter,
+  'cabin-air-filter': cabinAirFilter,
 }
 
 export function getProductContent(slug: string): ProductContent | null {

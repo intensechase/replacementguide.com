@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'brita-filter',
+  lifespanDetail: `Brita pitcher filters last about 2 months or 40 gallons of water, whichever comes first. The Brita Longlast (now called "Elite") filter lasts 6 months or 120 gallons. These are firm limits set by the activated carbon's capacity to absorb contaminants. Once the carbon is saturated, the filter doesn't just stop working... it can release trapped contaminants back into the water as new water pushes through. Think of it like a sponge that's fully soaked... it can't absorb anymore and starts dripping what it already collected. The standard Brita filter uses granular activated carbon (coconut-based) and ion exchange resin. The carbon removes chlorine, taste, and odor. The ion exchange resin reduces certain heavy metals like copper, mercury, and cadmium. The Elite filter adds a pleated design with more carbon surface area, which is why it lasts 3x longer and removes more contaminants (including lead). Household size determines how quickly you reach the gallon limit. A single person drinking 8 glasses a day uses about 15 gallons/month... the standard filter will last the full 2 months. A family of 4 drinking the recommended amount uses about 60 gallons/month... the standard filter should be changed monthly, not every 2 months. Water quality affects filter life too. If your tap water has higher-than-average chlorine, sediment, or mineral content, the carbon saturates faster. Municipal water with heavy chlorination may exhaust a filter in 4-6 weeks.`,
+  warningSigns: [
+    { sign: 'Water tastes like chlorine or has an off-flavor', detail: 'The most obvious sign. When filtered water starts tasting like straight tap water, the carbon has lost its ability to remove chlorine and other taste compounds. Time to change the filter.' },
+    { sign: 'The filter indicator light says replace (if your pitcher has one)', detail: 'Newer Brita pitchers have an electronic indicator that tracks time since the last filter change. It\'s a rough guide based on calendar days, not actual gallons filtered.' },
+    { sign: 'Water flows through the filter much faster than when new', detail: 'A new filter has some resistance... water takes 10-15 minutes to fill a full pitcher. If it flows through in a few minutes, the carbon may be channeling (water finding gaps rather than filtering through the media).' },
+    { sign: 'Water flows through extremely slowly', detail: 'The opposite problem: very slow filtration means the filter is clogged with sediment. This can happen before the 2-month mark if your water has high particulate content.' },
+    { sign: 'You can\'t remember when you last changed it', detail: 'If you have to think about it, it\'s probably time. Write the install date on the filter with a marker or set a calendar reminder for consistent changes.' },
+  ],
+  repairOrReplace: `Brita filters are always replaced, never repaired or cleaned. They're designed as disposable filtration media. Standard Brita replacement filters cost $5 to $8 each, or about $2.50 to $4 per month. Buying multi-packs (3, 6, or 10-count) drops the per-filter cost significantly... a 10-pack of standard filters is $30-$40 ($3-$4 each). Elite/Longlast filters cost $12 to $18 each, but since they last 6 months, the per-month cost is similar to standard filters at $2-$3 per month. The pitcher itself lasts 2-5 years with normal use. The plastic can crack, the lid can break, or the reservoir can develop hairline cracks that bypass the filter. A replacement pitcher costs $20-$35. Generic/third-party replacement filters ($3-$5 each) are available and work in Brita pitchers, but they're not NSF-certified for the same contaminant removal claims. For some uses (taste improvement only) they're fine. For lead or heavy metal reduction, stick with genuine Brita Elite filters. If you're going through filters quickly (family of 4+), consider upgrading to an under-sink filter system. A basic under-sink system costs $50-$150 and filters last 6-12 months with much higher flow capacity, making the per-gallon cost lower than Brita for heavy users.`,
+  maintenanceTips: [
+    'Change the filter on schedule, not when it "tastes bad." By the time you notice a taste change, the filter has been underperforming for a while. Set a calendar reminder or use the pitcher\'s indicator.',
+    'Pre-soak new filters for 15 seconds and flush with cold water for 15 seconds before first use. This removes loose carbon fines (black specks) and activates the filter media.',
+    'Hand-wash the pitcher and reservoir every 2-4 weeks with mild dish soap. Biofilm (a slimy layer) can develop inside the reservoir and on the pitcher walls, which harbors bacteria.',
+    'Only filter cold water. Hot water damages the carbon and releases trapped contaminants. Never put hot tap water through a Brita filter.',
+    'Store the pitcher in the refrigerator. Cold slows bacterial growth in the filtered water, which no longer has chlorine to inhibit bacteria. Room-temperature filtered water should be consumed within a day.',
+    'Write the installation date on each new filter with a permanent marker. This removes all guesswork about when to change it.',
+  ],
+  costBreakdown: {
+    replaceLow: 5,
+    replaceHigh: 10,
+    repairLow: 5,
+    repairHigh: 10,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Brita Standard Water Filter Replacements (10-pack)', description: 'Best value for standard Brita filters. 10-pack covers almost 2 years of changes for a single user. Reduces chlorine taste and odor, copper, mercury, and cadmium.', priceRange: '$30-$40', amazonUrl: 'https://www.amazon.com/s?k=Brita+standard+water+filter+replacement+10+pack&tag=replacementgu-20' },
+    { name: 'Brita Elite Filter Replacements (3-pack)', description: 'The longer-lasting filter that also removes lead. Each filter lasts 6 months. 3-pack covers 18 months. NSF-certified for lead, chlorine, and other contaminants.', priceRange: '$30-$45', amazonUrl: 'https://www.amazon.com/s?k=Brita+Elite+filter+replacement+3+pack&tag=replacementgu-20' },
+    { name: 'Brita Large Pitcher with Filter (10-cup)', description: 'The replacement pitcher when yours cracks or wears out. 10-cup capacity is the most popular size. Includes one standard filter. BPA-free plastic.', priceRange: '$25-$35', amazonUrl: 'https://www.amazon.com/s?k=Brita+10+cup+water+pitcher&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Standard filter replacement', cost: '$5-$8 each', notes: 'Every 2 months or 40 gallons. The only regular maintenance needed.' },
+    { repair: 'Elite/Longlast filter replacement', cost: '$12-$18 each', notes: 'Every 6 months or 120 gallons. Better contaminant removal including lead.' },
+    { repair: 'Pitcher replacement', cost: '$20-$35', notes: 'When the pitcher cracks, lid breaks, or reservoir develops leaks. Every 2-5 years.' },
+    { repair: 'Faucet mount system (upgrade)', cost: '$20-$30', notes: 'Attaches to the faucet for on-demand filtration. No pitcher needed. Filter lasts 4 months.' },
+    { repair: 'Under-sink system (upgrade)', cost: '$50-$150', notes: 'For households that go through pitcher filters too quickly. Higher capacity, lower per-gallon cost.' },
+  ],
+  bestBrands: [
+    { name: 'Brita', knownFor: 'The brand that popularized pitcher water filtration. Widest availability and most recognized. Standard and Elite filters are both NSF-certified. Replacement filters available everywhere.' },
+    { name: 'PUR', knownFor: 'Brita\'s main competitor with similar products. Some independent tests show PUR filters slightly outperforming Brita on certain contaminants. Their faucet-mount system is popular.' },
+    { name: 'ZeroWater', knownFor: 'Removes virtually all dissolved solids (TDS reading of 000). More thorough filtration than Brita but filters exhaust faster and cost more per month. Comes with a TDS meter.' },
+    { name: 'LifeStraw Home', knownFor: 'Newer competitor with a gravity-fed pitcher that includes membrane microfilter for bacteria protection in addition to carbon filtration. Best for well water or questionable sources.' },
+  ],
+  installationTime: `Changing a Brita filter takes about 1 minute: remove the old filter from the reservoir, unwrap the new filter, soak it in cold water for 15 seconds, insert it into the reservoir with firm downward pressure until it clicks, flush by filling and discarding the first pitcher of water (removes carbon fines).\n\nThe first fill after a new filter may have black specks (carbon dust)... this is normal and harmless, but most people prefer to discard it. By the second fill, the water should run clear.\n\nSetting up a new Brita pitcher takes 5 minutes: wash all parts with mild soap, insert the filter, fill and discard the first batch, and you're ready.\n\nA faucet-mount Brita system takes 10-15 minutes to install: remove the existing faucet aerator, attach the mount adapter, click the filter unit into place, and run water for 5 minutes to flush.\n\nPro tip: buy filters in bulk and store them in a cool, dry place. Unopened Brita filters have an indefinite shelf life... the carbon doesn't degrade until water passes through it.`,
+}

@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'pillows',
+  lifespanDetail: `Pillows should be replaced every 1 to 2 years, making them one of the most frequently replaced items in your home. Most people keep pillows far too long... the average American uses a pillow for 3-5 years, well past the point where it provides good support or hygiene. The fill material determines how quickly a pillow loses its support. Polyester fill (the cheapest and most common) compresses and clumps within 6 to 18 months. Memory foam lasts longer at 2 to 3 years before it softens and develops permanent compression. Down and down-alternative pillows last 1 to 2 years before the fill compresses and the loft decreases. Latex pillows are the longest-lasting at 3 to 4 years. Here's the part most people don't think about: a 2-year-old pillow can contain millions of dust mites, their waste, dead skin cells, body oils, sweat, saliva, and fungi. Dust mites feed on dead skin cells that accumulate in pillows regardless of how often you wash the pillowcase. This is one of the primary triggers for nighttime allergies, congestion, and asthma symptoms. Pillow protectors (waterproof, zippered encasements) extend hygiene by creating a barrier between you and the pillow's inner buildup, but they don't extend the support lifespan. The "fold test" is the simplest way to check a pillow: fold it in half and let go. A healthy pillow springs back to flat immediately. A dead pillow stays folded... the fill has permanently compressed and can't support your head and neck properly.`,
+  warningSigns: [
+    { sign: 'You wake up with neck pain or stiffness', detail: 'A pillow that\'s lost its loft can\'t keep your head and neck aligned with your spine. If morning neck pain has developed gradually, the pillow is likely the culprit... not your mattress or sleeping position.' },
+    { sign: 'The pillow fails the fold test', detail: 'Fold the pillow in half and release. If it stays folded or takes more than a few seconds to spring back, the fill is compressed beyond recovery. Time to replace.' },
+    { sign: 'You need to fold, stack, or bunch the pillow for comfort', detail: 'If you\'re doubling up the pillow or stuffing it into a ball to get enough height, it\'s not providing the support it was designed for.' },
+    { sign: 'Yellow staining that won\'t wash out', detail: 'Yellowing from sweat and body oils penetrates deep into the fill. Washing helps temporarily, but permanent discoloration means the pillow has absorbed significant organic material.' },
+    { sign: 'Allergies or congestion are worse at night and in the morning', detail: 'Dust mite allergens accumulate in pillows over time. If your nighttime allergy symptoms have gotten worse, a new pillow with a dust-mite-proof encasement often provides immediate relief.' },
+  ],
+  repairOrReplace: `Pillows are always replaced, never repaired. At $20 to $80 for a good pillow, this is one of the cheapest improvements to your sleep quality. Washing pillows extends their usable life by a few months but doesn't restore lost loft or remove all accumulated allergens. Most polyester and down-alternative pillows can be machine washed (warm water, gentle cycle, extra rinse) and dried on low heat with a couple of tennis balls to restore fluff. Memory foam and latex pillows cannot be machine washed... spot-clean only. When replacing, choose the pillow loft (thickness) based on your sleep position: side sleepers need the thickest pillow (high loft) to fill the gap between shoulder and head; back sleepers need medium loft; stomach sleepers need the thinnest pillow (low loft) or none at all. Getting this wrong is why many people are perpetually uncomfortable regardless of how much they spend on pillows. A pillow protector ($10-$20) is a better investment than a more expensive pillow without one. The protector keeps sweat, oils, and dust mites out of the pillow's fill, extending both hygiene and support life by 6-12 months.`,
+  maintenanceTips: [
+    'Use a zippered pillow protector under the pillowcase. This waterproof barrier keeps sweat and oils out of the fill and is machine-washable. $10-$20 per protector.',
+    'Wash pillows (those that are machine-washable) every 3 to 6 months. Use warm water, mild detergent, and an extra rinse cycle. Dry completely on low heat.',
+    'Fluff your pillows daily by punching and reshaping them. This redistributes the fill and prevents permanent compression in one spot.',
+    'Air pillows out in sunlight periodically. UV light kills dust mites and bacteria, and the fresh air removes moisture and odor. 2-3 hours of direct sun works well.',
+    'Wash pillowcases weekly. This is the first line of defense against oil and sweat reaching the pillow itself.',
+  ],
+  costBreakdown: {
+    replaceLow: 20,
+    replaceHigh: 80,
+    repairLow: 5,
+    repairHigh: 15,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Coop Home Goods Original Loft Pillow (adjustable)', description: 'Shredded memory foam with adjustable fill... add or remove foam to get the exact loft for your sleep position. The #1 best-selling pillow on Amazon for good reason.', priceRange: '$50-$70', amazonUrl: 'https://www.amazon.com/s?k=Coop+Home+Goods+Original+Loft+pillow&tag=replacementgu-20' },
+    { name: 'Beckham Hotel Collection Gel Pillow (2-pack)', description: 'The best-selling budget pillow with hotel-quality comfort. Down-alternative fill that\'s machine washable. 2-pack makes replacing both pillows painless.', priceRange: '$30-$45 for 2-pack', amazonUrl: 'https://www.amazon.com/s?k=Beckham+Hotel+Collection+gel+pillow&tag=replacementgu-20' },
+    { name: 'SafeRest Pillow Protector (2-pack)', description: 'Waterproof, dust-mite-proof zippered encasement that goes under your pillowcase. Extends pillow life and hygiene significantly. Machine washable.', priceRange: '$12-$18 for 2-pack', amazonUrl: 'https://www.amazon.com/s?k=SafeRest+pillow+protector+2+pack&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Pillow replacement (budget)', cost: '$15-$30 each', notes: 'Polyester or down-alternative. Every 1-2 years. Most common approach.' },
+    { repair: 'Pillow replacement (mid-range)', cost: '$30-$70 each', notes: 'Shredded memory foam or quality down-alternative. Adjustable options available.' },
+    { repair: 'Pillow replacement (premium)', cost: '$70-$150 each', notes: 'Latex, high-end memory foam, or genuine down. Longer-lasting but still needs eventual replacement.' },
+    { repair: 'Pillow protector (prevention)', cost: '$10-$20 per protector', notes: 'Extends pillow life by 6-12 months and dramatically improves hygiene.' },
+    { repair: 'Professional pillow cleaning', cost: '$10-$20 per pillow', notes: 'Dry cleaners handle down and specialty pillows. Restores fluff temporarily.' },
+  ],
+  bestBrands: [
+    { name: 'Coop Home Goods', knownFor: 'Adjustable shredded memory foam that lets you customize loft. Best for people who\'ve never found the right pillow because you can literally add or remove fill until it\'s perfect.' },
+    { name: 'Beckham Hotel Collection', knownFor: 'Best value in quality pillows. Their gel-filled down-alternative is the top-selling pillow on Amazon. Hotel-quality comfort at a budget price.' },
+    { name: 'Tempur-Pedic', knownFor: 'Premium memory foam pillows that contour to your head and neck. More expensive ($50-$120) but the foam is denser and longer-lasting than competitors.' },
+    { name: 'Casper', knownFor: 'The mattress company\'s pillow uses a unique "pillow-in-a-pillow" design with a firm inner core and soft outer layer. Good for people who want support without a firm feel.' },
+  ],
+  installationTime: `Replacing a pillow takes about 30 seconds: remove the old pillowcase, put it on the new pillow, done. If you're using a pillow protector (recommended), add 1 minute to zip the protector on first.\n\nNew memory foam pillows may have an off-gassing smell when first unpackaged (compressed foam releases volatile organic compounds). Let a new memory foam pillow air out for 24-48 hours in a well-ventilated room before sleeping on it. The smell is harmless but unpleasant.\n\nDown and down-alternative pillows may need to be fluffed vigorously after unboxing to restore their full loft from compressed shipping packaging. Put them in the dryer on air-only (no heat) for 10-15 minutes with tennis balls to fully expand the fill.\n\nIf you're buying adjustable pillows (like Coop Home Goods), budget 10-15 minutes to add or remove fill until the loft feels right for your sleep position. This trial-and-error is the whole point of adjustable designs.`,
+}

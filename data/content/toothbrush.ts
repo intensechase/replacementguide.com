@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'toothbrush',
+  lifespanDetail: `Manual toothbrushes should be replaced every 3 to 4 months according to the American Dental Association. The bristles are the critical component... they're made of nylon filaments that start out with rounded tips (gentle on gums) and gradually fray, bend, and wear down with use. Frayed bristles can't clean effectively between teeth and along the gumline, and the sharp, split ends of worn bristles can actually damage gum tissue. Most people keep toothbrushes far too long. Studies show the average American replaces their toothbrush every 9 months... more than double the recommended interval. Brushing technique affects how fast bristles wear. Aggressive brushers who press too hard wear through bristles in 1-2 months. Light-pressure brushers may get 4 months. The ADA's 3-month recommendation assumes average brushing pressure twice daily. Bacterial buildup is the hygiene factor. Toothbrushes harbor bacteria, fungi, and viruses from your mouth and from the bathroom environment. While the bacterial load on a toothbrush isn't typically enough to cause illness in a healthy person, it increases over time and is a concern for people with compromised immune systems. Storing your toothbrush upright in open air (not in a closed container) allows it to dry between uses, which reduces bacterial growth. You should also replace your toothbrush immediately after recovering from any illness (cold, flu, strep throat, COVID) to avoid reintroducing the pathogen.`,
+  warningSigns: [
+    { sign: 'Bristles are frayed, bent, or splaying outward', detail: 'The clearest visual indicator. Healthy bristles are straight and uniform. When they start fanning outward or curling, they can\'t clean properly and may scratch your gums.' },
+    { sign: 'It\'s been 3 months since you started using it', detail: 'Even if the bristles look fine, 3 months is the replacement interval. Set a calendar reminder or use the seasonal change as your cue.' },
+    { sign: 'You were recently sick', detail: 'Cold, flu, strep, COVID... replace the toothbrush when you recover. The bristles can harbor the virus or bacteria and theoretically reinfect you, especially strep.' },
+    { sign: 'The bristles feel less effective', detail: 'If your teeth don\'t feel as clean after brushing as they used to, the bristles have lost their cleaning geometry. Your technique probably hasn\'t changed... the brush has.' },
+    { sign: 'The handle is cracked or the base is discolored', detail: 'Mold can grow in cracks in the handle base, especially in humid bathroom environments. Any visible mold or persistent discoloration means immediate replacement.' },
+  ],
+  repairOrReplace: `Toothbrushes are disposable items... always replaced, never repaired. A manual toothbrush costs $2 to $6, making this one of the cheapest health maintenance items. Buy multi-packs of 4 and you're set for a year. Electric toothbrush heads follow the same 3-month replacement schedule at $5 to $10 per head. The electric toothbrush handle (base unit) lasts 3 to 5 years. When choosing a replacement: soft bristles are recommended by virtually every dentist. Medium and hard bristles don't clean better... they just damage gum tissue and tooth enamel faster. The only exception is if your dentist specifically recommends harder bristles for a particular condition. Head size matters: smaller heads reach back teeth and tight spaces better than large heads. A compact or "slim" head is generally more effective for thorough cleaning. Electric vs manual: electric toothbrushes with oscillating or sonic heads remove 21% more plaque than manual brushing (per a Cochrane review of clinical studies). If you struggle with consistent brushing technique, an electric toothbrush is worth the $40-$100 investment.`,
+  maintenanceTips: [
+    'Replace every 3 months or when bristles fray, whichever comes first. The easiest reminder: replace when the seasons change (or at the start of each quarter).',
+    'Rinse the toothbrush thoroughly after each use and store it upright in open air. Don\'t store it in a closed container or cover... trapped moisture promotes bacterial growth.',
+    'Don\'t share toothbrushes. This transfers oral bacteria, viruses, and bloodborne pathogens (if gums bleed) between people.',
+    'Keep the toothbrush away from the toilet. Flushing aerosolizes bacteria that settle on nearby surfaces. Store the brush at least 3-4 feet from the toilet, or in a medicine cabinet.',
+    'Replace immediately after illness. Don\'t wait until the 3-month mark if you\'ve been sick... the few dollars for a new brush isn\'t worth the risk of reinfection.',
+  ],
+  costBreakdown: {
+    replaceLow: 2,
+    replaceHigh: 10,
+    repairLow: 2,
+    repairHigh: 10,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Oral-B Pro-Health Manual Toothbrush (6-pack)', description: 'Soft bristles with CrissCross design for effective cleaning. 6-pack covers 18 months of replacements at the recommended 3-month interval.', priceRange: '$10-$15 for 6-pack', amazonUrl: 'https://www.amazon.com/s?k=Oral-B+Pro+Health+manual+toothbrush+6+pack&tag=replacementgu-20' },
+    { name: 'Oral-B iO Series Electric Toothbrush', description: 'Premium electric toothbrush with oscillating-rotating head and pressure sensor. Removes significantly more plaque than manual brushing. Replacement heads every 3 months.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=Oral-B+iO+electric+toothbrush&tag=replacementgu-20' },
+    { name: 'Philips Sonicare ProtectiveClean', description: 'Sonic toothbrush that vibrates 31,000 times per minute. Gentle on gums with pressure sensor. Built-in replacement reminder. Great value in the electric toothbrush market.', priceRange: '$40-$70', amazonUrl: 'https://www.amazon.com/s?k=Philips+Sonicare+ProtectiveClean&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Manual toothbrush replacement', cost: '$2-$6 each', notes: 'Every 3 months. Buy multi-packs for convenience and savings.' },
+    { repair: 'Electric toothbrush head replacement', cost: '$5-$10 each', notes: 'Same 3-month schedule. Compatible heads vary by brand and model.' },
+    { repair: 'Electric toothbrush replacement (base unit)', cost: '$40-$150', notes: 'Every 3-5 years when the battery won\'t hold a charge or motor weakens.' },
+    { repair: 'Annual toothbrush cost (manual, 4 per year)', cost: '$8-$24 per year', notes: 'One of the cheapest health investments you can make.' },
+    { repair: 'Annual toothbrush cost (electric heads, 4 per year)', cost: '$20-$40 per year', notes: 'Plus the base unit amortized over 3-5 years.' },
+  ],
+  bestBrands: [
+    { name: 'Oral-B', knownFor: 'The dentist-recommended brand. Both manual and electric options. Their oscillating-rotating electric brushes are backed by more clinical research than any competitor.' },
+    { name: 'Philips Sonicare', knownFor: 'Sonic technology that vibrates at 31,000 strokes/minute. Gentler on gums than oscillating brushes. Premium build quality and strong battery life.' },
+    { name: 'Colgate', knownFor: 'Widely available manual toothbrushes at every price point. Their 360° design with tongue cleaner is popular. The budget-friendly standard.' },
+    { name: 'quip', knownFor: 'Subscription-based electric toothbrush with automatic head replacements mailed every 3 months. Simple sonic design. Solves the "forgetting to replace" problem with auto-delivery.' },
+  ],
+  installationTime: `Replacing a toothbrush takes exactly 0 minutes of setup time. Open the package and start using it.\n\nNew bristles may feel stiffer for the first few uses. This is normal and the bristles soften slightly within a week. If a new toothbrush consistently feels too stiff, switch to an ultra-soft or sensitive variety.\n\nElectric toothbrush head replacement: click off the old head, click on the new one. 5 seconds.\n\nInitial electric toothbrush setup: charge fully before first use (4-12 hours depending on model), download the companion app if it has one, and familiarize yourself with the pressure sensor. Most people press too hard when switching from manual to electric... let the brush do the work.\n\nPro tip: buy a year's supply of toothbrushes or electric heads at once and store them in the bathroom cabinet. Having the replacement immediately available makes 3-month swaps much more likely to actually happen.`,
+}

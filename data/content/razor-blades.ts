@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'razor-blades',
+  lifespanDetail: `Razor blade cartridges last 5 to 10 shaves for multi-blade cartridge razors (Gillette, Schick, Harry's) and 3 to 7 shaves for double-edge safety razor blades. Most men use a cartridge for 2-4 weeks depending on shaving frequency, though the optimal replacement is more frequent than most people practice. The blade edge is microscopically thin... about 50-80 nanometers at the cutting tip. Each pass across skin and hair chips and rolls this edge, progressively dulling the blade. Hair itself is harder than copper wire of the same thickness, so every stroke is genuinely wearing down the metal. Coarse, thick hair dulls blades faster than fine hair. Facial hair (which is coarser than body hair for most people) is harder on blades than leg shaving. Multi-blade cartridges (3-5 blades) seem like they'd wear faster because there are more blades per pass, but each individual blade does less work per stroke because the cutting load is distributed. The lubrication strip on cartridge razors is the first thing to go... it dissolves in 3-5 shaves, leaving you with less glide protection even though the blades still technically cut. Moisture and oxidation between shaves are actually what kills most razor blades. The thin edge corrodes when left wet. Rinsing the blade, shaking off water, and storing it in a dry place (not in the shower) extends blade life significantly. Some people store blades in mineral oil between shaves to prevent oxidation, which can double blade life.`,
+  warningSigns: [
+    { sign: 'Tugging or pulling instead of cleanly cutting hair', detail: 'A sharp blade glides through hair with minimal resistance. When you feel tugging or pulling, the blade edge has dulled to the point where it\'s catching and dragging rather than cutting.' },
+    { sign: 'More passes needed for a clean shave', detail: 'If areas that used to come clean in one pass now need 2-3 passes, the blade is dull. Extra passes with a dull blade increase irritation and razor burn.' },
+    { sign: 'Razor burn, redness, or irritation after shaving', detail: 'Dull blades cause more friction against the skin, leading to irritation, ingrown hairs, and razor burn. If you\'re getting irritated with good technique and products, the blade is the problem.' },
+    { sign: 'Nicks and cuts more frequent than usual', detail: 'Counterintuitively, dull blades cause more cuts than sharp ones. A sharp blade cuts cleanly; a dull blade catches and skips, nicking the skin.' },
+    { sign: 'The lubrication strip has dissolved', detail: 'On cartridge razors, when the moisturizing strip above the blades is gone or barely visible, the cartridge has been through significant use. The blade may still cut, but without the lubrication, skin irritation increases.' },
+  ],
+  repairOrReplace: `Razor blades can't be repaired. Blade stropping (running the blade backward on denim or leather to realign the edge) can marginally extend cartridge life by 2-3 extra shaves but doesn't restore true sharpness. The most cost-effective shaving systems ranked by annual cost: double-edge safety razors are the cheapest long-term at $15-$30/year for blades (100-pack for $10-$20, each blade lasts 3-7 shaves). Subscription services (Dollar Shave Club, Harry's) run $30-$60/year. Name-brand cartridges (Gillette ProGlide, Schick Hydro) cost $60-$120/year at retail. The safety razor route requires a one-time $25-$40 investment in the razor handle, then blades are essentially pennies each. The shave quality is as good or better than multi-blade cartridges once you learn the technique (1-2 weeks of practice). Buying in bulk: whether you use cartridges or safety razor blades, buying in larger quantities drops the per-blade cost significantly. A 16-pack of Gillette ProGlide at Costco is cheaper per cartridge than a 4-pack at the drugstore. A 100-pack of safety razor blades online costs less than a single Gillette cartridge refill pack.`,
+  maintenanceTips: [
+    'Rinse the blade thoroughly after each shave and shake off excess water. Moisture left on the blade causes oxidation that dulls the edge between shaves.',
+    'Store the razor outside the shower. The constant steam and humidity in the shower accelerate blade corrosion. A countertop or medicine cabinet is better.',
+    'Use proper shave prep: hot water on the face for 2-3 minutes before shaving softens the hair, which means less force needed per stroke and less blade wear.',
+    'Don\'t apply excessive pressure. Let the blade\'s weight and sharpness do the cutting. Pressing harder doesn\'t cut closer... it just irritates skin and dulls the blade faster.',
+    'Shave with the grain (direction of hair growth) on the first pass. Against-the-grain shaving gives a closer result but is dramatically harder on both the blade and your skin.',
+  ],
+  costBreakdown: {
+    replaceLow: 10,
+    replaceHigh: 30,
+    repairLow: 10,
+    repairHigh: 30,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Merkur 34C Double-Edge Safety Razor', description: 'The most recommended beginner safety razor. German-made with excellent build quality. One-time $30-$40 purchase that pays for itself within a year vs. cartridges.', priceRange: '$30-$40', amazonUrl: 'https://www.amazon.com/s?k=Merkur+34C+safety+razor&tag=replacementgu-20' },
+    { name: 'Astra Superior Platinum Razor Blades (100-pack)', description: 'The most popular double-edge blade in the wet shaving community. Sharp, smooth, and forgiving. 100 blades for under $10... that\'s over a year of shaving for less than one cartridge refill pack.', priceRange: '$8-$12 for 100', amazonUrl: 'https://www.amazon.com/s?k=Astra+Superior+Platinum+razor+blades+100&tag=replacementgu-20' },
+    { name: 'Gillette ProGlide Cartridge Refills (12-pack)', description: 'If you prefer cartridge convenience, buying the 12-pack offers the best per-cartridge price. FlexBall technology adapts to facial contours for a comfortable shave.', priceRange: '$30-$40 for 12', amazonUrl: 'https://www.amazon.com/s?k=Gillette+ProGlide+cartridge+refill+12+pack&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Cartridge refill pack (4-8 cartridges)', cost: '$15-$30', notes: 'Covers 1-4 months depending on shaving frequency. Major brands all in this range.' },
+    { repair: 'Safety razor blade pack (100 blades)', cost: '$8-$15', notes: 'Covers 6-18 months. The most economical shaving option by far.' },
+    { repair: 'Subscription service (monthly delivery)', cost: '$5-$10/month', notes: 'Dollar Shave Club, Harry\'s. Convenience of auto-delivery. Moderate savings vs retail.' },
+    { repair: 'Safety razor handle (one-time)', cost: '$25-$60', notes: 'Lasts a lifetime. Pays for itself within 3-6 months vs cartridge shaving.' },
+    { repair: 'Shaving brush + cream (upgrade)', cost: '$20-$40 one-time', notes: 'Better lather = less friction = longer blade life and less irritation.' },
+  ],
+  bestBrands: [
+    { name: 'Gillette', knownFor: 'The dominant cartridge razor brand. ProGlide and SkinGuard are their best performers. Most expensive per-shave cost but widest availability and proven technology.' },
+    { name: 'Harry\'s', knownFor: 'Direct-to-consumer brand with quality German-engineered blades at lower prices than Gillette. Good subscription model. Available at Target and Walmart too.' },
+    { name: 'Merkur', knownFor: 'German-made safety razors that are the gold standard for the wet shaving community. Their 34C and 23C models are the most recommended beginner safety razors.' },
+    { name: 'Feather (Japan)', knownFor: 'Makes the sharpest double-edge razor blades in the world. Not recommended for beginners (too sharp = more nicks while learning) but beloved by experienced wet shavers.' },
+  ],
+  installationTime: `Changing a cartridge razor head takes 2 seconds: press the release button, click on the new cartridge. No learning curve.\n\nSwitching to a double-edge safety razor has a 1-2 week learning curve. The technique is different from cartridge shaving: hold the razor at a 30-degree angle, use short strokes with no pressure (the weight of the razor does the work), and shave with the grain. Expect a few nicks during the first week... they stop once the technique clicks.\n\nLoading a new blade in a safety razor takes 10-15 seconds: unscrew the handle, place the blade on the base plate, replace the top cap, and tighten. The blade is double-sided, so flip it after 3-4 shaves to use the other edge before discarding.\n\nPro tip for switching to safety razors: watch 2-3 YouTube tutorials before your first shave, and start with a mild blade (like Astra or Derby) rather than an aggressive one (like Feather).`,
+}

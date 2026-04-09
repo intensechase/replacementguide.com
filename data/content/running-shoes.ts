@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'running-shoes',
+  lifespanDetail: `Running shoes last 300 to 500 miles, which translates to 3 to 6 months for regular runners (20-30 miles per week) or 6 to 12 months for casual runners (10-15 miles per week). The midsole foam is what wears out, not the outer sole or upper. Every footstrike compresses the foam, and over hundreds of miles, the foam loses its ability to spring back. You're essentially running on progressively flatter, harder material that absorbs less impact. The midsole foam technology matters for lifespan. Standard EVA foam (found in most budget shoes) breaks down faster and lasts 300-400 miles. Modern super-foam technologies (Nike ZoomX, Adidas Boost, New Balance FreshFoam, Hoka EVA) maintain their cushioning properties longer and typically last 400-500 miles. Carbon-plated racing shoes ($200-$300) are designed for performance, not durability... some last only 100-200 miles before the foam degrades past its performance window. Running surface affects shoe life. Road running is the baseline. Trail running is harder on outsoles but similar on midsoles. Treadmill running is the easiest on shoes and can extend life by 20-30% because the surface is consistently smooth and cushioned. Body weight is a factor that shoe companies don't advertise but matters significantly. A 200-pound runner compresses midsole foam much faster than a 130-pound runner, and may need replacement at 250-350 miles rather than 400-500.`,
+  warningSigns: [
+    { sign: 'New aches in your knees, shins, or hips after runs', detail: 'This is the most important sign. When the midsole can no longer absorb impact, the shock transfers to your joints. If you\'ve developed new pain that appeared gradually, check your shoe mileage first.' },
+    { sign: 'The midsole feels flat or hard compared to when new', detail: 'Press your thumb into the midsole. A healthy shoe compresses and springs back. A worn shoe feels hard and dead. Compare to a new shoe of the same model if possible.' },
+    { sign: 'Visible creasing or wrinkling in the midsole', detail: 'Deep creases in the foam (especially along the ball of the foot) indicate the foam has broken down internally. The exterior may look fine while the cushioning is gone.' },
+    { sign: 'The outsole is worn smooth in spots', detail: 'Bald spots on the rubber outsole indicate the shoe has logged significant miles. The outsole wear pattern also reveals your gait... excessive wear on one side means you may need stability or motion-control shoes.' },
+    { sign: 'The heel counter has collapsed or the shoe leans to one side', detail: 'Place the shoe on a flat surface and look from behind. If it tilts or leans noticeably, the internal structure has broken down and the shoe is no longer providing proper support.' },
+  ],
+  repairOrReplace: `Running shoes are always replaced, not repaired. The midsole foam degradation is not fixable, and re-soling running shoes isn't practical because the midsole and outsole are integrated. At $80 to $200 for quality running shoes, replacement every 300-500 miles is the cost of injury prevention. Rotating between two pairs of running shoes extends the life of both. Studies show that runners who alternate shoes have 39% fewer injuries (published in the British Journal of Sports Medicine). The rest day between wears allows the midsole foam to decompress and recover more fully. Two pairs lasting 500 miles each (alternated) may give you 1,200 total miles between them vs. 1,000 sequential miles. When shopping for replacements: go to a specialty running store for a gait analysis, especially if you've been getting injured. The staff can watch you run and recommend the right shoe category (neutral, stability, or motion control) for your foot mechanics. Once you know your category and have a model you like, buying future pairs online is fine. Track your shoe mileage using your running app (Strava, Nike Run Club, Garmin Connect) or write the start date and starting mileage on the shoe's tongue with a marker.`,
+  maintenanceTips: [
+    'Track your mileage. Use a running app to log total miles per shoe pair, or write the start date on the tongue. Don\'t rely on how the shoe looks... midsole death happens before visible wear.',
+    'Rotate between two pairs if you run regularly. This gives each pair 24-48 hours to decompress the foam between runs and extends total lifespan while reducing injury risk.',
+    'Air-dry shoes after runs... never put running shoes in the dryer. Heat damages the foam and adhesives. Remove the insoles, loosen the laces, and let them dry at room temperature.',
+    'Don\'t wear running shoes for everyday walking. The miles you put on them at the grocery store count against the midsole just as much as running miles.',
+    'Clean shoes with a soft brush and mild soap when needed. Machine washing is controversial... it works but can degrade the adhesives that hold the shoe together. If you machine wash, use cold water and air dry.',
+  ],
+  costBreakdown: {
+    replaceLow: 80,
+    replaceHigh: 200,
+    repairLow: 80,
+    repairHigh: 200,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Brooks Ghost (neutral daily trainer)', description: 'The best-selling neutral running shoe in America for years running. Smooth ride, reliable cushioning, and durable construction. Works for most runners without specific gait issues.', priceRange: '$120-$140', amazonUrl: 'https://www.amazon.com/s?k=Brooks+Ghost+running+shoe&tag=replacementgu-20' },
+    { name: 'New Balance Fresh Foam 1080', description: 'Premium cushioned daily trainer for runners who want maximum comfort. Fresh Foam X midsole provides soft but responsive ride. Great for heavier runners and long runs.', priceRange: '$140-$165', amazonUrl: 'https://www.amazon.com/s?k=New+Balance+Fresh+Foam+1080&tag=replacementgu-20' },
+    { name: 'Hoka Clifton (lightweight cushion)', description: 'The shoe that popularized maximal cushioning. Surprisingly lightweight for its cushion level. Excellent for runners transitioning from injury or wanting impact protection.', priceRange: '$130-$150', amazonUrl: 'https://www.amazon.com/s?k=Hoka+Clifton+running+shoe&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Full shoe replacement (budget)', cost: '$60-$90', notes: 'Previous year models at discount. Same shoe, older colorway. Check RunningWarehouse and JackRabbit clearance.' },
+    { repair: 'Full shoe replacement (mid-range)', cost: '$100-$150', notes: 'Current model daily trainers from major brands. The sweet spot for most runners.' },
+    { repair: 'Full shoe replacement (premium/racing)', cost: '$150-$250', notes: 'Carbon-plated or super-foam shoes. Best for race day, not daily training.' },
+    { repair: 'Insole upgrade', cost: '$30-$50', notes: 'Superfeet or custom orthotics enhance support in any shoe. Transfer between shoe pairs.' },
+    { repair: 'Shoe rotation pair (second pair)', cost: '$80-$150', notes: 'Different model for variety. Reduces injury risk and extends both shoes\' lifespan.' },
+  ],
+  bestBrands: [
+    { name: 'Brooks', knownFor: 'Dedicated running-only brand. Ghost (neutral) and Adrenaline GTS (stability) are the top-selling running shoes in specialty stores. Reliable, consistent, and designed by runners.' },
+    { name: 'Nike', knownFor: 'The Pegasus has been a top daily trainer for 40+ years. Vaporfly and Alphafly revolutionized carbon-plated racing shoes. Largest selection but quality varies across models.' },
+    { name: 'Hoka', knownFor: 'Pioneered the maximal cushioning category. Clifton and Bondi models offer the most impact protection for joint-conscious runners. Distinctive thick midsole design.' },
+    { name: 'New Balance', knownFor: 'Wide range of sizes (including true wide widths) and reliable daily trainers. Fresh Foam and FuelCell technologies compete with any brand. Strong reputation for durability.' },
+  ],
+  installationTime: `Breaking in new running shoes takes 1-2 weeks of easy runs. Modern running shoes don't need a traditional "break-in" like leather shoes, but your feet and biomechanics need time to adapt to the new shoe's geometry and cushion.\n\nStart with shorter easy runs (2-3 miles) and gradually build up to your normal distance over a week. Don't debut new shoes on race day or during a hard workout.\n\nLace-up and fit: running shoes should have a thumb's width of space between your longest toe and the end of the shoe. Your feet swell during runs, so buy a half size larger than your dress shoes. Heel should be snug without slipping.\n\nIf you're switching shoe categories (e.g., from stability to neutral, or from low-drop to high-drop), take the transition even more slowly... 2-3 weeks of alternating between old and new shoes. Sudden changes in shoe geometry are a common cause of running injuries.`,
+}

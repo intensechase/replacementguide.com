@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'fire-extinguisher',
+  lifespanDetail: `Fire extinguishers last 5 to 12 years depending on the type, but the answer is nuanced because "last" can mean different things. Disposable fire extinguishers (the common red ones from Home Depot or Lowes) last 5 to 12 years from the manufacture date stamped on the bottom or label. They cannot be recharged or serviced... once they've expired or been used (even partially), they must be replaced. Rechargeable fire extinguishers (metal valve, professional-grade) can be professionally serviced and recharged indefinitely, with internal inspections every 6 years and hydrostatic pressure testing every 12 years. These are the type found in commercial buildings. The fire retardant chemical inside doesn't "expire" in the traditional sense, but it can settle, compact, and lose its ability to be propelled effectively. The pressurized nitrogen gas that propels the chemical can slowly leak through seals over years, reducing the extinguisher's effectiveness. Dry chemical extinguishers (the most common type... ABC-rated) are particularly prone to the powder compacting and settling to the bottom. Monthly "inversion" (turning the extinguisher upside down and shaking it) prevents this. The pressure gauge on the front of most extinguishers is your best indicator. If the needle is in the green zone, the extinguisher is pressurized and should work. If it's in the red (either side), the extinguisher needs service or replacement. However, a green gauge doesn't guarantee the chemical inside is in good condition... it only tells you the propellant gas is pressurized.`,
+  warningSigns: [
+    { sign: 'Pressure gauge is in the red zone', detail: 'The gauge needle should be in the green "charged" zone. Red on the low side means the propellant has leaked out. Red on the high side (rare) means overpressurization. Either way, the extinguisher is unreliable.' },
+    { sign: 'The manufacture date is more than 12 years ago', detail: 'Check the bottom or label for the manufacture date. Disposable extinguishers past 12 years should be replaced regardless of gauge reading. The chemical and seals degrade with age.' },
+    { sign: 'Visible damage (dents, rust, cracked hose)', detail: 'A dented cylinder may have weakened walls that could rupture under pressure. Rust indicates metal degradation. A cracked or brittle hose won\'t deliver the chemical effectively.' },
+    { sign: 'The pin or tamper seal is missing', detail: 'The pull pin prevents accidental discharge, and the tamper seal indicates no one has partially used it. A missing pin or broken seal means the extinguisher may have been discharged, even partially.' },
+    { sign: 'The extinguisher has been partially discharged', detail: 'A partially used extinguisher has reduced pressure and chemical. Disposable models must be replaced. Rechargeable models can be professionally serviced and recharged.' },
+  ],
+  repairOrReplace: `For disposable extinguishers (the kind most homeowners have): always replace, never repair. A new 5-lb ABC extinguisher costs $20 to $50, and a 10-lb model costs $40 to $80. At these prices, replacement is the only sensible option. Rechargeable extinguishers can be professionally serviced: recharging after use costs $15 to $35 at a fire equipment service company. The 6-year internal maintenance (disassemble, inspect components, replace chemical, and recharge) costs $25 to $50. The 12-year hydrostatic test (pressure testing the cylinder) costs $20 to $40. If the cylinder passes all tests, a rechargeable extinguisher can last 25+ years. Every home should have at minimum: one in the kitchen (5-lb ABC near the exit, NOT next to the stove), one per floor, and one in the garage. Additional extinguishers near the laundry room, workshop, and bedrooms provide extra safety. The kitchen is the most common location for home fires, followed by the heating system and electrical.`,
+  maintenanceTips: [
+    'Check the pressure gauge monthly. A 3-second glance at the gauge confirms the extinguisher is ready. Make it part of a routine... first of every month, or when you check smoke detectors.',
+    'Turn the extinguisher upside down and shake it every month to prevent the dry chemical from compacting and settling at the bottom. This is called "inverting" and takes 5 seconds.',
+    'Make sure the extinguisher is accessible and not blocked by clutter. In an emergency, you need to grab it in seconds. Mount it on a wall bracket at a reachable height.',
+    'Know how to use it BEFORE you need it. Remember PASS: Pull the pin, Aim at the base of the fire, Squeeze the handle, Sweep side to side.',
+    'Replace disposable extinguishers every 10-12 years regardless of the gauge reading. Write the purchase date on the label with a marker.',
+    'Mount extinguishers near exits, not near potential fire sources. If a fire starts at the stove, you want to grab the extinguisher from across the kitchen near the door, not reach over the flames.',
+  ],
+  costBreakdown: {
+    replaceLow: 20,
+    replaceHigh: 80,
+    repairLow: 15,
+    repairHigh: 50,
+    laborPercent: '0-40%',
+  },
+  recommendedProducts: [
+    { name: 'Kidde Pro 210 ABC Fire Extinguisher', description: 'Professional-grade rechargeable extinguisher for home use. Metal valve head (not plastic). Can be professionally recharged after use. The best value for a serious home extinguisher.', priceRange: '$40-$60', amazonUrl: 'https://www.amazon.com/s?k=Kidde+Pro+210+fire+extinguisher&tag=replacementgu-20' },
+    { name: 'First Alert HOME1 ABC Fire Extinguisher', description: 'The most popular disposable home fire extinguisher. Compact, lightweight, and rated for ordinary combustibles, flammable liquids, and electrical fires. Good starter extinguisher.', priceRange: '$20-$30', amazonUrl: 'https://www.amazon.com/s?k=First+Alert+HOME1+fire+extinguisher&tag=replacementgu-20' },
+    { name: 'Fire Extinguisher Wall Mount Bracket', description: 'Wall-mounted bracket keeps the extinguisher visible, accessible, and off the floor. Universal fit for most standard home extinguishers. Mounting hardware included.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=fire+extinguisher+wall+mount+bracket&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Disposable extinguisher replacement (5-lb)', cost: '$20-$50', notes: 'The most common "repair" for home extinguishers. No servicing... just buy new.' },
+    { repair: 'Professional recharge (rechargeable models)', cost: '$15-$35', notes: 'After any use. Fire equipment companies handle this. Takes 1-2 days.' },
+    { repair: '6-year internal maintenance (rechargeable)', cost: '$25-$50', notes: 'Disassemble, inspect, replace chemical, recharge. Required by NFPA for commercial settings.' },
+    { repair: '12-year hydrostatic pressure test', cost: '$20-$40', notes: 'Cylinder pressure tested to verify structural integrity. Required for continued use.' },
+    { repair: 'Full home extinguisher setup (4 units)', cost: '$80-$200', notes: 'Kitchen, garage, each floor. Mount on wall brackets. One-time setup that protects the whole house.' },
+  ],
+  bestBrands: [
+    { name: 'Kidde', knownFor: 'Market leader in home fire safety. Their Pro series (metal valve, rechargeable) is the step up from basic disposable models. Best value for quality home protection.' },
+    { name: 'First Alert', knownFor: 'The other major home fire safety brand. Their Tundra fire suppression spray ($15) is good for small kitchen fires. Standard extinguishers are comparable to Kidde.' },
+    { name: 'Amerex', knownFor: 'Professional/commercial fire extinguisher manufacturer. Heavy-duty construction built for decades of service. Overkill for most homes but the quality standard for businesses.' },
+    { name: 'Buckeye', knownFor: 'Commercial-grade manufacturer known for reliability. Common in commercial buildings and industrial settings. Excellent quality if you want commercial-grade for your home.' },
+  ],
+  installationTime: `Mounting a fire extinguisher on a wall bracket takes 5 to 10 minutes: hold the bracket at the desired height (recommended 3.5 to 5 feet from the floor), mark and drill two holes, insert wall anchors, screw in the bracket, and hang the extinguisher.\n\nNo tools are needed beyond a drill and screwdriver. If mounting into drywall without a stud, use wall anchors rated for 15-20 lbs.\n\nFull home setup (purchasing and mounting 3-4 extinguishers) takes about an hour. Walk through the house, identify the best locations (near exits, not near fire sources), and mount each one where it's visible and accessible.\n\nProfessional fire extinguisher servicing (recharge or inspection) requires dropping the unit off at a fire equipment service company. Turnaround is typically 1-3 days. Some companies offer pickup/delivery service.\n\nTip: take 2 minutes to practice with the extinguisher (without actually discharging it). Familiarize yourself with pulling the pin, aiming, and the squeeze handle. In a fire emergency, muscle memory matters.`,
+}

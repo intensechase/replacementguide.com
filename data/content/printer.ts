@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'printer',
+  lifespanDetail: `Home printers last 3 to 5 years, though many are replaced sooner due to frustration rather than actual hardware failure. The print head is the component that typically fails first on inkjet printers. Ink dries in the microscopic nozzles if the printer sits unused for 2-4 weeks, causing clogged nozzles that produce streaky or missing-color prints. This is the number one reason home inkjet printers end up in the trash... people use them infrequently, the heads clog, cleaning cycles waste expensive ink, and the cycle of frustration leads to replacement. Laser printers last significantly longer... 5 to 10 years for home models because they use toner (a dry powder) that doesn't dry out or clog. A laser printer can sit unused for months and print perfectly the next time you need it. The trade-off is that laser printers cost more upfront ($150-$400 for a good home model vs $50-$150 for inkjet) and can't print photos well. Ink cost is the real expense of owning an inkjet printer. Manufacturer ink cartridges cost $15 to $40 each, and a full set of 4 colors can run $50 to $120. When you calculate cost per page, many inkjet printers cost $0.10-$0.20 per color page... which means the ink costs more per ounce than champagne. Tank-based inkjet printers (Epson EcoTank, Canon MegaTank, HP Smart Tank) solve the ink cost problem by using refillable bottles instead of cartridges. The upfront cost is higher ($200-$400), but the ink costs $0.01-$0.02 per page... a 90% reduction. These are the best option for households that print regularly.`,
+  warningSigns: [
+    { sign: 'Streaky or faded prints', detail: 'Clogged print head nozzles (inkjet) or a nearly empty toner cartridge (laser). Run the printer\'s head-cleaning cycle 2-3 times. If prints don\'t improve, the print head may be permanently clogged.' },
+    { sign: 'Paper jams are frequent', detail: 'Paper pickup rollers wear out and lose their grip, causing misfeeds and jams. Cleaning the rollers with a damp cloth sometimes helps. Persistent jams on a 3+ year old printer usually mean roller replacement or a new printer.' },
+    { sign: 'Printer no longer connects to Wi-Fi reliably', detail: 'Wi-Fi connectivity issues are rampant on older printers as firmware updates stop and router protocols advance. If the printer drops Wi-Fi constantly, try a USB connection before replacing the printer.' },
+    { sign: 'Error messages that won\'t clear', detail: 'Persistent errors about "waste ink pad full" (inkjet), communication errors, or carriage jams that aren\'t actually present indicate internal component failure.' },
+    { sign: 'Print quality has declined despite new cartridges', detail: 'If fresh ink or toner doesn\'t restore print quality, the print head (inkjet), drum unit (laser), or fuser (laser) has worn out. Replacing these parts often costs more than a new printer.' },
+  ],
+  repairOrReplace: `For inkjet printers under $150: almost always replace rather than repair. A clogged print head that can't be cleared by the built-in cleaning cycle is effectively the end of the printer. Print head replacement (on models where it's replaceable) costs $30-$80... at that point, a new printer with fresh ink and a warranty is a better investment. For laser printers: replacing the toner cartridge ($30-$80), drum unit ($40-$80), and fuser ($60-$120) are all worthwhile repairs because the rest of the printer is solid. A laser printer that gets new consumables every few years can run for a decade. The big question: what do you actually need? Most households print less than they think. If you print less than once a week, a laser printer (no clogging) or a subscription plan (HP Instant Ink delivers ink/toner for $3-$6/month based on pages, not cartridges) makes more sense than an inkjet sitting idle. If you print frequently (50+ pages/month), a tank-based inkjet like the Epson EcoTank pays for itself in ink savings within 6-12 months compared to cartridge-based printers. For occasional photos: drugstore printing ($0.09-$0.25 per 4x6) produces better results than home printers and eliminates the need for photo ink and expensive photo paper.`,
+  maintenanceTips: [
+    'Print at least one page per week on an inkjet printer to keep the nozzles from drying out. Even a simple black-and-white text page keeps the ink flowing.',
+    'Use the printer\'s built-in head cleaning cycle at the first sign of streaky prints. Don\'t wait... dried ink becomes harder to clear the longer it sits.',
+    'Use quality paper, not the cheapest available. Cheap paper has more dust and fiber particles that accumulate on print heads and pickup rollers.',
+    'Turn the printer off when not in use but don\'t unplug it. Most modern printers run automatic maintenance cycles periodically that keep heads clear.',
+    'Buy compatible or refurbished cartridges for significant savings. Third-party ink costs 50-80% less than manufacturer ink. Quality varies... stick with well-reviewed brands like LD Products or Smart Ink.',
+  ],
+  costBreakdown: {
+    replaceLow: 50,
+    replaceHigh: 300,
+    repairLow: 30,
+    repairHigh: 120,
+    laborPercent: '0-30%',
+  },
+  recommendedProducts: [
+    { name: 'Epson EcoTank ET-2850 (refillable ink)', description: 'The printer that broke the ink cartridge business model. Comes with 2 years of ink included. Refill bottles cost $13 each for thousands of pages. The best long-term value.', priceRange: '$200-$250', amazonUrl: 'https://www.amazon.com/s?k=Epson+EcoTank+ET-2850&tag=replacementgu-20' },
+    { name: 'Brother HL-L2350DW Laser Printer', description: 'Reliable monochrome laser printer for text documents. No clogging, no expensive ink... just toner that lasts 1,200+ pages. Perfect for the household that prints occasionally.', priceRange: '$100-$150', amazonUrl: 'https://www.amazon.com/s?k=Brother+HL-L2350DW+laser+printer&tag=replacementgu-20' },
+    { name: 'HP DeskJet 4155e (with Instant Ink)', description: 'Budget all-in-one inkjet with HP\'s Instant Ink subscription ($3-$6/month for ink delivered automatically). Good option if you want low upfront cost and predictable ink expenses.', priceRange: '$80-$100', amazonUrl: 'https://www.amazon.com/s?k=HP+DeskJet+4155e+printer&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Ink cartridge replacement (OEM)', cost: '$15-$40 per cartridge', notes: 'The primary ongoing cost of inkjet ownership. Full set of 4 colors: $50-$120.' },
+    { repair: 'Ink cartridge replacement (compatible)', cost: '$5-$15 per cartridge', notes: '50-80% savings over OEM. Quality varies by brand. Read reviews.' },
+    { repair: 'Toner cartridge replacement (laser)', cost: '$30-$80', notes: 'Every 1,000-3,000 pages. Compatible toner available for significant savings.' },
+    { repair: 'EcoTank ink bottle refill', cost: '$13-$20 per bottle', notes: 'Each bottle prints 4,000-7,500 pages. By far the cheapest per-page printing.' },
+    { repair: 'Print head cleaning or replacement', cost: '$0 (cleaning) / $30-$80 (replacement)', notes: 'Try cleaning cycles first. If 3 cycles don\'t fix it, the head may need replacement.' },
+  ],
+  bestBrands: [
+    { name: 'Epson (EcoTank)', knownFor: 'Revolutionized home printing with refillable ink tanks. The EcoTank line is the best value for any household that prints regularly. Excellent photo quality too.' },
+    { name: 'Brother', knownFor: 'The most reliable laser printers for home and small office. Excellent network connectivity, low maintenance, and competitive toner costs. Great for text-heavy printing.' },
+    { name: 'HP', knownFor: 'Largest printer brand with the widest range. Instant Ink subscription simplifies ink management. Their LaserJet line is excellent. Inkjet quality varies by model.' },
+    { name: 'Canon', knownFor: 'Best photo quality in home printers. Their PIXMA line is excellent for photo enthusiasts. MegaTank models offer the same ink-saving approach as Epson\'s EcoTank.' },
+  ],
+  installationTime: `Setting up a new printer takes 15 to 30 minutes. Unbox, remove all packing tape and protective materials (don't forget the ones inside the paper tray and cartridge area), install ink or toner, load paper, connect to Wi-Fi using the printer's touchscreen or WPS button, and install the printer software/app on your computer or phone.\n\nThe Wi-Fi setup is the most frustrating part for many people. If the printer has a touchscreen, entering the Wi-Fi password directly is easiest. If not, use the WPS button on your router (press the WPS button on the router, then initiate WPS on the printer within 2 minutes).\n\nMost modern printers work with AirPrint (Apple) and Mopria (Android) for mobile printing without installing any software. Just make sure the printer and phone are on the same Wi-Fi network.\n\nFirst-time ink setup on EcoTank/MegaTank printers takes an extra 10-15 minutes: fill each tank with the corresponding color bottle (colors are keyed so you can't mix them up), then run the initial ink charge process (10-15 minutes of the printer filling its internal lines).`,
+}

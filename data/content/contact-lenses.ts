@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'contact-lenses',
+  lifespanDetail: `Contact lens replacement schedules are strict medical guidelines, not suggestions. Daily disposable lenses last exactly 1 day... wear them once and discard. Two-week lenses (biweekly) should be replaced every 14 days. Monthly lenses should be replaced every 30 days. Extended-wear lenses approved for overnight use should still be replaced on their designated schedule (usually monthly). These timelines exist because protein deposits, lipids, calcium, and bacteria accumulate on the lens surface over time, reducing oxygen transmission to the cornea and increasing infection risk. Overwearing contact lenses is one of the most common and potentially serious eye health risks. The cornea gets its oxygen directly from the air (it has no blood supply), and a contaminated or protein-coated lens blocks that oxygen flow. Chronic overwear can lead to corneal neovascularization (blood vessels growing into the cornea to compensate for oxygen deprivation), corneal ulcers, and serious infections that can permanently damage vision. A survey by the CDC found that 99% of contact lens wearers report at least one risky behavior: sleeping in lenses not approved for overnight wear, not replacing on schedule, swimming in contacts, or using tap water on lenses. Daily disposables are the healthiest option because there's no cleaning, no case contamination, and a fresh sterile lens every day. They cost more per month ($30-$50 vs $20-$30 for monthlies plus solution) but eliminate the infection risk from lens care mistakes.`,
+  warningSigns: [
+    { sign: 'Lenses feel uncomfortable earlier in the day than they used to', detail: 'When lenses that used to be comfortable for 12 hours start bothering you by hour 6-8, protein buildup is coating the surface. This is normal as the lens ages within its wear cycle.' },
+    { sign: 'Vision is slightly blurry even with lenses in', detail: 'Deposits on the lens surface scatter light and reduce clarity. If cleaning doesn\'t restore clear vision (for reusable lenses), the lens has reached end of life.' },
+    { sign: 'Redness, irritation, or excessive tearing while wearing lenses', detail: 'These can indicate the lens is damaged, contaminated, or overdue for replacement. Remove the lens immediately and switch to glasses until symptoms resolve. See an eye doctor if redness persists.' },
+    { sign: 'You\'ve been wearing the same pair longer than prescribed', detail: 'If you\'re stretching a 2-week lens to 3-4 weeks or a monthly to 6 weeks, you\'re significantly increasing infection risk. The lens material degrades on a predictable timeline regardless of how well you clean it.' },
+    { sign: 'The lens has a visible tear, nick, or rough edge', detail: 'A damaged lens scratches the cornea (corneal abrasion) which is painful, increases infection risk, and can scar. Discard any lens with visible damage immediately.' },
+  ],
+  repairOrReplace: `Contact lenses are always replaced on schedule, never "repaired." The lens material itself degrades at a molecular level over its designed lifespan... cleaning removes surface deposits but can't restore the material's oxygen permeability or structural integrity. Monthly cost comparison: daily disposables cost $30 to $50 per month (no solution needed). Monthly lenses cost $20 to $30 per month for lenses plus $8-$15 per month for solution. Two-week lenses fall in between. Over a year, the total cost difference between dailies and monthlies is $100-$300, which is modest compared to the convenience and health benefits of dailies. Contact lens subscriptions (from your eye doctor, 1-800 Contacts, or Hubble) deliver lenses on schedule and often include discounts for annual supply purchases. An annual supply of daily lenses costs $300-$600 depending on the brand and prescription. Insurance/vision plans (VSP, EyeMed) typically cover a portion of contact lens costs... usually $100-$200 per year, which covers a significant portion of an annual supply. When to switch lens types: if you're constantly overwearing monthly lenses, switch to dailies. If you have dry eyes, switch to a lens with higher water content or a silicone hydrogel material that transmits more oxygen.`,
+  maintenanceTips: [
+    'Never use tap water on contact lenses or lens cases. Tap water contains Acanthamoeba, a parasite that causes severe corneal infections. Only use sterile contact lens solution.',
+    'Replace the lens case every 1-3 months. Lens cases are biofilm breeding grounds... studies show 80% of lens cases are contaminated with bacteria. New cases usually come free with solution bottles.',
+    'Rub and rinse lenses even if using "no-rub" solution. Studies show the mechanical rubbing action removes significantly more deposits and bacteria than rinsing alone.',
+    'Don\'t sleep in contact lenses unless they\'re specifically approved for extended wear. Sleeping in lenses increases infection risk 6-8 times because the closed eyelid traps the lens against the cornea with reduced oxygen.',
+    'Remove lenses before swimming, showering, or using a hot tub. Water introduces bacteria and Acanthamoeba. If water does contact your lenses, discard them and use a fresh pair.',
+    'Follow the replacement schedule exactly. Setting a recurring phone reminder is the simplest way to stay on track.',
+  ],
+  costBreakdown: {
+    replaceLow: 20,
+    replaceHigh: 50,
+    repairLow: 20,
+    repairHigh: 50,
+    laborPercent: '0%',
+  },
+  recommendedProducts: [
+    { name: 'Acuvue Oasys 1-Day Daily Disposable', description: 'Premium daily lens with HydraLuxe technology for all-day comfort. One of the highest oxygen-transmitting daily lenses available. Great for dry-eye sufferers.', priceRange: '$35-$50/month (per eye)', amazonUrl: 'https://www.amazon.com/s?k=Acuvue+Oasys+1+Day+contact+lenses&tag=replacementgu-20' },
+    { name: 'Biotrue Multi-Purpose Contact Lens Solution', description: 'Matches the pH of healthy tears for comfortable lens wear. Cleans, disinfects, and stores lenses. Includes free lens cases in every box.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Biotrue+multipurpose+contact+lens+solution&tag=replacementgu-20' },
+    { name: 'Dailies AquaComfort Plus', description: 'Budget-friendly daily disposable with moisture-release technology. Good option for switching from monthly to daily lenses without a big price increase.', priceRange: '$25-$40/month (per eye)', amazonUrl: 'https://www.amazon.com/s?k=Dailies+AquaComfort+Plus+contact+lenses&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Monthly lens supply (per eye)', cost: '$15-$25/month', notes: 'Replace on the exact schedule. Set a phone reminder.' },
+    { repair: 'Daily lens supply (per eye)', cost: '$25-$50/month', notes: 'Fresh lens every day. No cleaning or case contamination risk.' },
+    { repair: 'Contact lens solution (monthly)', cost: '$8-$15/month', notes: 'Only for reusable lenses. Replace the case with each new bottle.' },
+    { repair: 'Annual eye exam', cost: '$100-$250 (without insurance)', notes: 'Required for updated prescription. Many vision plans cover this.' },
+    { repair: 'Annual supply (dailies, both eyes)', cost: '$300-$600', notes: 'Buying annual supply is typically 15-20% cheaper than monthly purchases.' },
+  ],
+  bestBrands: [
+    { name: 'Acuvue (Johnson & Johnson)', knownFor: 'The most prescribed contact lens brand. Oasys line offers exceptional comfort and oxygen transmission. Wide range of daily, biweekly, and astigmatism options.' },
+    { name: 'Dailies (Alcon)', knownFor: 'Leading daily disposable brand. Their Total1 lens has a water gradient surface that\'s exceptionally comfortable. Premium daily lenses at competitive prices.' },
+    { name: 'Biofinity (CooperVision)', knownFor: 'Monthly lenses with Aquaform technology for high oxygen transmission. Approved for extended (overnight) wear. The top-prescribed monthly lens.' },
+    { name: 'Hubble', knownFor: 'Direct-to-consumer daily lenses at significant discount ($1/day per eye). FDA-approved and subscription-based. Good option for budget-conscious daily lens wearers.' },
+  ],
+  installationTime: `Putting in contact lenses takes 1-2 minutes for experienced wearers and 10-15 minutes for beginners. The learning curve is real but short... most new wearers are comfortable inserting and removing lenses within a week of practice.\n\nKey technique: wash and dry hands thoroughly, place the lens on the tip of your index finger (check that it's not inside-out... the edge should curve inward like a bowl, not flare outward), hold your upper eyelid open with one hand, pull down the lower lid, place the lens on the white of your eye, look down and slowly release your eyelids, and blink gently.\n\nYour eye doctor's office will train you on insertion and removal during your fitting appointment. They won't let you leave until you can do it confidently.\n\nOrdering lenses: online retailers (1-800 Contacts, ContactsDirect, Costco Optical) typically offer better prices than your eye doctor's office. You need a current prescription (within 1 year). Your eye doctor is legally required to give you a copy of your prescription upon request.`,
+}
