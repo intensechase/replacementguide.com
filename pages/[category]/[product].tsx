@@ -352,17 +352,24 @@ export default function ProductPage({ product, related, content }: Props) {
             <h2 className="text-2xl font-bold mb-4">What We Recommend</h2>
             <p className="text-slate-500 text-sm mb-4">Products that help with {p.name.toLowerCase()} maintenance and replacement.</p>
             <div className="space-y-3">
-              {content.recommendedProducts.map((prod, i) => (
-                <div key={i} className="border border-slate-200 rounded-xl p-4 flex items-start justify-between gap-4">
-                  <div>
-                    <h3 className="font-medium text-slate-800">{prod.name}</h3>
-                    <p className="text-sm text-slate-500 mt-1">{prod.description}</p>
-                  </div>
-                  <span className="text-sm font-semibold text-emerald-600 shrink-0">{prod.priceRange}</span>
-                </div>
-              ))}
+              {content.recommendedProducts.map((prod, i) => {
+                const Wrapper = prod.amazonUrl ? 'a' : 'div'
+                const linkProps = prod.amazonUrl ? { href: prod.amazonUrl, target: '_blank', rel: 'nofollow noopener sponsored' } : {}
+                return (
+                  <Wrapper key={i} {...linkProps} className={`border border-slate-200 rounded-xl p-4 flex items-start justify-between gap-4 ${prod.amazonUrl ? 'hover:border-emerald-300 hover:shadow-sm transition-all cursor-pointer' : ''}`}>
+                    <div>
+                      <h3 className="font-medium text-slate-800">{prod.name}</h3>
+                      <p className="text-sm text-slate-500 mt-1">{prod.description}</p>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <span className="text-sm font-semibold text-emerald-600">{prod.priceRange}</span>
+                      {prod.amazonUrl && <p className="text-xs text-slate-400 mt-1">View on Amazon →</p>}
+                    </div>
+                  </Wrapper>
+                )
+              })}
             </div>
-            <p className="text-xs text-slate-400 mt-3">Prices are approximate. We may earn a commission on purchases made through our links at no cost to you.</p>
+            <p className="text-xs text-slate-400 mt-3">Prices are approximate and may change. As an Amazon Associate we earn from qualifying purchases at no additional cost to you.</p>
           </section>
         )}
 

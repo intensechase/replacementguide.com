@@ -38,7 +38,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-8 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+        <div className="mt-8 pt-6 border-t border-slate-200 text-center text-xs text-slate-400 space-y-2">
+          <p>As an Amazon Associate I earn from qualifying purchases. ReplacementGuide.com is a participant in the Amazon Services LLC Associates Program.</p>
           <p>&copy; {new Date().getFullYear()} ReplacementGuide.com. Information is for reference only. Consult a professional for specific advice.</p>
         </div>
       </div>
