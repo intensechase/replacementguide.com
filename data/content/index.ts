@@ -44,6 +44,7 @@ import { content as microwave } from './microwave'
 import { content as thermostat } from './thermostat'
 import { content as dehumidifier } from './dehumidifier'
 import { content as oven } from './oven'
+import { content as deck } from './deck'
 
 export interface ProductContent {
   slug: string
@@ -113,6 +114,7 @@ const contentMap: Record<string, ProductContent> = {
   'thermostat': thermostat,
   'dehumidifier': dehumidifier,
   'oven': oven,
+  'deck': deck,
 }
 
 export function getProductContent(slug: string): ProductContent | null {
