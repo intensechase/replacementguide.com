@@ -3,6 +3,7 @@ import { products } from '@/data/products'
 import { guides } from '@/data/troubleshoot'
 import { maintenanceGuides } from '@/data/maintenance'
 import { guides as insuranceGuides } from '@/data/insurance'
+import { getAllArticles } from '@/data/blog'
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const base = 'https://replacementguide.com'
@@ -18,6 +19,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     ...maintenanceGuides.map(g => `<url><loc>${base}/maintenance/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/insurance</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     ...insuranceGuides.map(g => `<url><loc>${base}/insurance/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
+    `<url><loc>${base}/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+    ...getAllArticles().map(a => `<url><loc>${base}/blog/${a.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>`,
     `<url><loc>${base}/privacy-policy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>`,
   ]

@@ -29,6 +29,7 @@ export default function Footer() {
               <Link href="/maintenance" className="block text-slate-500 hover:text-slate-800">Maintenance</Link>
               <Link href="/troubleshoot" className="block text-slate-500 hover:text-slate-800">Troubleshoot</Link>
               <Link href="/insurance" className="block text-slate-500 hover:text-slate-800">Insurance Guides</Link>
+              <Link href="/blog" className="block text-slate-500 hover:text-slate-800">Blog</Link>
             </div>
           </div>
           <div>

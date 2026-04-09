@@ -8,6 +8,7 @@ const CATEGORIES = [
   { name: 'Maintenance', href: '/maintenance' },
   { name: 'Troubleshoot', href: '/troubleshoot' },
   { name: 'Insurance', href: '/insurance' },
+  { name: 'Blog', href: '/blog' },
 ]
 
 export default function Header() {
