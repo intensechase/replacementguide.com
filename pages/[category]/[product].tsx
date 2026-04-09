@@ -54,8 +54,8 @@ export default function ProductPage({ product, related, content }: Props) {
   return (
     <>
       <Head>
-        <title>When to Replace Your {p.name} — Lifespan, Warning Signs &amp; Cost | ReplacementGuide</title>
-        <meta name="description" content={`How long does a ${p.name.toLowerCase()} last? Average lifespan is ${lifespan}. Learn the warning signs, repair vs replace costs, and when it's time for a new one.`} />
+        <title>{p.name} Replacement Guide — Lifespan, Cost &amp; When to Replace ({new Date().getFullYear()}) | ReplacementGuide</title>
+        <meta name="description" content={`How long does a ${p.name.toLowerCase()} last? Average lifespan is ${lifespan}. Cost to replace: ${formatCost(p.costLow, p.costHigh)}. Warning signs, repair vs replace, and maintenance tips.`} />
         <link rel="canonical" href={`https://replacementguide.com/${p.category}/${p.slug}`} />
       </Head>
 
@@ -191,6 +191,30 @@ export default function ProductPage({ product, related, content }: Props) {
           <div className="mt-4 bg-slate-50 rounded-xl p-5">
             <p className="text-sm text-slate-600">
               <strong>Replacement cost:</strong> A new {p.name.toLowerCase()} typically costs {formatCost(p.costLow, p.costHigh)} installed. Prices vary by region, brand, and complexity of installation.
+            </p>
+          </div>
+        </section>
+
+        {/* Cost to Replace */}
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold mb-4">Cost to Replace a {p.name}</h2>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
+            <div className="grid md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Full Replacement</p>
+                <p className="text-2xl font-bold text-slate-800">{formatCost(p.costLow, p.costHigh)}</p>
+                {content && <p className="text-xs text-slate-400 mt-1">Labor is typically {content.costBreakdown.laborPercent} of total cost</p>}
+              </div>
+              {content && (
+                <div>
+                  <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Typical Repair</p>
+                  <p className="text-2xl font-bold text-slate-800">{formatCost(content.costBreakdown.repairLow, content.costBreakdown.repairHigh)}</p>
+                  <p className="text-xs text-slate-400 mt-1">Depending on the issue and your location</p>
+                </div>
+              )}
+            </div>
+            <p className="text-sm text-slate-600">
+              Prices vary by region, brand, and complexity. Get at least 3 quotes before committing... and don&apos;t automatically go with the cheapest. A bad installation costs more in the long run.
             </p>
           </div>
         </section>

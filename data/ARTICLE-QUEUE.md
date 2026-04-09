@@ -63,6 +63,46 @@
 - [ ] How Often to Replace Mulch — 260/mo, trending +357%
 - [ ] How Often to Stain a Deck — 320/mo, trending +191%
 
+## New products to add (from keyword research)
+- [ ] Garage Door Spring — 27,100/mo "cost to replace", $27.54 CPC
+- [ ] AC Compressor — 720/mo, $27.62 CPC
+- [ ] AC Capacitor — 1,000/mo, $9.64 CPC, trending +319%
+- [ ] Boiler — 1,000/mo, $8.89 CPC
+- [ ] Metal Roof — 4,400/mo, $5.79 CPC (already in products.ts)
+- [ ] Slate Roof — 880/mo, $11.05 CPC
+- [ ] Flat Roof — 260/mo, $11.08 CPC
+- [ ] Tile Roof — 1,000/mo, $10.17 CPC
+- [ ] Cedar Shake Roof — 260/mo, $7.57 CPC
+- [ ] Pool Pump — 1,300/mo, $9.19 CPC
+- [ ] Heat Pump — 720/mo, $9.03 CPC
+- [ ] Radon Mitigation System — 170/mo, $13.66 CPC
+- [ ] Vinyl Fence — 590/mo, $5.28 CPC
+- [ ] Above Ground Pool — 880/mo, $5.07 CPC
+- [ ] Septic Drain Field — 590/mo, $5.00 CPC
+- [ ] PEX Plumbing — 590/mo, $4.97 CPC
+- [ ] Sump Pump Battery Backup — 210/mo, $7.80 CPC
+- [ ] Ductwork — 4,400/mo "cost to replace", $21.21 CPC
+
+## "Cost to replace" keyword optimization
+All existing product pages now have a dedicated "Cost to Replace a [Thing]" H2 section.
+These keywords have massive volume and CPCs:
+- Cost to replace septic system: 90,500/mo, $8.30 CPC
+- Cost to replace water heater: 40,500/mo, $17.30 CPC
+- Cost to replace garbage disposal: 33,100/mo, $10.31 CPC
+- Cost to replace windows: 27,100/mo, $23.14 CPC
+- Cost to replace garage door spring: 27,100/mo, $27.54 CPC
+- Cost to replace roof: 22,200/mo, $23.75 CPC
+- Cost to replace furnace: 14,800/mo, $17.88 CPC
+- Cost to replace garage door: 14,800/mo, $14.37 CPC
+- Cost to replace well pump: 12,100/mo, $11.71 CPC
+- Cost to replace dishwasher: 9,900/mo, $9.44 CPC
+- Cost to replace carpet: 8,100/mo, $26.93 CPC
+- Cost to replace sump pump: 5,400/mo, $35.58 CPC
+- Cost to replace toilet: 5,400/mo, $12.81 CPC
+- Cost to replace ductwork: 4,400/mo, $21.21 CPC
+- Cost to replace sewer line: 3,600/mo, $30.00 CPC
+- Cost to replace boiler: 2,900/mo, $15.62 CPC
+
 ## Products in products.ts with generic content (need unique articles eventually)
 All remaining ~80 products have template content. Prioritize by traffic once indexed.
 
