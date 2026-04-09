@@ -5,6 +5,7 @@ const CATEGORIES = [
   { name: 'Auto', href: '/auto' },
   { name: 'Personal', href: '/personal' },
   { name: 'Outdoor', href: '/outdoor' },
+  { name: 'Troubleshoot', href: '/troubleshoot' },
 ]
 
 export default function Header() {

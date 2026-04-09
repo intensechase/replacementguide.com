@@ -135,6 +135,29 @@ These are top-of-funnel pages. User has a broken thing → reads troubleshoot �
 - [ ] Washing Machine Not Spinning — 5,400/mo, $5.75 CPC
 - [ ] Sump Pump Not Working — volume TBD, CPC TBD
 
+## Additional troubleshoot guides
+- [ ] Pilot Light Won't Stay Lit — 1,000/mo, $32.19 CPC
+- [ ] Sump Pump Not Working — 1,300/mo, $31.75 CPC
+- [ ] Water Heater Not Heating — 2,900/mo, $30.95 CPC
+- [ ] Toilet Running Constantly — 1,900/mo, $9.00 CPC
+- [ ] Garbage Disposal Jammed — 1,000/mo, $12.95 CPC
+
+## "Why is my bill so high" guides (links to multiple product pages)
+- [ ] Why Is My Electric Bill So High — 6,600/mo, $6.07 CPC → AC, insulation, windows, water heater, dryer, fridge
+- [ ] Why Is My Gas Bill So High — 2,400/mo, $7.32 CPC → furnace, water heater, insulation, windows
+- [ ] Why Is My Water Bill So High — 1,600/mo, $12.03 CPC → toilet, irrigation, water softener, well pump
+- [ ] Why Does My House Smell Like Rotten Eggs — 1,600/mo, $5.64 CPC → water heater, sewer, gas line
+- [ ] Why Is My House So Humid — 1,300/mo, $1.50 CPC → AC, dehumidifier, crawl space
+
+## How-to maintenance guides (Amazon affiliate plays)
+- [ ] How to Clean a Dryer Vent — 49,500/mo raw volume, $8.90 CPC
+- [ ] How to Light a Pilot Light — 3,600/mo, $12.62 CPC
+- [ ] How to Replace a Water Heater Anode Rod — 1,300/mo, $7.76 CPC
+- [ ] How to Clean AC Coils — 5,400/mo, $4.89 CPC
+- [ ] How to Unclog a Garbage Disposal — 6,600/mo, $4.96 CPC
+- [ ] How to Change a Furnace Filter — 2,900/mo, $4.77 CPC
+- [ ] How to Replace a Toilet Flapper — 6,600/mo, $1.48 CPC
+
 ## Blog/guide articles (home seller audience)
 - [ ] Should You Replace Your Roof Before Selling? — 90/mo, $25.11 CPC
 - [ ] Do New Windows Increase Home Value? — 480/mo, $28.01 CPC
