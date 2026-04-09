@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'electrical-panel',
+  lifespanDetail: `Electrical panels last 25 to 40 years. The panel itself (the metal box) lasts indefinitely... it's the breakers inside that wear out. Circuit breakers are mechanical devices that trip thousands of times over their life, and eventually the internal mechanism weakens and either won't trip when it should (dangerous) or trips too easily (annoying).\n\nThe bigger issue isn't age... it's capacity. A panel installed in 1985 was sized for the electrical demands of 1985. Today's homes have EVs charging in the garage, smart home systems, larger AC units, and home offices drawing power that didn't exist 40 years ago. A 100-amp panel that was fine in the '80s may need upgrading to 200 amps for a modern household.\n\nThen there's the safety issue. Certain panel brands from the 1960s-1980s are known fire hazards. Federal Pacific Electric (FPE) "Stab-Lok" panels and Zinsco/Sylvania panels have documented failure rates far above industry standards. If your home has either of these... replace the panel regardless of age. Insurance companies are increasingly refusing to cover homes with these panels.`,
+  warningSigns: [
+    { sign: 'Breakers trip frequently', detail: 'A breaker that trips once is doing its job. A breaker that trips repeatedly on the same circuit means either the circuit is overloaded or the breaker itself is failing. Both need attention.' },
+    { sign: 'Burning smell near the panel', detail: 'This is urgent. A burning smell means a connection is arcing (creating sparks inside the panel). Turn off the main breaker and call an electrician immediately. This causes house fires.' },
+    { sign: 'Scorch marks or discoloration on the panel', detail: 'Visible burn marks on breakers, bus bars, or the panel cover mean arcing has already occurred. The damaged components need replacement.' },
+    { sign: 'Buzzing or humming sound from the panel', detail: 'A properly functioning panel is silent. Buzzing indicates a loose connection or a breaker that\'s partially tripping. Both are fire risks.' },
+    { sign: 'Breaker won\'t stay reset', detail: 'If a breaker trips and won\'t reset (immediately trips again), there\'s either a short circuit on that circuit or the breaker itself has failed.' },
+    { sign: 'Panel feels warm to the touch', detail: 'The panel cover should be room temperature. Warmth indicates high resistance connections inside, which generate heat. This is a fire precursor.' },
+    { sign: 'You have a Federal Pacific or Zinsco panel', detail: 'These brands are documented fire hazards with failure rates significantly above industry standards. Replace regardless of age. Many insurers won\'t cover homes with these panels.' },
+  ],
+  repairOrReplace: `Individual breaker replacement ($150-$300 per breaker installed) makes sense when one or two breakers are failing and the rest of the panel is in good shape.\n\nFull panel replacement ($1,500-$4,000) is needed when: you have a Federal Pacific or Zinsco panel (safety), the panel is a fuse box that you want to convert to breakers (modernization), you need more capacity (upgrading from 100 to 200 amps), or multiple breakers are failing.\n\nA 200-amp upgrade ($2,000-$4,000) is the most common panel job today. It involves replacing the panel, the meter base (outside), and sometimes the service entrance cable from the utility. Your power company needs to disconnect and reconnect service... plan for 4-8 hours without power on installation day.\n\nNever attempt panel work yourself. This is not a DIY project. The service entrance carries full utility voltage before the main breaker... it's always live and can kill you instantly. Licensed electricians only.`,
+  maintenanceTips: [
+    'Test GFCI and AFCI breakers monthly by pressing the test button on the breaker. They should trip and reset smoothly.',
+    'Label every circuit in the panel so you know what each breaker controls. Use a circuit breaker finder tool ($30-$50) if the labels are missing or wrong.',
+    'Don\'t overload circuits with power strips and extension cords as permanent solutions. If you need more outlets, hire an electrician to add a circuit.',
+    'Keep the area in front of the panel clear. NEC code requires 3 feet of clearance. In an emergency, you need to reach the main breaker quickly.',
+    'Have a licensed electrician inspect the panel every 10 years, especially if your home is over 25 years old. They\'ll check for loose connections, hot spots, and code compliance.',
+  ],
+  costBreakdown: {
+    replaceLow: 1500,
+    replaceHigh: 4000,
+    repairLow: 150,
+    repairHigh: 400,
+    laborPercent: '70-80% of total cost is labor. Electrical work is labor-intensive and requires permits.',
+  },
+  recommendedProducts: [
+    { name: 'Klein Tools Circuit Breaker Finder', description: 'Maps every circuit in your panel without flipping breakers randomly. Plug the transmitter into an outlet, the receiver identifies which breaker controls it.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=Klein+Tools+circuit+breaker+finder&tag=replacementgu-20' },
+    { name: 'Electrical Panel Label Kit', description: 'Clearly label every circuit after mapping them. Adhesive labels that won\'t fade. Saves time during emergencies and for future electricians.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=electrical+panel+label+kit+circuit+breaker&tag=replacementgu-20' },
+    { name: 'Eaton Whole-House Surge Protector', description: 'Installs in the panel and protects every circuit from power surges. Costs less than one fried appliance. Should be standard on every panel.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=Eaton+whole+house+surge+protector&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace a single circuit breaker', cost: '$150-$300', notes: 'The most common repair. Takes an electrician 30-60 minutes. Must match the panel brand exactly.' },
+    { repair: 'Tighten loose connections', cost: '$100-$250', notes: 'Loose wire connections cause arcing and heat. An electrician opens the panel, checks all connections, and tightens as needed.' },
+    { repair: 'Replace a GFCI or AFCI breaker', cost: '$200-$400', notes: 'These specialty breakers cost more than standard ones. Required by code in bathrooms, kitchens, bedrooms, and outdoors.' },
+    { repair: 'Add a new circuit', cost: '$200-$500', notes: 'Run a new wire from the panel to a new outlet or appliance. Requires an open breaker slot in the panel.' },
+    { repair: 'Full panel replacement (200-amp upgrade)', cost: '$1,500-$4,000', notes: 'New panel, meter base, and possibly service entrance cable. Permit and inspection required. 4-8 hours without power.' },
+  ],
+  insuranceCoverage: `Electrical panels are covered under dwelling coverage for covered perils (lightning, fire, power surge from a utility event). A lightning strike that fries your panel is a covered claim.\n\nWhat's NOT covered: a panel that needs upgrading because it's too small, breakers that wear out from age, or a panel that's a safety hazard because of its brand (FPE, Zinsco). These are considered maintenance and code compliance... your expense.\n\nCritical insurance note: some insurers will not issue or renew a homeowners policy if you have a Federal Pacific or Zinsco panel. Others charge higher premiums. If you're buying a home with one of these panels, factor the $2,000-$4,000 replacement cost into your purchase negotiations.\n\nA whole-house surge protector ($80-$150 installed) is one of the best investments for protecting your electrical system and every appliance in your home from utility surges. Some insurers offer a discount for having one installed.`,
+  bestBrands: [
+    { name: 'Square D (Schneider Electric)', knownFor: 'The most popular residential panel brand in the US. Homeline series is their standard residential line. QO series is their premium line with faster trip times. Widely available, excellent parts supply.' },
+    { name: 'Siemens', knownFor: 'Strong competitor to Square D. Reliable panels with good build quality. Slightly less common in residential but very popular in commercial. Good value.' },
+    { name: 'Eaton (CH/BR series)', knownFor: 'CH series is their premium residential panel. BR series is budget. Both are reliable. Eaton also makes the best whole-house surge protectors.' },
+    { name: 'GE', knownFor: 'Available at Home Depot. Good mid-range residential panels. Parts are widely available. A solid choice if your electrician prefers GE.' },
+  ],
+  installationTime: `A full panel replacement takes 6-10 hours for a licensed electrician. This includes: coordinating with the utility to disconnect power, removing the old panel, installing the new panel and meter base, reconnecting all circuits, testing every circuit, and passing the electrical inspection.\n\nYou'll be without power for 4-8 hours during the swap. Plan accordingly... charge phones, have flashlights ready, and empty the fridge of anything that can't handle a few hours without cold.\n\nPermit and inspection are required in virtually every jurisdiction. Your electrician should pull the permit (not you). The inspection happens after installation... the inspector verifies everything meets current NEC code. If it doesn't pass, the electrician makes corrections at their expense.\n\nFrom scheduling to completion, plan 1-2 weeks: getting the permit (a few days), scheduling the electrician and utility disconnect (a few more days), then the installation day itself.`,
+}
