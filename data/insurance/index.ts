@@ -30,6 +30,8 @@ import { guide as foundationRepair } from './foundation-repair'
 import { guide as treeRemoval } from './tree-removal'
 import { guide as windDamage } from './wind-damage'
 import { guide as termiteDamage } from './termite-damage'
+import { guide as notCovered } from './not-covered'
+import { guide as homeWarrantyVsInsurance } from './home-warranty-vs-insurance'
 
 export const guides: InsuranceGuide[] = [
   pipeBurst,
@@ -49,6 +51,8 @@ export const guides: InsuranceGuide[] = [
   treeRemoval,
   windDamage,
   termiteDamage,
+  notCovered,
+  homeWarrantyVsInsurance,
 ]
 
 export function getGuide(slug: string): InsuranceGuide | null {
