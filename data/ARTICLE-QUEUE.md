@@ -103,6 +103,45 @@ These keywords have massive volume and CPCs:
 - Cost to replace sewer line: 3,600/mo, $30.00 CPC
 - Cost to replace boiler: 2,900/mo, $15.62 CPC
 
+## "Signs your [thing] is failing" keyword data
+Already covered by Warning Signs section on each page. CPCs are highest of any keyword family:
+- Signs AC is going out: 70/mo, $36.75 CPC
+- Signs need new windows: 50/mo, $31.11 CPC
+- Signs need new water heater: 140/mo, $20.49 CPC
+- Signs need new roof: 480/mo, $17.41 CPC
+- Signs water heater going bad: 70/mo, $14.72 CPC
+- Signs sump pump failing: 20/mo, $14.02 CPC
+- Signs need new furnace: 110/mo, $10.94 CPC
+Consider adding "Signs Your [Thing] Is Failing" as an alt H2 or FAQ section on each page to capture these.
+
+## Troubleshooting guides (NEW page type — highest CPCs found)
+These are top-of-funnel pages. User has a broken thing → reads troubleshoot → learns it's dead → links to replacement page.
+
+### Tier 1 ($35+ CPC) — Write first
+- [ ] Water Heater Leaking from Bottom — 6,600/mo, $44.29 CPC
+- [ ] AC Not Working — 6,600/mo, $44.28 CPC
+- [ ] Garage Door Won't Open — 3,600/mo, $45.12 CPC
+- [ ] Furnace Not Turning On — 3,600/mo, $43.02 CPC
+- [ ] AC Blowing Warm Air — 9,900/mo, $37.24 CPC
+- [ ] Furnace Blowing Cold Air — 2,900/mo, $35.42 CPC
+
+### Tier 2 ($10-35 CPC)
+- [ ] Toilet Won't Flush — 8,100/mo, $18.02 CPC
+- [ ] Circuit Breaker Keeps Tripping — 5,400/mo, $15.77 CPC
+- [ ] Garbage Disposal Humming But Not Working — 2,900/mo, $13.00 CPC
+- [ ] Dishwasher Not Draining — 22,200/mo, $11.00 CPC
+- [ ] Dryer Not Heating — 12,100/mo, $6.75 CPC
+- [ ] Refrigerator Not Cooling — 9,900/mo, $6.29 CPC
+- [ ] Washing Machine Not Spinning — 5,400/mo, $5.75 CPC
+- [ ] Sump Pump Not Working — volume TBD, CPC TBD
+
+## Blog/guide articles (home seller audience)
+- [ ] Should You Replace Your Roof Before Selling? — 90/mo, $25.11 CPC
+- [ ] Do New Windows Increase Home Value? — 480/mo, $28.01 CPC
+- [ ] Should You Replace Carpet Before Selling? — 20/mo, $32.69 CPC
+- [ ] Home Inspection Checklist for Sellers — 590/mo, $3.58 CPC
+- [ ] What to Fix Before Selling a House — 90/mo, $6.21 CPC
+
 ## Products in products.ts with generic content (need unique articles eventually)
 All remaining ~80 products have template content. Prioritize by traffic once indexed.
 
