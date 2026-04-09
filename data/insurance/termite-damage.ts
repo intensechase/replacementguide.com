@@ -1,0 +1,48 @@
+export const guide = {
+  slug: 'termite-damage',
+  title: 'Does Homeowners Insurance Cover Termite Damage?',
+  metaTitle: 'Does Homeowners Insurance Cover Termite Damage? (2026)',
+  metaDescription: 'Find out if your homeowners insurance covers termite damage and treatment. What\'s excluded, why termites are your responsibility, and how to protect your home.',
+  relatedProducts: [
+    { category: 'home', slug: 'deck', name: 'Deck' },
+    { category: 'home', slug: 'fence', name: 'Fence' },
+    { category: 'home', slug: 'hardwood-floors', name: 'Hardwood Floors' },
+  ],
+  quickAnswer: `No. Homeowners insurance does not cover termite damage or treatment. This is one of the clearest and most consistent exclusions across the entire insurance industry. Termite damage is considered preventable through regular inspection and treatment, making it a maintenance responsibility. The average cost of termite damage repair in the US is $3,000-$5,000, and termite treatment costs $200-$900 for chemical barrier treatment or $1,200-$2,500 for bait systems. All of this is out of pocket.`,
+  coveredScenarios: [
+    { scenario: 'Structural collapse caused by hidden termite damage (rare exception)', detail: 'In very rare cases, if termite-weakened structural members cause a sudden collapse... like a floor caving in or a wall falling... the resulting damage might be partially covered as a "collapse" event. This is policy-specific, rarely successful, and heavily disputed. Don\'t count on it.' },
+    { scenario: 'Fire caused by termite damage to electrical wiring (very rare)', detail: 'If termites damage electrical wiring and cause a fire, the fire damage is covered (fire is always a covered peril). The termite damage to the wiring itself is not covered, but the resulting fire damage to the home is. This is extremely rare.' },
+  ],
+  notCoveredScenarios: [
+    { scenario: 'Termite damage to structural wood (framing, joists, sills)', detail: 'Damage to floor joists, wall studs, sill plates, and other structural wood is the most expensive termite damage ($3,000-$10,000+ for major structural repair). It\'s excluded as a preventable maintenance issue in every standard policy.' },
+    { scenario: 'Termite treatment and prevention', detail: 'Chemical barrier treatment ($200-$900), bait systems ($1,200-$2,500), and ongoing monitoring ($200-$400/year) are all your responsibility. Insurers view termite treatment the same way they view roof maintenance... it\'s expected.' },
+    { scenario: 'Damage to hardwood floors, trim, and finish materials', detail: 'Termites eating hardwood floors, baseboards, door frames, and window sills is common and not covered. Repair costs for these cosmetic and functional elements add to the total damage cost.' },
+    { scenario: 'Damage discovered during a home sale inspection', detail: 'Termite damage found during a home inspection is a pre-existing condition. The seller may be required to treat and repair (varies by state), but neither buyer\'s nor seller\'s insurance covers it.' },
+    { scenario: 'Carpenter ants, powder post beetles, or other wood-destroying insects', detail: 'The exclusion applies to all wood-destroying organisms, not just termites. Carpenter ants, powder post beetles, and wood-boring beetles are all excluded from coverage for the same reason: preventable through inspection and treatment.' },
+    { scenario: 'Termite damage to detached structures (deck, fence, shed)', detail: 'The same exclusion applies to all structures on your property. Termite damage to a deck, fence, or shed is treated the same as damage to the house: excluded.' },
+  ],
+  homeWarrantyNote: `Standard home warranties do NOT cover termite treatment or termite damage repair. Termites are specifically excluded from home warranty plans.\n\nSome pest control companies offer their own "termite bond" or "termite warranty" ($200-$400/year) that covers annual inspection, treatment if termites are found, and sometimes repair of new termite damage (up to a limit). This is a separate product from both homeowners insurance and home warranties.\n\nA termite bond from a reputable pest control company is the closest thing to "termite insurance" available. It typically includes:\n- Annual inspection\n- Re-treatment if termites are found\n- Repair guarantee for new damage (some bonds, not all)\n- Transferability to new homeowners (valuable when selling)\n\nIn termite-prone areas (southeast US, Gulf Coast, Hawaii, California), a termite bond is a smart investment.`,
+  howToFileClaim: [
+    'Don\'t file a homeowners insurance claim for termite damage. It will be denied, and the claim will go on your record (CLUE report) which can affect future insurability and premiums.',
+    'Instead, contact a licensed pest control company for a free inspection and treatment estimate. Most pest companies offer free termite inspections to provide a treatment proposal.',
+    'Get at least 2-3 treatment estimates. Treatment methods (liquid barrier, bait stations, fumigation) and costs vary significantly between companies.',
+    'For structural damage repair, get a separate estimate from a contractor (not the pest company). The pest company treats the termites; a general contractor or structural specialist repairs the damage.',
+    'If you\'re buying a home and the inspection reveals termite damage: negotiate with the seller. In many states, the seller is required to disclose known termite damage. Treatment and repair should be completed (or credited to you) before closing.',
+    'Consider purchasing a termite bond from the treating company after treatment. Annual bonds ($200-$400) provide ongoing protection and give you recourse if termites return.',
+  ],
+  tipsBeforeYouNeedIt: [
+    'Get a professional termite inspection every 1-2 years, especially in the southeast, Gulf Coast, and California. Most pest companies offer free inspections. The $0 inspection prevents $5,000+ in undetected damage.',
+    'Reduce wood-to-soil contact around your home. Firewood stacked against the house, mulch piled against the foundation, wood lattice touching the ground... all create termite highways into your home.',
+    'Fix moisture problems. Termites need moisture to survive. Leaky pipes, poor drainage, and damp crawl spaces create conditions termites love. A dry home is less attractive to termites.',
+    'Keep 6 inches of clearance between soil and any wood on the house (siding, door frames, deck posts). Termites travel through soil and need contact between soil and wood to infest a structure.',
+    'In termite-prone areas, consider a preventive termite treatment ($200-$900) even if no termites are found. Chemical barriers around the foundation last 5-10 years and prevent infestation before it starts.',
+    'If you\'re buying a home, ALWAYS get a termite inspection (often called a WDI/WDO inspection... wood-destroying insect/organism). In many states this is required by the lender. Even if not required, it\'s $75-$150 well spent.',
+  ],
+  realWorldExamples: [
+    { situation: 'We found termite damage in the bathroom subfloor during a renovation. The floor joists are partially eaten. Repair estimate is $4,000.', covered: false, explanation: 'Termite damage is excluded from homeowners insurance regardless of when it\'s discovered. The $4,000 repair plus treatment ($200-$900) is entirely your cost. Treat the termites first, then repair the damage.' },
+    { situation: 'Termite damage weakened the support beam under the kitchen, and the floor partially collapsed when we walked on it.', covered: false, explanation: 'Even though the collapse was sudden, the underlying cause is termite damage... which is excluded. Some homeowners try to claim this as a "collapse" event, but insurers and courts consistently deny these claims because the root cause is a maintenance exclusion.' },
+    { situation: 'We\'re selling our home and the buyer\'s inspection found active termites and damage. Who pays?', covered: false, explanation: 'No insurance covers this. State laws vary: some require the seller to treat and repair, others allow negotiation. In most transactions, the seller pays for treatment and either repairs the damage or provides a credit to the buyer. A termite bond from the treating company transfers to the buyer as added protection.' },
+    { situation: 'We have a termite bond. Termites were found during the annual inspection despite the chemical barrier.', covered: true, explanation: 'Your termite bond covers re-treatment at no additional cost. If the bond includes a repair guarantee, new termite damage discovered after the original treatment may also be covered (up to the bond\'s repair limit). This is exactly what a termite bond is for.' },
+    { situation: 'Carpenter ants have damaged the deck support posts. The deck is unstable. Repair estimate is $2,500.', covered: false, explanation: 'Carpenter ants fall under the same wood-destroying insect exclusion as termites. The damage repair ($2,500) and treatment ($200-$500) are your expense. Replace damaged wood with pressure-treated lumber to prevent recurrence.' },
+  ],
+}

@@ -1,0 +1,48 @@
+export const guide = {
+  slug: 'water-heater',
+  title: 'Does Homeowners Insurance Cover Water Heater Replacement?',
+  metaTitle: 'Does Homeowners Insurance Cover Water Heater Replacement? (2026)',
+  metaDescription: 'Find out if your homeowners insurance covers water heater repair or replacement, what happens when a water heater bursts, and your best coverage options.',
+  relatedProducts: [
+    { category: 'home', slug: 'water-heater', name: 'Water Heater (Tank)' },
+    { category: 'home', slug: 'tankless-water-heater', name: 'Tankless Water Heater' },
+  ],
+  quickAnswer: `The water heater itself... almost never. Homeowners insurance does not cover water heater repair or replacement from normal aging or mechanical failure. But here's the important part: if the water heater bursts and causes water damage to your home, the water damage IS typically covered. So insurance pays to fix the flooded basement but not to replace the water heater that caused the flood. The water heater replacement ($800-$2,500 installed) is your out-of-pocket cost.`,
+  coveredScenarios: [
+    { scenario: 'Water heater bursts and floods the surrounding area', detail: 'When a water heater tank ruptures and dumps 40-80 gallons of hot water, the resulting damage to floors, walls, stored belongings, and adjacent rooms is covered. This is treated as a sudden, accidental water event. The damage cleanup, drying, and restoration are covered minus your deductible.' },
+    { scenario: 'Water heater fire or explosion', detail: 'A gas water heater fire, gas explosion, or electrical fire originating from an electric water heater is covered under dwelling coverage. These events are rare but serious. The water heater replacement AND all fire damage are covered.' },
+    { scenario: 'Lightning surge damages the water heater', detail: 'A lightning-induced power surge that fries an electric water heater\'s elements, thermostat, or control board is covered. The damaged components (or full replacement if uneconomical to repair) are covered.' },
+    { scenario: 'Falling object or structural event damages the water heater', detail: 'If a tree crashes through the roof and damages the water heater, or if a covered structural event harms it, the water heater is covered as part of the broader claim.' },
+  ],
+  notCoveredScenarios: [
+    { scenario: 'Water heater dies from old age', detail: 'A 12-year-old water heater that stops heating or develops a slow leak from internal corrosion has reached end of life. Replacement ($800-$2,500 installed) is entirely your cost. This is the most common water heater scenario and it\'s never covered.' },
+    { scenario: 'Slow leak or gradual corrosion', detail: 'A water heater that drips slowly from the bottom, from the T&P valve, or from corroded fittings is experiencing gradual failure. If the slow leak causes water damage over time (stained subfloor, mold), the damage claim will likely be denied because it wasn\'t sudden.' },
+    { scenario: 'Sediment buildup or maintenance neglect', detail: 'A water heater that fails because it was never flushed (sediment killed the heating elements or overheated the tank bottom) is a maintenance failure. Annual flushing and anode rod checks are your responsibility.' },
+    { scenario: 'The water heater replacement cost after a covered burst', detail: 'Here\'s the frustrating part: even when insurance covers the water damage from a burst, they usually don\'t cover the cost of the new water heater itself. The water heater is the "cause" of the loss, and policies typically exclude the source of the damage while covering its effects.' },
+    { scenario: 'Code upgrade costs during replacement', detail: 'When you replace a water heater, your local building code may require upgrades: an expansion tank, new venting, a drain pan, seismic straps, or a permit. These code compliance costs ($200-$800) are your expense.' },
+  ],
+  homeWarrantyNote: `Home warranties cover water heater failure from normal wear and tear, making them the practical solution for the scenario insurance doesn't cover. You pay the service call fee ($75-$125) and the warranty covers repair or replacement up to your plan's limit.\n\nMost home warranty plans cover both tank and tankless water heaters, including the heating elements, thermostat, gas valve, and anode rod. If the unit can't be repaired, they replace it.\n\nThe catches: code compliance costs (expansion tank, venting changes, drain pan, permit) are usually NOT covered by the warranty. These can add $200-$800 to the replacement cost. The warranty company chooses the replacement unit... it will be a basic model, not the premium one you might have chosen yourself. Wait times vary... a hot water outage in January may have you waiting 2-5 days for the warranty technician.\n\nBut the math is clear: a $75-$125 service fee vs. $800-$2,500 for a new water heater makes the home warranty worthwhile for this single item alone.`,
+  howToFileClaim: [
+    'If the water heater burst: shut off the cold water supply valve at the top of the water heater immediately. If you can\'t reach it, shut off the main water valve to the house. Then turn off the gas valve or electrical breaker for the unit.',
+    'Document the damage before cleanup. Photos of the burst tank, standing water, damaged flooring, walls, and belongings. Show the water line on walls to demonstrate the extent of flooding.',
+    'Begin water extraction and drying right away. Mop up water, set up fans, and rent a dehumidifier. Your policy requires you to prevent further damage. Mold starts within 24-48 hours.',
+    'Call your insurance company to file the claim for the WATER DAMAGE (not for the water heater replacement). Describe it as: "The water heater burst and caused water damage to [describe areas affected]."',
+    'Get two estimates: one from a plumber for the water heater replacement (your cost) and one from a water damage restoration company for the damage repair (the insurance claim portion).',
+    'If you have a home warranty, also file a claim there for the water heater replacement itself. The insurance handles the damage; the warranty handles the water heater.',
+  ],
+  tipsBeforeYouNeedIt: [
+    'Know your water heater\'s age. Check the serial number on the label... the first two digits usually indicate the year of manufacture. If it\'s over 10 years old, start planning for replacement before it fails on you.',
+    'Install a water heater drain pan ($15-$25) if your water heater is on a finished floor or above living space. The pan catches small leaks and directs water to a drain, turning a potential flood into a minor inconvenience.',
+    'Install a water leak sensor ($20-$50) near the base of the water heater. Smart sensors alert your phone when they detect moisture. Catching a leak early is the difference between a $0 cleanup and a $10,000 water damage claim.',
+    'Flush the tank once a year and check the anode rod every 2-3 years. These two maintenance tasks cost almost nothing but extend the water heater\'s life by 2-5 years and reduce the risk of sudden failure.',
+    'A home warranty that covers water heaters costs $300-$600/year. A water heater replacement costs $800-$2,500. If your water heater is over 8 years old, the warranty math works in your favor.',
+    'Consider replacing a water heater that\'s over 12 years old proactively, before it fails. A planned replacement costs 15-25% less than an emergency replacement (no rush fees, you can shop around, no water damage).',
+  ],
+  realWorldExamples: [
+    { situation: 'The bottom of our 14-year-old water heater rusted through overnight. We woke up to 3 inches of water in the utility room and adjacent bedroom.', covered: true, explanation: 'The water damage (flooring, drywall, damaged belongings in both rooms) is covered as a sudden event. The water heater replacement ($800-$2,500) is NOT covered... that\'s your cost for a new unit. If you had a home warranty, the water heater itself would be covered too.' },
+    { situation: 'We noticed a small puddle under the water heater that\'s been there for a while. The subfloor underneath is starting to warp.', covered: false, explanation: 'A slow, ongoing leak is gradual damage. The "been there for a while" part is the problem... insurers consider this a maintenance failure you should have noticed and addressed. The water heater repair and subfloor damage are both your cost.' },
+    { situation: 'Our water heater just stopped heating water. No leak, no damage, it just doesn\'t work anymore.', covered: false, explanation: 'Mechanical failure without any resulting damage to the home is purely a maintenance/appliance issue. There\'s nothing for homeowners insurance to cover here. A home warranty or out-of-pocket repair ($100-$500 depending on the component) is your path.' },
+    { situation: 'Lightning struck during a storm and our electric water heater won\'t turn on. The electrician found the elements and thermostat are fried from a surge.', covered: true, explanation: 'Lightning damage is a named peril. The water heater repair (elements + thermostat: $200-$400) or full replacement if uneconomical to repair is covered. Include any other electronics or appliances damaged by the same surge in your claim.' },
+    { situation: 'We have a home warranty. The gas water heater pilot won\'t stay lit and the gas valve needs replacement.', covered: true, explanation: 'This is a straightforward home warranty claim. Gas valve replacement ($200-$400 retail) is covered for just the service fee ($75-$125). The warranty saves you $100-$300 on this repair.' },
+  ],
+}
