@@ -34,6 +34,11 @@ import { content as tires } from './tires'
 import { content as brakePads } from './brake-pads'
 import { content as windshieldWipers } from './windshield-wipers'
 import { content as sparkPlugs } from './spark-plugs'
+import { content as mattress } from './mattress'
+import { content as dishwasher } from './dishwasher'
+import { content as refrigerator } from './refrigerator'
+import { content as washingMachine } from './washing-machine'
+import { content as dryer } from './dryer'
 
 export interface ProductContent {
   slug: string
@@ -93,6 +98,11 @@ const contentMap: Record<string, ProductContent> = {
   'brake-pads': brakePads,
   'windshield-wipers': windshieldWipers,
   'spark-plugs': sparkPlugs,
+  'mattress': mattress,
+  'dishwasher': dishwasher,
+  'refrigerator': refrigerator,
+  'washing-machine': washingMachine,
+  'dryer': dryer,
 }
 
 export function getProductContent(slug: string): ProductContent | null {
