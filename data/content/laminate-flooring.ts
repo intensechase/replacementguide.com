@@ -30,4 +30,17 @@ export const content = {
     { name: 'CalFlor FloorFix Wood and Laminate Repair Kit', description: 'Includes color-matched putty and markers to fill scratches, chips, and small gouges so individual plank damage does not require a full replacement.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=CalFlor+FloorFix+laminate+repair+kit&tag=replacementgu-20' },
     { name: 'QuietWalk Underlayment Padding (100 sq ft Roll)', description: 'Provides moisture protection and sound dampening underneath new laminate, preventing the subfloor moisture damage that is the number one cause of premature laminate failure.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=QuietWalk+underlayment+padding&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace damaged planks', cost: '$100-$300', notes: 'Individual planks can be swapped if you have matching leftovers from the original install. Planks near walls are easier... middle-of-floor replacements require cutting and gluing, which never looks quite as clean.' },
+    { repair: 'Fix gaps between planks', cost: '$50-$150', notes: 'Gaps develop from humidity changes or failing click-lock connections. A pro can close gaps by tapping planks back together and adjusting the expansion gap at the walls.' },
+    { repair: 'Repair swollen edges', cost: '$100-$250', notes: 'Water damage causes the HDF core to swell permanently. The affected planks need to be replaced... there\'s no way to unswell waterlogged laminate. Fix the moisture source first or it\'ll happen again.' },
+  ],
+  insuranceCoverage: `Covered if water damage comes from a sudden event like a burst pipe or fire suppression. NOT covered for moisture damage from spills, gradual humidity, or slow leaks you should have noticed. The distinction matters... a pipe that suddenly bursts while you\'re away is covered. A dishwasher that\'s been slowly leaking for months might not be. Document the damage with photos immediately and call your insurance before starting cleanup.`,
+  bestBrands: [
+    { name: 'Pergo', knownFor: 'Literally invented laminate flooring. Their products are consistently rated among the best for durability and realistic appearance. The go-to name that most people know.' },
+    { name: 'Mohawk RevWood', knownFor: 'Best water resistance in the laminate category. Their WetProtect technology provides a waterproof surface and warranted waterproof joints... a game changer for kitchens and entryways.' },
+    { name: 'Shaw Repel', knownFor: 'Water-resistant laminate with a good balance of price and performance. Widely available through flooring retailers and Home Depot.' },
+    { name: 'Quick-Step', knownFor: 'Premium European laminate with the most realistic wood textures. Higher price point but noticeably better appearance and build quality than budget options.' },
+  ],
+  installationTime: `1 to 2 days per room for floating floor installation. A 300-square-foot living room takes most installers a full day including underlayment, cutting, and baseboard removal/reinstallation. Multiple rooms go faster once the installer is set up. DIY-friendly for patient homeowners... click-lock floating floors don't require glue or nails.`,
 }

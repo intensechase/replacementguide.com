@@ -29,4 +29,17 @@ export const content = {
     { name: 'Newborn 930-GTD Caulk Gun (Drip-Free)', description: 'Applies sealant around foam edges and penetrations with precision, and the drip-free mechanism prevents the mess that makes most homeowners avoid caulking.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Newborn+930-GTD+caulk+gun+drip+free&tag=replacementgu-20' },
     { name: 'FLIR TG165-X Thermal Leak Detector', description: 'Reveals exactly where insulation gaps, cold spots, and air leaks are hiding behind walls so you fix the actual problem areas instead of guessing.', priceRange: '$200-$300', amazonUrl: 'https://www.amazon.com/s?k=FLIR+TG165-X+thermal+leak+detector&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Fill gaps and voids', cost: '$200-$500', notes: 'Small areas where foam pulled away from framing or around penetrations. A contractor touches these up with new spray foam during a service call. The most common "repair" and usually straightforward.' },
+    { repair: 'Remove and reapply section', cost: '$1,000-$3,000', notes: 'Required when foam was improperly mixed (off-ratio), has moisture damage, or needs to come out for renovation. Removal is the expensive part... foam adheres permanently and has to be scraped or ground off.' },
+  ],
+  insuranceCoverage: `Covered if fire or storm damage destroys the insulation... your dwelling coverage pays to replace it as part of the overall repair. NOT covered for shrinkage, improper installation, or defects from the original installer. If the foam was installed wrong (off-ratio, off-gassing, gaps), that's a contractor liability issue, not an insurance claim. Go after the installer's bond or insurance, not yours.`,
+  financingOptions: `Whole-house spray foam runs $3,000 to $10,000+ depending on square footage and foam type. Many spray foam contractors offer financing through home improvement lenders. Utility rebates and weatherization programs can offset 10 to 30% of the cost in some areas... check with your local utility before signing a contract. The energy savings (20 to 50% reduction in heating and cooling costs) provide a real payback over 3 to 7 years.`,
+  bestBrands: [
+    { name: 'Closed cell vs open cell', knownFor: 'The type of foam matters more than the brand. Closed cell (R-6 to R-7 per inch) is the premium choice for exterior walls, basements, and moisture-prone areas. Open cell (R-3.5 per inch) is cheaper and great for interior walls and sound dampening.' },
+    { name: 'Icynene (Huntsman)', knownFor: 'One of the most recognized spray foam brands. Known for open-cell products and strong contractor training programs.' },
+    { name: 'Lapolla (Huntsman)', knownFor: 'Major closed-cell and open-cell producer with a strong presence in commercial and residential applications.' },
+    { name: 'Demilec (Huntsman)', knownFor: 'Another major spray foam manufacturer. All three (Icynene, Lapolla, Demilec) are now under the Huntsman umbrella. The installer\'s skill matters more than which of these brands they spray.' },
+  ],
+  installationTime: `1 to 2 days for a whole house. Attic-only or crawlspace-only jobs can be done in a single day. The spray application itself is fast... most of the time is spent on prep (masking windows, covering surfaces, setting up ventilation) and waiting for the foam to cure. You can't occupy the home during spraying and should wait 24 hours before returning.`,
 }

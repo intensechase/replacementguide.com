@@ -31,4 +31,18 @@ export const content = {
     { name: 'WaterWorker HT-20B Pressure Tank (20 Gallon)', description: 'Replaces a waterlogged pressure tank that causes short-cycling, the number one killer of well pumps and a $200-$400 fix that can save a $1,500 pump.', priceRange: '$150-$300', amazonUrl: 'https://www.amazon.com/s?k=WaterWorker+HT-20B+pressure+tank&tag=replacementgu-20' },
     { name: 'Southwire 10/2 UF-B Underground Wire (100ft)', description: 'Direct-burial rated wire for well pump circuits, essential for DIY repairs when the existing wire develops a fault between the house and the well head.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=Southwire+10%2F2+UF-B+underground+wire&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace pressure switch', cost: '$100-$250', notes: 'The pressure switch tells the pump when to turn on and off. It\'s a $20 to $50 part that fails more often than the pump itself. A service call to diagnose and swap it runs $100 to $250 total.' },
+    { repair: 'Replace pressure tank', cost: '$200-$500', notes: 'A waterlogged pressure tank causes short-cycling that kills pumps. Replacing it is cheap insurance... $200 to $500 installed versus $1,500+ for a new pump that short-cycling will destroy.' },
+    { repair: 'Pull and inspect submersible pump', cost: '$300-$800', notes: 'Just the labor to pull a submersible pump from a deep well runs $300 to $800 before any parts. If they\'re pulling it anyway, replacing the pump usually adds only $300 to $500... worth doing on older units.' },
+  ],
+  insuranceCoverage: `Well pumps are NOT covered by homeowners insurance for normal wear and failure... that\'s considered maintenance. The exception is if a covered peril damages the pump, like a lightning strike frying the motor or electrical components. If lightning is the cause, your dwelling coverage should pay for the replacement minus your deductible. Equipment breakdown coverage (an add-on rider) may cover mechanical failure on some policies... ask your agent specifically about well pump coverage.`,
+  financingOptions: `Most well pump replacements run $800 to $2,500... expensive but usually not enough to need formal financing. If you're looking at a deeper well or multiple components (pump, pressure tank, wiring, pitless adapter), costs can climb above $3,000. A 0% APR credit card with a 12 to 18 month promotional period can make sense for jobs in this range. Some well drilling companies offer payment plans.`,
+  bestBrands: [
+    { name: 'Goulds (Xylem)', knownFor: 'Premium submersible pumps that well drillers recommend most often. Higher upfront cost but longer motor life and better efficiency. The GS series is the standard for residential deep wells.' },
+    { name: 'Grundfos', knownFor: 'Reliable, efficient submersible pumps with stainless steel construction. Popular in areas with sandy or high-mineral water because the stainless holds up better than cast iron.' },
+    { name: 'Flotec', knownFor: 'Budget-friendly option available at home improvement stores. Good for shallow wells and jet pump applications where the pump is accessible for maintenance.' },
+    { name: 'Wayne', knownFor: 'Solid mid-range option. Their submersible pumps are widely available and reasonably priced. Good balance of cost and reliability for average residential wells.' },
+  ],
+  installationTime: `4 to 8 hours for a submersible pump pull and replacement. Most of that time is pulling the old pump up from 100 to 400 feet deep, one section of pipe at a time, then lowering the new one back down. Jet pump replacement above ground takes 2 to 4 hours since there's no well pulling involved.`,
 }

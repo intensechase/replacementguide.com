@@ -31,4 +31,17 @@ export const content = {
     { name: 'Pro Products ResCare Resin Cleaner (1 Gallon)', description: 'Removes iron and mineral fouling from resin beads that causes the softener to lose capacity, restoring performance and extending resin bed life by years.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=Pro+Products+ResCare+resin+cleaner&tag=replacementgu-20' },
     { name: 'JNW Direct Water Total Hardness Test Strips (150 Count)', description: 'Tests your water after the softener in 10 seconds to confirm the resin is still performing, catching decline before scale buildup returns to your fixtures.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=JNW+Direct+water+hardness+test+strips&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace resin bed', cost: '$200-$400', notes: 'The resin beads that do the actual softening wear out after 10 to 15 years. You can replace just the resin, but the rest of the system is the same age... often makes more sense to replace the whole unit.' },
+    { repair: 'Replace control valve', cost: '$200-$500', notes: 'The electronic brain on top of the tank that controls regeneration cycles. Worth repairing on systems under 8 years old where the resin is still working well.' },
+    { repair: 'Fix salt bridge', cost: '$0 DIY', notes: 'A hard crust forms in the brine tank above the water line, preventing salt from dissolving. Push a broom handle into the salt tank and break it up... takes 2 minutes and costs nothing.' },
+  ],
+  insuranceCoverage: `Water softeners are not typically covered by homeowners insurance. They're considered an appliance and their failure is a maintenance issue, not an insurable event. If a softener leaks and causes water damage to your home, the water damage may be covered but the softener replacement won't be. Home warranty plans sometimes cover water softeners... check the specific plan terms.`,
+  bestBrands: [
+    { name: 'Fleck', knownFor: 'Makes the best control valves in the industry. The Fleck 5600SXT is the valve you\'ll find on most quality softeners from independent water treatment companies. Reliable, easy to program, parts available everywhere.' },
+    { name: 'GE', knownFor: 'The Home Depot house brand for water softeners. Decent quality, widely available, and easy to find replacement parts. Good option for homeowners who want to buy off the shelf.' },
+    { name: 'Culligan', knownFor: 'Premium full-service option. They install, maintain, and service the system. You pay more but get professional support. Good if you don\'t want to deal with maintenance yourself.' },
+    { name: 'Morton', knownFor: 'Known primarily for water softener salt but also makes complete softener systems. Their salt pellets are the standard at most hardware stores.' },
+  ],
+  installationTime: `2 to 4 hours for a straightforward swap where the plumbing connections already exist. Includes draining the old unit, disconnecting, connecting the new system, programming the control valve, and running a regeneration cycle to charge the resin.`,
 }

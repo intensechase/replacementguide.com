@@ -31,4 +31,17 @@ export const content = {
     { name: 'Chamberlain 041A5034 Safety Sensor Pair', description: 'Replaces the photoelectric sensors that prevent the door from closing on people and objects, the component most likely to cause "door won\'t close" problems.', priceRange: '$20-$35', amazonUrl: 'https://www.amazon.com/s?k=Chamberlain+041A5034+safety+sensor&tag=replacementgu-20' },
     { name: 'GE LED Garage Door Opener Light Bulb (2-Pack)', description: 'Vibration-rated LED bulbs that will not flicker or burn out from the constant shaking of garage door operation, unlike standard bulbs that fail within months.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=GE+LED+garage+door+opener+light+bulb&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace gear assembly', cost: '$100-$200', notes: 'The most common failure on chain and screw drive openers. Nylon gear teeth strip out over time, especially if the door is heavy or out of balance. You\'ll hear the motor run but the door won\'t move.' },
+    { repair: 'Replace circuit board (logic board)', cost: '$100-$250', notes: 'Fixes intermittent operation, remote signal issues, and erratic behavior. Power surges are the usual killer... a surge protector on the outlet prevents this.' },
+    { repair: 'Replace remote receiver', cost: '$75-$150', notes: 'If the wall button works fine but remotes have lost range or stopped working entirely, the receiver module on the opener is failing. Cheaper than replacing the whole unit.' },
+  ],
+  insuranceCoverage: `Same as the garage door itself... homeowners insurance covers damage from covered perils like fire, lightning, windstorm, or a vehicle hitting the door. It does NOT cover mechanical failure or wear and tear. If a power surge fries the logic board, you might have a claim if you can document the surge event. Most standard policies don't cover garage door openers as a separate item... they fall under dwelling coverage.`,
+  bestBrands: [
+    { name: 'LiftMaster', knownFor: 'The contractor favorite. Professional-grade openers with the best motor and drive components. LiftMaster is the commercial/professional brand of Chamberlain Group... same parent company, better internals.' },
+    { name: 'Chamberlain', knownFor: 'Consumer-facing brand (same company as LiftMaster). Excellent myQ smart home integration, good build quality, and widely available at retail stores. Best option for DIY installation.' },
+    { name: 'Genie', knownFor: 'Good value alternative to Chamberlain/LiftMaster. Solid performance at a lower price point. Their Aladdin Connect smart home system is competitive with myQ.' },
+    { name: 'Ryobi', knownFor: 'Battery backup built into the unit... the garage door works during power outages without a separate battery backup accessory. Sold exclusively at Home Depot.' },
+  ],
+  installationTime: `2 to 4 hours for a complete opener replacement. Removing the old unit takes 30 to 60 minutes. Mounting the new rail and motor unit takes 1 to 2 hours. Programming remotes, setting travel limits, and adjusting force settings takes another 30 minutes. DIY-friendly for handy homeowners... professional installation adds $100 to $200.`,
 }

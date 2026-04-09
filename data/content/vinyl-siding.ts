@@ -29,4 +29,18 @@ export const content = {
     { name: 'Mold Armor E-Z House Wash', description: 'Connects to a garden hose and removes mold, mildew, and algae from vinyl siding without scrubbing. Covers up to 3,500 square feet per bottle.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Mold+Armor+E-Z+house+wash&tag=replacementgu-20' },
     { name: 'DAP Dynaflex 230 Siding and Window Sealant', description: 'Premium sealant for sealing gaps around windows, doors, and penetrations in vinyl siding. Stays flexible, paintable, and weather-resistant for 15+ years.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=DAP+Dynaflex+230+siding+window+sealant&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace damaged panels', cost: '$100-$400', notes: 'Individual panels pop out and snap back in with a zip tool. The hard part is finding a color and profile match for siding that\'s 10+ years old... manufacturers change colors constantly. Keep spare panels from the original install.' },
+    { repair: 'Re-secure loose siding', cost: '$100-$300', notes: 'Panels that have popped off the locking strip or pulled free from nails can be re-engaged and re-nailed. Catch this before wind rips them off entirely and damages the underlying house wrap.' },
+    { repair: 'Fix gaps at seams and trim', cost: '$50-$200', notes: 'Gaps at panel overlaps or where siding meets trim let water behind the siding. Caulking and re-seating the panels closes the gaps. Quick fix that prevents expensive water damage to the sheathing.' },
+  ],
+  insuranceCoverage: `Vinyl siding damage from storm, hail, wind, and fire is covered under your dwelling coverage... and it\'s one of the most common insurance claims for homeowners. Hail damage is especially common and straightforward to claim. Wind damage (panels ripped off) is also well-covered. Get multiple contractor estimates and document everything with photos. Insurance does NOT cover fading, warping from age, or damage you caused (melting from a grill placed too close).`,
+  financingOptions: `A full re-side runs $5,000 to $15,000 depending on house size and material choice. Many siding contractors offer financing through home improvement lenders. If you\'re filing an insurance claim for storm damage, the insurance payout may cover most or all of the cost. For elective re-siding, a HELOC or 0% promotional credit card can spread the cost over 12 to 24 months.`,
+  bestBrands: [
+    { name: 'James Hardie', knownFor: 'Technically fiber cement, not vinyl... but the premium alternative. Lasts 30 to 50 years, doesn\'t fade or warp, and looks like real wood. Costs more ($8 to $14/sq ft installed) but worth it for long-term homeowners.' },
+    { name: 'CertainTeed', knownFor: 'The vinyl siding leader. Their Monogram and Cedar Impressions lines offer thick, premium panels with realistic wood grain textures. Strong warranties and wide color selection.' },
+    { name: 'Alside', knownFor: 'Good value vinyl siding with solid thickness and decent color retention. A popular choice for contractors looking to balance quality and cost.' },
+    { name: 'Ply Gem', knownFor: 'Mid-range vinyl siding found at many building supply stores. Good selection of styles and profiles at a moderate price point.' },
+  ],
+  installationTime: `1 to 2 weeks for a full house re-side. A 2,000 square foot home takes a crew of 3 to 4 workers about 5 to 8 working days, depending on the complexity of the trim, number of windows, and whether old siding is being removed or covered. Individual panel replacements take 15 to 30 minutes each.`,
 }

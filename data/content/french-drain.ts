@@ -29,4 +29,15 @@ export const content = {
     { name: 'NDS 9" Square Catch Basin Kit with Grate', description: 'Collects surface water at low points and channels it into the French drain system, preventing standing water from overwhelming the drain at the intake end.', priceRange: '$25-$45', amazonUrl: 'https://www.amazon.com/s?k=NDS+square+catch+basin+kit+grate&tag=replacementgu-20' },
     { name: 'Pea Gravel / Washed River Rock (0.5 cubic yard bag)', description: 'Rounded washed gravel that will not break down into fines like crushed limestone, keeping the drain channel porous and free-flowing for decades.', priceRange: '$40-$60', amazonUrl: 'https://www.amazon.com/s?k=pea+gravel+drainage+rock&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Flush and clean through cleanout access', cost: '$200-$500', notes: 'A plumber jets high-pressure water through the pipe to break up sediment inside. Helps if the pipe itself is still functional... but does nothing for a clogged fabric sock around the outside.' },
+    { repair: 'Replace geotextile fabric', cost: '$500-$1,500', notes: 'Requires digging up the drain trench, removing old fabric, and wrapping new fabric around the pipe and gravel. Essentially a partial rebuild... only worth it if the pipe and gravel are still in good shape.' },
+    { repair: 'Regrade the drain path', cost: '$300-$800', notes: 'Fixes sections where settling or erosion has changed the slope and water no longer flows toward the discharge point. Sometimes the drain works fine... the ground above it just shifted.' },
+  ],
+  insuranceCoverage: `French drains are generally NOT covered by homeowners insurance. Drainage is considered a maintenance responsibility, not an insurable peril. If your French drain fails and water damages your basement, the water damage itself might be covered depending on your policy... but the cost to repair or replace the drain system won't be. Flood insurance (through FEMA or private carriers) is a separate policy and doesn't cover drainage system repairs either.`,
+  bestBrands: [
+    { name: 'NDS', knownFor: 'The go-to name in residential drainage products. Their catch basins, channel drains, and fittings are stocked at every home improvement store and used by most drainage contractors.' },
+    { name: 'Advanced Drainage Systems (ADS)', knownFor: 'Makes the corrugated and smooth-wall drainage pipe used in most French drain installations. Their N-12 smooth interior pipe has better flow characteristics than standard corrugated.' },
+  ],
+  installationTime: `1 to 3 days for most residential French drain projects. A simple 50-foot exterior drain in easy-to-dig soil can be done in a day. Longer runs, deeper trenches, or drains that go around corners take 2 to 3 days. Interior basement perimeter drains take 2 to 3 days because of the concrete cutting and repouring involved.`,
 }

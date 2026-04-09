@@ -31,4 +31,17 @@ export const content = {
     { name: 'Circuit Breaker Decals Label Kit (Magnetic + Adhesive)', description: 'Clearly labels every circuit in the panel so anyone can find and kill the right breaker in an emergency, a 30-minute job that could prevent a disaster.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=circuit+breaker+label+kit&tag=replacementgu-20' },
     { name: 'Eaton CHSPT2ULTRA Whole-House Surge Protector', description: 'Mounts at the panel and protects every breaker and connected device from voltage spikes that silently degrade electrical components over time.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=Eaton+CHSPT2ULTRA+whole+house+surge+protector&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace single breaker', cost: '$150-$300', notes: 'The most common fix. A breaker that trips constantly or won\'t reset gets swapped for a new one. The part is $5 to $50 depending on type... the rest is the electrician\'s service call.' },
+    { repair: 'Tighten connections', cost: '$100-$200', notes: 'Loose wire connections inside the panel cause arcing, buzzing, and overheating. An electrician tightens lugs and checks for heat damage. Simple fix that prevents fires.' },
+    { repair: 'Replace GFCI breaker', cost: '$200-$400', notes: 'GFCI breakers protect against ground faults in kitchens, bathrooms, and outdoor circuits. They fail more often than standard breakers because of the additional sensing electronics inside.' },
+  ],
+  insuranceCoverage: `Covered if a lightning strike or power surge causes the breaker or panel to fail... that\'s a sudden, accidental event and falls under dwelling coverage. NOT covered for tripping from overloaded circuits, age-related failure, or general wear and tear. If you have a Federal Pacific or Zinsco panel, insurance companies may require replacement as a condition of coverage... some won\'t insure homes with these panels at all.`,
+  bestBrands: [
+    { name: 'Square D (Schneider Electric)', knownFor: 'The most popular residential panel brand in the US. QO series breakers are the standard that electricians reach for. Wide availability, excellent track record, and parts everywhere.' },
+    { name: 'Siemens', knownFor: 'Reliable panels and breakers at a competitive price. Common in newer construction. Their breakers are well-built and widely available.' },
+    { name: 'Eaton', knownFor: 'Good value with the CH and BR series panels. Strong surge protection products. Their whole-house surge protector is one of the best on the market.' },
+    { name: 'GE', knownFor: 'Widely available at Home Depot and other retailers. Solid, dependable breakers. Not as popular with electricians as Square D but perfectly good for residential use. WARNING: Federal Pacific and Zinsco panels should be fully replaced regardless of age... they are documented fire hazards.' },
+  ],
+  installationTime: `30 minutes per individual breaker replacement. A full panel upgrade (100-amp to 200-amp) takes 6 to 10 hours and usually requires a utility disconnect, which means scheduling with your power company. Panel swaps are a full-day job for most electricians.`,
 }

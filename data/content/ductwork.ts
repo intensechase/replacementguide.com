@@ -29,4 +29,17 @@ export const content = {
     { name: 'Nashua 324A HVAC UL 181 Foil Tape', description: 'The only tape approved for duct sealing. Metal-backed with aggressive adhesive that lasts the life of the duct. Use this instead of cloth duct tape, which dries out and fails within 2 to 5 years.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Nashua+324A+HVAC+foil+tape&tag=replacementgu-20' },
     { name: 'Duct Blaster Leakage Test (Professional Service)', description: 'Ask your HVAC company about a duct leakage test. It pressurizes the duct system and measures exactly how much air is escaping. Most homeowners are shocked at the results... and the savings from sealing are immediate.', priceRange: '$150-$300 (service)', amazonUrl: 'https://www.amazon.com/s?k=duct+leakage+test+kit&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Seal leaks with mastic (professional)', cost: '$200-$500', notes: 'A pro seals all accessible joints with mastic sealant or UL 181 foil tape. The DOE says this can cut energy costs 20 to 30%... one of the best returns on investment in home improvement.' },
+    { repair: 'Replace damaged section', cost: '$300-$1,000', notes: 'A crushed, disconnected, or deteriorated section of duct gets cut out and replaced. Common with flex duct that\'s sagged and kinked in attics or crawlspaces.' },
+    { repair: 'Insulate exposed ductwork', cost: '$500-$2,000', notes: 'Uninsulated ducts in attics and crawlspaces lose massive amounts of energy and develop condensation that breeds mold. Wrapping them with R-8 insulation is one of the most impactful upgrades you can make.' },
+  ],
+  insuranceCoverage: `Covered if fire or storm damage destroys the ductwork. NOT covered for air leaks from age, poor installation, or deterioration. Ductwork maintenance and sealing is a homeowner responsibility. If a tree falls through the roof and crushes the ductwork in the attic, that\'s a covered event. If your 30-year-old ducts are leaking 30% of your air... that\'s on you.`,
+  financingOptions: `Full ductwork replacement at $3,000 to $7,000 is significant enough to warrant financing. HVAC contractors often bundle duct replacement with a new furnace or AC system, which opens up manufacturer financing with promotional rates. Standalone duct work can be financed through home improvement lenders. Energy efficiency rebates and tax credits may apply in some areas.`,
+  bestBrands: [
+    { name: 'Galvanized steel', knownFor: 'The longest-lasting duct material at 30 to 40+ years. Smooth interior means less air resistance. More expensive to install but pays for itself in durability and performance.' },
+    { name: 'Flex duct', knownFor: 'Cheapest and fastest to install, but shorter life (15 to 25 years) and the ribbed interior creates more air resistance. Fine for short runs to registers but shouldn\'t be used for main trunk lines.' },
+    { name: 'Duct board (fiberglass)', knownFor: 'Rigid fiberglass panels that provide built-in insulation. Was popular in the 1970s through 1990s. Interior fiberglass can deteriorate and release fibers... not recommended for new installations.' },
+  ],
+  installationTime: `2 to 5 days for a full ductwork replacement in a typical home. Accessible duct systems (open basement, accessible attic) are faster. Ducts buried in walls, between floors, or in tight crawlspaces take longer due to access challenges. Sealing and insulating existing ducts takes 1 to 2 days.`,
 }

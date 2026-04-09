@@ -29,4 +29,17 @@ export const content = {
     { name: 'Intermatic AG3000 HVAC Surge Protector', description: 'Installs at the outdoor disconnect box and protects the compressor from voltage spikes. A $50 device that prevents $1,500 to $3,000 in compressor damage.', priceRange: '$40-$60', amazonUrl: 'https://www.amazon.com/s?k=Intermatic+AG3000+HVAC+surge+protector&tag=replacementgu-20' },
     { name: 'Nu-Calgon Evap Foam No Rinse Coil Cleaner', description: 'Cleans the evaporator coil to restore airflow and reduce compressor workload. A dirty evaporator coil makes the compressor work 20% harder to achieve the same cooling.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Nu-Calgon+Evap+Foam+coil+cleaner&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace capacitor', cost: '$150-$400', notes: 'The capacitor gives the compressor motor the electrical boost it needs to start. When it fails, the compressor hums but won\'t start. One of the most common AC repairs and relatively cheap.' },
+    { repair: 'Replace contactor', cost: '$150-$350', notes: 'The contactor is an electrical switch that sends power to the compressor. Pitted or burned contacts mean the compressor gets inconsistent power. Replacing it restores reliable startup.' },
+    { repair: 'Compressor replacement', cost: '$1,500-$3,000', notes: 'The compressor itself is usually replace-not-repair. If it fails on a system over 10 years old, replacing the entire AC unit usually makes more financial sense than dropping $1,500 to $3,000 into aging equipment.' },
+  ],
+  insuranceCoverage: `Covered if lightning or a power surge kills the compressor... that\'s a sudden, accidental event under your dwelling coverage. NOT covered for mechanical failure from wear and tear, low refrigerant, or electrical problems that developed over time. A whole-house surge protector ($200 to $500 installed) is your best defense against the one scenario insurance would cover... and it\'s cheaper than a deductible.`,
+  financingOptions: `Compressor replacement alone ($1,500 to $3,000) or full system replacement ($3,000 to $7,000) often qualifies for HVAC contractor financing through lenders like Synchrony or GreenSky. Many offer 0% for 12 to 18 months. Utility rebates of $200 to $1,000 are common for high-efficiency replacements (16 SEER and above). Check your utility company\'s website before buying.`,
+  bestBrands: [
+    { name: 'Copeland (Emerson)', knownFor: 'The most common OEM compressor in residential AC systems. When your Carrier, Trane, or Lennox unit has a compressor... it\'s probably a Copeland scroll compressor inside.' },
+    { name: 'Bristol', knownFor: 'Another major OEM compressor manufacturer. Found in many mid-range and budget AC systems. Reliable reciprocating and scroll designs.' },
+    { name: 'Danfoss', knownFor: 'High-quality compressors used in premium systems. Known for efficiency and durability. Common in commercial applications and higher-end residential units.' },
+  ],
+  installationTime: `3 to 5 hours for a compressor swap on an existing system. Includes recovering the old refrigerant, unbrazing the old compressor, installing the new one, pulling a vacuum on the system, and recharging with fresh refrigerant. A full AC system replacement takes 4 to 8 hours.`,
 }

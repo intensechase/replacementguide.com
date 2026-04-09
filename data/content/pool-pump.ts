@@ -29,4 +29,17 @@ export const content = {
     { name: 'Pool Pump Shaft Seal (PS-1000)', description: 'Universal replacement shaft seal compatible with most major pump brands. The most common failure point on pool pumps and a $20 fix that prevents a $500 pump replacement.', priceRange: '$12-$25', amazonUrl: 'https://www.amazon.com/s?k=pool+pump+shaft+seal+PS-1000&tag=replacementgu-20' },
     { name: 'Jack\'s Magic Silicone-Based Pool Lube', description: 'The correct lubricant for pump lid O-rings, filter O-rings, and all pool equipment seals. Petroleum-based lubricants degrade rubber... always use silicone-based on pool equipment.', priceRange: '$6-$10', amazonUrl: 'https://www.amazon.com/s?k=Jack%27s+Magic+silicone+pool+lube&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Replace motor', cost: '$200-$500', notes: 'The motor is what fails, not the pump body. A new motor effectively gives you a rebuilt pump. Makes sense if the wet end (housing, impeller) is in good shape and the pump is under 8 years old.' },
+    { repair: 'Replace shaft seal', cost: '$100-$250', notes: 'The most common failure point on pool pumps. A leaking shaft seal is a $15 to $30 part... the labor is the rest. A 30-minute DIY job if you\'re handy, or $100 to $250 with a pool tech.' },
+    { repair: 'Replace impeller', cost: '$100-$200', notes: 'A worn or clogged impeller reduces water flow dramatically. The $30 to $60 part is cheap... most of the cost is labor to disassemble and reassemble the pump wet end.' },
+  ],
+  insuranceCoverage: `Pool pumps are NOT covered by homeowners insurance for mechanical failure or normal wear and tear. Covered if a lightning strike fries the motor or a falling tree crushes the pump... those are sudden accidental events under your dwelling or other structures coverage. Pool equipment is expensive to maintain and insure... some homeowners add equipment breakdown coverage as a rider specifically for pool and spa components.`,
+  bestBrands: [
+    { name: 'Hayward', knownFor: 'Market leader in pool pumps. Their Super Pump and TriStar VS series are the most common pumps installed by pool builders. Wide parts availability and strong dealer network.' },
+    { name: 'Pentair', knownFor: 'Premium efficiency with the IntelliFlo and SuperFlo VS variable-speed pumps. Energy Star certified models that save up to 80% on pump energy costs. The quality standard for variable-speed.' },
+    { name: 'Jandy (Fluidra)', knownFor: 'Commercial-grade build quality for residential pools. Their VS FloPro series is known for reliability and quiet operation. Popular with pool service professionals.' },
+    { name: 'Intex', knownFor: 'Budget pumps for above-ground pools. Not in the same league as Hayward or Pentair for durability, but adequate for seasonal above-ground use.' },
+  ],
+  installationTime: `2 to 4 hours for a pool pump replacement. Includes disconnecting the old pump, cutting and replumbing the connections if the new pump has a different footprint, wiring the new motor, priming, and testing. A direct like-for-like swap on the same pad takes closer to 2 hours. Adding a variable-speed pump where a single-speed was may require minor electrical work for the different voltage.`,
 }

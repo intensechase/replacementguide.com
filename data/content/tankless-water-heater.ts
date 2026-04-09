@@ -29,4 +29,18 @@ export const content = {
     { name: 'Whirlpool WHES30E Water Softener (30,000 Grain)', description: 'Removes the calcium and magnesium that scale up the heat exchanger, dramatically extending descaling intervals and protecting the most expensive component in the unit.', priceRange: '$350-$500', amazonUrl: 'https://www.amazon.com/s?k=Whirlpool+WHES30E+water+softener&tag=replacementgu-20' },
     { name: 'Webstone Isolator Valve Kit (3/4" Threaded)', description: 'Installs on the hot and cold connections so you can flush the heat exchanger without disconnecting any plumbing, turning a 2-hour descaling job into 45 minutes.', priceRange: '$80-$140', amazonUrl: 'https://www.amazon.com/s?k=Webstone+isolator+valve+kit+tankless&tag=replacementgu-20' },
   ],
+  commonRepairs: [
+    { repair: 'Descaling (vinegar flush)', cost: '$150-$300', notes: 'Professional descaling to remove mineral buildup from the heat exchanger. This is maintenance, not really a repair... but skipping it is what turns a healthy unit into one that needs expensive repairs.' },
+    { repair: 'Replace flow sensor', cost: '$150-$300', notes: 'The flow sensor tells the unit when water is moving and how fast. When it fails, the unit either won\'t fire or produces inconsistent temperatures. Common failure on units over 8 years old.' },
+    { repair: 'Replace heat exchanger', cost: '$500-$1,500', notes: 'The most expensive repair and the one where you need to do the math. On a unit under 10 years old, it\'s worth it. On a 15-year-old unit... put that money toward a new system.' },
+  ],
+  insuranceCoverage: `Same as a standard tank water heater... homeowners insurance covers sudden, accidental damage from covered perils (fire, lightning, burst pipes). It does NOT cover mechanical failure, mineral buildup, or age-related breakdown. If your tankless unit leaks and damages flooring or drywall, the water damage is typically covered but the unit replacement is not.`,
+  financingOptions: `Tankless water heaters run $1,500 to $4,500 installed... higher upfront than tank heaters, which makes financing more common. Many plumbing companies offer financing through GreenSky or Synchrony with promotional 0% interest periods of 12 to 24 months. Utility rebates of $200 to $500 are available in many areas for high-efficiency gas models. Check dsireusa.org for local incentives before buying.`,
+  bestBrands: [
+    { name: 'Rinnai', knownFor: 'Market leader in residential tankless. Excellent parts availability, strong contractor network, and warranties up to 15 years on heat exchangers. The RU199 is their flagship whole-house unit.' },
+    { name: 'Navien', knownFor: 'Best efficiency ratings in the category. Their NPE-2 series uses a dual stainless steel heat exchanger and recirculation technology that reduces wait time for hot water.' },
+    { name: 'Noritz', knownFor: 'Reliable, well-built units with a loyal following among plumbers. Great customer support and parts availability for the long haul.' },
+    { name: 'Rheem', knownFor: 'Budget-friendly option with decent performance. Widely available at Home Depot. Good for homeowners who want tankless without the premium price tag.' },
+  ],
+  installationTime: `2 to 3 hours for a direct replacement of an existing tankless unit (same fuel type, same location). 4 to 6 hours for a new tankless install replacing a tank heater... the extra time covers running new gas lines (or upgrading the gas meter), installing proper venting, and adding the condensate drain.`,
 }
