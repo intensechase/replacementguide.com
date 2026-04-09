@@ -1,0 +1,47 @@
+export const content = {
+  slug: 'thermostat',
+  lifespanDetail: `A basic thermostat can last 20-30 years... it's a simple switch with very few parts to fail. But that doesn't mean you should keep a 20-year-old thermostat. The reason to replace isn't usually because it's broken... it's because a modern programmable or smart thermostat will save you 10-15% on heating and cooling bills every year.\n\nSmart thermostats (Nest, Ecobee, Honeywell) typically last 5-10 years before the technology feels outdated or the battery/sensors degrade. They're essentially small computers, and like any tech product, they have a shorter useful life than the dumb dial thermostats they replaced.\n\nMercury thermostats (the old round ones with the glass vial) should be replaced immediately regardless of whether they still work. They contain mercury, which is toxic, and they waste energy because they're far less precise than digital models. Many HVAC companies will swap them out for free because they can recycle the mercury.`,
+  warningSigns: [
+    { sign: 'HVAC short-cycling', detail: 'Furnace or AC turns on and off rapidly in short bursts. The thermostat is misreading the temperature or has a faulty connection, making the system cycle unnecessarily.' },
+    { sign: 'Temperature reading doesn\'t match reality', detail: 'Thermostat says 72° but the room feels like 65°. The temperature sensor is drifting or failing. Compare with a separate thermometer.' },
+    { sign: 'Unresponsive or laggy screen', detail: 'Smart thermostat touchscreen takes seconds to respond or freezes. The processor or memory is failing. Try a factory reset first... if it persists, replace.' },
+    { sign: 'HVAC doesn\'t turn on at all', detail: 'Could be the thermostat or the HVAC system itself. Swap the thermostat with a cheap $20 basic model to test. If the HVAC works with the new one, the old thermostat was the problem.' },
+    { sign: 'Battery dying frequently', detail: 'Most thermostats use AA or AAA batteries as backup. If you\'re replacing them every month instead of every year, the unit is drawing too much power... a sign of internal failure.' },
+    { sign: 'It\'s a mercury thermostat', detail: 'Round dial with a small glass tube inside. Contains toxic mercury. Replace with any digital model for better accuracy, efficiency, and safety.' },
+  ],
+  repairOrReplace: `Thermostats are almost always replaced, not repaired. Basic models cost $20-$50, programmable models $50-$100, and smart thermostats $100-$250. At those prices, a service call to diagnose and repair costs more than a new unit.\n\nThe one exception: if your smart thermostat is acting up, try a factory reset and re-setup before buying a new one. Software glitches are common and a reset fixes 80% of smart thermostat issues.\n\nWhen upgrading from a basic to a smart thermostat, check your wiring first. Most smart thermostats need a "C-wire" (common wire) for continuous power. Older homes may not have one. Some smart thermostats (Nest) can work without a C-wire but may drain your HVAC system's transformer. An add-a-wire kit ($25-$40) solves this without running new wiring.`,
+  maintenanceTips: [
+    'Replace batteries once a year even if the low-battery warning hasn\'t appeared. Dead batteries mean no heat or AC.',
+    'Clean the thermostat cover every few months. Dust on the temperature sensor causes inaccurate readings.',
+    'Don\'t install a thermostat near heat sources (sunny windows, ovens, lamps) or drafts (exterior doors, vents). Bad placement = bad readings = wasted energy.',
+    'If you have a smart thermostat, update the firmware when prompted. Updates fix bugs and improve scheduling algorithms.',
+    'Set a consistent schedule rather than constantly adjusting manually. Programmable and smart thermostats save the most money when they run on a predictable pattern.',
+  ],
+  costBreakdown: {
+    replaceLow: 25,
+    replaceHigh: 250,
+    repairLow: 0,
+    repairHigh: 50,
+    laborPercent: 'DIY in 15-30 minutes. Professional install: $50-$150 if wiring changes are needed.',
+  },
+  recommendedProducts: [
+    { name: 'Google Nest Learning Thermostat (4th Gen)', description: 'Learns your schedule and adjusts automatically. Saves 10-15% on heating/cooling per Google\'s data. Works with most HVAC systems.', priceRange: '$180-$250', amazonUrl: 'https://www.amazon.com/s?k=Google+Nest+Learning+Thermostat+4th+gen&tag=replacementgu-20' },
+    { name: 'Ecobee Smart Thermostat Premium', description: 'Includes a room sensor for balanced temperature throughout the house. Built-in Alexa. Best for homes with hot/cold spots.', priceRange: '$200-$250', amazonUrl: 'https://www.amazon.com/s?k=Ecobee+Smart+Thermostat+Premium&tag=replacementgu-20' },
+    { name: 'Honeywell Home T6 Pro Programmable', description: 'No Wi-Fi, no app... just a reliable programmable thermostat that does the job. Best for people who don\'t want smart home tech.', priceRange: '$50-$80', amazonUrl: 'https://www.amazon.com/s?k=Honeywell+T6+Pro+programmable+thermostat&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace batteries', cost: '$3-$8', notes: 'The most common fix for a "dead" thermostat. AA or AAA depending on model.' },
+    { repair: 'Factory reset (smart thermostats)', cost: '$0', notes: 'Fixes most software glitches, scheduling issues, and connectivity problems. Check manufacturer\'s instructions.' },
+    { repair: 'Tighten or reconnect wiring', cost: '$0-$50 DIY / $75-$150 pro', notes: 'Loose wires at the thermostat terminal are common after settling or remodeling. Turn off HVAC breaker before touching wires.' },
+    { repair: 'Add a C-wire adapter', cost: '$25-$40', notes: 'Needed when upgrading to a smart thermostat in an older home without a common wire. Installs at the furnace end.' },
+    { repair: 'Replace thermostat baseplate', cost: '$10-$30', notes: 'If the mounting plate is cracked or the wire terminals are corroded. Cheaper than a full replacement.' },
+  ],
+  insuranceCoverage: `Thermostats are too inexpensive for an insurance claim. Even a $250 smart thermostat is well below any standard deductible.\n\nHowever, if a thermostat malfunction causes your HVAC to run nonstop and damages the system... the HVAC damage itself might be covered depending on your policy. This is extremely rare but worth knowing.\n\nSome utility companies offer rebates ($50-$100) for upgrading to an Energy Star-certified smart thermostat. Check with your local gas or electric utility before purchasing... the rebate can cover a third to half the cost.`,
+  bestBrands: [
+    { name: 'Google Nest', knownFor: 'The thermostat that started the smart home revolution. Learning algorithm adapts to your schedule. Clean design. Strong app and Google Home integration. Most widely used smart thermostat.' },
+    { name: 'Ecobee', knownFor: 'Best room sensor system... includes wireless sensors to balance temperature across rooms. Built-in Alexa voice assistant. Slightly better multi-room performance than Nest.' },
+    { name: 'Honeywell Home', knownFor: 'The legacy thermostat brand. Wide range from basic ($25) to smart ($200+). T6 Pro is the best non-smart programmable. Compatible with virtually every HVAC system.' },
+    { name: 'Emerson Sensi', knownFor: 'Great value smart thermostat. Works with C-wire or without (on many systems). Simple setup. Good for people who want smart features without complexity.' },
+  ],
+  installationTime: `Basic thermostat swap: 15-30 minutes DIY. Turn off HVAC breaker, remove old thermostat faceplate, label each wire with the terminal letter it's connected to (take a photo), disconnect wires, mount new baseplate, connect wires to matching terminals, attach faceplate, turn breaker back on.\n\nSmart thermostat installation: 30-60 minutes DIY. Same process but you may need to identify your system type (conventional, heat pump, multi-stage) and potentially add a C-wire adapter.\n\nProfessional installation: $50-$150 and takes 30-60 minutes. Worth it if you're not comfortable with low-voltage wiring or if your system has unusual wiring (older homes, multi-zone systems, heat pumps with auxiliary heat).\n\nThe most important step: photograph your existing wiring BEFORE removing anything. If you mix up wires, you can blow a fuse on your HVAC control board ($50-$200 to replace).`,
+}
