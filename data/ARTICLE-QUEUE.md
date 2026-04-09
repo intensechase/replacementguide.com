@@ -226,10 +226,16 @@ Each page: explain what's covered vs not, then link to our replacement cost page
 - [ ] New Homeowner Checklist — 320/mo, $4.02 CPC → links to every product page
 - [ ] Hidden Costs of Homeownership — 210/mo, $3.20 CPC
 
-## Tools to build
-- [ ] Wiper Size Finder — year/make/model form → Amazon search with affiliate tag. Top 50-100 vehicles. High conversion.
-- [ ] AC Size Calculator — sq footage → recommended tonnage. Links to AC replacement page.
+## Tools to build (evaluate later)
+- [ ] Wiper Size Finder — year/make/model → Amazon search with affiliate tag. High conversion.
+- [ ] AC Size Calculator — sq footage → recommended tonnage. Links to AC page.
 - [ ] Water Heater Size Calculator — household size → recommended gallons. Links to water heater page.
+- [ ] "How Old Is My Thing" Calculator — enter install date → age + remaining lifespan + green/yellow/red status
+- [ ] Home Maintenance Schedule — enter move-in date → personalized yearly checklist, links to all product pages
+- [ ] Repair or Replace Calculator — enter repair cost + age → recommends based on 50% rule
+- [ ] Cost Estimator by Zip — regional pricing (national averages for MVP)
+- [ ] Site Search — search all products, troubleshoot, maintenance
+- [ ] "What's Wrong?" Symptom Checker — describe symptom → matched to troubleshoot guide
 
 ## FOLD-INS (not separate pages — add as sections to existing pages)
 
