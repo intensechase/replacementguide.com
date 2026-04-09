@@ -22,11 +22,15 @@ const modules: Record<string, () => Promise<{ article: BlogArticle }>> = {
 import { article as electricBill } from './why-is-my-electric-bill-so-high'
 import { article as gasBill } from './why-is-my-gas-bill-so-high'
 import { article as waterBill } from './why-is-my-water-bill-so-high'
+import { article as roofFinancing } from './roof-financing-options'
+import { article as hvacFinancing } from './hvac-financing-options'
 
 const allArticles: BlogArticle[] = [
   electricBill,
   gasBill,
   waterBill,
+  hvacFinancing,
+  roofFinancing,
 ]
 
 export function getAllArticles(): BlogArticle[] {
