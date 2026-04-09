@@ -57,6 +57,11 @@ export const products: Product[] = [
   { name: 'Metal Roof', slug: 'metal-roof', category: 'home', lifespanMin: 40, lifespanMax: 70, lifespanUnit: 'years', costLow: 10000, costHigh: 25000 },
   { name: 'Stucco', slug: 'stucco', category: 'home', lifespanMin: 50, lifespanMax: 80, lifespanUnit: 'years', costLow: 6000, costHigh: 15000 },
 
+  { name: 'French Drain', slug: 'french-drain', category: 'home', lifespanMin: 10, lifespanMax: 30, lifespanUnit: 'years', costLow: 2000, costHigh: 6000 },
+  { name: 'Circuit Breaker', slug: 'circuit-breaker', category: 'home', lifespanMin: 25, lifespanMax: 40, lifespanUnit: 'years', costLow: 150, costHigh: 400 },
+  { name: 'Laminate Flooring', slug: 'laminate-flooring', category: 'home', lifespanMin: 15, lifespanMax: 25, lifespanUnit: 'years', costLow: 3, costHigh: 8 },
+  { name: 'Spray Foam Insulation', slug: 'spray-foam-insulation', category: 'home', lifespanMin: 80, lifespanMax: 100, lifespanUnit: 'years', costLow: 1500, costHigh: 5000 },
+
   // ==================== AUTO (25) ====================
   { name: 'Car Battery', slug: 'battery', category: 'auto', lifespanMin: 3, lifespanMax: 5, lifespanUnit: 'years', costLow: 100, costHigh: 300 },
   { name: 'Tires', slug: 'tires', category: 'auto', lifespanMin: 3, lifespanMax: 5, lifespanUnit: 'years', costLow: 400, costHigh: 1200 },
