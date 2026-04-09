@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'brake-pads',
+  lifespanDetail: `Brake pads last 25,000 to 65,000 miles on average... but that range is massive because driving style matters more than almost anything else. City drivers who ride the brakes in stop-and-go traffic might burn through pads in 25,000 miles. Highway commuters who barely touch the brake pedal can push past 70,000.\n\nPad material is the other big factor. Organic pads are cheapest but wear fastest (20,000-40,000 miles). Ceramic pads last longest (40,000-70,000 miles), run quieter, and produce less dust... but cost more upfront. Semi-metallic pads fall in the middle and handle heat better, which is why they're common on trucks and performance vehicles.\n\nFront brakes wear 2-3 times faster than rears because they do most of the stopping work. Don't be surprised if you need front pads replaced twice before the rears need attention. This is normal, not a sign of a problem.`,
+  warningSigns: [
+    { sign: 'High-pitched squealing when braking', detail: 'Most brake pads have a built-in wear indicator... a small metal tab that contacts the rotor when pads are thin. That squeal is by design. It means you have about 1,000-2,000 miles left.' },
+    { sign: 'Grinding metal-on-metal sound', detail: 'You\'ve gone past the squeal stage. Pad material is completely gone and the metal backing plate is grinding against the rotor. This damages rotors and costs significantly more to fix. Stop driving and get it done now.' },
+    { sign: 'Brake pedal feels soft or spongy', detail: 'Could be worn pads, air in the brake lines, or low brake fluid. Any of these need immediate attention... brakes are not something to "wait and see" on.' },
+    { sign: 'Car pulls to one side when braking', detail: 'Uneven pad wear or a sticking caliper. One side is gripping harder than the other. Needs inspection.' },
+    { sign: 'Vibration or pulsing in the brake pedal', detail: 'Usually means warped rotors, not just worn pads. Common after heavy braking (mountain driving, towing). Rotors may need resurfacing or replacement along with new pads.' },
+    { sign: 'Brake dust changes', detail: 'Suddenly less brake dust on your wheels can mean the pads are worn down to the point where there\'s less material to shed. More dust than usual can mean a pad is deteriorating.' },
+  ],
+  repairOrReplace: `Brake pads are always replaced, never repaired. They're a wear item... once the friction material is gone, you put on new ones. The real question is whether you also need rotors.\n\nIf you caught it at the squealing stage, you probably just need pads ($150-$300 per axle installed). If you waited until grinding, the rotors are likely scored and need replacement too ($300-$600 per axle for pads AND rotors).\n\nThe "rotor question": rotors can sometimes be resurfaced (machined smooth) instead of replaced, saving $100-$200 per axle. But if they're below minimum thickness or badly grooved, they must be replaced. Most shops will measure them and tell you honestly.\n\nDIY is realistic for brake pads if you're moderately handy. The parts are $30-$80 per axle, and there are thousands of YouTube tutorials. You need a jack, jack stands, a lug wrench, and basic hand tools. Budget 1-2 hours per axle for your first time.`,
+  maintenanceTips: [
+    'Don\'t ride the brakes on hills... use engine braking (downshift) on long descents. Sustained braking generates heat that warps rotors and glazes pads.',
+    'Leave following distance. Anticipating stops instead of slamming brakes at the last second dramatically extends pad life.',
+    'Have brakes inspected at every tire rotation (every 6,000-8,000 miles). Most shops do this for free.',
+    'If you hear the squeal, schedule service within a week. Every mile of grinding costs more money.',
+    'Flush brake fluid every 2-3 years. Old fluid absorbs moisture, lowers boiling point, and corrodes calipers from the inside.',
+  ],
+  costBreakdown: {
+    replaceLow: 150,
+    replaceHigh: 400,
+    repairLow: 30,
+    repairHigh: 80,
+    laborPercent: 'Pads only: $100-$150 labor per axle. Pads + rotors: $150-$250 labor per axle.',
+  },
+  recommendedProducts: [
+    { name: 'Wagner QuickStop Ceramic Brake Pads', description: 'OE-quality ceramic pads that run quiet and produce minimal dust. One of the best-selling aftermarket pads for a reason.', priceRange: '$25-$50 per axle', amazonUrl: 'https://www.amazon.com/s?k=Wagner+QuickStop+ceramic+brake+pads&tag=replacementgu-20' },
+    { name: 'CRC Brakleen Brake Parts Cleaner', description: 'Spray on rotors and calipers during pad changes to remove grease and dust. Prevents squeaking from contamination.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=CRC+Brakleen+brake+parts+cleaner&tag=replacementgu-20' },
+    { name: 'Permatex Ceramic Extreme Brake Lubricant', description: 'Apply to the back of pads and caliper slide pins during installation. Prevents squeal and ensures smooth caliper movement.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=Permatex+ceramic+extreme+brake+lubricant&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace front brake pads only', cost: '$150-$300 per axle', notes: 'Most common brake job. Front pads wear 2-3x faster than rears.' },
+    { repair: 'Replace pads and rotors', cost: '$300-$600 per axle', notes: 'Needed if rotors are scored from grinding or below minimum thickness.' },
+    { repair: 'Resurface (machine) rotors', cost: '$50-$100 per rotor', notes: 'Saves money vs replacement if rotors are still thick enough. Not always possible.' },
+    { repair: 'Replace brake caliper', cost: '$200-$500 per caliper', notes: 'If caliper is sticking or leaking. Less common but causes uneven wear.' },
+    { repair: 'Brake fluid flush', cost: '$75-$150', notes: 'Every 2-3 years. Old fluid absorbs moisture and reduces braking performance.' },
+  ],
+  insuranceCoverage: `Auto insurance does not cover brake pad replacement. Brakes are a maintenance item... they wear out from normal use and are your responsibility to maintain.\n\nThe only scenario where insurance might be involved: if your brakes are damaged in a collision or covered accident, the brake repair would be part of the overall collision claim. But you'd never file a claim just for worn brake pads.\n\nSome extended vehicle warranties and prepaid maintenance plans cover brake pads. Check your vehicle's warranty terms if it's still relatively new. Certified pre-owned vehicles sometimes include brake coverage for the first year or two.`,
+  bestBrands: [
+    { name: 'Wagner (QuickStop/ThermoQuiet)', knownFor: 'Best-selling aftermarket brake pads in the US. Ceramic options are quiet and low-dust. Great for daily drivers. Available everywhere.' },
+    { name: 'Bosch (QuietCast/Blue)', knownFor: 'OE-quality replacement. QuietCast Premium is excellent for European vehicles. Consistent stopping power and long life.' },
+    { name: 'ACDelco (Professional/Advantage)', knownFor: 'GM\'s OEM brand. Professional line is OE-spec. Advantage is their budget line. Both are solid for GM vehicles.' },
+    { name: 'Akebono (ProACT)', knownFor: 'Japanese OEM supplier for Toyota, Honda, Nissan. Ultra-quiet ceramic pads. Premium price but the best for noise-sensitive drivers.' },
+    { name: 'Power Stop (Z23/Z26)', knownFor: 'Best for trucks and performance. Z23 is their sport pad, Z26 is extreme performance. Come with drilled/slotted rotors in kit form.' },
+  ],
+  installationTime: `A brake pad replacement takes 30-60 minutes per axle at a shop. Both front or both rear done together is standard... you never replace just one side.\n\nIf rotors need replacement too, add 15-30 minutes per axle. A full 4-wheel brake job (pads and rotors on all four wheels) takes 2-3 hours.\n\nDIY time: budget 1-2 hours per axle for your first time, 30-45 minutes once you've done it before. Front brakes are typically easier than rears (some rear setups involve the parking brake mechanism).\n\nNo appointment needed at most brake shops... many do walk-in service. But expect to wait 1-2 hours if you don't have an appointment. Dealerships are slowest (half-day) and most expensive. Independent shops and chains like Midas, Meineke, or Firestone are faster and cheaper.`,
+}
