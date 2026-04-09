@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'Malco SRT2 Vinyl Siding Removal Tool', description: 'The essential tool for removing and replacing individual vinyl siding panels. Hooks the locking strip so you can unzip panels without damaging them. Every homeowner with vinyl siding should have one.', priceRange: '$6-$12', amazonUrl: '' },
-    { name: 'Mold Armor E-Z House Wash', description: 'Connects to a garden hose and removes mold, mildew, and algae from vinyl siding without scrubbing. Covers up to 3,500 square feet per bottle.', priceRange: '$10-$18', amazonUrl: '' },
-    { name: 'DAP Dynaflex 230 Siding and Window Sealant', description: 'Premium sealant for sealing gaps around windows, doors, and penetrations in vinyl siding. Stays flexible, paintable, and weather-resistant for 15+ years.', priceRange: '$5-$8', amazonUrl: '' },
+    { name: 'Malco SRT2 Vinyl Siding Removal Tool', description: 'The essential tool for removing and replacing individual vinyl siding panels. Hooks the locking strip so you can unzip panels without damaging them. Every homeowner with vinyl siding should have one.', priceRange: '$6-$12', amazonUrl: 'https://www.amazon.com/s?k=Malco+SRT2+vinyl+siding+removal+tool&tag=replacementgu-20' },
+    { name: 'Mold Armor E-Z House Wash', description: 'Connects to a garden hose and removes mold, mildew, and algae from vinyl siding without scrubbing. Covers up to 3,500 square feet per bottle.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Mold+Armor+E-Z+house+wash&tag=replacementgu-20' },
+    { name: 'DAP Dynaflex 230 Siding and Window Sealant', description: 'Premium sealant for sealing gaps around windows, doors, and penetrations in vinyl siding. Stays flexible, paintable, and weather-resistant for 15+ years.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=DAP+Dynaflex+230+siding+window+sealant&tag=replacementgu-20' },
   ],
 }

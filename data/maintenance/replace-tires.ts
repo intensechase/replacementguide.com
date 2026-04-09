@@ -20,9 +20,9 @@ export const guide = {
     'Vibration at highway speeds that wasn\'t there before... this can indicate internal tire damage (broken belts), uneven wear, or a tire that\'s out of balance.',
   ],
   recommendedProducts: [
-    { name: 'Michelin Defender 2 All-Season Tire', description: 'One of the highest-rated all-season tires with an 80,000-mile treadwear warranty. Excellent wet and dry grip with a comfortable ride. The benchmark for longevity.', priceRange: '$140-$220 each', amazonUrl: '' },
-    { name: 'Continental TrueContact Tour', description: 'Strong competitor to the Michelin Defender with an 80,000-mile warranty. Slightly quieter ride and excellent fuel efficiency from low rolling resistance.', priceRange: '$130-$200 each', amazonUrl: '' },
-    { name: 'AstroAI Digital Tire Pressure Gauge', description: 'Check tire pressure monthly... underinflated tires wear faster on the edges and cost you 3% in fuel economy for every 1 PSI below spec. This gauge is accurate to 0.1 PSI.', priceRange: '$8-$14', amazonUrl: '' },
+    { name: 'Michelin Defender 2 All-Season Tire', description: 'One of the highest-rated all-season tires with an 80,000-mile treadwear warranty. Excellent wet and dry grip with a comfortable ride. The benchmark for longevity.', priceRange: '$140-$220 each', amazonUrl: 'https://www.amazon.com/s?k=Michelin+Defender+2+all+season+tire&tag=replacementgu-20' },
+    { name: 'Continental TrueContact Tour', description: 'Strong competitor to the Michelin Defender with an 80,000-mile warranty. Slightly quieter ride and excellent fuel efficiency from low rolling resistance.', priceRange: '$130-$200 each', amazonUrl: 'https://www.amazon.com/s?k=Continental+TrueContact+Tour+tire&tag=replacementgu-20' },
+    { name: 'AstroAI Digital Tire Pressure Gauge', description: 'Check tire pressure monthly... underinflated tires wear faster on the edges and cost you 3% in fuel economy for every 1 PSI below spec. This gauge is accurate to 0.1 PSI.', priceRange: '$8-$14', amazonUrl: 'https://www.amazon.com/s?k=AstroAI+digital+tire+pressure+gauge&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'auto', slug: 'brake-pads', name: 'Brake Pads' },
 }

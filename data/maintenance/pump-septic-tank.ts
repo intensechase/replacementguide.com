@@ -20,9 +20,9 @@ export const guide = {
     'Sewage backing up into the lowest drains in the house... this is the worst-case scenario and means the system is completely full. Call a pumper immediately.',
   ],
   recommendedProducts: [
-    { name: 'RID-X Septic Treatment (12-Month Supply)', description: 'Monthly enzyme and bacteria treatment that helps break down waste between pumpings. Won\'t replace pumping, but helps maintain the bacterial balance... especially useful after heavy antibiotic use or if household cleaners have disrupted the tank biology.', priceRange: '$20-$30', amazonUrl: '' },
-    { name: 'Tashman Septic Tank Riser Kit (20-inch)', description: 'Brings the access lid to ground level so the pumping truck doesn\'t have to dig up your yard every time. Pays for itself in 2 pumpings and makes inspections easier.', priceRange: '$80-$150', amazonUrl: '' },
-    { name: 'Septic Tank Marker Flag Stakes', description: 'Simple but useful... mark the location of your tank and cleanout for the pumping company so they don\'t spend 30 minutes probing your yard at $150/hour.', priceRange: '$5-$12', amazonUrl: '' },
+    { name: 'RID-X Septic Treatment (12-Month Supply)', description: 'Monthly enzyme and bacteria treatment that helps break down waste between pumpings. Won\'t replace pumping, but helps maintain the bacterial balance... especially useful after heavy antibiotic use or if household cleaners have disrupted the tank biology.', priceRange: '$20-$30', amazonUrl: 'https://www.amazon.com/s?k=RID-X+septic+treatment+12+month+supply&tag=replacementgu-20' },
+    { name: 'Tashman Septic Tank Riser Kit (20-inch)', description: 'Brings the access lid to ground level so the pumping truck doesn\'t have to dig up your yard every time. Pays for itself in 2 pumpings and makes inspections easier.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=septic+tank+riser+kit&tag=replacementgu-20' },
+    { name: 'Septic Tank Marker Flag Stakes', description: 'Simple but useful... mark the location of your tank and cleanout for the pumping company so they don\'t spend 30 minutes probing your yard at $150/hour.', priceRange: '$5-$12', amazonUrl: 'https://www.amazon.com/s?k=septic+tank+marker+flag+stakes&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'home', slug: 'septic-tank', name: 'Septic Tank' },
 }

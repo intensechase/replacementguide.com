@@ -28,8 +28,8 @@ export const content = {
     laborPercent: '50-65%',
   },
   recommendedProducts: [
-    { name: 'Filtrete 16x25x1 MPR 1500 Furnace Filters (6-Pack)', description: 'The single easiest way to extend furnace life by 3-5 years, prevents the heat exchanger overheating that causes most premature failures.', priceRange: '$55-$75', amazonUrl: '' },
-    { name: 'Google Nest Learning Thermostat', description: 'Learns your schedule and adjusts automatically, reducing short-cycling and cutting heating costs by 10-15% per year.', priceRange: '$130-$250', amazonUrl: '' },
-    { name: 'Kidde Nighthawk Carbon Monoxide Detector', description: 'Your last line of defense if the heat exchanger cracks, which is the most dangerous furnace failure and often has no visible warning signs.', priceRange: '$25-$40', amazonUrl: '' },
+    { name: 'Filtrete 16x25x1 MPR 1500 Furnace Filters (6-Pack)', description: 'The single easiest way to extend furnace life by 3-5 years, prevents the heat exchanger overheating that causes most premature failures.', priceRange: '$55-$75', amazonUrl: 'https://www.amazon.com/s?k=Filtrete+MPR+1500+furnace+filter&tag=replacementgu-20' },
+    { name: 'Google Nest Learning Thermostat', description: 'Learns your schedule and adjusts automatically, reducing short-cycling and cutting heating costs by 10-15% per year.', priceRange: '$130-$250', amazonUrl: 'https://www.amazon.com/s?k=Google+Nest+Learning+Thermostat&tag=replacementgu-20' },
+    { name: 'Kidde Nighthawk Carbon Monoxide Detector', description: 'Your last line of defense if the heat exchanger cracks, which is the most dangerous furnace failure and often has no visible warning signs.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=Kidde+Nighthawk+carbon+monoxide+detector&tag=replacementgu-20' },
   ],
 }

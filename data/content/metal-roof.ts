@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'Rust-Oleum Stops Rust Rusty Metal Primer', description: 'Converts light surface rust and provides a base coat for touch-up paint. Apply to scratches and early rust spots before they spread under the roof coating.', priceRange: '$8-$14', amazonUrl: '' },
-    { name: 'Titebond Metal Roof Sealant', description: 'Polyurethane sealant designed for metal roof seams, fasteners, and flashing. Stays flexible through temperature extremes and bonds to all metal roof surfaces.', priceRange: '$8-$12', amazonUrl: '' },
-    { name: 'Metal Roof Screw with EPDM Washer (250-pack)', description: 'Replacement screws with rubber washers for re-screwing exposed fastener roofs. Match the hex head size and screw length to your existing fasteners. Stainless steel screws resist corrosion longer than zinc-plated.', priceRange: '$30-$50 (250-pack)', amazonUrl: '' },
+    { name: 'Rust-Oleum Stops Rust Rusty Metal Primer', description: 'Converts light surface rust and provides a base coat for touch-up paint. Apply to scratches and early rust spots before they spread under the roof coating.', priceRange: '$8-$14', amazonUrl: 'https://www.amazon.com/s?k=Rust-Oleum+Stops+Rust+metal+primer&tag=replacementgu-20' },
+    { name: 'Titebond Metal Roof Sealant', description: 'Polyurethane sealant designed for metal roof seams, fasteners, and flashing. Stays flexible through temperature extremes and bonds to all metal roof surfaces.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=Titebond+metal+roof+sealant&tag=replacementgu-20' },
+    { name: 'Metal Roof Screw with EPDM Washer (250-pack)', description: 'Replacement screws with rubber washers for re-screwing exposed fastener roofs. Match the hex head size and screw length to your existing fasteners. Stainless steel screws resist corrosion longer than zinc-plated.', priceRange: '$30-$50 (250-pack)', amazonUrl: 'https://www.amazon.com/s?k=metal+roof+screws+EPDM+washer&tag=replacementgu-20' },
   ],
 }

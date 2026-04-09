@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'US Fabric Non-Woven Geotextile Drainage Fabric (6ft x 300ft)', description: 'Wraps around the drain pipe and gravel to filter out silt and clay particles, the component that determines whether your French drain lasts 10 years or 25.', priceRange: '$80-$150', amazonUrl: '' },
-    { name: 'NDS 9" Square Catch Basin Kit with Grate', description: 'Collects surface water at low points and channels it into the French drain system, preventing standing water from overwhelming the drain at the intake end.', priceRange: '$25-$45', amazonUrl: '' },
-    { name: 'Pea Gravel / Washed River Rock (0.5 cubic yard bag)', description: 'Rounded washed gravel that will not break down into fines like crushed limestone, keeping the drain channel porous and free-flowing for decades.', priceRange: '$40-$60', amazonUrl: '' },
+    { name: 'US Fabric Non-Woven Geotextile Drainage Fabric (6ft x 300ft)', description: 'Wraps around the drain pipe and gravel to filter out silt and clay particles, the component that determines whether your French drain lasts 10 years or 25.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=non-woven+geotextile+drainage+fabric&tag=replacementgu-20' },
+    { name: 'NDS 9" Square Catch Basin Kit with Grate', description: 'Collects surface water at low points and channels it into the French drain system, preventing standing water from overwhelming the drain at the intake end.', priceRange: '$25-$45', amazonUrl: 'https://www.amazon.com/s?k=NDS+square+catch+basin+kit+grate&tag=replacementgu-20' },
+    { name: 'Pea Gravel / Washed River Rock (0.5 cubic yard bag)', description: 'Rounded washed gravel that will not break down into fines like crushed limestone, keeping the drain channel porous and free-flowing for decades.', priceRange: '$40-$60', amazonUrl: 'https://www.amazon.com/s?k=pea+gravel+drainage+rock&tag=replacementgu-20' },
   ],
 }

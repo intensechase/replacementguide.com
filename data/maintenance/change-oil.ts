@@ -20,9 +20,9 @@ export const guide = {
     'Exhaust smoke has a blue tint... this can indicate oil is burning due to degradation or low levels, which means you\'re past due.',
   ],
   recommendedProducts: [
-    { name: 'Mobil 1 Extended Performance Full Synthetic 5W-30', description: 'The go-to full synthetic for most vehicles. Proven protection up to 20,000 miles in lab testing, though real-world 7,500 to 10,000 is the sweet spot.', priceRange: '$27-$32 (5 qt)', amazonUrl: '' },
-    { name: 'Valvoline High Mileage with MaxLife Technology', description: 'Best choice for vehicles over 75,000 miles. Contains seal conditioners that reduce leaks and burn-off in aging engines.', priceRange: '$25-$30 (5 qt)', amazonUrl: '' },
-    { name: 'FRAM Extra Guard Oil Filter', description: 'Solid mid-range filter that traps 95% of dirt and particles. Change the filter every time you change the oil... never reuse a filter.', priceRange: '$5-$9', amazonUrl: '' },
+    { name: 'Mobil 1 Extended Performance Full Synthetic 5W-30', description: 'The go-to full synthetic for most vehicles. Proven protection up to 20,000 miles in lab testing, though real-world 7,500 to 10,000 is the sweet spot.', priceRange: '$27-$32 (5 qt)', amazonUrl: 'https://www.amazon.com/s?k=Mobil+1+Extended+Performance+5W-30&tag=replacementgu-20' },
+    { name: 'Valvoline High Mileage with MaxLife Technology', description: 'Best choice for vehicles over 75,000 miles. Contains seal conditioners that reduce leaks and burn-off in aging engines.', priceRange: '$25-$30 (5 qt)', amazonUrl: 'https://www.amazon.com/s?k=Valvoline+High+Mileage+MaxLife+motor+oil&tag=replacementgu-20' },
+    { name: 'FRAM Extra Guard Oil Filter', description: 'Solid mid-range filter that traps 95% of dirt and particles. Change the filter every time you change the oil... never reuse a filter.', priceRange: '$5-$9', amazonUrl: 'https://www.amazon.com/s?k=FRAM+Extra+Guard+oil+filter&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'auto', slug: 'tires', name: 'Tires' },
 }

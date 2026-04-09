@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '60-70%',
   },
   recommendedProducts: [
-    { name: 'Great Stuff Gaps and Cracks Insulating Foam Sealant (12oz, 6-Pack)', description: 'Fills small gaps where spray foam has pulled away from framing, sealing the air leaks that account for most energy loss in an otherwise insulated home.', priceRange: '$30-$45', amazonUrl: '' },
-    { name: 'Newborn 930-GTD Caulk Gun (Drip-Free)', description: 'Applies sealant around foam edges and penetrations with precision, and the drip-free mechanism prevents the mess that makes most homeowners avoid caulking.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'FLIR TG165-X Thermal Leak Detector', description: 'Reveals exactly where insulation gaps, cold spots, and air leaks are hiding behind walls so you fix the actual problem areas instead of guessing.', priceRange: '$200-$300', amazonUrl: '' },
+    { name: 'Great Stuff Gaps and Cracks Insulating Foam Sealant (12oz, 6-Pack)', description: 'Fills small gaps where spray foam has pulled away from framing, sealing the air leaks that account for most energy loss in an otherwise insulated home.', priceRange: '$30-$45', amazonUrl: 'https://www.amazon.com/s?k=Great+Stuff+gaps+and+cracks+foam+sealant&tag=replacementgu-20' },
+    { name: 'Newborn 930-GTD Caulk Gun (Drip-Free)', description: 'Applies sealant around foam edges and penetrations with precision, and the drip-free mechanism prevents the mess that makes most homeowners avoid caulking.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Newborn+930-GTD+caulk+gun+drip+free&tag=replacementgu-20' },
+    { name: 'FLIR TG165-X Thermal Leak Detector', description: 'Reveals exactly where insulation gaps, cold spots, and air leaks are hiding behind walls so you fix the actual problem areas instead of guessing.', priceRange: '$200-$300', amazonUrl: 'https://www.amazon.com/s?k=FLIR+TG165-X+thermal+leak+detector&tag=replacementgu-20' },
   ],
 }

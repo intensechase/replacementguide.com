@@ -20,9 +20,9 @@ export const guide = {
     'Transmission warning light on the dashboard... modern vehicles monitor transmission temperature and fluid condition. Don\'t ignore this one... transmission damage escalates fast.',
   ],
   recommendedProducts: [
-    { name: 'Valvoline MaxLife Multi-Vehicle ATF', description: 'Compatible with most automatic transmissions and contains seal conditioners to prevent leaks in aging transmissions. A safe choice when you\'re not sure which fluid to buy.', priceRange: '$20-$28 (gallon)', amazonUrl: '' },
-    { name: 'Royal Purple Synchromax Manual Transmission Fluid', description: 'High-performance synthetic fluid that makes manual shifts smoother and protects synchronizers better than conventional gear oil.', priceRange: '$12-$16 (quart)', amazonUrl: '' },
-    { name: 'Dorman Transmission Pan Gasket Kit', description: 'If you\'re doing a drain-and-fill yourself, always replace the pan gasket. Reusing the old one is asking for a leak.', priceRange: '$10-$25', amazonUrl: '' },
+    { name: 'Valvoline MaxLife Multi-Vehicle ATF', description: 'Compatible with most automatic transmissions and contains seal conditioners to prevent leaks in aging transmissions. A safe choice when you\'re not sure which fluid to buy.', priceRange: '$20-$28 (gallon)', amazonUrl: 'https://www.amazon.com/s?k=Valvoline+MaxLife+multi+vehicle+ATF&tag=replacementgu-20' },
+    { name: 'Royal Purple Synchromax Manual Transmission Fluid', description: 'High-performance synthetic fluid that makes manual shifts smoother and protects synchronizers better than conventional gear oil.', priceRange: '$12-$16 (quart)', amazonUrl: 'https://www.amazon.com/s?k=Royal+Purple+Synchromax+transmission+fluid&tag=replacementgu-20' },
+    { name: 'Dorman Transmission Pan Gasket Kit', description: 'If you\'re doing a drain-and-fill yourself, always replace the pan gasket. Reusing the old one is asking for a leak.', priceRange: '$10-$25', amazonUrl: 'https://www.amazon.com/s?k=Dorman+transmission+pan+gasket+kit&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'auto', slug: 'transmission', name: 'Transmission' },
 }

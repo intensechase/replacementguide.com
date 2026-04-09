@@ -28,9 +28,9 @@ export const content = {
     laborPercent: '60-70%',
   },
   recommendedProducts: [
-    { name: 'Nikon Aculon A211 10x42 Binoculars', description: 'Inspect shingles, flashing, and storm damage from the ground without climbing a ladder.', priceRange: '$90-$120', amazonUrl: '' },
-    { name: 'Henry Wet Patch Roof Cement', description: 'Seals small flashing gaps and minor cracks to buy time before a full replacement.', priceRange: '$8-$15', amazonUrl: '' },
-    { name: 'LeafFilter-Style Micro-Mesh Gutter Guards (200ft)', description: 'Prevents clogged gutters that back water under shingle edges... the most common cause of premature roof edge rot.', priceRange: '$150-$350', amazonUrl: '' },
+    { name: 'Nikon Aculon A211 10x42 Binoculars', description: 'Inspect shingles, flashing, and storm damage from the ground without climbing a ladder.', priceRange: '$90-$120', amazonUrl: 'https://www.amazon.com/s?k=Nikon+Aculon+A211+10x42+binoculars&tag=replacementgu-20' },
+    { name: 'Henry Wet Patch Roof Cement', description: 'Seals small flashing gaps and minor cracks to buy time before a full replacement.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Henry+Wet+Patch+roof+cement&tag=replacementgu-20' },
+    { name: 'LeafFilter-Style Micro-Mesh Gutter Guards (200ft)', description: 'Prevents clogged gutters that back water under shingle edges... the most common cause of premature roof edge rot.', priceRange: '$150-$350', amazonUrl: 'https://www.amazon.com/s?k=micro+mesh+gutter+guards&tag=replacementgu-20' },
   ],
   commonRepairs: [
     { repair: 'Replace missing/damaged shingles', cost: '$150-$400', notes: 'Per area. DIY-friendly if you\'re comfortable on a ladder.' },

@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '50-65%',
   },
   recommendedProducts: [
-    { name: '3-IN-ONE Professional Garage Door Lubricant', description: 'Silicone-based spray specifically designed for garage door springs, rollers, and hinges. Prevents rust and reduces friction that wears springs down prematurely.', priceRange: '$6-$10', amazonUrl: '' },
-    { name: 'Garage Door Spring Winding Bars (Set of 2)', description: 'Only for professionals or experienced DIYers working on torsion springs. These 18-inch steel bars are the only safe tool for winding and unwinding torsion springs... never use screwdrivers or rebar.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'Prime-Line Safety Cables for Extension Springs', description: 'Run through the center of extension springs to contain them if they break. If your extension springs don\'t have safety cables, install these immediately... a broken extension spring becomes a dangerous projectile.', priceRange: '$8-$15 (pair)', amazonUrl: '' },
+    { name: '3-IN-ONE Professional Garage Door Lubricant', description: 'Silicone-based spray specifically designed for garage door springs, rollers, and hinges. Prevents rust and reduces friction that wears springs down prematurely.', priceRange: '$6-$10', amazonUrl: 'https://www.amazon.com/s?k=3-IN-ONE+garage+door+lubricant&tag=replacementgu-20' },
+    { name: 'Garage Door Spring Winding Bars (Set of 2)', description: 'Only for professionals or experienced DIYers working on torsion springs. These 18-inch steel bars are the only safe tool for winding and unwinding torsion springs... never use screwdrivers or rebar.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=garage+door+spring+winding+bars&tag=replacementgu-20' },
+    { name: 'Prime-Line Safety Cables for Extension Springs', description: 'Run through the center of extension springs to contain them if they break. If your extension springs don\'t have safety cables, install these immediately... a broken extension spring becomes a dangerous projectile.', priceRange: '$8-$15 (pair)', amazonUrl: 'https://www.amazon.com/s?k=Prime-Line+safety+cables+extension+springs&tag=replacementgu-20' },
   ],
 }

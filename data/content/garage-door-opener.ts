@@ -27,8 +27,8 @@ export const content = {
     laborPercent: '35-50%',
   },
   recommendedProducts: [
-    { name: 'Chamberlain KLIK5U-BK2 Universal Garage Door Remote (2-Pack)', description: 'Works with all major opener brands and replaces lost or broken remotes in minutes without reprogramming the entire system.', priceRange: '$30-$45', amazonUrl: '' },
-    { name: 'Chamberlain 041A5034 Safety Sensor Pair', description: 'Replaces the photoelectric sensors that prevent the door from closing on people and objects, the component most likely to cause "door won\'t close" problems.', priceRange: '$20-$35', amazonUrl: '' },
-    { name: 'GE LED Garage Door Opener Light Bulb (2-Pack)', description: 'Vibration-rated LED bulbs that will not flicker or burn out from the constant shaking of garage door operation, unlike standard bulbs that fail within months.', priceRange: '$10-$18', amazonUrl: '' },
+    { name: 'Chamberlain KLIK5U-BK2 Universal Garage Door Remote (2-Pack)', description: 'Works with all major opener brands and replaces lost or broken remotes in minutes without reprogramming the entire system.', priceRange: '$30-$45', amazonUrl: 'https://www.amazon.com/s?k=Chamberlain+universal+garage+door+remote&tag=replacementgu-20' },
+    { name: 'Chamberlain 041A5034 Safety Sensor Pair', description: 'Replaces the photoelectric sensors that prevent the door from closing on people and objects, the component most likely to cause "door won\'t close" problems.', priceRange: '$20-$35', amazonUrl: 'https://www.amazon.com/s?k=Chamberlain+041A5034+safety+sensor&tag=replacementgu-20' },
+    { name: 'GE LED Garage Door Opener Light Bulb (2-Pack)', description: 'Vibration-rated LED bulbs that will not flicker or burn out from the constant shaking of garage door operation, unlike standard bulbs that fail within months.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=GE+LED+garage+door+opener+light+bulb&tag=replacementgu-20' },
   ],
 }

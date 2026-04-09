@@ -26,8 +26,8 @@ export const content = {
     laborPercent: '50-60%',
   },
   recommendedProducts: [
-    { name: '3M Indoor Window Insulation Kit (5-Window)', description: 'Adds a dead-air layer over failed seals that cuts heat loss by up to 70% per window, buying time until replacement.', priceRange: '$15-$22', amazonUrl: '' },
-    { name: 'Frost King V25 Weatherstrip Tape (17ft)', description: 'Seals drafty window frames in minutes and can reduce heating costs by 10-15% per window for under a dollar per foot.', priceRange: '$5-$10', amazonUrl: '' },
-    { name: 'Duck Brand Window Seal Rubber Weatherstrip Kit', description: 'Replaces worn-out compression seals around window sashes to restore the airtight fit the window had when it was new.', priceRange: '$8-$15', amazonUrl: '' },
+    { name: '3M Indoor Window Insulation Kit (5-Window)', description: 'Adds a dead-air layer over failed seals that cuts heat loss by up to 70% per window, buying time until replacement.', priceRange: '$15-$22', amazonUrl: 'https://www.amazon.com/s?k=3M+indoor+window+insulation+kit&tag=replacementgu-20' },
+    { name: 'Frost King V25 Weatherstrip Tape (17ft)', description: 'Seals drafty window frames in minutes and can reduce heating costs by 10-15% per window for under a dollar per foot.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=Frost+King+V25+weatherstrip+tape&tag=replacementgu-20' },
+    { name: 'Duck Brand Window Seal Rubber Weatherstrip Kit', description: 'Replaces worn-out compression seals around window sashes to restore the airtight fit the window had when it was new.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Duck+Brand+window+seal+weatherstrip+kit&tag=replacementgu-20' },
   ],
 }

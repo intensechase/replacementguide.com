@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '60-70%',
   },
   recommendedProducts: [
-    { name: 'Hardcast Iron Grip 601 Duct Sealant (gallon)', description: 'Professional-grade water-based mastic sealant for duct joints and seams. Stays flexible for decades and provides an airtight seal. Apply with a brush or gloved hands to all visible joints.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'Nashua 324A HVAC UL 181 Foil Tape', description: 'The only tape approved for duct sealing. Metal-backed with aggressive adhesive that lasts the life of the duct. Use this instead of cloth duct tape, which dries out and fails within 2 to 5 years.', priceRange: '$8-$15', amazonUrl: '' },
-    { name: 'Duct Blaster Leakage Test (Professional Service)', description: 'Ask your HVAC company about a duct leakage test. It pressurizes the duct system and measures exactly how much air is escaping. Most homeowners are shocked at the results... and the savings from sealing are immediate.', priceRange: '$150-$300 (service)', amazonUrl: '' },
+    { name: 'Hardcast Iron Grip 601 Duct Sealant (gallon)', description: 'Professional-grade water-based mastic sealant for duct joints and seams. Stays flexible for decades and provides an airtight seal. Apply with a brush or gloved hands to all visible joints.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Hardcast+Iron+Grip+601+duct+sealant&tag=replacementgu-20' },
+    { name: 'Nashua 324A HVAC UL 181 Foil Tape', description: 'The only tape approved for duct sealing. Metal-backed with aggressive adhesive that lasts the life of the duct. Use this instead of cloth duct tape, which dries out and fails within 2 to 5 years.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Nashua+324A+HVAC+foil+tape&tag=replacementgu-20' },
+    { name: 'Duct Blaster Leakage Test (Professional Service)', description: 'Ask your HVAC company about a duct leakage test. It pressurizes the duct system and measures exactly how much air is escaping. Most homeowners are shocked at the results... and the savings from sealing are immediate.', priceRange: '$150-$300 (service)', amazonUrl: 'https://www.amazon.com/s?k=duct+leakage+test+kit&tag=replacementgu-20' },
   ],
 }

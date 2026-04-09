@@ -27,8 +27,8 @@ export const content = {
     laborPercent: '45-60%',
   },
   recommendedProducts: [
-    { name: 'Winters PEM Series Pressure Gauge (0-100 PSI)', description: 'A $10 gauge that screws onto the pressure tank tells you exactly whether the pump can build to cut-off pressure, catching pump decline before it fails completely.', priceRange: '$8-$15', amazonUrl: '' },
-    { name: 'WaterWorker HT-20B Pressure Tank (20 Gallon)', description: 'Replaces a waterlogged pressure tank that causes short-cycling, the number one killer of well pumps and a $200-$400 fix that can save a $1,500 pump.', priceRange: '$150-$300', amazonUrl: '' },
-    { name: 'Southwire 10/2 UF-B Underground Wire (100ft)', description: 'Direct-burial rated wire for well pump circuits, essential for DIY repairs when the existing wire develops a fault between the house and the well head.', priceRange: '$80-$150', amazonUrl: '' },
+    { name: 'Winters PEM Series Pressure Gauge (0-100 PSI)', description: 'A $10 gauge that screws onto the pressure tank tells you exactly whether the pump can build to cut-off pressure, catching pump decline before it fails completely.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Winters+PEM+pressure+gauge+0-100+PSI&tag=replacementgu-20' },
+    { name: 'WaterWorker HT-20B Pressure Tank (20 Gallon)', description: 'Replaces a waterlogged pressure tank that causes short-cycling, the number one killer of well pumps and a $200-$400 fix that can save a $1,500 pump.', priceRange: '$150-$300', amazonUrl: 'https://www.amazon.com/s?k=WaterWorker+HT-20B+pressure+tank&tag=replacementgu-20' },
+    { name: 'Southwire 10/2 UF-B Underground Wire (100ft)', description: 'Direct-burial rated wire for well pump circuits, essential for DIY repairs when the existing wire develops a fault between the house and the well head.', priceRange: '$80-$150', amazonUrl: 'https://www.amazon.com/s?k=Southwire+10%2F2+UF-B+underground+wire&tag=replacementgu-20' },
   ],
 }

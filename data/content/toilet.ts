@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '30-50%',
   },
   recommendedProducts: [
-    { name: 'Fluidmaster 400CRP14 Universal Toilet Repair Kit', description: 'Includes a new flapper, fill valve, and hardware to rebuild the entire tank internals in about an hour, fixing running water and weak flushes.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'Fluidmaster 7530P8 Wax-Free Toilet Seal', description: 'Creates a leak-proof seal between the toilet and flange without the mess of a traditional wax ring, and it is repositionable if you need to reseat the toilet.', priceRange: '$10-$15', amazonUrl: '' },
-    { name: 'Danco HYR460 Water-Saving Dual Flush Converter', description: 'Turns any standard toilet into a dual-flush system with a light flush for liquids and a full flush for solids, saving a family of four 15,000+ gallons per year.', priceRange: '$20-$30', amazonUrl: '' },
+    { name: 'Fluidmaster 400CRP14 Universal Toilet Repair Kit', description: 'Includes a new flapper, fill valve, and hardware to rebuild the entire tank internals in about an hour, fixing running water and weak flushes.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Fluidmaster+400CRP14+toilet+repair+kit&tag=replacementgu-20' },
+    { name: 'Fluidmaster 7530P8 Wax-Free Toilet Seal', description: 'Creates a leak-proof seal between the toilet and flange without the mess of a traditional wax ring, and it is repositionable if you need to reseat the toilet.', priceRange: '$10-$15', amazonUrl: 'https://www.amazon.com/s?k=Fluidmaster+7530P8+wax+free+toilet+seal&tag=replacementgu-20' },
+    { name: 'Danco HYR460 Water-Saving Dual Flush Converter', description: 'Turns any standard toilet into a dual-flush system with a light flush for liquids and a full flush for solids, saving a family of four 15,000+ gallons per year.', priceRange: '$20-$30', amazonUrl: 'https://www.amazon.com/s?k=Danco+HYR460+dual+flush+converter&tag=replacementgu-20' },
   ],
 }

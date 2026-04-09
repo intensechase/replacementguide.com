@@ -20,9 +20,9 @@ export const guide = {
     'Edges are crumbling or aggregate is loosening... when you see loose gravel or rough, crumbling edges, the binder has failed in those areas and the driveway is actively deteriorating.',
   ],
   recommendedProducts: [
-    { name: 'Jetcoat Premium Coal Tar Driveway Sealer (5 gallon)', description: 'Commercial-grade coal tar emulsion that provides superior protection against gas, oil, and UV damage. Covers 250 to 350 square feet per bucket. Two coats recommended.', priceRange: '$25-$40', amazonUrl: '' },
-    { name: 'Red Devil Asphalt Crack Filler (gallon)', description: 'Rubberized crack filler for cracks up to 1/2 inch wide. Apply this to all visible cracks before sealing... sealcoat alone won\'t fill gaps and water will continue working its way in.', priceRange: '$10-$18', amazonUrl: '' },
-    { name: 'Latex-ite Driveway Squeegee Brush Applicator', description: 'Combination squeegee and brush designed specifically for applying driveway sealer. Makes application faster and more even than a paint roller or broom.', priceRange: '$15-$25', amazonUrl: '' },
+    { name: 'Jetcoat Premium Coal Tar Driveway Sealer (5 gallon)', description: 'Commercial-grade coal tar emulsion that provides superior protection against gas, oil, and UV damage. Covers 250 to 350 square feet per bucket. Two coats recommended.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=Jetcoat+coal+tar+driveway+sealer&tag=replacementgu-20' },
+    { name: 'Red Devil Asphalt Crack Filler (gallon)', description: 'Rubberized crack filler for cracks up to 1/2 inch wide. Apply this to all visible cracks before sealing... sealcoat alone won\'t fill gaps and water will continue working its way in.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Red+Devil+asphalt+crack+filler&tag=replacementgu-20' },
+    { name: 'Latex-ite Driveway Squeegee Brush Applicator', description: 'Combination squeegee and brush designed specifically for applying driveway sealer. Makes application faster and more even than a paint roller or broom.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Latex-ite+driveway+squeegee+brush+applicator&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'outdoor', slug: 'driveway', name: 'Driveway (Asphalt)' },
 }

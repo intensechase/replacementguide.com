@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'Emerson Sensi Touch Smart Thermostat', description: 'Heat pump-compatible smart thermostat with intelligent recovery that avoids triggering expensive auxiliary heat during temperature recovery. Proper thermostat management saves hundreds per year on heat pump systems.', priceRange: '$100-$150', amazonUrl: '' },
-    { name: 'Diversitech Heat Pump Riser Pad', description: 'Elevates the outdoor unit 3 inches off the ground to prevent snow and ice buildup around the base. Essential in cold climates where snow drifts can block the coils and fan.', priceRange: '$25-$50', amazonUrl: '' },
-    { name: 'Supco SPP6E Hard Start Kit', description: 'Reduces compressor startup stress by up to 50%. Especially beneficial for heat pumps because the compressor starts and stops more frequently than an AC-only system.', priceRange: '$20-$35', amazonUrl: '' },
+    { name: 'Emerson Sensi Touch Smart Thermostat', description: 'Heat pump-compatible smart thermostat with intelligent recovery that avoids triggering expensive auxiliary heat during temperature recovery. Proper thermostat management saves hundreds per year on heat pump systems.', priceRange: '$100-$150', amazonUrl: 'https://www.amazon.com/s?k=Emerson+Sensi+Touch+smart+thermostat&tag=replacementgu-20' },
+    { name: 'Diversitech Heat Pump Riser Pad', description: 'Elevates the outdoor unit 3 inches off the ground to prevent snow and ice buildup around the base. Essential in cold climates where snow drifts can block the coils and fan.', priceRange: '$25-$50', amazonUrl: 'https://www.amazon.com/s?k=Diversitech+heat+pump+riser+pad&tag=replacementgu-20' },
+    { name: 'Supco SPP6E Hard Start Kit', description: 'Reduces compressor startup stress by up to 50%. Especially beneficial for heat pumps because the compressor starts and stops more frequently than an AC-only system.', priceRange: '$20-$35', amazonUrl: 'https://www.amazon.com/s?k=Supco+SPP6E+hard+start+kit&tag=replacementgu-20' },
   ],
 }

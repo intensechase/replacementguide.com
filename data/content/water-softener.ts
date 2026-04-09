@@ -27,8 +27,8 @@ export const content = {
     laborPercent: '30-45%',
   },
   recommendedProducts: [
-    { name: 'Morton Pure and Natural Water Softener Salt (40lb Bag)', description: 'Evaporated salt pellets dissolve cleanly without the impurities in rock salt that clog the brine tank and reduce system efficiency over time.', priceRange: '$6-$10', amazonUrl: '' },
-    { name: 'Pro Products ResCare Resin Cleaner (1 Gallon)', description: 'Removes iron and mineral fouling from resin beads that causes the softener to lose capacity, restoring performance and extending resin bed life by years.', priceRange: '$25-$40', amazonUrl: '' },
-    { name: 'JNW Direct Water Total Hardness Test Strips (150 Count)', description: 'Tests your water after the softener in 10 seconds to confirm the resin is still performing, catching decline before scale buildup returns to your fixtures.', priceRange: '$8-$15', amazonUrl: '' },
+    { name: 'Morton Pure and Natural Water Softener Salt (40lb Bag)', description: 'Evaporated salt pellets dissolve cleanly without the impurities in rock salt that clog the brine tank and reduce system efficiency over time.', priceRange: '$6-$10', amazonUrl: 'https://www.amazon.com/s?k=Morton+Pure+and+Natural+water+softener+salt&tag=replacementgu-20' },
+    { name: 'Pro Products ResCare Resin Cleaner (1 Gallon)', description: 'Removes iron and mineral fouling from resin beads that causes the softener to lose capacity, restoring performance and extending resin bed life by years.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=Pro+Products+ResCare+resin+cleaner&tag=replacementgu-20' },
+    { name: 'JNW Direct Water Total Hardness Test Strips (150 Count)', description: 'Tests your water after the softener in 10 seconds to confirm the resin is still performing, catching decline before scale buildup returns to your fixtures.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=JNW+Direct+water+hardness+test+strips&tag=replacementgu-20' },
   ],
 }

@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '35-50%',
   },
   recommendedProducts: [
-    { name: 'Pentair SuperFlo VS Variable Speed Pool Pump', description: 'One of the best-selling variable-speed pumps on the market. Energy Star certified, saves up to 80% on pump energy costs compared to single-speed, and runs significantly quieter.', priceRange: '$800-$1,200', amazonUrl: '' },
-    { name: 'Pool Pump Shaft Seal (PS-1000)', description: 'Universal replacement shaft seal compatible with most major pump brands. The most common failure point on pool pumps and a $20 fix that prevents a $500 pump replacement.', priceRange: '$12-$25', amazonUrl: '' },
-    { name: 'Jack\'s Magic Silicone-Based Pool Lube', description: 'The correct lubricant for pump lid O-rings, filter O-rings, and all pool equipment seals. Petroleum-based lubricants degrade rubber... always use silicone-based on pool equipment.', priceRange: '$6-$10', amazonUrl: '' },
+    { name: 'Pentair SuperFlo VS Variable Speed Pool Pump', description: 'One of the best-selling variable-speed pumps on the market. Energy Star certified, saves up to 80% on pump energy costs compared to single-speed, and runs significantly quieter.', priceRange: '$800-$1,200', amazonUrl: 'https://www.amazon.com/s?k=Pentair+SuperFlo+VS+variable+speed+pool+pump&tag=replacementgu-20' },
+    { name: 'Pool Pump Shaft Seal (PS-1000)', description: 'Universal replacement shaft seal compatible with most major pump brands. The most common failure point on pool pumps and a $20 fix that prevents a $500 pump replacement.', priceRange: '$12-$25', amazonUrl: 'https://www.amazon.com/s?k=pool+pump+shaft+seal+PS-1000&tag=replacementgu-20' },
+    { name: 'Jack\'s Magic Silicone-Based Pool Lube', description: 'The correct lubricant for pump lid O-rings, filter O-rings, and all pool equipment seals. Petroleum-based lubricants degrade rubber... always use silicone-based on pool equipment.', priceRange: '$6-$10', amazonUrl: 'https://www.amazon.com/s?k=Jack%27s+Magic+silicone+pool+lube&tag=replacementgu-20' },
   ],
 }

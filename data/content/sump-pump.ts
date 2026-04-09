@@ -27,8 +27,8 @@ export const content = {
     laborPercent: '40-50%',
   },
   recommendedProducts: [
-    { name: 'Wayne WSS30VN Battery Backup Sump Pump', description: 'Keeps your basement dry during power outages, which is exactly when storms send the most water to your sump pit.', priceRange: '$200-$350', amazonUrl: '' },
-    { name: 'Basement Watchdog BWD-HWA Water Alarm', description: 'Sounds a loud alarm the moment water reaches the sensor, giving you time to act before a failed pump causes thousands in flood damage.', priceRange: '$12-$20', amazonUrl: '' },
-    { name: 'Zoeller 30-0181 PVC Check Valve (1-1/2 inch)', description: 'Prevents water in the discharge pipe from flowing back into the pit after each cycle, which causes short-cycling that burns out the pump motor.', priceRange: '$15-$30', amazonUrl: '' },
+    { name: 'Wayne WSS30VN Battery Backup Sump Pump', description: 'Keeps your basement dry during power outages, which is exactly when storms send the most water to your sump pit.', priceRange: '$200-$350', amazonUrl: 'https://www.amazon.com/s?k=Wayne+WSS30VN+battery+backup+sump+pump&tag=replacementgu-20' },
+    { name: 'Basement Watchdog BWD-HWA Water Alarm', description: 'Sounds a loud alarm the moment water reaches the sensor, giving you time to act before a failed pump causes thousands in flood damage.', priceRange: '$12-$20', amazonUrl: 'https://www.amazon.com/s?k=Basement+Watchdog+water+alarm&tag=replacementgu-20' },
+    { name: 'Zoeller 30-0181 PVC Check Valve (1-1/2 inch)', description: 'Prevents water in the discharge pipe from flowing back into the pit after each cycle, which causes short-cycling that burns out the pump motor.', priceRange: '$15-$30', amazonUrl: 'https://www.amazon.com/s?k=Zoeller+PVC+check+valve+sump+pump&tag=replacementgu-20' },
   ],
 }

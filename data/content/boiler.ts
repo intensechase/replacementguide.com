@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'Radiator Bleed Key (4-Pack)', description: 'Essential tool for releasing trapped air from radiators at the start of heating season. Takes 30 seconds per radiator and immediately improves heat output in rooms with cold spots.', priceRange: '$5-$8', amazonUrl: '' },
-    { name: 'Fernox F1 Central Heating Protector', description: 'Corrosion inhibitor added to the boiler system water. Prevents rust, scale, and sludge buildup that shortens heat exchanger life. One treatment protects for 5 years.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'Kidde Nighthawk Carbon Monoxide Detector', description: 'Plug-in CO detector with battery backup. Install near the boiler room and on every floor. Detects the odorless, colorless gas that combustion appliances can produce when malfunctioning.', priceRange: '$25-$40', amazonUrl: '' },
+    { name: 'Radiator Bleed Key (4-Pack)', description: 'Essential tool for releasing trapped air from radiators at the start of heating season. Takes 30 seconds per radiator and immediately improves heat output in rooms with cold spots.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=radiator+bleed+key&tag=replacementgu-20' },
+    { name: 'Fernox F1 Central Heating Protector', description: 'Corrosion inhibitor added to the boiler system water. Prevents rust, scale, and sludge buildup that shortens heat exchanger life. One treatment protects for 5 years.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Fernox+F1+central+heating+protector&tag=replacementgu-20' },
+    { name: 'Kidde Nighthawk Carbon Monoxide Detector', description: 'Plug-in CO detector with battery backup. Install near the boiler room and on every floor. Detects the odorless, colorless gas that combustion appliances can produce when malfunctioning.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=Kidde+Nighthawk+carbon+monoxide+detector&tag=replacementgu-20' },
   ],
 }

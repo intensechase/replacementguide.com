@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'Supco SPP6E Hard Start Kit', description: 'Universal hard-start capacitor that reduces compressor startup stress by up to 50%. Compatible with most residential AC systems and takes a technician 15 minutes to install.', priceRange: '$20-$35', amazonUrl: '' },
-    { name: 'Intermatic AG3000 HVAC Surge Protector', description: 'Installs at the outdoor disconnect box and protects the compressor from voltage spikes. A $50 device that prevents $1,500 to $3,000 in compressor damage.', priceRange: '$40-$60', amazonUrl: '' },
-    { name: 'Nu-Calgon Evap Foam No Rinse Coil Cleaner', description: 'Cleans the evaporator coil to restore airflow and reduce compressor workload. A dirty evaporator coil makes the compressor work 20% harder to achieve the same cooling.', priceRange: '$10-$18', amazonUrl: '' },
+    { name: 'Supco SPP6E Hard Start Kit', description: 'Universal hard-start capacitor that reduces compressor startup stress by up to 50%. Compatible with most residential AC systems and takes a technician 15 minutes to install.', priceRange: '$20-$35', amazonUrl: 'https://www.amazon.com/s?k=Supco+SPP6E+hard+start+kit&tag=replacementgu-20' },
+    { name: 'Intermatic AG3000 HVAC Surge Protector', description: 'Installs at the outdoor disconnect box and protects the compressor from voltage spikes. A $50 device that prevents $1,500 to $3,000 in compressor damage.', priceRange: '$40-$60', amazonUrl: 'https://www.amazon.com/s?k=Intermatic+AG3000+HVAC+surge+protector&tag=replacementgu-20' },
+    { name: 'Nu-Calgon Evap Foam No Rinse Coil Cleaner', description: 'Cleans the evaporator coil to restore airflow and reduce compressor workload. A dirty evaporator coil makes the compressor work 20% harder to achieve the same cooling.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Nu-Calgon+Evap+Foam+coil+cleaner&tag=replacementgu-20' },
   ],
 }

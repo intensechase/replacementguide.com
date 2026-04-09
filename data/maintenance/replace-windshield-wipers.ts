@@ -19,9 +19,9 @@ export const guide = {
     'Reduced visibility in rain despite the wipers running... if you find yourself leaning forward or slowing down because you can\'t see clearly with wipers on high, the blades are past due.',
   ],
   recommendedProducts: [
-    { name: 'Bosch ICON Beam Wiper Blade', description: 'The top-rated beam blade on the market. Dual rubber compound resists heat and UV degradation, and the bracketless design prevents ice buildup. Lasts up to 40% longer than conventional blades.', priceRange: '$20-$30 each', amazonUrl: '' },
-    { name: 'Rain-X Latitude Water Repellency Wiper Blade', description: 'Beam blade with a built-in water-repellent coating that treats the windshield as it wipes. Good visibility even between wipe cycles in light rain.', priceRange: '$18-$26 each', amazonUrl: '' },
-    { name: 'Rain-X Original Glass Treatment', description: 'Apply this to your windshield every 2 to 3 months to make rain bead and roll off at highway speeds. Dramatically improves visibility and reduces how hard your wipers have to work.', priceRange: '$5-$8', amazonUrl: '' },
+    { name: 'Bosch ICON Beam Wiper Blade', description: 'The top-rated beam blade on the market. Dual rubber compound resists heat and UV degradation, and the bracketless design prevents ice buildup. Lasts up to 40% longer than conventional blades.', priceRange: '$20-$30 each', amazonUrl: 'https://www.amazon.com/s?k=Bosch+ICON+beam+wiper+blade&tag=replacementgu-20' },
+    { name: 'Rain-X Latitude Water Repellency Wiper Blade', description: 'Beam blade with a built-in water-repellent coating that treats the windshield as it wipes. Good visibility even between wipe cycles in light rain.', priceRange: '$18-$26 each', amazonUrl: 'https://www.amazon.com/s?k=Rain-X+Latitude+water+repellency+wiper+blade&tag=replacementgu-20' },
+    { name: 'Rain-X Original Glass Treatment', description: 'Apply this to your windshield every 2 to 3 months to make rain bead and roll off at highway speeds. Dramatically improves visibility and reduces how hard your wipers have to work.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Rain-X+original+glass+treatment&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'auto', slug: 'headlights', name: 'Headlights' },
 }

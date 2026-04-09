@@ -27,8 +27,8 @@ export const content = {
     laborPercent: '50-60%',
   },
   recommendedProducts: [
-    { name: 'RID-X Septic Treatment Monthly Dose (12-Pack)', description: 'Replenishes the bacteria that break down solids in the tank, reducing sludge buildup and extending the time between pump-outs.', priceRange: '$20-$30', amazonUrl: '' },
-    { name: 'Scott Rapid-Dissolving Toilet Paper (48 Rolls)', description: 'Dissolves 4x faster than standard toilet paper, preventing the clogs and excess solid buildup that overload septic systems.', priceRange: '$35-$55', amazonUrl: '' },
-    { name: 'Tuf-Tite 24" Septic Tank Riser Kit with Lid', description: 'Brings the access point to ground level so pump-outs take minutes instead of hours of digging, making you far more likely to keep up with maintenance.', priceRange: '$100-$180', amazonUrl: '' },
+    { name: 'RID-X Septic Treatment Monthly Dose (12-Pack)', description: 'Replenishes the bacteria that break down solids in the tank, reducing sludge buildup and extending the time between pump-outs.', priceRange: '$20-$30', amazonUrl: 'https://www.amazon.com/s?k=RID-X+septic+treatment+monthly&tag=replacementgu-20' },
+    { name: 'Scott Rapid-Dissolving Toilet Paper (48 Rolls)', description: 'Dissolves 4x faster than standard toilet paper, preventing the clogs and excess solid buildup that overload septic systems.', priceRange: '$35-$55', amazonUrl: 'https://www.amazon.com/s?k=Scott+rapid+dissolving+toilet+paper&tag=replacementgu-20' },
+    { name: 'Tuf-Tite 24" Septic Tank Riser Kit with Lid', description: 'Brings the access point to ground level so pump-outs take minutes instead of hours of digging, making you far more likely to keep up with maintenance.', priceRange: '$100-$180', amazonUrl: 'https://www.amazon.com/s?k=Tuf-Tite+septic+tank+riser+kit&tag=replacementgu-20' },
   ],
 }

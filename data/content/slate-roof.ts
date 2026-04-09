@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '55-65%',
   },
   recommendedProducts: [
-    { name: 'Z-Stop Zinc Strip Roll (50 ft)', description: 'Install along the ridge line to prevent moss, algae, and lichen growth. Rainwater washes zinc particles down the roof surface, creating an environment where growth can\'t take hold.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'Stortz Slate Ripper', description: 'The traditional tool for removing damaged slate tiles without disturbing surrounding slates. Essential for any slate roof repair. Used by professional slate roofers for over 100 years.', priceRange: '$30-$50', amazonUrl: '' },
-    { name: 'Copper Nails for Slate Roofing (1 lb)', description: 'Always use copper nails for slate roofing... galvanized nails corrode in 30 to 50 years while copper lasts 70 to 100 years. Match the longevity of the fastener to the longevity of the slate.', priceRange: '$15-$25 (1 lb)', amazonUrl: '' },
+    { name: 'Z-Stop Zinc Strip Roll (50 ft)', description: 'Install along the ridge line to prevent moss, algae, and lichen growth. Rainwater washes zinc particles down the roof surface, creating an environment where growth can\'t take hold.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=zinc+strip+roll+roof+moss+prevention&tag=replacementgu-20' },
+    { name: 'Stortz Slate Ripper', description: 'The traditional tool for removing damaged slate tiles without disturbing surrounding slates. Essential for any slate roof repair. Used by professional slate roofers for over 100 years.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=Stortz+slate+ripper&tag=replacementgu-20' },
+    { name: 'Copper Nails for Slate Roofing (1 lb)', description: 'Always use copper nails for slate roofing... galvanized nails corrode in 30 to 50 years while copper lasts 70 to 100 years. Match the longevity of the fastener to the longevity of the slate.', priceRange: '$15-$25 (1 lb)', amazonUrl: 'https://www.amazon.com/s?k=copper+nails+slate+roofing&tag=replacementgu-20' },
   ],
 }

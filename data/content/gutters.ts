@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '50-60%',
   },
   recommendedProducts: [
-    { name: 'Amerimax Gutter Sealant (10.1 oz)', description: 'Waterproof sealant designed specifically for gutter seams and end caps. Stays flexible in temperature extremes and adheres to aluminum, vinyl, and steel.', priceRange: '$5-$8', amazonUrl: '' },
-    { name: 'Raptor Gutter Guard (Stainless Steel Micro-Mesh)', description: 'Professional-grade micro-mesh guard that keeps out pine needles, shingle grit, and seeds while allowing water to flow through. Installs under the first row of shingles.', priceRange: '$8-$14 per foot', amazonUrl: '' },
-    { name: 'Frost King Automatic Downspout Extender', description: 'Rolls out automatically when water flows through the downspout and retracts when it stops. Directs water 6 feet from the foundation without leaving a permanent extension in the yard.', priceRange: '$12-$20', amazonUrl: '' },
+    { name: 'Amerimax Gutter Sealant (10.1 oz)', description: 'Waterproof sealant designed specifically for gutter seams and end caps. Stays flexible in temperature extremes and adheres to aluminum, vinyl, and steel.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Amerimax+gutter+sealant&tag=replacementgu-20' },
+    { name: 'Raptor Gutter Guard (Stainless Steel Micro-Mesh)', description: 'Professional-grade micro-mesh guard that keeps out pine needles, shingle grit, and seeds while allowing water to flow through. Installs under the first row of shingles.', priceRange: '$8-$14 per foot', amazonUrl: 'https://www.amazon.com/s?k=Raptor+gutter+guard+micro+mesh&tag=replacementgu-20' },
+    { name: 'Frost King Automatic Downspout Extender', description: 'Rolls out automatically when water flows through the downspout and retracts when it stops. Directs water 6 feet from the foundation without leaving a permanent extension in the yard.', priceRange: '$12-$20', amazonUrl: 'https://www.amazon.com/s?k=Frost+King+automatic+downspout+extender&tag=replacementgu-20' },
   ],
 }

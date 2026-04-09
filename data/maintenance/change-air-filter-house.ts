@@ -20,9 +20,9 @@ export const guide = {
     'Higher than normal energy bills during heating or cooling season... a clogged filter can increase energy consumption by 5 to 15%, which shows up clearly on monthly bills.',
   ],
   recommendedProducts: [
-    { name: 'Filtrete 1900 MPR Maximum Allergen Reduction (6-Pack)', description: 'MERV 13 equivalent filter that catches bacteria, smoke, and fine particles. The 6-pack pricing works out to about $10 per filter, which is reasonable for this level of filtration.', priceRange: '$55-$80 (6-pack)', amazonUrl: '' },
-    { name: 'Aerostar MERV 8 Pleated Air Filter (6-Pack)', description: 'The best value for standard filtration. Catches dust, pollen, and mold spores without restricting airflow. Perfect for homes without pets or allergies.', priceRange: '$25-$40 (6-pack)', amazonUrl: '' },
-    { name: 'FilterBuy MERV 11 Pleated Filter (4-Pack)', description: 'The middle ground between basic and premium filtration. Catches pet dander and fine dust while maintaining good airflow. Available in every common size.', priceRange: '$28-$45 (4-pack)', amazonUrl: '' },
+    { name: 'Filtrete 1900 MPR Maximum Allergen Reduction (6-Pack)', description: 'MERV 13 equivalent filter that catches bacteria, smoke, and fine particles. The 6-pack pricing works out to about $10 per filter, which is reasonable for this level of filtration.', priceRange: '$55-$80 (6-pack)', amazonUrl: 'https://www.amazon.com/s?k=Filtrete+1900+MPR+allergen+air+filter&tag=replacementgu-20' },
+    { name: 'Aerostar MERV 8 Pleated Air Filter (6-Pack)', description: 'The best value for standard filtration. Catches dust, pollen, and mold spores without restricting airflow. Perfect for homes without pets or allergies.', priceRange: '$25-$40 (6-pack)', amazonUrl: 'https://www.amazon.com/s?k=Aerostar+MERV+8+pleated+air+filter&tag=replacementgu-20' },
+    { name: 'FilterBuy MERV 11 Pleated Filter (4-Pack)', description: 'The middle ground between basic and premium filtration. Catches pet dander and fine dust while maintaining good airflow. Available in every common size.', priceRange: '$28-$45 (4-pack)', amazonUrl: 'https://www.amazon.com/s?k=FilterBuy+MERV+11+pleated+filter&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'home', slug: 'furnace', name: 'Furnace' },
 }

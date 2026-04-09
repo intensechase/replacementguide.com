@@ -19,9 +19,9 @@ export const guide = {
     'Longer stopping distances... if your car takes noticeably more distance to stop from the same speed, degraded brake fluid reducing hydraulic efficiency could be the cause.',
   ],
   recommendedProducts: [
-    { name: 'Prestone DOT 3 Synthetic Brake Fluid (32 oz)', description: 'Compatible with all DOT 3 and DOT 4 systems. Exceeds DOT 3 minimum boiling points by a wide margin and is priced right for regular maintenance.', priceRange: '$6-$10', amazonUrl: '' },
-    { name: 'Motul DOT 4 100% Synthetic Brake Fluid', description: 'High-performance DOT 4 fluid with a 536-degree dry boiling point. Excellent choice for towing vehicles, performance cars, and anyone who wants extra safety margin.', priceRange: '$12-$18 (500ml)', amazonUrl: '' },
-    { name: 'Mityvac MV6835 Brake Bleeder Kit', description: 'One-person brake bleeding tool that makes DIY fluid changes possible without a helper. Vacuum-operated and works on all vehicles.', priceRange: '$30-$50', amazonUrl: '' },
+    { name: 'Prestone DOT 3 Synthetic Brake Fluid (32 oz)', description: 'Compatible with all DOT 3 and DOT 4 systems. Exceeds DOT 3 minimum boiling points by a wide margin and is priced right for regular maintenance.', priceRange: '$6-$10', amazonUrl: 'https://www.amazon.com/s?k=Prestone+DOT+3+synthetic+brake+fluid&tag=replacementgu-20' },
+    { name: 'Motul DOT 4 100% Synthetic Brake Fluid', description: 'High-performance DOT 4 fluid with a 536-degree dry boiling point. Excellent choice for towing vehicles, performance cars, and anyone who wants extra safety margin.', priceRange: '$12-$18 (500ml)', amazonUrl: 'https://www.amazon.com/s?k=Motul+DOT+4+synthetic+brake+fluid&tag=replacementgu-20' },
+    { name: 'Mityvac MV6835 Brake Bleeder Kit', description: 'One-person brake bleeding tool that makes DIY fluid changes possible without a helper. Vacuum-operated and works on all vehicles.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=Mityvac+MV6835+brake+bleeder+kit&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'auto', slug: 'brake-pads', name: 'Brake Pads' },
 }

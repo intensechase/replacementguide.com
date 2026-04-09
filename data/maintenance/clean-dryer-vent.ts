@@ -20,9 +20,9 @@ export const guide = {
     'The exterior vent flap doesn\'t open when the dryer is running... if air isn\'t pushing the flap open, the vent is blocked somewhere between the dryer and the wall.',
   ],
   recommendedProducts: [
-    { name: 'Holikme Dryer Vent Cleaner Kit (30 Feet)', description: 'Flexible rods that attach to a power drill to spin through the vent duct and remove lint. The 30-foot length handles even long vent runs, and the brush head is sized for standard 4-inch ducts.', priceRange: '$10-$18', amazonUrl: '' },
-    { name: 'BetterVent Indoor Dryer Vent Kit', description: 'For apartments or situations where venting outside isn\'t possible. Captures lint with a water trap instead of sending it outside. Not a substitute for cleaning but a useful alternative.', priceRange: '$25-$40', amazonUrl: '' },
-    { name: 'Builder\'s Best 4-Inch Rigid Aluminum Dryer Vent Duct', description: 'The correct duct material for a dryer vent. Smooth interior resists lint buildup and meets fire safety codes. Replace any plastic or foil flex duct with this.', priceRange: '$12-$22 (8 ft)', amazonUrl: '' },
+    { name: 'Holikme Dryer Vent Cleaner Kit (30 Feet)', description: 'Flexible rods that attach to a power drill to spin through the vent duct and remove lint. The 30-foot length handles even long vent runs, and the brush head is sized for standard 4-inch ducts.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Holikme+dryer+vent+cleaner+kit&tag=replacementgu-20' },
+    { name: 'BetterVent Indoor Dryer Vent Kit', description: 'For apartments or situations where venting outside isn\'t possible. Captures lint with a water trap instead of sending it outside. Not a substitute for cleaning but a useful alternative.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=BetterVent+indoor+dryer+vent+kit&tag=replacementgu-20' },
+    { name: 'Builder\'s Best 4-Inch Rigid Aluminum Dryer Vent Duct', description: 'The correct duct material for a dryer vent. Smooth interior resists lint buildup and meets fire safety codes. Replace any plastic or foil flex duct with this.', priceRange: '$12-$22 (8 ft)', amazonUrl: 'https://www.amazon.com/s?k=Builders+Best+4+inch+rigid+aluminum+dryer+vent+duct&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'home', slug: 'dryer', name: 'Dryer' },
 }

@@ -25,8 +25,8 @@ export const content = {
     laborPercent: '40-55%',
   },
   recommendedProducts: [
-    { name: 'Camco Magnesium Anode Rod (44" x 3/4")', description: 'Extends tank life by 2-3 years by sacrificing itself instead of the tank walls, the single best maintenance investment for any water heater.', priceRange: '$20-$35', amazonUrl: '' },
-    { name: 'Camco Water Heater Flush Kit with Hose', description: 'Makes the annual sediment flush easy by connecting directly to the drain valve, removing the buildup that causes rumbling and premature tank failure.', priceRange: '$15-$25', amazonUrl: '' },
-    { name: 'Frost King Tubular Pipe Insulation (6ft, 3/4")', description: 'Reduces heat loss from hot water pipes by up to 45%, saving energy and keeping water hotter from the tank to the faucet.', priceRange: '$3-$8', amazonUrl: '' },
+    { name: 'Camco Magnesium Anode Rod (44" x 3/4")', description: 'Extends tank life by 2-3 years by sacrificing itself instead of the tank walls, the single best maintenance investment for any water heater.', priceRange: '$20-$35', amazonUrl: 'https://www.amazon.com/s?k=Camco+magnesium+anode+rod&tag=replacementgu-20' },
+    { name: 'Camco Water Heater Flush Kit with Hose', description: 'Makes the annual sediment flush easy by connecting directly to the drain valve, removing the buildup that causes rumbling and premature tank failure.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Camco+water+heater+flush+kit&tag=replacementgu-20' },
+    { name: 'Frost King Tubular Pipe Insulation (6ft, 3/4")', description: 'Reduces heat loss from hot water pipes by up to 45%, saving energy and keeping water hotter from the tank to the faucet.', priceRange: '$3-$8', amazonUrl: 'https://www.amazon.com/s?k=Frost+King+tubular+pipe+insulation&tag=replacementgu-20' },
   ],
 }

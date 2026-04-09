@@ -20,9 +20,9 @@ export const guide = {
     'Visible dirt and discoloration on the filter... pull it out and look. If it\'s gray and matted instead of white and clean, it\'s overdue.',
   ],
   recommendedProducts: [
-    { name: 'Filtrete 1500 MPR Allergen Defense (6-Pack)', description: 'MERV 12 equivalent pleated filter that captures 90% of airborne allergens. Buying the 6-pack means you always have one on hand and saves 30% over buying individually.', priceRange: '$45-$65 (6-pack)', amazonUrl: '' },
-    { name: 'Nordic Pure MERV 12 Pleated AC Furnace Filter (6-Pack)', description: 'Excellent mid-range option with high dust-holding capacity. Made in the USA with electrostatically charged media for better particle capture.', priceRange: '$35-$55 (6-pack)', amazonUrl: '' },
-    { name: 'Honeywell FC100A1037 Ultra Efficiency Media Filter (4-inch)', description: 'For homes with a whole-house filter cabinet. Lasts up to 12 months and captures particles down to 0.3 microns. Check compatibility with your filter housing size.', priceRange: '$25-$40', amazonUrl: '' },
+    { name: 'Filtrete 1500 MPR Allergen Defense (6-Pack)', description: 'MERV 12 equivalent pleated filter that captures 90% of airborne allergens. Buying the 6-pack means you always have one on hand and saves 30% over buying individually.', priceRange: '$45-$65 (6-pack)', amazonUrl: 'https://www.amazon.com/s?k=Filtrete+1500+MPR+allergen+defense+furnace+filter&tag=replacementgu-20' },
+    { name: 'Nordic Pure MERV 12 Pleated AC Furnace Filter (6-Pack)', description: 'Excellent mid-range option with high dust-holding capacity. Made in the USA with electrostatically charged media for better particle capture.', priceRange: '$35-$55 (6-pack)', amazonUrl: 'https://www.amazon.com/s?k=Nordic+Pure+MERV+12+furnace+filter&tag=replacementgu-20' },
+    { name: 'Honeywell FC100A1037 Ultra Efficiency Media Filter (4-inch)', description: 'For homes with a whole-house filter cabinet. Lasts up to 12 months and captures particles down to 0.3 microns. Check compatibility with your filter housing size.', priceRange: '$25-$40', amazonUrl: 'https://www.amazon.com/s?k=Honeywell+FC100A1037+media+filter&tag=replacementgu-20' },
   ],
   relatedProduct: { category: 'home', slug: 'furnace', name: 'Furnace' },
 }
