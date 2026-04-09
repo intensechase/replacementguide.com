@@ -158,6 +158,74 @@ These capture additional keyword families on pages we already have:
 
 ---
 
+## Insurance + Financing hub (HIGHEST CPCs across all research)
+
+### Insurance pages
+- [ ] Does Insurance Cover Pipe Burst — 50/mo, $105 CPC
+- [ ] Does Insurance Cover Sewer Line — 4,400/mo, $40 CPC
+- [ ] Does Insurance Cover Electrical — 170/mo, $40 CPC
+- [ ] Does Insurance Cover Furnace — 320/mo, $37 CPC
+- [ ] Does Insurance Cover Appliance Repair — 20/mo, $33 CPC
+- [ ] Does Insurance Cover AC — 320/mo, $33 CPC
+- [ ] Does Insurance Cover Septic System — 210/mo, $30 CPC
+- [ ] Does Insurance Cover Water Heater — 480/mo, $30 CPC
+- [ ] Does Insurance Cover Garage Door — 260/mo, $29 CPC
+- [ ] Does Insurance Cover Plumbing — 2,400/mo, $27 CPC
+- [ ] Does Insurance Cover Roof — 880/mo, $23 CPC
+- [ ] Does Insurance Cover Water Damage — 1,900/mo, $19 CPC
+- [ ] Does Insurance Cover Foundation Repair — 880/mo, $19 CPC
+- [ ] Does Insurance Cover Wind Damage — 170/mo, $15 CPC
+- [ ] Does Insurance Cover Mold — 5,400/mo, $14 CPC (highest volume)
+- [ ] Does Insurance Cover Tree Removal — 880/mo, $14 CPC
+- [ ] Does Insurance Cover Termite Damage — 1,300/mo, $11 CPC
+- [ ] What Is Not Covered by Homeowners Insurance — 140/mo, $18 CPC → hub page
+- [ ] Home Warranty vs Homeowners Insurance — 210/mo, $20 CPC → comparison
+- [ ] Best Home Warranty Companies — 9,900/mo, $45 CPC (High comp but huge)
+- [ ] Home Warranty Cost Per Month — 210/mo, $13 CPC
+- [ ] Home Warranty: What It Covers (AC, plumbing, furnace, water heater) — combined page
+
+### Financing pages
+- [ ] Roof Financing Options — 320/mo, $46 CPC
+- [ ] HVAC Financing Options — 1,900/mo, $26 CPC
+- [ ] How to Pay for a New Roof — 480/mo, $17 CPC → merge with roof financing
+- [ ] How to Pay for a New AC/Furnace — combine into HVAC financing
+- [ ] Can You Finance a Water Heater — 20/mo, $14 CPC
+
+## "Does homeowners insurance cover" guides (HIGHEST CPCs found — $20-96)
+- [ ] Does Homeowners Insurance Cover Sewer Line Replacement — 4,400/mo, $40 CPC
+- [ ] Does Homeowners Insurance Cover Plumbing — 2,400/mo, $27 CPC
+- [ ] Does Homeowners Insurance Cover Water Heater — 480/mo, $30 CPC
+- [ ] Does Homeowners Insurance Cover Roof Replacement — 880/mo, $23 CPC
+- [ ] Does Homeowners Insurance Cover Sewer Line — 260/mo, $19 CPC
+- [ ] What Is Not Covered by Homeowners Insurance — 140/mo, $18 CPC → links to every product page
+Each page: explain what's covered vs not, then link to our replacement cost page for the actual price.
+
+## "How long does installation take" (FOLD INTO existing product pages)
+- [ ] Carpet → add timeline section — 880/mo, $34 CPC
+- [ ] AC → add timeline — 390/mo, $31 CPC
+- [ ] Windows → add timeline — 480/mo, $30 CPC
+- [ ] Garage Door → add timeline — 110/mo, $27 CPC
+- [ ] Roof → add timeline — 1,600/mo, $25 CPC
+- [ ] Water Heater → add timeline — 1,000/mo, $18 CPC
+- [ ] Furnace → add timeline — 480/mo, $12 CPC
+
+## Repair cost sections (ADD to existing product pages)
+- [ ] AC Repair Cost → add to AC page — 6,600/mo, $28.66 CPC, trending +825%
+- [ ] Furnace Repair Cost → add to furnace page — 4,400/mo, $36.05 CPC
+- [ ] Washing Machine Repair Cost → add to washing machine page — 6,600/mo, $6.60 CPC
+- [ ] Dryer Repair Cost → add to dryer page — 4,400/mo, $6.73 CPC
+- [ ] Refrigerator Repair Cost → add to refrigerator page — 3,600/mo, $7.11 CPC
+- [ ] Dishwasher Repair Cost → add to dishwasher page — 2,900/mo, $6.05 CPC
+
+## Emergency/water damage guides
+- [ ] What to Do When Your Basement Floods — 590/mo, $42.82 CPC → sump pump, French drain, dehumidifier
+- [ ] How to Dry Out a Flooded Basement — 70/mo, $25.07 CPC → merge with above
+
+## Contractor/homeowner guides
+- [ ] How to Find a Good Contractor — 320/mo, $17.23 CPC
+- [ ] New Homeowner Checklist — 320/mo, $4.02 CPC → links to every product page
+- [ ] Hidden Costs of Homeownership — 210/mo, $3.20 CPC
+
 ## FOLD-INS (not separate pages — add as sections to existing pages)
 
 | Content | Fold Into | Why |

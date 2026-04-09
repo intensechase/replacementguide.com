@@ -219,6 +219,101 @@ export default function ProductPage({ product, related, content }: Props) {
           </div>
         </section>
 
+        {/* Common Repairs */}
+        {content?.commonRepairs && content.commonRepairs.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">Common {p.name} Repairs and What They Cost</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-slate-200">
+                    <th className="text-left py-2 pr-4 font-semibold text-slate-800">Repair</th>
+                    <th className="text-left py-2 pr-4 font-semibold text-slate-800">Typical Cost</th>
+                    <th className="text-left py-2 font-semibold text-slate-800">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {content.commonRepairs.map((r, i) => (
+                    <tr key={i} className="border-b border-slate-100">
+                      <td className="py-2 pr-4 text-slate-700">{r.repair}</td>
+                      <td className="py-2 pr-4 font-medium text-slate-800">{r.cost}</td>
+                      <td className="py-2 text-slate-500">{r.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* Insurance Coverage */}
+        {content?.insuranceCoverage && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">Does Homeowners Insurance Cover {p.name} Replacement?</h2>
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <div className="space-y-3">
+                {content.insuranceCoverage.split('\n\n').map((para, i) => (
+                  <p key={i} className="text-slate-700 leading-relaxed">{para}</p>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Financing Options */}
+        {content?.financingOptions && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">How to Pay for a New {p.name}</h2>
+            <div className="space-y-3">
+              {content.financingOptions.split('\n\n').map((para, i) => (
+                <p key={i} className="text-slate-600 leading-relaxed">{para}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Sizing Guide */}
+        {content?.sizingGuide && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">What Size {p.name} Do You Need?</h2>
+            <div className="space-y-3">
+              {content.sizingGuide.split('\n\n').map((para, i) => (
+                <p key={i} className="text-slate-600 leading-relaxed">{para}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Best Brands */}
+        {content?.bestBrands && content.bestBrands.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">Best {p.name} Brands</h2>
+            <div className="space-y-2">
+              {content.bestBrands.map((brand, i) => (
+                <div key={i} className="flex items-start gap-3 border border-slate-200 rounded-lg p-3">
+                  <span className="text-emerald-500 mt-0.5 shrink-0 font-bold">{i + 1}.</span>
+                  <div>
+                    <span className="font-medium text-slate-800">{brand.name}</span>
+                    <span className="text-slate-500"> — {brand.knownFor}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Installation Timeline */}
+        {content?.installationTime && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">How Long Does It Take to Replace a {p.name}?</h2>
+            <div className="space-y-3">
+              {content.installationTime.split('\n\n').map((para, i) => (
+                <p key={i} className="text-slate-600 leading-relaxed">{para}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* How to Extend Its Life */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">How to Make It Last Longer</h2>

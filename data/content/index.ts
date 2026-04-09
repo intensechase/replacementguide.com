@@ -44,6 +44,12 @@ export interface ProductContent {
     laborPercent: string
   }
   recommendedProducts?: { name: string; description: string; priceRange: string; amazonUrl: string }[]
+  commonRepairs?: { repair: string; cost: string; notes: string }[]
+  insuranceCoverage?: string
+  financingOptions?: string
+  sizingGuide?: string
+  bestBrands?: { name: string; knownFor: string }[]
+  installationTime?: string
 }
 
 const contentMap: Record<string, ProductContent> = {
