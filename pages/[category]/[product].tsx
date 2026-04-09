@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { products, type Product } from '@/data/products'
+import { getProductContent, type ProductContent } from '@/data/content'
 
 const CATEGORY_NAMES: Record<string, string> = {
   home: 'Home', auto: 'Auto', personal: 'Personal', outdoor: 'Outdoor',
@@ -10,6 +11,7 @@ const CATEGORY_NAMES: Record<string, string> = {
 interface Props {
   product: Product
   related: Product[]
+  content: ProductContent | null
 }
 
 export const getStaticPaths: GetStaticPaths = async () => ({
@@ -29,7 +31,9 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
     .sort(() => Math.random() - 0.5)
     .slice(0, 6)
 
-  return { props: { product, related } }
+  const content = getProductContent(slug)
+
+  return { props: { product, related, content } }
 }
 
 function formatLifespan(p: Product): string {
@@ -42,7 +46,7 @@ function formatCost(low: number, high: number): string {
   return `$${low.toLocaleString()} - $${high.toLocaleString()}`
 }
 
-export default function ProductPage({ product, related }: Props) {
+export default function ProductPage({ product, related, content }: Props) {
   const p = product
   const catName = CATEGORY_NAMES[p.category]
   const lifespan = formatLifespan(p)
@@ -90,12 +94,22 @@ export default function ProductPage({ product, related }: Props) {
         {/* How Long Does It Last */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">How Long Does a {p.name} Last?</h2>
-          <p className="text-slate-600 leading-relaxed mb-3">
-            The average {p.name.toLowerCase()} lasts {lifespan}. That said... yours might last longer or shorter depending on how it was installed, how often you maintain it, the brand, and your local conditions.
-          </p>
-          <p className="text-slate-600 leading-relaxed mb-3">
-            If your {p.name.toLowerCase()} is approaching the {p.lifespanUnit === 'years' ? `${p.lifespanMin}-year` : p.lifespanUnit === 'miles' ? `${(p.lifespanMin/1000).toFixed(0)}K-mile` : `${p.lifespanMin}-month`} mark, start paying attention. You don&apos;t need to replace it immediately... but you should know the warning signs.
-          </p>
+          {content ? (
+            <div className="space-y-3">
+              {content.lifespanDetail.split('\n\n').map((para, i) => (
+                <p key={i} className="text-slate-600 leading-relaxed">{para}</p>
+              ))}
+            </div>
+          ) : (
+            <>
+              <p className="text-slate-600 leading-relaxed mb-3">
+                The average {p.name.toLowerCase()} lasts {lifespan}. That said... yours might last longer or shorter depending on how it was installed, how often you maintain it, the brand, and your local conditions.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-3">
+                If your {p.name.toLowerCase()} is approaching the {p.lifespanUnit === 'years' ? `${p.lifespanMin}-year` : p.lifespanUnit === 'miles' ? `${(p.lifespanMin/1000).toFixed(0)}K-mile` : `${p.lifespanMin}-month`} mark, start paying attention. You don&apos;t need to replace it immediately... but you should know the warning signs.
+              </p>
+            </>
+          )}
         </section>
 
         {/* Warning Signs */}
@@ -104,26 +118,38 @@ export default function ProductPage({ product, related }: Props) {
           <p className="text-slate-500 text-sm mb-4">If you&apos;re seeing two or more of these, it&apos;s time to start shopping.</p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
             <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-slate-700">
-                <span className="text-amber-500 mt-0.5">⚠️</span>
-                <span>It&apos;s past its average lifespan ({lifespan})</span>
-              </li>
-              <li className="flex items-start gap-3 text-slate-700">
-                <span className="text-amber-500 mt-0.5">⚠️</span>
-                <span>Repairs are becoming more frequent... you&apos;ve called someone twice in the last year</span>
-              </li>
-              <li className="flex items-start gap-3 text-slate-700">
-                <span className="text-amber-500 mt-0.5">⚠️</span>
-                <span>Performance has noticeably declined compared to when it was new</span>
-              </li>
-              <li className="flex items-start gap-3 text-slate-700">
-                <span className="text-amber-500 mt-0.5">⚠️</span>
-                <span>Your energy or utility bills have been creeping up without explanation</span>
-              </li>
-              <li className="flex items-start gap-3 text-slate-700">
-                <span className="text-amber-500 mt-0.5">⚠️</span>
-                <span>It&apos;s making unusual noises, leaking, or showing visible wear</span>
-              </li>
+              {content ? content.warningSigns.map((ws, i) => (
+                <li key={i} className="flex items-start gap-3 text-slate-700">
+                  <span className="text-amber-500 mt-0.5 shrink-0">⚠️</span>
+                  <div>
+                    <span className="font-medium">{ws.sign}</span>
+                    <span className="text-slate-500"> — {ws.detail}</span>
+                  </div>
+                </li>
+              )) : (
+                <>
+                  <li className="flex items-start gap-3 text-slate-700">
+                    <span className="text-amber-500 mt-0.5">⚠️</span>
+                    <span>It&apos;s past its average lifespan ({lifespan})</span>
+                  </li>
+                  <li className="flex items-start gap-3 text-slate-700">
+                    <span className="text-amber-500 mt-0.5">⚠️</span>
+                    <span>Repairs are becoming more frequent... you&apos;ve called someone twice in the last year</span>
+                  </li>
+                  <li className="flex items-start gap-3 text-slate-700">
+                    <span className="text-amber-500 mt-0.5">⚠️</span>
+                    <span>Performance has noticeably declined compared to when it was new</span>
+                  </li>
+                  <li className="flex items-start gap-3 text-slate-700">
+                    <span className="text-amber-500 mt-0.5">⚠️</span>
+                    <span>Your energy or utility bills have been creeping up without explanation</span>
+                  </li>
+                  <li className="flex items-start gap-3 text-slate-700">
+                    <span className="text-amber-500 mt-0.5">⚠️</span>
+                    <span>It&apos;s making unusual noises, leaking, or showing visible wear</span>
+                  </li>
+                </>
+              )}
             </ul>
           </div>
         </section>
@@ -131,9 +157,17 @@ export default function ProductPage({ product, related }: Props) {
         {/* Repair or Replace */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">Should You Repair or Replace?</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">
-            The general rule: if the repair costs more than 50% of what a new {p.name.toLowerCase()} would cost... replace it. You&apos;re throwing money at something that&apos;s on its way out.
-          </p>
+          {content ? (
+            <div className="space-y-3 mb-4">
+              {content.repairOrReplace.split('\n\n').map((para, i) => (
+                <p key={i} className="text-slate-600 leading-relaxed">{para}</p>
+              ))}
+            </div>
+          ) : (
+            <p className="text-slate-600 leading-relaxed mb-4">
+              The general rule: if the repair costs more than 50% of what a new {p.name.toLowerCase()} would cost... replace it. You&apos;re throwing money at something that&apos;s on its way out.
+            </p>
+          )}
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
               <h3 className="font-semibold text-blue-800 mb-3">🔧 Repair if...</h3>
@@ -165,22 +199,31 @@ export default function ProductPage({ product, related }: Props) {
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">How to Make It Last Longer</h2>
           <ul className="space-y-3 text-slate-600">
-            <li className="flex items-start gap-3">
-              <span className="text-emerald-500 mt-0.5">✓</span>
-              <span>Follow the manufacturer&apos;s recommended maintenance schedule</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-emerald-500 mt-0.5">✓</span>
-              <span>Address small problems early... before they become expensive ones</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-emerald-500 mt-0.5">✓</span>
-              <span>Keep records of when it was installed and any repairs done</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-emerald-500 mt-0.5">✓</span>
-              <span>Use it within its designed capacity... don&apos;t overwork it</span>
-            </li>
+            {content ? content.maintenanceTips.map((tip, i) => (
+              <li key={i} className="flex items-start gap-3">
+                <span className="text-emerald-500 mt-0.5 shrink-0">✓</span>
+                <span>{tip}</span>
+              </li>
+            )) : (
+              <>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-0.5">✓</span>
+                  <span>Follow the manufacturer&apos;s recommended maintenance schedule</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-0.5">✓</span>
+                  <span>Address small problems early... before they become expensive ones</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-0.5">✓</span>
+                  <span>Keep records of when it was installed and any repairs done</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-0.5">✓</span>
+                  <span>Use it within its designed capacity... don&apos;t overwork it</span>
+                </li>
+              </>
+            )}
           </ul>
         </section>
 

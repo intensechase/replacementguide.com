@@ -1,0 +1,30 @@
+export const content = {
+  slug: 'furnace',
+  lifespanDetail: `A gas furnace typically lasts 15 to 20 years, but there's a big difference between a furnace that was maintained and one that was ignored. The single biggest factor is filter changes. A clogged filter forces the blower motor to work harder, which overheats the heat exchanger... that's the most expensive component in the system and the one most likely to crack and leak carbon monoxide. Changing a $5 filter every 1 to 3 months can literally add years to your furnace's life. Brand matters more than people think. Carrier, Trane, Lennox, and Rheem consistently make it past 20 years with proper care. Budget brands from big box stores often start having issues around year 10. The efficiency rating (AFUE) also correlates with longevity... higher-efficiency units (90%+ AFUE) have more complex components but are generally built to a higher standard. How hard your furnace works matters too. A properly sized furnace in an insulated home cycles on and off at normal intervals. An oversized furnace short-cycles (turns on and off too frequently), which wears out components faster. An undersized furnace runs constantly and never quite gets the house warm. Both scenarios cut years off the equipment. Climate is obvious... a furnace in Minnesota runs 6 to 7 months a year while one in North Carolina might only run 3 to 4 months. That usage difference directly impacts lifespan.`,
+  warningSigns: [
+    { sign: 'Yellow or flickering pilot light', detail: 'A healthy pilot light is blue... yellow or flickering means the gas isn\'t burning completely, which can indicate a cracked heat exchanger or ventilation problem... and possible carbon monoxide risk.' },
+    { sign: 'Strange noises', detail: 'Banging, popping, squealing, or rattling sounds indicate loose components, a failing blower motor, or delayed ignition where gas builds up before lighting.' },
+    { sign: 'Uneven heating throughout the house', detail: 'If some rooms are warm and others are cold despite open vents, the furnace may be losing its ability to distribute heat effectively.' },
+    { sign: 'Rising gas bills', detail: 'If your gas costs are climbing but usage hasn\'t changed, the furnace is losing efficiency... a furnace in its last few years can drop 10 to 15% in efficiency.' },
+    { sign: 'Frequent cycling on and off', detail: 'Short cycling means the furnace keeps starting up and shutting down in quick succession... this points to a failing thermostat, clogged filter, or overheating heat exchanger.' },
+    { sign: 'Carbon monoxide detector alerts', detail: 'This is the one you don\'t ignore... a cracked heat exchanger can leak carbon monoxide into your home. If your CO detector goes off, shut down the furnace and call for service immediately.' },
+    { sign: 'Visible rust or cracks on the unit', detail: 'Corrosion on the furnace body or flue pipes means moisture is present where it shouldn\'t be, often indicating a failing heat exchanger.' },
+    { sign: 'Dustier house than usual', detail: 'An aging furnace with a deteriorating air handler doesn\'t filter as effectively, leading to more dust circulating through your home.' },
+  ],
+  repairOrReplace: `Furnace repairs under $500 are almost always worth doing if the unit is under 12 years old. That includes things like a new blower motor ($200 to $450), ignitor replacement ($100 to $250), or a new thermocouple ($50 to $200). These are wear items that fail on even well-maintained furnaces. The big decision point is the heat exchanger. If that's cracked, the repair runs $1,500 to $3,000... at that price, on a furnace over 12 years old, you're better off replacing the whole unit. A cracked heat exchanger also creates a carbon monoxide risk, so this isn't something you patch and hope for the best. New furnace installation runs $2,500 to $7,500 depending on efficiency level and complexity. A basic 80% AFUE furnace is on the low end. A high-efficiency 96%+ AFUE unit with a variable-speed blower is on the high end but saves 15 to 20% on heating costs annually. Here's the rule of thumb: if the furnace is over 15 years old and the repair costs more than a third of a new unit... replace it. You'll get better efficiency, a full warranty (usually 10 years on the heat exchanger), and modern safety features. If you're also replacing the AC, doing both at the same time saves $500 to $1,000 on labor since the same crew handles both. Timing matters... schedule replacement in spring or early fall when HVAC companies are slow and more willing to negotiate on price.`,
+  maintenanceTips: [
+    'Change the air filter every 1 to 3 months during heating season... a dirty filter is the number one cause of furnace problems and the easiest thing to prevent.',
+    'Schedule annual professional maintenance before winter... a tune-up runs $80 to $150 and catches small problems before they become $500 repairs.',
+    'Keep the area around your furnace clear... at least 3 feet of clearance on all sides for airflow and safety.',
+    'Check the flue pipe for rust, gaps, or disconnections once a year... a compromised flue can send carbon monoxide into your living space.',
+    'Test your carbon monoxide detectors monthly and replace batteries yearly... they\'re your last line of defense if the heat exchanger fails.',
+    'Bleed radiators or check ductwork for leaks annually... the furnace can be perfect but if heat isn\'t getting to the rooms, it\'s running harder than it needs to.',
+  ],
+  costBreakdown: {
+    replaceLow: 2500,
+    replaceHigh: 7500,
+    repairLow: 100,
+    repairHigh: 500,
+    laborPercent: '50-65%',
+  },
+}

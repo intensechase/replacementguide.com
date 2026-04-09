@@ -1,0 +1,30 @@
+export const content = {
+  slug: 'roof',
+  lifespanDetail: `Most asphalt shingle roofs last 20 to 30 years... but that number assumes everything went right during installation and nothing went wrong after. In reality, your roof's lifespan depends on a handful of specific factors. Ventilation is the big one most homeowners miss. If your attic doesn't breathe properly, heat builds up underneath the shingles in summer and moisture gets trapped in winter. That alone can cut 5 to 8 years off your roof's life. Climate matters too... roofs in the South and Southwest age faster from UV exposure and heat cycling, while roofs in the Northeast take a beating from ice dams and freeze-thaw cycles. The quality of the shingles themselves makes a real difference. Architectural (dimensional) shingles last 25 to 30 years. Basic 3-tab shingles are more like 15 to 20. Then there's installation quality. Improper nailing patterns, bad flashing work around chimneys and vents, or skipping the ice and water shield in cold climates... these are the things that cause a 30-year roof to fail at 15. One more thing people overlook: the color of your shingles. Darker colors absorb more heat and degrade faster in hot climates. If you're in Arizona with a black roof, you're working against yourself from day one.`,
+  warningSigns: [
+    { sign: 'Curling or buckling shingles', detail: 'Shingles that are cupping upward or buckling in waves have lost their ability to shed water properly and are near end of life.' },
+    { sign: 'Granules collecting in gutters', detail: 'Those coarse sandy bits in your gutters are the UV-protective coating washing off your shingles... once they go, the shingle deteriorates fast.' },
+    { sign: 'Daylight visible through attic boards', detail: 'If you can see pinpoints of light from inside your attic, water is getting through too... even if you haven\'t noticed a leak yet.' },
+    { sign: 'Sagging roof deck', detail: 'A visible sag or dip in the roofline means the decking underneath is compromised from moisture damage... this is urgent.' },
+    { sign: 'Moss or algae growth', detail: 'Moss holds moisture against the shingle surface and slowly pries up edges, especially on north-facing slopes that stay damp.' },
+    { sign: 'Leaks after rain', detail: 'Obvious but worth saying... if you see water stains on ceilings or walls after a storm, something has failed up top.' },
+    { sign: 'Flashing deterioration', detail: 'Rusted, cracked, or separated flashing around chimneys, vents, and valleys is the most common source of leaks on an otherwise decent roof.' },
+    { sign: 'Neighbors getting new roofs', detail: 'If your house was built around the same time as your neighbors and they\'re all replacing roofs... yours is probably due too.' },
+  ],
+  repairOrReplace: `Here's the honest answer: if the damage is limited to one area and your roof is under 15 years old, repair it. A patch job or replacing a section of shingles runs $200 to $1,500 depending on the scope. That's money well spent on a roof with life left in it. But if you're looking at widespread damage, multiple leak points, or a roof that's past the 20-year mark... repairs are just buying time. And expensive time at that. The real decision point comes down to the "30% rule." If more than 30% of the roof needs work, you're almost always better off replacing the whole thing. Layering new shingles over old (a re-roof) costs $4,000 to $9,000 and avoids the tear-off expense, but most roofers will tell you it's not ideal... it hides problems and adds weight. A full tear-off and replacement runs $5,000 to $15,000 for a typical 1,500 to 2,500 square foot home. That includes removing the old shingles, inspecting and repairing the decking, new underlayment, and fresh shingles. Labor is 60 to 70% of the total cost. One thing to consider: if your roof is leaking and you're planning to sell within 2 years, a new roof returns about 60 to 70% of its cost at resale and removes a major objection for buyers. If you're staying put, a quality replacement means 25+ years before you think about it again.`,
+  maintenanceTips: [
+    'Clean gutters twice a year... clogged gutters back up water under the shingle edges and rot the fascia board.',
+    'Trim tree branches back at least 6 feet from the roof to reduce debris, shade (which promotes moss), and storm damage risk.',
+    'Check attic ventilation annually... you want roughly equal intake (soffit) and exhaust (ridge or gable) vents to keep moisture and heat from building up.',
+    'Inspect flashing around chimneys, vents, and skylights every spring... reseal with roofing cement if you see gaps or rust.',
+    'Remove moss or algae with a 50/50 bleach-water solution sprayed on gently... never pressure wash shingles, it strips the granules right off.',
+    'After any major storm, do a visual check from the ground with binoculars... look for missing shingles, exposed underlayment, or flashing that shifted.',
+  ],
+  costBreakdown: {
+    replaceLow: 5000,
+    replaceHigh: 15000,
+    repairLow: 200,
+    repairHigh: 1500,
+    laborPercent: '60-70%',
+  },
+}
