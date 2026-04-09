@@ -1,0 +1,47 @@
+export const content = {
+  slug: 'smoke-detector',
+  lifespanDetail: `Smoke detectors must be replaced every 10 years from the date of manufacture... not the date you bought it or installed it. This isn't a suggestion... it's required by NFPA 72 (the National Fire Alarm and Signaling Code) and recommended by the U.S. Fire Administration.\n\nThe reason is simple: the sensors degrade over time. Ionization sensors use a tiny amount of radioactive material that decays. Photoelectric sensors accumulate dust and film on the optical chamber. After 10 years, neither type is reliable enough to trust your family's life to.\n\nIf you have combination smoke/carbon monoxide detectors, the lifespan is shorter... typically 5 to 7 years. The CO sensor wears out faster than the smoke sensor. Check the back of your unit for the manufacture date. If there's no date stamped on it... it's too old. Replace it today.\n\nOne more thing most people don't realize: smoke detectors with sealed 10-year lithium batteries are designed to last exactly 10 years. When that battery dies, you don't replace the battery... you replace the entire unit. That chirping is telling you the detector has reached end of life.`,
+  warningSigns: [
+    { sign: 'Chirping that doesn\'t stop after battery replacement', detail: 'This is the end-of-life signal. The detector is telling you it\'s expired. A new battery won\'t fix a 10-year-old sensor.' },
+    { sign: 'No date of manufacture on the unit', detail: 'If you can\'t find a manufacture date on the back or side of the detector... it\'s old enough that it predates standardized date marking. Replace immediately.' },
+    { sign: 'Yellow discoloration', detail: 'The plastic housing has yellowed from age and heat exposure. This is a visual indicator that the unit is well past its useful life.' },
+    { sign: 'It\'s been 10 years since manufacture date', detail: 'Check the back of every detector in your home. The date is stamped there. 10 years from that date = replacement time, per NFPA 72.' },
+    { sign: 'Failed test', detail: 'Press the test button monthly. If it doesn\'t produce a loud alarm... replace it immediately regardless of age. A silent test button means a dead detector.' },
+    { sign: 'Frequent false alarms', detail: 'Older detectors become overly sensitive or erratic. If yours goes off randomly (not from cooking), the sensor is degrading.' },
+  ],
+  repairOrReplace: `Smoke detectors are never repaired. They're safety devices with a defined lifespan... when they're done, you buy new ones. At $15-$40 each, there's no scenario where repair makes sense.\n\nThe only "maintenance" is replacing batteries (every 6-12 months for units with replaceable batteries) and testing monthly. If a detector fails the test button check, replace it immediately.\n\nWhen you replace, replace ALL detectors in the house at the same time. This resets the clock and ensures all units are the same age. Buy interconnected models so when one goes off, they all go off... this is especially critical for two-story homes where you might not hear a detector on a different floor.`,
+  maintenanceTips: [
+    'Test every detector monthly by pressing the test button. If you can\'t reach it, use a broom handle.',
+    'Replace batteries every 6-12 months... pick a recurring date like when you change clocks for daylight saving time.',
+    'Vacuum or dust detectors every 6 months. Dust buildup on the sensor causes false alarms and reduces sensitivity.',
+    'Never paint a smoke detector. Paint clogs the sensor openings and makes it useless.',
+    'Write the installation date on the side of each detector with a marker. Makes it easy to know when 10 years is up.',
+    'Install detectors on the ceiling or high on the wall (smoke rises). Not near windows, doors, or kitchens where drafts and cooking smoke cause false alarms.',
+  ],
+  costBreakdown: {
+    replaceLow: 15,
+    replaceHigh: 40,
+    repairLow: 0,
+    repairHigh: 0,
+    laborPercent: 'DIY in 5 minutes per detector. Hardwired units may need an electrician ($50-$100/hour).',
+  },
+  recommendedProducts: [
+    { name: 'Google Nest Protect (2nd Gen)', description: 'Smoke + CO combo with voice alerts that tell you what\'s wrong and where. Phone notifications when you\'re away. Split-spectrum sensor catches both fast and slow fires.', priceRange: '$100-$130', amazonUrl: 'https://www.amazon.com/s?k=Google+Nest+Protect+smoke+detector&tag=replacementgu-20' },
+    { name: 'First Alert 10-Year Sealed Battery Smoke Detector (2-pack)', description: 'No battery changes for 10 years. Photoelectric sensor for fewer cooking false alarms. The set-it-and-forget-it option.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=First+Alert+10+year+sealed+battery+smoke+detector&tag=replacementgu-20' },
+    { name: 'Kidde Hardwired Smoke Detector with Battery Backup', description: 'For homes with existing hardwired connections. Interconnects with other Kidde units. Battery backup keeps it working during power outages.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Kidde+hardwired+smoke+detector+battery+backup&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace 9V battery', cost: '$2-$5', notes: 'Every 6-12 months for units with replaceable batteries. The most common "fix" for chirping.' },
+    { repair: 'Clean sensor chamber', cost: '$0 (DIY)', notes: 'Vacuum around the vents and use compressed air inside. Reduces false alarms from dust buildup.' },
+    { repair: 'Replace entire unit', cost: '$15-$40', notes: 'The only real "repair." After 10 years or if it fails the test button, buy a new one.' },
+    { repair: 'Electrician for hardwired replacement', cost: '$50-$100 per visit', notes: 'Only needed if you\'re replacing hardwired units and aren\'t comfortable with electrical work. Most hardwired detectors are plug-in connectors now.' },
+  ],
+  insuranceCoverage: `Smoke detectors are too cheap for an insurance claim. However, having working smoke detectors directly affects your homeowners insurance in two important ways.\n\nFirst, many insurers offer a discount (2-5%) on your premium for having working, interconnected smoke detectors. Some require them for coverage to be valid at all.\n\nSecond... and this is the critical part... if you have a fire and your smoke detectors were expired, missing, or non-functional, your insurance company could use that as grounds to reduce or deny your claim. They may argue that proper detectors would have limited the damage. This isn't common, but it happens.\n\nBottom line: $30-$50 to replace all your detectors is the cheapest insurance policy you'll ever buy.`,
+  bestBrands: [
+    { name: 'Google Nest Protect', knownFor: 'The premium smart option. Voice alerts, phone notifications, split-spectrum sensor (catches both smoldering and flaming fires). Expensive but the best technology available for residential use.' },
+    { name: 'First Alert', knownFor: 'The most recognized brand in home safety. Wide range from basic to smart. Their 10-year sealed battery models are the most popular option. Available everywhere.' },
+    { name: 'Kidde', knownFor: 'First Alert\'s main competitor. Strong in hardwired interconnected systems. Good value. Owned by Carrier (the HVAC company). Widely available at Home Depot.' },
+    { name: 'X-Sense', knownFor: 'Newer brand gaining popularity for excellent value. Wireless interconnected models at half the price of Nest. Good smart home integration.' },
+  ],
+  installationTime: `Battery-operated detectors: 5 minutes each. Screw the mounting plate to the ceiling, snap the detector on, insert the battery. No tools needed beyond a screwdriver and a ladder.\n\nHardwired detectors: 10-15 minutes each if you're replacing an existing hardwired unit (same connector type). Most modern hardwired detectors use a standard plug connector... turn off the breaker, unplug the old one, plug in the new one, turn the breaker back on.\n\nNew hardwired installation where none existed before: this requires an electrician and running new wiring. Expect $50-$100 per detector for labor plus the cost of the unit.\n\nHow many do you need? NFPA requires one in every bedroom, one outside each sleeping area, and one on every level of the home including the basement. A typical 3-bedroom, 2-story home needs 5-7 detectors.`,
+}
