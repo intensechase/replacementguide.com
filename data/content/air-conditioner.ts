@@ -45,7 +45,7 @@ export const content = {
   bestBrands: [
     { name: 'Carrier', knownFor: 'Invented modern AC in 1902. Infinity series offers up to 24 SEER2. Three tiers like their furnaces. Strong dealer network and parts availability.' },
     { name: 'Trane', knownFor: 'Known for durability in extreme heat. XV20i is their top model at 22 SEER2. Heavy-duty build quality. Slightly higher price but excellent longevity.' },
-    { name: 'Lennox', knownFor: 'Highest SEER ratings available... the XC25 hits 26 SEER. Quietest operation in the industry. Premium pricing but best-in-class efficiency.' },
+    { name: 'Lennox', knownFor: 'Highest SEER ratings in the industry... the SL28XCV hits 28 SEER2. Quietest operation available. Premium pricing but best-in-class efficiency.' },
     { name: 'Goodman', knownFor: 'Best budget option. Solid 14-16 SEER units at 30-40% less than premium brands. Owned by Daikin (global HVAC leader). Lifetime compressor warranty on many models.' },
     { name: 'Rheem', knownFor: 'Good mid-range value. Available at Home Depot. 14-20 SEER range. Reliable and widely serviced. The Classic Plus series hits a nice price-performance balance.' },
   ],
