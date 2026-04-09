@@ -5,6 +5,7 @@ const CATEGORIES = [
   { name: 'Auto', href: '/auto' },
   { name: 'Personal', href: '/personal' },
   { name: 'Outdoor', href: '/outdoor' },
+  { name: 'Maintenance', href: '/maintenance' },
   { name: 'Troubleshoot', href: '/troubleshoot' },
 ]
 

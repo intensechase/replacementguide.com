@@ -1,0 +1,28 @@
+export const guide = {
+  slug: 'change-air-filter-house',
+  title: 'How Often to Change Your Home Air Filter',
+  metaTitle: 'How Often to Change Your Home Air Filter (2026 Guide) | ReplacementGuide',
+  metaDescription: 'How often should you change your home air filter? Every 1-3 months. Your HVAC filter affects air quality, energy bills, and system lifespan.',
+  category: 'home',
+  frequency: '1-3 months',
+  detail: `Your home's air filter sits between you and everything floating in your air... dust, pollen, pet dander, mold spores, and whatever the kids tracked in. Changing it regularly is the single easiest thing you can do to maintain both air quality and your HVAC system. Every 1 to 3 months is the standard, but the right interval depends on your household. The filter lives in the return air duct or the air handler unit itself. Air passes through it every time the system cycles, trapping particles before they reach the blower, evaporator coil, and ductwork. A clean filter has minimal airflow resistance. A dirty one forces the system to pull air harder, increasing energy consumption by 5 to 15% and putting strain on the blower motor. Over time, that strain shortens the life of components that cost hundreds to replace. Not all air filters are created equal. The MERV rating (Minimum Efficiency Reporting Value) tells you what the filter catches. MERV 1 to 4 catches large dust and lint... basically the minimum. MERV 8 catches dust mites, mold spores, and some pollen. MERV 11 to 13 catches everything MERV 8 does plus pet dander, fine dust, smoke particles, and bacteria. Higher isn't always better... MERV 14 and above can restrict airflow in systems not designed for them, causing the exact problems the filter is supposed to prevent. For most homes, MERV 8 is the practical minimum and MERV 11 is the sweet spot. If someone in your home has allergies or asthma, step up to MERV 13. Check your filter monthly regardless of the recommended interval. Slide it out, hold it up to light. If light barely passes through, it's time. Set a recurring reminder on your phone... it's easy to forget, and a $15 filter protects a $5,000 system. Buy in bulk. A 6-pack costs 25 to 35% less per filter than buying singles, and you'll always have one ready when the current one is dirty. Measure your filter before ordering... common sizes include 16x20x1, 16x25x1, and 20x25x1, but there are dozens of sizes and even a half-inch difference means it won't fit.`,
+  factors: [
+    { factor: 'Number of occupants', detail: 'More people generate more airborne particles from skin cells, hair, and activity. A single person living alone can stretch a filter to 90 days. A family of 4 or more should change every 30 to 60 days.' },
+    { factor: 'Pets', detail: 'Pet hair and dander are the biggest filter killers in residential HVAC. One shedding dog or cat means changing every 30 to 60 days. Multiple pets or heavy shedders... every 30 days.' },
+    { factor: 'Allergies or respiratory conditions', detail: 'Use MERV 11 to 13 and change every 30 to 45 days. A clean, high-MERV filter is the most cost-effective way to reduce indoor allergens.' },
+    { factor: 'Home location and environment', detail: 'Homes near construction, busy roads, agricultural fields, or in areas with high pollen counts will clog filters faster. Dusty, dry climates also mean more frequent changes.' },
+    { factor: 'Filter thickness', detail: 'Standard 1-inch filters need the most frequent changes (30 to 90 days). 2-inch filters last slightly longer. 4 to 5 inch media filters in whole-house filter cabinets can go 6 to 12 months between changes.' },
+  ],
+  signs: [
+    'Dust accumulates on furniture and surfaces faster than usual... if you\'re dusting more often but the house stays dusty, the filter is full and can\'t trap new particles.',
+    'HVAC system runs longer cycles or short-cycles frequently... restricted airflow from a dirty filter means the system takes longer to reach temperature, or overheats and shuts off early.',
+    'Allergy symptoms worsen indoors... if sneezing, congestion, or itchy eyes improve when you leave the house, your indoor air quality is suffering and the filter is a likely culprit.',
+    'Higher than normal energy bills during heating or cooling season... a clogged filter can increase energy consumption by 5 to 15%, which shows up clearly on monthly bills.',
+  ],
+  recommendedProducts: [
+    { name: 'Filtrete 1900 MPR Maximum Allergen Reduction (6-Pack)', description: 'MERV 13 equivalent filter that catches bacteria, smoke, and fine particles. The 6-pack pricing works out to about $10 per filter, which is reasonable for this level of filtration.', priceRange: '$55-$80 (6-pack)', amazonUrl: '' },
+    { name: 'Aerostar MERV 8 Pleated Air Filter (6-Pack)', description: 'The best value for standard filtration. Catches dust, pollen, and mold spores without restricting airflow. Perfect for homes without pets or allergies.', priceRange: '$25-$40 (6-pack)', amazonUrl: '' },
+    { name: 'FilterBuy MERV 11 Pleated Filter (4-Pack)', description: 'The middle ground between basic and premium filtration. Catches pet dander and fine dust while maintaining good airflow. Available in every common size.', priceRange: '$28-$45 (4-pack)', amazonUrl: '' },
+  ],
+  relatedProduct: { category: 'home', slug: 'furnace', name: 'Furnace' },
+}

@@ -61,6 +61,12 @@ export const products: Product[] = [
   { name: 'Circuit Breaker', slug: 'circuit-breaker', category: 'home', lifespanMin: 25, lifespanMax: 40, lifespanUnit: 'years', costLow: 150, costHigh: 400 },
   { name: 'Laminate Flooring', slug: 'laminate-flooring', category: 'home', lifespanMin: 15, lifespanMax: 25, lifespanUnit: 'years', costLow: 3, costHigh: 8 },
   { name: 'Spray Foam Insulation', slug: 'spray-foam-insulation', category: 'home', lifespanMin: 80, lifespanMax: 100, lifespanUnit: 'years', costLow: 1500, costHigh: 5000 },
+  { name: 'Garage Door Spring', slug: 'garage-door-spring', category: 'home', lifespanMin: 7, lifespanMax: 12, lifespanUnit: 'years', costLow: 150, costHigh: 350 },
+  { name: 'AC Compressor', slug: 'ac-compressor', category: 'home', lifespanMin: 10, lifespanMax: 15, lifespanUnit: 'years', costLow: 1500, costHigh: 3000 },
+  { name: 'Ductwork', slug: 'ductwork', category: 'home', lifespanMin: 25, lifespanMax: 40, lifespanUnit: 'years', costLow: 3000, costHigh: 7000 },
+  { name: 'Slate Roof', slug: 'slate-roof', category: 'home', lifespanMin: 75, lifespanMax: 200, lifespanUnit: 'years', costLow: 15000, costHigh: 30000 },
+  { name: 'Boiler', slug: 'boiler', category: 'home', lifespanMin: 15, lifespanMax: 30, lifespanUnit: 'years', costLow: 3500, costHigh: 8000 },
+  { name: 'Heat Pump', slug: 'heat-pump', category: 'home', lifespanMin: 10, lifespanMax: 15, lifespanUnit: 'years', costLow: 4000, costHigh: 8000 },
 
   // ==================== AUTO (25) ====================
   { name: 'Car Battery', slug: 'battery', category: 'auto', lifespanMin: 3, lifespanMax: 5, lifespanUnit: 'years', costLow: 100, costHigh: 300 },
@@ -118,4 +124,5 @@ export const products: Product[] = [
   { name: 'Mulch', slug: 'mulch', category: 'outdoor', lifespanMin: 1, lifespanMax: 2, lifespanUnit: 'years', costLow: 30, costHigh: 100 },
   { name: 'Outdoor Furniture', slug: 'outdoor-furniture', category: 'outdoor', lifespanMin: 5, lifespanMax: 15, lifespanUnit: 'years', costLow: 200, costHigh: 2000 },
   { name: 'Grill (Gas)', slug: 'grill', category: 'outdoor', lifespanMin: 5, lifespanMax: 15, lifespanUnit: 'years', costLow: 200, costHigh: 1500 },
+  { name: 'Pool Pump', slug: 'pool-pump', category: 'outdoor', lifespanMin: 8, lifespanMax: 12, lifespanUnit: 'years', costLow: 500, costHigh: 2000 },
 ]

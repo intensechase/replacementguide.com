@@ -19,6 +19,16 @@ import { content as garageDoorOpener } from './garage-door-opener'
 import { content as circuitBreaker } from './circuit-breaker'
 import { content as laminateFlooring } from './laminate-flooring'
 import { content as sprayFoamInsulation } from './spray-foam-insulation'
+import { content as garageDoorSpring } from './garage-door-spring'
+import { content as gutters } from './gutters'
+import { content as acCompressor } from './ac-compressor'
+import { content as ductwork } from './ductwork'
+import { content as vinylSiding } from './vinyl-siding'
+import { content as metalRoof } from './metal-roof'
+import { content as slateRoof } from './slate-roof'
+import { content as boiler } from './boiler'
+import { content as poolPump } from './pool-pump'
+import { content as heatPump } from './heat-pump'
 
 export interface ProductContent {
   slug: string
@@ -57,6 +67,16 @@ const contentMap: Record<string, ProductContent> = {
   'circuit-breaker': circuitBreaker,
   'laminate-flooring': laminateFlooring,
   'spray-foam-insulation': sprayFoamInsulation,
+  'garage-door-spring': garageDoorSpring,
+  'gutters': gutters,
+  'ac-compressor': acCompressor,
+  'ductwork': ductwork,
+  'vinyl-siding': vinylSiding,
+  'metal-roof': metalRoof,
+  'slate-roof': slateRoof,
+  'boiler': boiler,
+  'pool-pump': poolPump,
+  'heat-pump': heatPump,
 }
 
 export function getProductContent(slug: string): ProductContent | null {
