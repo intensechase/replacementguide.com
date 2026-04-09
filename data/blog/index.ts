@@ -24,11 +24,17 @@ import { article as gasBill } from './why-is-my-gas-bill-so-high'
 import { article as waterBill } from './why-is-my-water-bill-so-high'
 import { article as roofFinancing } from './roof-financing-options'
 import { article as hvacFinancing } from './hvac-financing-options'
+import { article as dryerVent } from './how-to-clean-dryer-vent'
+import { article as basementFloods } from './what-to-do-when-basement-floods'
+import { article as maintenanceChecklist } from './home-maintenance-checklist'
 
 const allArticles: BlogArticle[] = [
   electricBill,
   gasBill,
   waterBill,
+  dryerVent,
+  basementFloods,
+  maintenanceChecklist,
   hvacFinancing,
   roofFinancing,
 ]
