@@ -48,6 +48,7 @@ import { content as deck } from './deck'
 import { content as solarPanels } from './solar-panels'
 import { content as fence } from './fence'
 import { content as electricalPanel } from './electrical-panel'
+import { content as alternator } from './alternator'
 
 export interface ProductContent {
   slug: string
@@ -121,6 +122,7 @@ const contentMap: Record<string, ProductContent> = {
   'solar-panels': solarPanels,
   'fence': fence,
   'electrical-panel': electricalPanel,
+  'alternator': alternator,
 }
 
 export function getProductContent(slug: string): ProductContent | null {

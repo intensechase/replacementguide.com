@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'alternator',
+  lifespanDetail: `Alternators last 7 to 12 years or about 100,000 to 150,000 miles. They're one of those parts you never think about until they fail... and when they do, your car dies on the road because the battery can't run the car by itself for long.\n\nThe alternator charges your battery and powers every electrical system while the engine runs... lights, radio, AC, power windows, phone charging, all of it. Modern cars demand more from alternators than older vehicles because of all the electronics. A car from 2000 might have had a 90-amp alternator. A 2024 SUV might need 180+ amps.\n\nHeat is the primary killer. The alternator sits on the engine and absorbs engine heat plus generates its own heat from the charging process. Cars that spend a lot of time idling (delivery vehicles, commuters in heavy traffic) burn out alternators faster because there's less airflow to cool them.\n\nThe bearings wear out first in most cases... you'll hear a whining or grinding sound. The voltage regulator is the second most common failure point... your headlights might dim or brighten erratically.`,
+  warningSigns: [
+    { sign: 'Battery warning light on the dashboard', detail: 'This light actually monitors alternator output, not just the battery. If it comes on while driving... the alternator is not charging properly. You have 20-30 minutes of battery power before the car dies.' },
+    { sign: 'Whining or grinding noise from the engine', detail: 'Worn alternator bearings make a distinctive high-pitched whine that gets louder with RPM. This sound comes from the belt side of the engine.' },
+    { sign: 'Dim or flickering headlights', detail: 'Headlights brighten when you rev the engine and dim at idle. The alternator can\'t maintain consistent voltage under load.' },
+    { sign: 'Dead battery that keeps dying after charging', detail: 'You charge or jump the battery and it dies again within a day or two. The alternator isn\'t recharging it while driving. Have both the battery AND alternator tested.' },
+    { sign: 'Electrical accessories acting erratically', detail: 'Power windows slow down, radio resets, dashboard lights flicker. These are signs of unstable voltage from a failing voltage regulator inside the alternator.' },
+    { sign: 'Burning rubber or electrical smell', detail: 'The alternator belt slipping (burning rubber) or internal windings overheating (electrical smell). Both indicate imminent failure.' },
+  ],
+  repairOrReplace: `Alternators are almost always replaced as a complete unit, not repaired. Rebuilt alternators ($150-$350) are the most common choice... they're remanufactured with new bearings, brushes, and voltage regulator. New OEM alternators ($300-$600) are available but cost significantly more for marginally better reliability.\n\nThe labor is often more than the part because alternator location varies wildly by vehicle. Some are right on top and take 30 minutes. Others are buried under other components and take 2-3 hours.\n\nBefore replacing the alternator, make sure it's actually the problem. A free alternator test at any auto parts store takes 5 minutes. A bad battery can mimic alternator symptoms. Test both before spending money on either.\n\nIf your alternator is being replaced, replace the serpentine belt at the same time ($20-$50 for the belt). The belt has to come off anyway, and an old belt on a new alternator is asking for another shop visit.`,
+  maintenanceTips: [
+    'There\'s no scheduled maintenance for an alternator... but keeping the serpentine belt in good condition prevents belt slippage that overworks the alternator.',
+    'Don\'t add excessive aftermarket electronics (big stereo systems, off-road lights) without verifying your alternator can handle the load. Underpowered alternator + heavy draw = early failure.',
+    'If your battery warning light flickers briefly then goes off... don\'t ignore it. That\'s an early warning that the alternator is starting to struggle.',
+    'Keep the alternator area clean of oil leaks. Oil on the alternator housing traps heat and accelerates bearing wear.',
+    'If you hear a whining noise that changes with engine RPM, get it checked before the alternator dies completely and leaves you stranded.',
+  ],
+  costBreakdown: {
+    replaceLow: 300,
+    replaceHigh: 800,
+    repairLow: 0,
+    repairHigh: 50,
+    laborPercent: '$150-$350 for the alternator (rebuilt) + $150-$400 labor depending on accessibility.',
+  },
+  recommendedProducts: [
+    { name: 'ACDelco Professional Alternator', description: 'OEM-quality rebuilt alternator for GM vehicles. Tested to meet original specifications. Includes voltage regulator. Core exchange required.', priceRange: '$150-$300', amazonUrl: 'https://www.amazon.com/s?k=ACDelco+Professional+alternator&tag=replacementgu-20' },
+    { name: 'Duralast Alternator (AutoZone)', description: 'Remanufactured with lifetime warranty. Available for most makes and models. AutoZone can test your old one for free before you buy.', priceRange: '$150-$350', amazonUrl: 'https://www.amazon.com/s?k=Duralast+alternator&tag=replacementgu-20' },
+    { name: 'Gates Serpentine Belt', description: 'Replace the belt while the alternator is being swapped. The belt is already off... a new one costs $20-$50 and prevents a separate repair trip later.', priceRange: '$20-$50', amazonUrl: 'https://www.amazon.com/s?k=Gates+serpentine+belt&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace alternator (rebuilt)', cost: '$300-$600 total', notes: 'Parts ($150-$350) + labor ($150-$400). Most common fix. Takes 1-3 hours depending on the vehicle.' },
+    { repair: 'Replace alternator (new OEM)', cost: '$500-$900 total', notes: 'New factory alternator. More expensive, marginally longer life. Mostly for newer/luxury vehicles.' },
+    { repair: 'Replace serpentine belt', cost: '$75-$200', notes: 'Often done alongside alternator replacement. Belt must come off anyway... replace it while it\'s accessible.' },
+    { repair: 'Free alternator test', cost: '$0', notes: 'AutoZone, O\'Reilly, and Advance Auto Parts test alternators for free. On-car and off-car testing available.' },
+    { repair: 'Replace voltage regulator only', cost: '$100-$250', notes: 'Some older vehicles have external voltage regulators that can be replaced separately. Modern cars have them built into the alternator.' },
+  ],
+  insuranceCoverage: `Auto insurance does not cover alternator replacement. It's a mechanical component that wears out from normal use... maintenance, not an insurable event.\n\nThe exception: if your alternator is damaged in a collision or covered accident, the repair would be included in the collision claim. But you'd never file a claim just for an alternator.\n\nExtended vehicle warranties (powertrain or comprehensive) typically DO cover alternators since they're part of the electrical/charging system. Check your warranty terms if your vehicle is still covered. Dealer-sold extended warranties and third-party warranties both commonly include the alternator.`,
+  bestBrands: [
+    { name: 'ACDelco (Professional/Gold)', knownFor: 'GM\'s OEM brand. Professional line is remanufactured to OE specs. Best choice for GM vehicles. Good availability.' },
+    { name: 'Denso', knownFor: 'Japanese OEM supplier for Toyota, Honda, and many others. New (not rebuilt) alternators. Premium price but factory quality.' },
+    { name: 'Bosch', knownFor: 'OEM supplier for European vehicles (BMW, VW, Mercedes). Both new and remanufactured available. Strong for European cars.' },
+    { name: 'Duralast (AutoZone)', knownFor: 'Remanufactured alternators with lifetime warranty. Convenient because AutoZone has them in stock and will test your old one for free.' },
+    { name: 'Remy (Delco Remy)', knownFor: 'Legacy GM brand now independent. Remanufactured alternators for a wide range of vehicles. Good value with strong warranty support.' },
+  ],
+  installationTime: `Alternator replacement takes 1-3 hours depending on the vehicle. Cars where the alternator is on top of the engine with easy access (many 4-cylinder engines) are 1-hour jobs. Vehicles where the alternator is buried (some V6 transverse engines, vehicles with tight engine bays) can take 2-3 hours.\n\nThe basic process: disconnect the battery, remove the serpentine belt, unbolt the alternator (usually 2-3 bolts), disconnect the wiring, install the new unit in reverse order. The hardest part is usually getting to the bolts.\n\nDIY difficulty: moderate. If you can see and reach the alternator from above, it's a doable weekend project. If you need to remove other components to access it... consider a shop. The electrical connections must be tight and correct or you'll fry the new alternator immediately.`,
+}
