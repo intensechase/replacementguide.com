@@ -40,6 +40,7 @@ import { content as refrigerator } from './refrigerator'
 import { content as washingMachine } from './washing-machine'
 import { content as dryer } from './dryer'
 import { content as smokeDetector } from './smoke-detector'
+import { content as microwave } from './microwave'
 
 export interface ProductContent {
   slug: string
@@ -105,6 +106,7 @@ const contentMap: Record<string, ProductContent> = {
   'washing-machine': washingMachine,
   'dryer': dryer,
   'smoke-detector': smokeDetector,
+  'microwave': microwave,
 }
 
 export function getProductContent(slug: string): ProductContent | null {

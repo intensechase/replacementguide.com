@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'microwave',
+  lifespanDetail: `Microwaves last 7 to 10 years on average. The magnetron (the part that actually generates the microwaves) degrades gradually over time... your food takes longer to heat, but the change is so slow you don't notice until it's significantly weaker than it used to be.\n\nBuilt-in over-the-range (OTR) microwaves tend to last slightly longer than countertop models... mostly because they're better ventilated and don't get moved around. Countertop models take more physical abuse and their door latches wear out faster from daily use.\n\nThe biggest lifespan factor is how often you use it. A family running the microwave 4-5 times a day will wear out the magnetron faster than someone who only reheats coffee. Commercial-style heavy use can burn through a residential microwave in 3-4 years.\n\nOne thing to know: a microwave that still "works" but takes twice as long to heat food is wasting electricity. At that point, a new $100-$200 microwave pays for itself in energy savings within a year.`,
+  warningSigns: [
+    { sign: 'Food takes noticeably longer to heat', detail: 'The magnetron is losing power. If your usual 2-minute reheat now takes 3-4 minutes... the microwave is dying. This is the most common sign.' },
+    { sign: 'Turntable stops rotating', detail: 'Could be a broken motor ($30-$50 part) or a worn drive coupler. Without rotation, food heats unevenly and the microwave works harder.' },
+    { sign: 'Sparking inside the chamber', detail: 'Usually caused by damaged waveguide cover or chipped interior paint exposing bare metal. Can also mean a failing magnetron. Stop using it until the cause is identified.' },
+    { sign: 'Door doesn\'t seal properly', detail: 'Microwave doors have safety interlocks that prevent operation when open. A warped or damaged door is a safety issue... microwaves can leak radiation if the seal is compromised.' },
+    { sign: 'Burning smell during operation', detail: 'Not from food... from the microwave itself. Could be a failing magnetron, burned-out capacitor, or melting wiring. Unplug it and don\'t use it.' },
+    { sign: 'Keypad buttons stop responding', detail: 'The membrane switch panel is wearing out. Common on older units. Replacement panels exist but often cost half the price of a new microwave.' },
+  ],
+  repairOrReplace: `For countertop microwaves under $200... always replace. The cost of a service call ($75-$100 just to show up) plus parts makes repair pointless on a $100-$150 appliance.\n\nFor built-in over-the-range microwaves, repair makes more sense because replacement involves installation labor ($150-$300). If the repair is under $200 and the unit is less than 5 years old, fix it. If it's over 7 years old or the magnetron is dead... replace.\n\nThe one repair that's always worth doing: replacing the turntable motor. It's a $30-$50 part, easy to DIY on most models, and extends the life of an otherwise functional microwave.\n\nNever attempt to repair the magnetron, capacitor, or high-voltage components yourself. Microwave capacitors hold a lethal charge even when unplugged. This is one of the few appliances where DIY repair can genuinely kill you.`,
+  maintenanceTips: [
+    'Clean the interior after every spill. Dried food absorbs microwave energy and creates hot spots that can damage the interior coating.',
+    'Never run the microwave empty. Without food or liquid to absorb the energy, the magnetron overheats and burns out faster.',
+    'Clean or replace the grease filter on over-the-range models every 6-12 months. A clogged filter reduces ventilation and shortens motor life.',
+    'Don\'t slam the door. The door latch mechanism is the most common failure point on countertop microwaves.',
+    'If the interior paint chips or peels, touch it up with microwave-safe appliance paint or replace the unit. Exposed metal causes arcing.',
+  ],
+  costBreakdown: {
+    replaceLow: 100,
+    replaceHigh: 500,
+    repairLow: 50,
+    repairHigh: 200,
+    laborPercent: 'Countertop: no labor (self-install). Over-the-range: $150-$300 installation labor.',
+  },
+  recommendedProducts: [
+    { name: 'Panasonic Inverter Microwave (NN-SN67HS)', description: 'Inverter technology heats more evenly than conventional microwaves. Best mid-range countertop option. Consistently top-rated.', priceRange: '$130-$180', amazonUrl: 'https://www.amazon.com/s?k=Panasonic+inverter+microwave+NN-SN67HS&tag=replacementgu-20' },
+    { name: 'Toshiba Countertop Microwave (EM925A5A)', description: 'Best budget option under $100. 900 watts, smart sensor reheat. Solid performer for the price.', priceRange: '$70-$90', amazonUrl: 'https://www.amazon.com/s?k=Toshiba+countertop+microwave+EM925A5A&tag=replacementgu-20' },
+    { name: 'Microwave Grease Filter Replacement (Universal)', description: 'For over-the-range microwaves. Replace every 6-12 months to keep the vent fan working properly and prevent grease buildup.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=microwave+grease+filter+replacement+universal&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace turntable motor', cost: '$30-$80 (DIY) / $100-$150 (pro)', notes: 'Most common repair. Easy DIY on most models... motor is underneath the turntable plate.' },
+    { repair: 'Replace door latch/switch', cost: '$50-$100 (DIY) / $100-$200 (pro)', notes: 'Door won\'t close properly or microwave won\'t start. Safety interlock switches are cheap parts.' },
+    { repair: 'Replace magnetron', cost: '$200-$400 (pro only)', notes: 'The heating element. If this fails on a countertop model, just buy a new microwave. Only worth repairing on expensive built-ins.' },
+    { repair: 'Replace control panel/membrane', cost: '$100-$200', notes: 'When buttons stop responding. Often costs more than a new countertop unit.' },
+    { repair: 'Replace light bulb', cost: '$5-$15', notes: 'Interior light burned out. Easy DIY on most models... check the manual for bulb type and access.' },
+  ],
+  insuranceCoverage: `Countertop microwaves are covered under personal property coverage if damaged by a covered peril (fire, theft, vandalism, lightning). Over-the-range built-in microwaves fall under dwelling coverage.\n\nNeither type is covered for normal wear and tear or mechanical failure. A microwave that simply stops working after 8 years is your expense.\n\nAt $100-$500 for a replacement, a microwave claim rarely makes sense after your deductible. The exception: if your microwave is damaged as part of a larger claim (kitchen fire, for example), it would be included in the overall claim.`,
+  bestBrands: [
+    { name: 'Panasonic', knownFor: 'Inverter technology that heats more evenly than conventional microwaves. Consistently top-rated by Consumer Reports. The NN-SN series is their best-selling line.' },
+    { name: 'LG', knownFor: 'Best for over-the-range models. Smart inverter technology, quiet operation, good ventilation. Strong integration with other LG kitchen appliances.' },
+    { name: 'Toshiba', knownFor: 'Best value. Reliable countertop models under $100 that outperform their price. Smart sensor cooking works well.' },
+    { name: 'Samsung', knownFor: 'Feature-rich with modern designs. Good for over-the-range. Sensor cooking and power convection options on higher-end models.' },
+    { name: 'GE', knownFor: 'Widest selection of over-the-range models. Profile series is their premium line. Good parts availability for repairs. Available at most retailers.' },
+  ],
+  installationTime: `Countertop: zero installation. Unbox it, plug it in, done.\n\nOver-the-range replacement (same size): 1-2 hours. Involves removing the old unit (heavy... 50-70 lbs above your head), mounting the new bracket, lifting the new unit into place, and connecting the power. This is a two-person job minimum.\n\nFirst-time over-the-range installation (replacing a range hood): 2-4 hours. May require new electrical work, modifying the cabinet above, and installing a vent to the outside. Professional installation recommended.\n\nBig box stores (Home Depot, Lowe's) typically charge $100-$200 for OTR microwave installation with purchase. This is worth it unless you enjoy holding 60 lbs above your head while trying to thread screws into a bracket.`,
+}
