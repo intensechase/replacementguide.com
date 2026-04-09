@@ -26,4 +26,9 @@ export const content = {
     repairHigh: 200,
     laborPercent: '60-75%',
   },
+  recommendedProducts: [
+    { name: 'Klein Tools ET310 Digital Circuit Breaker Finder', description: 'Identifies which breaker controls which circuit in minutes, making panel labeling easy and saving hours during troubleshooting or electrical work.', priceRange: '$30-$50', amazonUrl: '' },
+    { name: 'Circuit Breaker Decals Label Kit (Magnetic + Adhesive)', description: 'Clearly labels every circuit in the panel so anyone can find and kill the right breaker in an emergency, a 30-minute job that could prevent a disaster.', priceRange: '$10-$20', amazonUrl: '' },
+    { name: 'Eaton CHSPT2ULTRA Whole-House Surge Protector', description: 'Mounts at the panel and protects every breaker and connected device from voltage spikes that silently degrade electrical components over time.', priceRange: '$80-$150', amazonUrl: '' },
+  ],
 }

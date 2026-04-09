@@ -26,4 +26,9 @@ export const content = {
     repairHigh: 150,
     laborPercent: '35-50%',
   },
+  recommendedProducts: [
+    { name: 'InSinkErator Jam-Buster Wrench (Allen Key Set)', description: 'The tool you need the moment the disposal hums but will not spin, frees jams in seconds and prevents burning out a motor over a stuck chicken bone.', priceRange: '$3-$8', amazonUrl: '' },
+    { name: 'Glisten Disposer Care Foaming Cleaner (4-Pack)', description: 'Reaches the buildup that grinding ice and lemons cannot, eliminating odor-causing bacteria trapped behind the splash guard and grind ring.', priceRange: '$8-$12', amazonUrl: '' },
+    { name: 'InSinkErator Quiet Collar Sink Baffle (Splash Guard)', description: 'Replaces the worn rubber splash guard that lets food and water spray back up, and reduces disposal noise by up to 50%.', priceRange: '$8-$15', amazonUrl: '' },
+  ],
 }

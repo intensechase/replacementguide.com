@@ -33,6 +33,7 @@ export interface ProductContent {
     repairHigh: number
     laborPercent: string
   }
+  recommendedProducts?: { name: string; description: string; priceRange: string; amazonUrl: string }[]
 }
 
 const contentMap: Record<string, ProductContent> = {

@@ -26,4 +26,9 @@ export const content = {
     repairHigh: 800,
     laborPercent: '40-55%',
   },
+  recommendedProducts: [
+    { name: '3-IN-ONE Professional Garage Door Lubricant', description: 'Silicone-based spray that quiets noisy doors and prevents rust on springs, rollers, and hinges, extending the life of the most failure-prone components.', priceRange: '$6-$10', amazonUrl: '' },
+    { name: 'M-D Building Products Garage Door Bottom Weatherstrip (16ft)', description: 'Seals the gap between the door and floor to keep water, pests, and drafts out, and costs a fraction of the energy it saves each season.', priceRange: '$20-$40', amazonUrl: '' },
+    { name: 'Chamberlain Universal Wireless Keypad', description: 'Lets you open the garage without a remote or phone, works with all major opener brands, and eliminates the risk of getting locked out.', priceRange: '$30-$50', amazonUrl: '' },
+  ],
 }

@@ -27,4 +27,9 @@ export const content = {
     repairHigh: 3000,
     laborPercent: '60-70%',
   },
+  recommendedProducts: [
+    { name: 'Roebic K-77 Root Killer (32oz)', description: 'Kills tree roots inside sewer pipes with copper sulfate without harming the tree above ground, buying years of clear flow between professional services.', priceRange: '$12-$20', amazonUrl: '' },
+    { name: 'DrainX Drain Auger Pro 25ft Drum Snake', description: 'Clears partial blockages from the cleanout access point before they become full backups, and pays for itself after a single use vs. a plumber service call.', priceRange: '$25-$50', amazonUrl: '' },
+    { name: 'Jones Stephens Backwater Valve (4" PVC)', description: 'Prevents city sewer backups from flooding your basement through the floor drain during heavy rains, a one-time install that protects against the most expensive sewer line disaster.', priceRange: '$100-$200', amazonUrl: '' },
+  ],
 }

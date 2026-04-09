@@ -26,4 +26,9 @@ export const content = {
     repairHigh: 1200,
     laborPercent: '55-65%',
   },
+  recommendedProducts: [
+    { name: 'Nu-Calgon Evap Foam No Rinse Coil Cleaner', description: 'Restores airflow and efficiency by dissolving dirt and grime from evaporator and condenser coils without rinsing.', priceRange: '$10-$18', amazonUrl: '' },
+    { name: 'Honeywell Home T6 Pro Programmable Thermostat', description: 'Reduces cooling costs by 10% by automatically raising the temperature when you are away, which also reduces compressor wear.', priceRange: '$60-$100', amazonUrl: '' },
+    { name: 'AC-Safe Condensate Drain Line Cleaning Tool', description: 'Clears the clogged condensate drain that causes water damage and system shutdowns, the most common summer AC service call.', priceRange: '$8-$15', amazonUrl: '' },
+  ],
 }

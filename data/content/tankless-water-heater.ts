@@ -24,4 +24,9 @@ export const content = {
     repairHigh: 600,
     laborPercent: '40-55%',
   },
+  recommendedProducts: [
+    { name: 'My PlumbingStuff Tankless Water Heater Descaling Flush Kit', description: 'Includes the pump, hoses, and bucket needed for annual vinegar flushing, the single maintenance step that determines whether your unit lasts 12 years or 20.', priceRange: '$100-$160', amazonUrl: '' },
+    { name: 'Whirlpool WHES30E Water Softener (30,000 Grain)', description: 'Removes the calcium and magnesium that scale up the heat exchanger, dramatically extending descaling intervals and protecting the most expensive component in the unit.', priceRange: '$350-$500', amazonUrl: '' },
+    { name: 'Webstone Isolator Valve Kit (3/4" Threaded)', description: 'Installs on the hot and cold connections so you can flush the heat exchanger without disconnecting any plumbing, turning a 2-hour descaling job into 45 minutes.', priceRange: '$80-$140', amazonUrl: '' },
+  ],
 }

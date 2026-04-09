@@ -27,4 +27,9 @@ export const content = {
     repairHigh: 1500,
     laborPercent: '60-70%',
   },
+  recommendedProducts: [
+    { name: 'Nikon Aculon A211 10x42 Binoculars', description: 'Lets you inspect shingles, flashing, and damage from the ground without climbing a ladder after every storm.', priceRange: '$90-$120', amazonUrl: '' },
+    { name: 'Henry Wet Patch Roof Cement', description: 'Seals small flashing gaps and minor cracks to prevent leaks and buy time before a full replacement is needed.', priceRange: '$8-$15', amazonUrl: '' },
+    { name: 'LeafFilter-Style Micro-Mesh Gutter Guards (200ft)', description: 'Prevents clogged gutters that back water under shingle edges, eliminating the most common cause of premature roof edge rot.', priceRange: '$150-$350', amazonUrl: '' },
+  ],
 }

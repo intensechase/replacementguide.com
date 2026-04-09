@@ -24,4 +24,9 @@ export const content = {
     repairHigh: 300,
     laborPercent: '40-55%',
   },
+  recommendedProducts: [
+    { name: 'Camco Magnesium Anode Rod (44" x 3/4")', description: 'Extends tank life by 2-3 years by sacrificing itself instead of the tank walls, the single best maintenance investment for any water heater.', priceRange: '$20-$35', amazonUrl: '' },
+    { name: 'Camco Water Heater Flush Kit with Hose', description: 'Makes the annual sediment flush easy by connecting directly to the drain valve, removing the buildup that causes rumbling and premature tank failure.', priceRange: '$15-$25', amazonUrl: '' },
+    { name: 'Frost King Tubular Pipe Insulation (6ft, 3/4")', description: 'Reduces heat loss from hot water pipes by up to 45%, saving energy and keeping water hotter from the tank to the faucet.', priceRange: '$3-$8', amazonUrl: '' },
+  ],
 }

@@ -26,4 +26,9 @@ export const content = {
     repairHigh: 250,
     laborPercent: '40-50%',
   },
+  recommendedProducts: [
+    { name: 'Folex Instant Carpet Spot Remover (32oz)', description: 'Removes most stains without scrubbing or rinsing, and treating stains within the first 15 minutes is the difference between a clean carpet and a permanent mark.', priceRange: '$8-$12', amazonUrl: '' },
+    { name: 'Roberts Carpet Rake and Groomer', description: 'Lifts matted carpet fibers back upright and pulls embedded dirt to the surface before vacuuming, restoring the look of high-traffic areas.', priceRange: '$15-$25', amazonUrl: '' },
+    { name: 'AMERIQUE 6-mil Moisture Barrier Carpet Padding (100 sq ft)', description: 'Prevents moisture from the subfloor from reaching the carpet and padding, eliminating the musty odors and mold growth that ruin carpet from underneath.', priceRange: '$50-$80', amazonUrl: '' },
+  ],
 }

@@ -24,4 +24,9 @@ export const content = {
     repairHigh: 500,
     laborPercent: '60-70%',
   },
+  recommendedProducts: [
+    { name: 'Great Stuff Gaps and Cracks Insulating Foam Sealant (12oz, 6-Pack)', description: 'Fills small gaps where spray foam has pulled away from framing, sealing the air leaks that account for most energy loss in an otherwise insulated home.', priceRange: '$30-$45', amazonUrl: '' },
+    { name: 'Newborn 930-GTD Caulk Gun (Drip-Free)', description: 'Applies sealant around foam edges and penetrations with precision, and the drip-free mechanism prevents the mess that makes most homeowners avoid caulking.', priceRange: '$15-$25', amazonUrl: '' },
+    { name: 'FLIR TG165-X Thermal Leak Detector', description: 'Reveals exactly where insulation gaps, cold spots, and air leaks are hiding behind walls so you fix the actual problem areas instead of guessing.', priceRange: '$200-$300', amazonUrl: '' },
+  ],
 }

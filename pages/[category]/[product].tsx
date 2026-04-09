@@ -251,6 +251,26 @@ export default function ProductPage({ product, related, content }: Props) {
           </ul>
         </section>
 
+        {/* Recommended Products */}
+        {content?.recommendedProducts && content.recommendedProducts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">What We Recommend</h2>
+            <p className="text-slate-500 text-sm mb-4">Products that help with {p.name.toLowerCase()} maintenance and replacement.</p>
+            <div className="space-y-3">
+              {content.recommendedProducts.map((prod, i) => (
+                <div key={i} className="border border-slate-200 rounded-xl p-4 flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="font-medium text-slate-800">{prod.name}</h3>
+                    <p className="text-sm text-slate-500 mt-1">{prod.description}</p>
+                  </div>
+                  <span className="text-sm font-semibold text-emerald-600 shrink-0">{prod.priceRange}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-slate-400 mt-3">Prices are approximate. We may earn a commission on purchases made through our links at no cost to you.</p>
+          </section>
+        )}
+
         {/* Related */}
         {related.length > 0 && (
           <section className="mt-12 pt-8 border-t border-slate-200">

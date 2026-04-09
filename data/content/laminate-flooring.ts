@@ -25,4 +25,9 @@ export const content = {
     repairHigh: 400,
     laborPercent: '40-55%',
   },
+  recommendedProducts: [
+    { name: 'Bona Hard-Surface Floor Cleaner Spray (32oz)', description: 'pH-neutral formula designed specifically for laminate that cleans without leaving the dulling residue that generic cleaners build up over time.', priceRange: '$6-$10', amazonUrl: '' },
+    { name: 'CalFlor FloorFix Wood and Laminate Repair Kit', description: 'Includes color-matched putty and markers to fill scratches, chips, and small gouges so individual plank damage does not require a full replacement.', priceRange: '$15-$25', amazonUrl: '' },
+    { name: 'QuietWalk Underlayment Padding (100 sq ft Roll)', description: 'Provides moisture protection and sound dampening underneath new laminate, preventing the subfloor moisture damage that is the number one cause of premature laminate failure.', priceRange: '$30-$50', amazonUrl: '' },
+  ],
 }
