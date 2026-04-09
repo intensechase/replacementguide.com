@@ -45,6 +45,7 @@ import { content as thermostat } from './thermostat'
 import { content as dehumidifier } from './dehumidifier'
 import { content as oven } from './oven'
 import { content as deck } from './deck'
+import { content as solarPanels } from './solar-panels'
 
 export interface ProductContent {
   slug: string
@@ -115,6 +116,7 @@ const contentMap: Record<string, ProductContent> = {
   'dehumidifier': dehumidifier,
   'oven': oven,
   'deck': deck,
+  'solar-panels': solarPanels,
 }
 
 export function getProductContent(slug: string): ProductContent | null {
