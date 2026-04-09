@@ -1,0 +1,36 @@
+export const article = {
+  slug: 'how-often-to-stain-a-deck',
+  title: 'How Often Should You Stain a Deck?',
+  metaTitle: 'How Often to Stain a Deck — Water Test, Prep & Best Stains (2026)',
+  metaDescription: 'How often to stain a deck (every 2-3 years), the water test to check if it\'s time, prep steps for the best results, and top deck stain recommendations.',
+  publishDate: '2026-06-23',
+  category: 'maintenance' as const,
+  intro: `A wood deck should be stained every 2 to 3 years to protect it from moisture, UV damage, and rot. Skip the staining schedule and your deck deteriorates fast... bare wood exposed to the elements can start showing damage within a single season. A $100-$200 staining project every few years protects a deck that cost $5,000-$15,000+ to build.`,
+  sections: [
+    {
+      heading: 'The Water Test: Is It Time to Restain?',
+      content: `The easiest way to tell if your deck needs staining: sprinkle water on the surface.\n\nIf the water beads up and sits on top of the wood, the stain is still providing protection. You're good for now.\n\nIf the water soaks into the wood within 30-60 seconds and the wood darkens, the stain has worn off and the deck is absorbing moisture. Time to restain.\n\nTest in multiple areas, especially high-traffic zones (stairs, the area around the grill, doorway thresholds) which wear faster than less-used sections. The sunny south-facing side of the deck also degrades faster than shaded areas.\n\nDon't wait until the wood looks gray and weathered. By that point, the wood fibers have been damaged by UV radiation and the surface will need more aggressive prep before staining. The water test catches the need before visible damage occurs.`,
+    },
+    {
+      heading: 'Factors That Affect How Often to Stain',
+      content: `Climate: decks in wet, humid climates (Pacific Northwest, Southeast) need staining more often because moisture exposure is constant. Hot, sunny climates also accelerate stain breakdown from UV radiation. The sweet spot for stain longevity is a moderate climate with covered or shaded deck areas.\n\nDeck orientation: a south-facing deck in full sun will need restaining every 1.5-2 years. A north-facing or shaded deck might go 3-4 years between applications.\n\nStain type: transparent stains show the most wood grain but last only 1-2 years. Semi-transparent stains balance appearance and protection, lasting 2-3 years. Solid color stains act more like paint and can last 3-5 years but obscure the wood grain entirely.\n\nWood species: softwoods like pressure-treated pine absorb stain well but weather faster. Hardwoods like ipe and mahogany are naturally more resistant but don't absorb stain as deeply. Cedar and redwood fall in between.\n\nTraffic: a deck used daily for entertaining wears through stain faster than a seldom-used side deck.`,
+    },
+    {
+      heading: 'Prep Work: The Key to a Long-Lasting Finish',
+      content: `Prep takes longer than the actual staining, but it's what separates a stain job that lasts 3 years from one that peels in 6 months.\n\nStep 1 — Clean the deck: use a deck cleaner (not just a pressure washer) to remove dirt, mildew, and old stain residue. Oxygen bleach-based cleaners are effective and wood-safe. Apply the cleaner, scrub with a stiff brush, and let it sit for 10-15 minutes before rinsing.\n\nStep 2 — Pressure wash (carefully): use 1,200-1,500 PSI max with a fan tip, held 8-12 inches from the surface. Too much pressure damages wood fibers and creates a fuzzy surface that won't hold stain. Keep the nozzle moving... never hold it in one spot.\n\nStep 3 — Brighten the wood: after cleaning, apply a wood brightener (oxalic acid-based) to restore the wood's natural pH and open the pores for stain absorption. This step is often skipped but makes a noticeable difference in how evenly the stain absorbs.\n\nStep 4 — Let it dry: wait 24-48 hours after washing before staining. The wood needs to be completely dry for the stain to penetrate properly. Check with a moisture meter if you have one... aim for below 15% moisture content.\n\nStep 5 — Sand if needed: if the wood feels rough or fuzzy after pressure washing, lightly sand with 60-80 grit sandpaper. This smooths the surface and opens the grain for better stain penetration.`,
+    },
+    {
+      heading: 'Best Deck Stains in 2026',
+      content: `Oil-based stains penetrate deeper, enhance wood grain beautifully, and are easier to recoat (no stripping needed... just clean and apply). They take longer to dry (24-48 hours) and have more VOCs. Best picks: Penofin, Australian Timber Oil, Cabot Australian Timber Oil.\n\nWater-based stains dry faster (2-4 hours), have lower VOCs, and clean up with soap and water. Modern water-based formulas have closed the performance gap significantly. Best picks: Behr Premium Semi-Transparent, Olympic Elite, Benjamin Moore Arborcoat.\n\nThe top recommendation for most homeowners: a semi-transparent oil-based stain like Penofin or Cabot Australian Timber Oil. These provide excellent UV and moisture protection while showing off the wood grain. They're forgiving to apply and easy to maintain... just clean and recoat when the water test says it's time.\n\nAvoid film-forming solid stains on horizontal deck surfaces if possible. They look great initially but eventually peel and flake, requiring complete stripping before recoating. If you want solid color, a high-quality acrylic solid stain (Sherwin-Williams SuperDeck Solid) holds up better than cheaper options.\n\nBudget: plan on $30-$50 per gallon, with one gallon covering 150-300 sq ft depending on wood porosity. A typical 300 sq ft deck needs 1-2 gallons per coat.`,
+    },
+    {
+      heading: 'Application Tips for Best Results',
+      content: `Apply stain in the shade or on an overcast day. Direct sun causes the stain to dry too fast before it can penetrate, leading to lap marks and uneven color.\n\nBest temperature range: 50-85°F with no rain expected for 24-48 hours. Early morning or late afternoon application works well on sunny days since the direct sun has moved off the deck.\n\nUse a stain pad applicator or a good quality brush. Rollers can work for solid stains but tend to apply semi-transparent stains too thickly. A pump sprayer with back-brushing is the fastest method for large decks.\n\nWork in manageable sections... two or three boards at a time, from one end to the other. Maintain a wet edge to avoid lap marks where wet stain overlaps dried stain.\n\nApply one coat for most semi-transparent stains. Two thin coats for transparent stains or very porous new wood. Applying too much stain (especially oil-based) creates a sticky surface that won't dry properly.\n\nDon't forget the underside and end grain of deck boards if accessible. These areas are most vulnerable to moisture absorption and rot. Even a single coat underneath extends the deck's structural life significantly.\n\nStay off the deck for 24-48 hours after oil-based stain, 4-8 hours after water-based. Move furniture back after the full cure time listed on the can (usually 72 hours for oil-based).`,
+    },
+  ],
+  relatedProducts: [
+    { category: 'outdoor', slug: 'deck', name: 'Deck' },
+    { category: 'outdoor', slug: 'fence', name: 'Fence' },
+  ],
+  relatedGuides: [],
+}
