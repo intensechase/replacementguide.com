@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'oven',
+  lifespanDetail: `Ovens and ranges last 13 to 20 years. Gas ranges tend to outlast electric because they have fewer electronic components to fail... the burners are simple mechanical valves. Electric ranges and induction cooktops rely on heating elements and control boards that degrade faster.\n\nThe oven portion typically fails before the cooktop. The bake and broil elements on electric ovens burn out after 10-15 years of regular use. Gas oven igniters are the most common failure point... they weaken gradually until they can't open the gas valve, and your oven won't heat.\n\nSelf-cleaning cycles are hard on ovens. The extreme heat (800-900°F) stresses the door seal, thermostat, and control board. Many repair techs say the self-clean feature causes more breakdowns than it prevents. If your oven is over 10 years old, consider skipping the self-clean and using oven cleaner spray instead.`,
+  warningSigns: [
+    { sign: 'Oven not heating to set temperature', detail: 'Food takes longer to cook or comes out unevenly done. The heating element, igniter, or temperature sensor is failing. Test with an oven thermometer.' },
+    { sign: 'Gas smell when oven is off', detail: 'A faint gas smell when the oven is running is normal. Gas smell when it\'s OFF is a gas leak... open windows, leave the house, and call the gas company immediately.' },
+    { sign: 'Burners won\'t ignite or heat unevenly', detail: 'Electric: element glows in spots but not others (cracked element). Gas: igniter clicks but doesn\'t light (weak igniter or clogged burner port).' },
+    { sign: 'Control panel or display malfunctioning', detail: 'Buttons don\'t respond, display shows error codes, or timer doesn\'t work. Control board failure is the most expensive repair.' },
+    { sign: 'Door doesn\'t seal properly', detail: 'You can feel heat escaping around the door. The gasket is worn or the hinges are bent. Wastes energy and cooks unevenly.' },
+    { sign: 'Excessive smoke during normal cooking', detail: 'Not from spills... from the element itself. A failing electric element can arc and smoke. Turn it off and inspect for visible damage.' },
+  ],
+  repairOrReplace: `Ovens are one of the few appliances where repair often makes sense even on older units. A gas igniter replacement is $150-$300 and gives you years more life. An electric bake element is $100-$250. These are straightforward repairs.\n\nReplace when: the control board fails ($300-$600 to replace), multiple components need work simultaneously, or the unit is over 15 years old and you want modern features (convection, induction, air fry).\n\nGas to electric conversion (or vice versa) requires new utility connections and costs $500-$1,500 in addition to the range price. Factor this in when switching fuel types.`,
+  maintenanceTips: [
+    'Clean spills as soon as the oven cools. Baked-on food carbonizes and can damage the oven floor coating.',
+    'Don\'t line the oven bottom with aluminum foil. It blocks airflow and can damage the bottom element or gas burner.',
+    'Check the door gasket annually. Press a dollar bill in the closed door... if it slides out easily, the seal is worn.',
+    'Clean gas burner ports with a toothpick or needle if flames are uneven or yellow instead of blue.',
+    'Use the self-clean feature sparingly on older ovens... once or twice a year maximum. The extreme heat stresses components.',
+  ],
+  costBreakdown: {
+    replaceLow: 500,
+    replaceHigh: 3000,
+    repairLow: 100,
+    repairHigh: 500,
+    laborPercent: 'Delivery + installation: $100-$300. Gas hookup by plumber: $100-$200 extra.',
+  },
+  recommendedProducts: [
+    { name: 'Oven Thermometer (Rubbermaid)', description: 'Verify your oven\'s actual temperature. Most ovens are off by 25-50°F... knowing the real temp improves cooking and helps diagnose issues.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=Rubbermaid+oven+thermometer&tag=replacementgu-20' },
+    { name: 'Easy-Off Oven Cleaner', description: 'Safer for older ovens than the self-clean cycle. Spray on, wait, wipe off. Less stress on door seals and electronics.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Easy-Off+oven+cleaner&tag=replacementgu-20' },
+    { name: 'Universal Oven Door Gasket', description: 'Replace a worn door seal to stop heat loss. Measure your old gasket length before ordering. Clips or slides into a channel.', priceRange: '$15-$30', amazonUrl: 'https://www.amazon.com/s?k=universal+oven+door+gasket+seal&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace gas oven igniter', cost: '$150-$300', notes: 'Most common gas oven repair. Igniter weakens over time and can\'t open the gas valve. DIY-friendly on most models.' },
+    { repair: 'Replace electric bake/broil element', cost: '$100-$250', notes: 'Element visibly damaged or not heating. Usually 2 screws and a plug. Easy DIY.' },
+    { repair: 'Replace temperature sensor', cost: '$100-$200', notes: 'Oven doesn\'t hold correct temperature. Thin metal probe inside the oven cavity.' },
+    { repair: 'Replace control board', cost: '$300-$600', notes: 'The expensive repair. Display errors, buttons not responding, or oven won\'t turn on at all.' },
+    { repair: 'Replace door hinges or gasket', cost: '$50-$200', notes: 'Door doesn\'t close tight or heat escapes. Gasket is cheap... hinges are more labor-intensive.' },
+  ],
+  insuranceCoverage: `Ranges are typically covered under dwelling coverage (built-in or slide-in) or personal property coverage (freestanding) for covered perils like fire, lightning, or theft. Normal wear and tear... a burner dying after 15 years... is not covered.\n\nIronic note: your oven is one of the most common causes of kitchen fires. If a fire starts in the oven and damages the kitchen, your homeowners policy covers the damage to the home and other property... but may not cover the range itself if it was the source and was malfunctioning due to poor maintenance.`,
+  bestBrands: [
+    { name: 'GE (Profile/Cafe)', knownFor: 'Widest selection at every price point. Profile is their premium line, Cafe is their luxury line. Available everywhere. Good parts availability for repairs.' },
+    { name: 'Samsung', knownFor: 'Best features and technology (Flex Duo, air fry, smart connectivity). Sleek design. Some reliability concerns in early smart models but improving.' },
+    { name: 'LG', knownFor: 'Strong mid-range option. ProBake convection is well-regarded. Good value for the features. InstaView window is a nice touch.' },
+    { name: 'KitchenAid', knownFor: 'Premium cooking performance. Even heating, true convection. Popular with home cooks who take cooking seriously. Higher price but built to last.' },
+    { name: 'Frigidaire', knownFor: 'Best budget option. No-frills reliability. Their Gallery line offers a good balance of features and value. Available at most retailers.' },
+  ],
+  installationTime: `Freestanding range: 30 minutes. Slide out the old one, disconnect power (electric) or gas line, slide in the new one, reconnect. Electric is plug-and-play. Gas requires reconnecting the flex gas connector... tighten fittings and test for leaks with soapy water.\n\nSlide-in or built-in: 1-2 hours. More precise fitting required. May need to adjust the countertop cutout.\n\nGas to electric conversion: half a day. Requires running a new 240V circuit from the breaker panel. Licensed electrician recommended ($200-$500 for the electrical work alone).\n\nDelivery from big box stores usually includes basic installation ($50-$100) and haul-away of the old unit. Gas hookup is often extra ($100-$150) and must be done by a licensed professional.`,
+}
