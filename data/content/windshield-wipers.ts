@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'windshield-wipers',
+  lifespanDetail: `Windshield wipers last 6 to 12 months. That's it. They're one of the cheapest and most frequently replaced parts on your car, and most people wait way too long to swap them.\n\nThe rubber blade degrades from UV exposure, temperature swings, and general use. Heat is the worst... wipers in Arizona or Texas might need replacing every 4-6 months. Wipers in a mild Pacific Northwest climate can push to 12 months. Winter is hard on them too... ice scraping and freezing to the windshield accelerates wear.\n\nThere are two main types: traditional frame-style wipers (the ones with the metal frame and multiple pressure points) and beam-style wipers (one solid curved piece). Beam wipers cost more ($15-$30 each vs $8-$15) but they clear better, handle snow/ice better, and generally last a few months longer because there's no frame to corrode.`,
+  warningSigns: [
+    { sign: 'Streaking', detail: 'The blade leaves streaks of water instead of a clean sweep. The rubber edge is worn, cracked, or has debris embedded in it.' },
+    { sign: 'Skipping or chattering', detail: 'The blade bounces across the windshield instead of gliding smoothly. Means the rubber has hardened or the blade has lost its curve.' },
+    { sign: 'Squeaking', detail: 'That annoying squeak on every pass means the rubber isn\'t making proper contact with the glass anymore.' },
+    { sign: 'Smearing instead of clearing', detail: 'Water just moves around instead of being wiped away. The edge of the blade is rounded from wear instead of crisp and straight.' },
+    { sign: 'Visible damage to the rubber', detail: 'Cracks, tears, chunks missing, or the rubber separating from the frame. Replace immediately... you don\'t want to find out they don\'t work in a downpour.' },
+  ],
+  repairOrReplace: `Wipers are always replaced, never repaired. At $15-$50 for a pair, there's no repair that makes sense. Some people try to "restore" wipers by cleaning the rubber edge with rubbing alcohol... this might buy you a week but it's not a real fix.\n\nReplace both wipers at the same time, even if only one looks bad. They wear at similar rates, and mismatched wipers leave you with one clear side and one streaky side.\n\nDon't forget the rear wiper if your car has one. It gets neglected more than the fronts and is just as important for visibility when backing up in rain.`,
+  maintenanceTips: [
+    'Clean your windshield regularly. Dirt and grime on the glass acts like sandpaper on the wiper rubber.',
+    'Lift the wipers off the windshield when ice is expected. Freezing to the glass and being pried loose tears the rubber.',
+    'Don\'t use wipers to clear ice or frost. Use an ice scraper first, then wipers for the remaining moisture.',
+    'Keep the windshield washer fluid topped off. Running wipers on a dry windshield wears them faster.',
+    'Replace wipers before the rainy season, not during the first storm when you realize they\'re shot.',
+  ],
+  costBreakdown: {
+    replaceLow: 15,
+    replaceHigh: 50,
+    repairLow: 0,
+    repairHigh: 0,
+    laborPercent: 'DIY in 5 minutes. No tools needed.',
+  },
+  recommendedProducts: [
+    { name: 'Bosch ICON Beam Wiper Blades', description: 'Top-rated beam wiper. Bracketless design for even pressure across the entire blade. Lasts 40% longer than standard wipers.', priceRange: '$20-$30 each', amazonUrl: 'https://www.amazon.com/s?k=Bosch+ICON+beam+wiper+blades&tag=replacementgu-20' },
+    { name: 'Rain-X Latitude Water Repellent Wipers', description: 'Applies a water-repellent coating to your windshield as it wipes. Water beads up and rolls off at highway speed.', priceRange: '$15-$25 each', amazonUrl: 'https://www.amazon.com/s?k=Rain-X+Latitude+water+repellent+wiper+blades&tag=replacementgu-20' },
+    { name: 'Rain-X Original Windshield Treatment', description: 'Apply to your windshield every few months. Makes rain bead up and fly off at 35+ mph... game changer in heavy rain.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Rain-X+original+windshield+treatment&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace wiper blades (pair)', cost: '$15-$50', notes: 'DIY in 5 minutes. No tools needed. Most auto parts stores will install for free.' },
+    { repair: 'Replace wiper arm', cost: '$50-$150', notes: 'If the arm itself is bent or the spring tension is gone. Less common.' },
+    { repair: 'Replace wiper motor', cost: '$200-$400', notes: 'If wipers don\'t move at all. Electrical issue, not a blade issue.' },
+    { repair: 'Refill washer fluid reservoir', cost: '$3-$8', notes: 'Use washer fluid, not plain water. Water freezes and doesn\'t clean as well.' },
+  ],
+  insuranceCoverage: `Windshield wipers are too inexpensive to involve insurance. However, if your windshield itself is cracked or chipped, comprehensive auto insurance typically covers windshield replacement... and many states (Florida, Arizona, Kentucky, and others) require insurers to waive the deductible for windshield claims.\n\nThe wipers themselves will be replaced as part of any windshield replacement job at no extra charge.`,
+  bestBrands: [
+    { name: 'Bosch (ICON/Evolution)', knownFor: 'Consistently top-rated. ICON is the premium beam blade. ClearMax 365 coating resists UV and heat degradation. Best overall choice.' },
+    { name: 'Rain-X (Latitude)', knownFor: 'Water-repellent coating built into the blade. Great in heavy rain. Latitude is their beam-style premium line.' },
+    { name: 'PIAA (Super Silicone)', knownFor: 'Japanese premium. Silicone rubber instead of natural rubber... lasts longer and applies a water-repellent coating to the glass over time.' },
+    { name: 'Michelin (Stealth Ultra)', knownFor: 'Smart-Flex technology adapts to windshield curvature. Good all-around performer at a mid-range price.' },
+    { name: 'Trico (Exact Fit/Force)', knownFor: 'OEM supplier for many automakers. Exact Fit matches your factory wiper perfectly. Force is their heavy-duty option for trucks.' },
+  ],
+  installationTime: `5 minutes. Seriously. Most wipers snap or click onto the wiper arm with no tools required. Pull the old one off, push the new one on, done.\n\nMost auto parts stores (AutoZone, O\'Reilly, Advance Auto Parts) will install wipers for free when you buy them there. They'll also look up the correct size for your vehicle.\n\nThe only tricky part: some newer cars use proprietary wiper arm attachments. Make sure you buy wipers with the right adapter for your car. Most major brands include multiple adapters in the box.`,
+}
