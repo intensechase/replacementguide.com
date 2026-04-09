@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 const CATEGORIES = [
-  { name: 'Home', slug: 'home', description: 'Appliances, systems, and materials in your home', count: '50+', icon: '🏠' },
-  { name: 'Auto', slug: 'auto', description: 'Car parts, tires, and vehicle components', count: '30+', icon: '🚗' },
-  { name: 'Personal', slug: 'personal', description: 'Everyday items and personal products', count: '20+', icon: '🪥' },
-  { name: 'Outdoor', slug: 'outdoor', description: 'Yard, deck, driveway, and exterior products', count: '20+', icon: '🏡' },
+  { name: 'Home', slug: 'home', description: 'Appliances, systems, and materials in your home', count: '56', icon: '🏠' },
+  { name: 'Auto', slug: 'auto', description: 'Car parts, tires, and vehicle components', count: '21', icon: '🚗' },
+  { name: 'Personal', slug: 'personal', description: 'Everyday items and personal products', count: '15', icon: '🪥' },
+  { name: 'Outdoor', slug: 'outdoor', description: 'Yard, deck, driveway, and exterior products', count: '16', icon: '🏡' },
 ]
 
 const POPULAR = [

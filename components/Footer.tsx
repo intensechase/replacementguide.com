@@ -35,14 +35,12 @@ export default function Footer() {
             <h3 className="font-semibold text-slate-800 mb-3">Company</h3>
             <div className="space-y-2">
               <Link href="/about" className="block text-slate-500 hover:text-slate-800">About</Link>
-              <Link href="/contact" className="block text-slate-500 hover:text-slate-800">Contact</Link>
             </div>
           </div>
           <div>
             <h3 className="font-semibold text-slate-800 mb-3">Legal</h3>
             <div className="space-y-2">
               <Link href="/privacy-policy" className="block text-slate-500 hover:text-slate-800">Privacy Policy</Link>
-              <Link href="/terms-of-service" className="block text-slate-500 hover:text-slate-800">Terms of Service</Link>
             </div>
           </div>
         </div>

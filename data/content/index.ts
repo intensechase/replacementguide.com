@@ -98,6 +98,7 @@ import { content as electricToothbrushHead } from './electric-toothbrush-head'
 import { content as hearingAidBatteries } from './hearing-aid-batteries'
 import { content as bicycleTires } from './bicycle-tires'
 import { content as smartDoorbell } from './smart-doorbell'
+import { content as ceilingFan } from './ceiling-fan'
 import { content as vacuumCleaner } from './vacuum-cleaner'
 import { content as vinylPlankFlooring } from './vinyl-plank-flooring'
 import { content as stucco } from './stucco'
@@ -228,6 +229,7 @@ const contentMap: Record<string, ProductContent> = {
   'hearing-aid-batteries': hearingAidBatteries,
   'bicycle-tires': bicycleTires,
   'smart-doorbell': smartDoorbell,
+  'ceiling-fan': ceilingFan,
   'vacuum-cleaner': vacuumCleaner,
   'vinyl-plank-flooring': vinylPlankFlooring,
   'stucco': stucco,
