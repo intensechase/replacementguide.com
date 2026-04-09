@@ -1,0 +1,47 @@
+export const content = {
+  slug: 'battery',
+  lifespanDetail: `A standard 12-volt car battery lasts 3 to 5 years. Most mechanics will tell you to start thinking about replacement around year 3... not because it'll definitely die, but because the risk of being stranded goes up significantly after that point. Some batteries make it to 6 or 7 years, but that's the exception, not the rule.\n\nThe biggest factor isn't the brand... it's the heat. Extreme temperatures are what kill batteries. If you live in Arizona, Texas, or Florida, expect closer to 3 years. Cold winters get the blame, but it's actually the previous summer's heat that weakened the battery... winter just finishes it off. Short trips are the second killer. If you mostly drive 10 minutes to work and back, your alternator never fully recharges the battery, and it slowly loses capacity.\n\nHere's something most people don't know: the vast majority of car batteries in the US are made by just two or three manufacturers (Clarios, Exide, and East Penn) with different labels slapped on. A DieHard and an EverStart might come from the same factory. The real difference is in the warranty and the specific chemistry (flooded vs AGM).`,
+  warningSigns: [
+    { sign: 'Slow engine crank', detail: 'The engine turns over sluggishly when you start the car... that labored "rrrr-rrrr-rrrr" instead of a quick start. This is the classic dying battery symptom.' },
+    { sign: 'Dim headlights at idle', detail: 'Headlights noticeably dim when stopped but brighten when you rev the engine... the battery isn\'t holding charge and the alternator is compensating.' },
+    { sign: 'Dashboard warning light', detail: 'The battery icon or check engine light appears. Modern cars monitor battery voltage... don\'t ignore this.' },
+    { sign: 'Corroded terminals', detail: 'White or bluish-green crusty buildup on the battery posts. This increases resistance and prevents proper charging.' },
+    { sign: 'Swollen or bloated case', detail: 'The battery case looks puffy or distorted. This means excessive heat has damaged the internal cells... replace immediately.' },
+    { sign: 'It\'s over 3 years old', detail: 'Even if everything seems fine, a battery over 3 years old is living on borrowed time. Have it tested at any auto parts store for free.' },
+  ],
+  repairOrReplace: `Car batteries are almost always replaced, not repaired. There's no economical way to fix a dying battery... the chemistry inside is spent. The one exception: corroded terminals. If your car won't start but the battery tests fine, cleaning the terminals with baking soda and a wire brush ($5 fix) might solve it.\n\nIf your battery is less than 3 years old and dies, check the warranty first. Most batteries come with a 2-4 year free replacement warranty. Bring it back to where you bought it.\n\nIf you're getting a jump start more than once a month, stop wasting time and replace it. A new battery is $100-$300... a tow truck is $75-$150 per visit.`,
+  maintenanceTips: [
+    'Have your battery tested for free at any AutoZone, O\'Reilly, or Batteries Plus every fall before winter hits.',
+    'Clean corroded terminals with baking soda paste and a wire brush at least once a year... corrosion is the #1 preventable cause of no-starts.',
+    'Make sure the battery is secured tightly. Vibration from a loose battery shortens its life significantly.',
+    'If you don\'t drive daily, consider a battery maintainer/trickle charger ($25-$40 on Amazon) to keep it topped off.',
+    'Avoid leaving headlights, interior lights, or USB chargers plugged in when the engine is off... parasitic drain kills batteries.',
+  ],
+  costBreakdown: {
+    replaceLow: 100,
+    replaceHigh: 300,
+    repairLow: 5,
+    repairHigh: 50,
+    laborPercent: 'Often free with purchase at auto parts stores',
+  },
+  recommendedProducts: [
+    { name: 'NOCO GENIUS1 Battery Charger/Maintainer', description: 'Keeps your battery topped off if you don\'t drive daily. Prevents the slow discharge that kills batteries in storage or short-trip driving.', priceRange: '$25-$35', amazonUrl: 'https://www.amazon.com/s?k=NOCO+GENIUS1+battery+charger+maintainer&tag=replacementgu-20' },
+    { name: 'CRC Battery Terminal Protector Spray', description: 'Prevents corrosion on terminals after cleaning. One spray lasts months... cheaper than a new battery.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=CRC+battery+terminal+protector+spray&tag=replacementgu-20' },
+    { name: 'Battery Terminal Cleaning Brush', description: 'Wire brush designed for battery posts and cable ends. Five minutes of cleaning can fix a no-start that looks like a dead battery.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=battery+terminal+cleaning+brush&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Clean corroded terminals', cost: '$0-$10 DIY', notes: 'Baking soda + wire brush. Do this before buying a new battery... corrosion causes 30% of no-start complaints.' },
+    { repair: 'Replace battery cables', cost: '$50-$200', notes: 'If cables are frayed, swollen, or corroded through. Usually done alongside a new battery.' },
+    { repair: 'Free battery test', cost: '$0', notes: 'AutoZone, O\'Reilly, Batteries Plus, and most auto parts stores test for free. Takes 5 minutes.' },
+    { repair: 'Tighten loose battery hold-down', cost: '$0-$20', notes: 'A loose battery vibrates and dies sooner. Check that the clamp or bracket is snug.' },
+  ],
+  insuranceCoverage: `Car batteries are too inexpensive to warrant an insurance claim. Your auto insurance deductible ($500-$1,000) is more than the cost of a new battery. If your battery dies from a covered event like a flood, the battery would be a small part of a much larger claim.\n\nThe real coverage to know about: most batteries come with a manufacturer warranty. Standard is 2-3 years free replacement, sometimes with a prorated period after that. Keep your receipt. If your 18-month-old battery dies, take it back to the store for a free replacement.`,
+  bestBrands: [
+    { name: 'Optima (RedTop/YellowTop)', knownFor: 'Premium AGM batteries with SpiralCell technology. Best vibration resistance. RedTop for starting, YellowTop for accessories/deep cycle. Expensive but long-lasting.' },
+    { name: 'DieHard (Platinum AGM)', knownFor: 'Reliable performer available at Advance Auto Parts. Strong cold cranking amps. Good warranty. A step above basic without Optima pricing.' },
+    { name: 'Interstate', knownFor: 'The most widely distributed battery brand in North America. Solid reliability, great warranty network. Available at Costco as Kirkland branded for less.' },
+    { name: 'ACDelco', knownFor: 'GM\'s OEM battery brand. Excellent for GM vehicles but works in anything. Professional series is a solid mid-range choice.' },
+    { name: 'EverStart (Walmart)', knownFor: 'Best budget option. The Platinum AGM version gets strong reviews. Made by Clarios (same factory as many premium brands). Hard to beat the price.' },
+  ],
+  installationTime: `Battery replacement takes 15-30 minutes. Most auto parts stores (AutoZone, O\'Reilly, Batteries Plus, Advance Auto Parts) will install it for free when you buy the battery there. They\'ll also recycle your old battery.\n\nDIY is simple on most cars: disconnect negative cable first, then positive. Remove the hold-down clamp. Lift out old battery (warning: they weigh 30-40 lbs). Set in the new one. Reconnect positive first, then negative. Done.\n\nSome newer cars (BMW, Mercedes, certain Toyotas) require the battery to be "registered" or coded to the vehicle\'s computer after replacement. This isn\'t a DIY job unless you have a scan tool... a dealership or shop charges $50-$100 for this step.`,
+}
