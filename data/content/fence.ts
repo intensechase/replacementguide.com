@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'fence',
+  lifespanDetail: `A wood fence lasts 10 to 15 years. That's the reality for pressure-treated pine, which is what 80% of residential fences are built from. Cedar fences push 15-20 years because the wood is naturally rot-resistant. Vinyl fencing lasts 20-30 years. Chain link lasts 15-20+ years since there's no wood to rot... just galvanized steel that eventually corrodes.\n\nThe posts fail first... always. They're buried in the ground where moisture, insects, and freeze-thaw cycles attack them constantly. A fence with rotting posts but decent pickets can be saved by replacing just the posts. A fence with solid posts but ugly pickets can be re-skinned for half the cost of new.\n\nClimate and soil are the biggest factors after material. Fences in the humid Southeast rot faster. Fences in clay soil have posts that shift and lean because clay expands and contracts with moisture. Sandy or rocky soil drains better and posts last longer.\n\nThe #1 killer of fences that most people ignore: soil contact with pickets. When the bottom of the pickets touch the ground, they wick moisture up and rot from the bottom. A 2-inch gap between pickets and soil adds years to the fence.`,
+  warningSigns: [
+    { sign: 'Posts leaning or wobbling', detail: 'Push on a post at the top. If it moves... the base is rotting underground or the concrete footing has cracked. This is the most critical structural issue.' },
+    { sign: 'Boards falling off or loose', detail: 'Nails rusting through or the wood around the nails has softened from rot. Individual boards are cheap to replace if the rails are still solid.' },
+    { sign: 'Widespread rot at the bottom of pickets', detail: 'If most pickets are rotting where they meet the ground, the whole fence is approaching end of life. Replacing individual pickets becomes impractical when it\'s most of them.' },
+    { sign: 'Fence leans significantly after wind', detail: 'Posts that can\'t handle normal wind loads are structurally compromised. One strong storm and the whole section goes down.' },
+    { sign: 'Rails (horizontal boards) splitting or sagging', detail: 'Rails carry the weight of the pickets. When they fail, sections of pickets come down with them.' },
+    { sign: 'Termite or insect damage', detail: 'Hollow-sounding wood when you tap on it, small holes, or visible insect damage. Termites can destroy a fence from the inside out without obvious surface signs.' },
+  ],
+  repairOrReplace: `Fence repair makes sense when the damage is limited to a section or two. Replace individual pickets ($2-$5 each), reset a leaning post ($100-$300), or replace a broken rail ($50-$150 per section). These are straightforward repairs.\n\nReplace the entire fence when: more than 30% of the posts are failing, the fence is visibly leaning throughout, or the wood is universally rotted. At that point, piecemeal repairs cost more than starting fresh and you end up with a patchwork fence that still looks bad.\n\nWhen replacing, consider the upgrade options. Vinyl fencing costs 30-50% more than wood but requires zero maintenance and lasts twice as long. If you're tired of staining every few years and replacing boards... vinyl pays for itself in the long run.\n\nPermit note: many municipalities require a fence permit. Property line disputes are common... get a survey or agree with your neighbor on the exact line BEFORE building. Building on the wrong side of the property line is an expensive mistake.`,
+  maintenanceTips: [
+    'Stain or seal a wood fence every 2-3 years. Use a pump sprayer for speed... brush-and-roll takes forever on a fence.',
+    'Keep soil, mulch, and plants away from the base of the fence. Anything holding moisture against the wood accelerates rot.',
+    'Fix leaning posts immediately. A leaning post puts extra stress on neighboring posts and can take a whole section down in a windstorm.',
+    'Trim vegetation growing on or through the fence. Vines look nice but they trap moisture and their roots can push boards apart.',
+    'Check post bases every spring by pushing on the top. Catch rot early before the post fails completely.',
+  ],
+  costBreakdown: {
+    replaceLow: 1500,
+    replaceHigh: 5000,
+    repairLow: 50,
+    repairHigh: 500,
+    laborPercent: '50-60% of total cost is labor.',
+  },
+  recommendedProducts: [
+    { name: 'Thompson\'s WaterSeal Fence Stain (Semi-Transparent)', description: 'One-coat protection for wood fences. Pump sprayer application covers a 6-foot privacy fence fast. Lasts 2-3 years.', priceRange: '$25-$40 per gallon', amazonUrl: 'https://www.amazon.com/s?k=Thompson+WaterSeal+fence+stain+semi+transparent&tag=replacementgu-20' },
+    { name: 'Simpson Strong-Tie Post Base (Adjustable)', description: 'For post replacement or new construction. Elevates the post above the concrete footing so the wood doesn\'t sit in water. Dramatically extends post life.', priceRange: '$15-$30 each', amazonUrl: 'https://www.amazon.com/s?k=Simpson+Strong+Tie+adjustable+post+base&tag=replacementgu-20' },
+    { name: 'Sikkens Fence Stain (Premium)', description: 'Professional-grade stain for those who want the best. Penetrates deeper and lasts longer than box-store brands. Worth the premium on cedar or redwood.', priceRange: '$50-$70 per gallon', amazonUrl: 'https://www.amazon.com/s?k=Sikkens+fence+stain&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace individual pickets', cost: '$2-$5 per picket (DIY) / $100-$300 (pro, per section)', notes: 'Most common repair. Pull the old one off, nail/screw on the new one. Match the wood type.' },
+    { repair: 'Reset or replace a leaning post', cost: '$100-$300 per post', notes: 'Dig around the base, replumb the post, add concrete. Or pull it and set a new one.' },
+    { repair: 'Replace a fence section (1 panel)', cost: '$150-$500', notes: 'Posts stay, everything between them gets replaced. Common after storm damage.' },
+    { repair: 'Power wash and restain', cost: '$500-$1,500 (pro, whole fence)', notes: 'DIY saves a lot... $50-$100 in materials plus a weekend of work.' },
+    { repair: 'Repair gate sag', cost: '$50-$200', notes: 'Add a gate anti-sag kit (diagonal cable and turnbuckle). $15 kit, 20-minute install. Most common gate problem.' },
+  ],
+  insuranceCoverage: `Fences are covered under other structures coverage (part of your homeowners policy) for covered perils. Wind, fallen trees, fire, vandalism, and vehicle impact are all typically covered.\n\nWhat's NOT covered: rot, deterioration, insect damage, or a fence that simply fell down from age and neglect. These are maintenance issues.\n\nPractical tip: fence claims are common after storms. Document your fence condition with photos annually. If a windstorm takes down your fence and the insurance adjuster sees that the posts were already rotted... they may deny the claim arguing it was pre-existing deterioration, not wind damage.\n\nDeductible consideration: most fence replacement costs $1,500-$5,000. If your deductible is $1,000, the claim amount after deductible may not be worth the potential premium increase from filing.`,
+  bestBrands: [
+    { name: 'Pressure-treated pine', knownFor: 'The standard residential fence material. Cheapest option at $10-$15 per linear foot installed. Requires staining every 2-3 years. 10-15 year lifespan.' },
+    { name: 'Western red cedar', knownFor: 'Naturally rot-resistant, beautiful grain, weathers to silver gray. $15-$25 per linear foot. No chemical treatment needed. 15-20 year lifespan.' },
+    { name: 'Bufftech/CertainTeed (vinyl)', knownFor: 'Premium vinyl fencing. Never needs staining, won\'t rot or attract termites. $20-$35 per linear foot. 20-30 year lifespan. Higher upfront, zero maintenance.' },
+    { name: 'Trex (composite)', knownFor: 'Composite fencing from the decking company. Wood look without wood maintenance. $25-$45 per linear foot. Premium price but lifetime product.' },
+    { name: 'Chain link', knownFor: 'Cheapest installed fence option at $8-$15 per linear foot. Galvanized steel lasts 15-20 years. No privacy but great for pet containment. Virtually maintenance-free.' },
+  ],
+  installationTime: `A standard 150-200 linear foot privacy fence takes 2-4 days for a professional crew. This includes setting posts in concrete, letting them cure overnight, then attaching rails and pickets.\n\nDIY timeline: 2-3 weekends. Post setting is the most labor-intensive day... digging holes (rent a two-man auger for $50-$75/day), mixing and pouring concrete, and plumbing each post. Let concrete cure 24-48 hours before attaching anything.\n\nVinyl fence installation is faster because the panels are pre-assembled. A vinyl fence goes up in 1-2 days for a pro.\n\nBest time to build: early fall. Ground is soft enough to dig, weather is mild for working outside, and fence companies are less booked than spring/summer (when everyone decides they need a fence). You'll often get better pricing in the off-season.`,
+}
