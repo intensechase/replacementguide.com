@@ -1,0 +1,48 @@
+export const content = {
+  slug: 'spark-plugs',
+  lifespanDetail: `Spark plugs last 30,000 to 100,000 miles depending on the type. Standard copper plugs are the cheapest but wear out fastest... 30,000-40,000 miles. Platinum plugs last 60,000-80,000 miles. Iridium plugs are the longest-lasting at 80,000-100,000+ miles and are what most newer cars come with from the factory.\n\nMost modern cars use iridium plugs and call for replacement around 100,000 miles in the owner's manual. But that doesn't mean you should ignore them until 100K. Plugs degrade gradually... by 80,000 miles they're not firing as crisply as they were at 20,000. You might not notice the difference because it happens slowly, but your fuel economy and acceleration have quietly gotten worse.\n\nThe one thing that dramatically shortens plug life: oil consumption. If your engine burns oil (common in higher-mileage cars), the oil fouls the plugs and they'll need replacing sooner. If you're pulling plugs and they're black and oily... that's a bigger problem than the plugs themselves.`,
+  warningSigns: [
+    { sign: 'Rough idle', detail: 'Engine shakes or vibrates at idle. One or more cylinders isn\'t firing consistently because the spark is weak.' },
+    { sign: 'Hard starting or slow cranking', detail: 'Engine turns over but takes longer to actually fire up, especially in cold weather. Worn plugs need more voltage to spark.' },
+    { sign: 'Misfires or check engine light', detail: 'A flashing check engine light often means an active misfire. A steady light with a P030X code (P0301, P0302, etc.) points to a specific cylinder misfiring.' },
+    { sign: 'Poor fuel economy', detail: 'A gradual increase in gas consumption that you can\'t explain. Worn plugs don\'t burn fuel as efficiently... you could be losing 10-20% fuel economy.' },
+    { sign: 'Sluggish acceleration', detail: 'Car feels flat or hesitant when you step on the gas. The spark isn\'t strong enough to ignite the air-fuel mixture optimally.' },
+    { sign: 'You\'re at the mileage interval', detail: 'Check your owner\'s manual. If it says 100,000 miles and you\'re at 95,000... don\'t push it to 120,000. Replace on schedule.' },
+  ],
+  repairOrReplace: `Spark plugs are always replaced, never repaired. They're a wear item... the electrode erodes with every spark (millions of sparks per drive).\n\nThe real question is whether to replace just the plugs or the ignition coils too. Ignition coils ($50-$150 each) sit on top of the plugs and deliver the high-voltage spark. If one coil is failing (causing a misfire on one cylinder), most mechanics recommend replacing all of them while you're in there... accessing them again later costs the same labor.\n\nIf your car has over 100,000 miles and you've never done plugs... be prepared for a challenge. Plugs can seize in the cylinder head over time, especially in aluminum heads. Some shops charge extra for "stuck plug" removal. Anti-seize compound on the new plug threads prevents this next time.`,
+  maintenanceTips: [
+    'Replace at the interval in your owner\'s manual... not before, not after. Most modern cars are 80,000-100,000 miles for iridium plugs.',
+    'Always use the plug type specified by the manufacturer. Don\'t "upgrade" to a different type unless you know what you\'re doing... the wrong heat range can cause engine damage.',
+    'Apply a thin coat of anti-seize compound to the threads of new plugs. This prevents them from seizing in aluminum heads over the next 100,000 miles.',
+    'If you\'re DIY-ing, torque plugs to spec with a torque wrench. Over-tightening cracks the porcelain. Under-tightening causes misfires and compression loss.',
+    'Inspect plug wires or coil boots while you\'re in there. Cracked or brittle boots cause misfires and are cheap to replace while the plugs are out.',
+  ],
+  costBreakdown: {
+    replaceLow: 50,
+    replaceHigh: 200,
+    repairLow: 5,
+    repairHigh: 15,
+    laborPercent: '$50-$150 labor for accessible engines. $200-$400 for engines where intake manifold removal is required (some V6/V8).',
+  },
+  recommendedProducts: [
+    { name: 'NGK Iridium IX Spark Plugs', description: 'OEM supplier for most Japanese and many European vehicles. Iridium tip for maximum longevity. Match the part number to your vehicle.', priceRange: '$8-$15 each', amazonUrl: 'https://www.amazon.com/s?k=NGK+Iridium+IX+spark+plugs&tag=replacementgu-20' },
+    { name: 'Denso Iridium Power Spark Plugs', description: 'Another top OEM supplier. 0.4mm iridium tip fires more precisely than standard plugs. Popular for Toyota and Honda.', priceRange: '$8-$12 each', amazonUrl: 'https://www.amazon.com/s?k=Denso+Iridium+Power+spark+plugs&tag=replacementgu-20' },
+    { name: 'Permatex Anti-Seize Lubricant', description: 'Apply to plug threads before installation. Prevents plugs from seizing in the cylinder head over 100,000 miles. Essential for aluminum heads.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=Permatex+anti-seize+lubricant&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace spark plugs (4-cylinder)', cost: '$100-$250', notes: 'Parts + labor. 4 plugs, usually accessible. 30-60 minutes.' },
+    { repair: 'Replace spark plugs (V6)', cost: '$150-$400', notes: 'Rear bank plugs are harder to reach on many V6 engines. May require intake manifold removal.' },
+    { repair: 'Replace spark plugs (V8)', cost: '$200-$500', notes: '8 plugs plus potential access issues. Some trucks have easy access, some don\'t.' },
+    { repair: 'Replace ignition coils (per coil)', cost: '$50-$150 each', notes: 'Often done alongside plugs. If one coil is bad, consider replacing all of them.' },
+    { repair: 'Stuck/seized plug removal', cost: '$100-$300 extra', notes: 'If a plug breaks during removal (more common on older engines). Requires special extraction tools.' },
+  ],
+  insuranceCoverage: `Auto insurance does not cover spark plug replacement. This is routine maintenance... like oil changes and tire rotations. Your responsibility.\n\nIf your vehicle is still under the original powertrain warranty (typically 5 years/60,000 miles or 10 years/100,000 miles for some brands), spark plugs that fail prematurely may be covered as a warranty claim. But plugs replaced at the scheduled interval are considered maintenance and are on you.`,
+  bestBrands: [
+    { name: 'NGK', knownFor: 'The world\'s largest spark plug manufacturer. OEM supplier for most Japanese automakers (Toyota, Honda, Subaru, Nissan). Iridium IX and Laser Iridium are their premium lines.' },
+    { name: 'Denso', knownFor: 'Japanese OEM supplier competing directly with NGK. Iridium Power and Iridium TT are top performers. Original equipment on many Toyota and Lexus vehicles.' },
+    { name: 'Bosch', knownFor: 'German engineering. OEM supplier for European vehicles (BMW, Mercedes, VW). Platinum+4 and Double Iridium are their premium lines.' },
+    { name: 'ACDelco', knownFor: 'GM\'s OEM brand. If you drive a Chevy, GMC, Buick, or Cadillac, these are what came in it from the factory. Professional Iridium is their best line.' },
+    { name: 'Champion', knownFor: 'Legacy brand with strong Chrysler/Dodge/Jeep OEM ties. Iridium line is solid. Also makes plugs for small engines (lawn mowers, generators).' },
+  ],
+  installationTime: `Replacing spark plugs takes 30 minutes to 3 hours depending on the engine layout. A 4-cylinder engine with plugs on top is a 30-60 minute job. A V6 or V8 where the rear plugs are buried under the intake manifold can take 2-3 hours.\n\nDIY difficulty varies wildly by vehicle. Some cars (Honda Civic, Toyota Corolla) are dead simple... you can see and reach all 4 plugs easily. Others (Ford 5.4L V8, many transverse V6 engines) are notorious for difficulty and broken plugs.\n\nBefore doing it yourself, search your specific year/make/model on YouTube. If the video shows the mechanic removing the intake manifold... you might want to let a shop handle it. If they just pop the coils off and unscrew the plugs... go for it.`,
+}
