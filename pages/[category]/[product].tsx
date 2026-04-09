@@ -120,7 +120,8 @@ export default function ProductPage({ product, related, content }: Props) {
 
         {/* Warning Signs */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Warning Signs It&apos;s Time to Replace</h2>
+          <h2 className="text-2xl font-bold mb-2">Warning Signs It&apos;s Time to Replace</h2>
+          <h3 className="text-sm text-slate-400 font-medium mb-4">Signs your {p.name.toLowerCase()} is failing or going bad</h3>
           <p className="text-slate-500 text-sm mb-4">If you&apos;re seeing two or more of these, it&apos;s time to start shopping.</p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
             <ul className="space-y-3">
@@ -228,7 +229,8 @@ export default function ProductPage({ product, related, content }: Props) {
         {/* Common Repairs */}
         {content?.commonRepairs && content.commonRepairs.length > 0 && (
           <section className="mb-10">
-            <h2 className="text-2xl font-bold mb-4">Common {p.name} Repairs and What They Cost</h2>
+            <h2 className="text-2xl font-bold mb-2">Common {p.name} Repairs and What They Cost</h2>
+            <h3 className="text-sm text-slate-400 font-medium mb-4">{p.name} repair cost breakdown</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
