@@ -78,6 +78,23 @@ export default function HomePage() {
           ))}
         </div>
 
+        {/* Resources */}
+        <h2 className="text-2xl font-bold mb-6">Helpful Resources</h2>
+        <div className="grid md:grid-cols-3 gap-4 mb-16">
+          <Link href="/troubleshoot" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
+            <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors mb-1">Troubleshooting Guides</h3>
+            <p className="text-xs text-slate-500">Something not working? Step-by-step diagnosis before you call someone.</p>
+          </Link>
+          <Link href="/maintenance" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
+            <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors mb-1">Maintenance Schedules</h3>
+            <p className="text-xs text-slate-500">How often to change, clean, and service the things that keep your home running.</p>
+          </Link>
+          <Link href="/insurance" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
+            <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors mb-1">Insurance Coverage Guides</h3>
+            <p className="text-xs text-slate-500">Does your homeowners insurance actually cover it? Clear answers before you need them.</p>
+          </Link>
+        </div>
+
         {/* What we cover */}
         <div className="bg-slate-50 rounded-xl p-8 text-center">
           <h2 className="text-xl font-bold mb-3">Every page answers three questions</h2>
