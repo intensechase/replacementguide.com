@@ -3,7 +3,7 @@ export const article = {
   title: 'The Hidden Costs of Homeownership Nobody Warns You About',
   metaTitle: 'Hidden Costs of Homeownership — Beyond the Mortgage (2026)',
   metaDescription: 'All the costs beyond your mortgage payment: maintenance, insurance, property taxes, utilities, HOA fees, and surprise repairs. What homeownership really costs.',
-  publishDate: '2026-06-11',
+  publishDate: '2026-06-10',
   category: 'money' as const,
   intro: `Your mortgage payment is just the beginning. The real cost of homeownership includes property taxes, insurance, maintenance, utilities, repairs, and a long list of expenses that catch first-time buyers off guard. A common rule of thumb is to budget 1-4% of your home's value per year for maintenance alone... on a $350,000 home, that's $3,500-$14,000 annually that has nothing to do with your mortgage.`,
   sections: [

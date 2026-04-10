@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Change Your Furnace Filter?',
   metaTitle: 'How Often to Change Furnace Filter — By Size, MERV Rating & Lifestyle (2026)',
   metaDescription: 'Furnace filter change intervals by filter size, MERV rating, pets, and allergies. Why this $10-$30 task protects your $3,000-$7,000 HVAC system.',
-  publishDate: '2026-06-02',
+  publishDate: '2026-06-01',
   category: 'maintenance' as const,
   intro: `Your furnace filter is the cheapest component in your entire HVAC system... $10-$30 for most homes. But a dirty filter is the #1 cause of HVAC breakdowns and the easiest problem to prevent. The tricky part is that "change it every 30 days" isn't accurate for everyone. The right interval depends on your filter size, MERV rating, and household conditions.`,
   sections: [

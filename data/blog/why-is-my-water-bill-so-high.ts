@@ -3,7 +3,7 @@ export const article = {
   title: 'Why Is My Water Bill So High?',
   metaTitle: 'Why Is My Water Bill So High? 10 Common Causes (2026)',
   metaDescription: 'Water bill higher than usual? Here are 10 common causes of high water bills, from running toilets to hidden leaks, and how to find and fix each one.',
-  publishDate: '2026-04-11',
+  publishDate: '2026-04-10',
   category: 'bills' as const,
   intro: `A sudden jump in your water bill usually means one thing: water is going somewhere you don't intend. The average American household uses about 300 gallons per day. If your bill spiked without a change in habits, there's likely a leak or a fixture that's running when it shouldn't be. The good news is that most causes are findable and fixable without a plumber.`,
   sections: [

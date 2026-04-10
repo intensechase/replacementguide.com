@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Change Your Oil?',
   metaTitle: 'How Often to Change Oil — Conventional vs Synthetic Intervals (2026)',
   metaDescription: 'The 3,000 mile oil change is outdated. Here are the real intervals for conventional, synthetic blend, and full synthetic oil based on how you actually drive.',
-  publishDate: '2026-05-21',
+  publishDate: '2026-05-20',
   category: 'maintenance' as const,
   intro: `Quick lube shops still put that "3,000 miles" sticker on your windshield, but most modern cars don't need oil changes anywhere near that often. The 3,000 mile rule dates back to the 1970s when engine tolerances were looser and oil chemistry was primitive. Today's engines and oils have changed dramatically... and changing your oil too often is just throwing money away.`,
   sections: [

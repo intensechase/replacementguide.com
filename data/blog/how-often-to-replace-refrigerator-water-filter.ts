@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Replace Your Refrigerator Water Filter?',
   metaTitle: 'How Often to Replace Fridge Water Filter — Every 6 Months? (2026)',
   metaDescription: 'How often to change your refrigerator water filter, why it matters for water quality, and whether generic filters work as well as OEM. Costs and tips.',
-  publishDate: '2026-06-18',
+  publishDate: '2026-06-17',
   category: 'maintenance' as const,
   intro: `Refrigerator water filters should be replaced every 6 months or after filtering about 200-300 gallons of water, whichever comes first. Most fridges have a filter indicator light that turns red or yellow when it's time... but many people ignore it for months or even years. An expired filter doesn't just stop filtering... it can actually release trapped contaminants back into your water.`,
   sections: [

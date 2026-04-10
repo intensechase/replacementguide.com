@@ -3,7 +3,7 @@ export const article = {
   title: 'Why Is My Gas Bill So High?',
   metaTitle: 'Why Is My Gas Bill So High? 10 Common Causes (2026)',
   metaDescription: 'Gas bill higher than expected? Here are 10 common reasons your natural gas costs are up, from furnace problems to water heater inefficiency, and how to fix each one.',
-  publishDate: '2026-04-09',
+  publishDate: '2026-04-08',
   category: 'bills' as const,
   intro: `If your gas bill spiked and you haven't changed your habits, something in your home is using more gas than it should. Natural gas heats your home, heats your water, dries your clothes, and cooks your food... so there are several places to look. Let's go through the most common causes, starting with the biggest gas consumers.`,
   sections: [

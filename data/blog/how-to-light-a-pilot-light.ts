@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Light a Pilot Light (Furnace, Water Heater, Fireplace)',
   metaTitle: 'How to Light a Pilot Light — Step by Step (2026)',
   metaDescription: 'Step-by-step guide to relighting a pilot light on your furnace, water heater, or gas fireplace. Safety tips, what to check, and when to call for help.',
-  publishDate: '2026-04-28',
+  publishDate: '2026-04-27',
   category: 'how-to' as const,
   intro: `A pilot light that goes out is usually not a big deal... it happens from drafts, a momentary gas interruption, or a dirty thermocouple. Relighting it takes 2-3 minutes. But gas appliances demand respect, so let's do this safely. If you smell gas strongly at any point, stop what you're doing, leave the house, and call your gas company from outside.`,
   sections: [

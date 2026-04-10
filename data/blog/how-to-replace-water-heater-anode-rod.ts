@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Replace a Water Heater Anode Rod (DIY Guide)',
   metaTitle: 'How to Replace a Water Heater Anode Rod — Step by Step (2026)',
   metaDescription: 'Replace your water heater anode rod yourself in under an hour. Tools needed, step-by-step instructions, and how this $20 part can add years to your tank.',
-  publishDate: '2026-05-14',
+  publishDate: '2026-05-13',
   category: 'how-to' as const,
   intro: `The anode rod is a $15-$30 part that sacrifices itself to protect your water heater tank from corrosion. Once it's used up, the tank itself starts rusting... and once the tank rusts through, you're buying a new water heater ($800-$2,500 installed). Replacing the anode rod every 3-5 years is one of the cheapest ways to extend your water heater's life by years. And it's a straightforward DIY job.`,
   sections: [

@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Clean a Dryer Vent (Step by Step)',
   metaTitle: 'How to Clean a Dryer Vent — Step by Step Guide (2026)',
   metaDescription: 'Learn how to clean your dryer vent yourself in 30 minutes. Prevents fires, reduces drying time, and saves energy. Tools needed, steps, and when to call a pro.',
-  publishDate: '2026-04-14',
+  publishDate: '2026-04-13',
   category: 'how-to' as const,
   intro: `Clogged dryer vents cause 2,900 house fires every year in the US. Beyond the fire risk, a clogged vent makes your dryer work harder, take longer, and use more energy... adding $18-$24/month to your electric or gas bill. Cleaning the vent takes 20-30 minutes, costs nothing if you already have a vacuum, and should be done once a year. Here's how to do it yourself.`,
   sections: [

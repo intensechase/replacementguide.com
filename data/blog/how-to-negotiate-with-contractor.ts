@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Negotiate With a Contractor (Without Getting Ripped Off)',
   metaTitle: 'How to Negotiate With a Contractor — Tips & Red Flags (2026)',
   metaDescription: 'How to negotiate contractor pricing, get fair estimates, structure payment schedules, spot red flags, and protect yourself with proper contracts.',
-  publishDate: '2026-06-27',
+  publishDate: '2026-06-26',
   category: 'money' as const,
   intro: `Hiring a contractor is one of the biggest financial decisions most homeowners make outside of buying the house itself. A kitchen remodel runs $20,000-$60,000, a new roof $8,000-$15,000, and even a simple bathroom update can hit $10,000-$25,000. The difference between a fair deal and an overcharge can easily be $5,000-$15,000... so knowing how to negotiate effectively is worth learning before you sign anything.`,
   sections: [

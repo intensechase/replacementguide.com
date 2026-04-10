@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Replace Mulch?',
   metaTitle: 'How Often to Replace Mulch — Types, Timing & Tips (2026)',
   metaDescription: 'How often to replace mulch in your garden beds. Mulch types and how long they last, topping off vs full replacement, and how to keep beds looking fresh.',
-  publishDate: '2026-06-25',
+  publishDate: '2026-06-24',
   category: 'maintenance' as const,
   intro: `Most organic mulch should be replenished annually and fully replaced every 2-3 years. Mulch breaks down over time, which is actually a good thing for your soil... but it means the layer gets thinner and less effective at suppressing weeds and retaining moisture. The good news is that mulching is one of the simplest and most rewarding landscaping tasks, and a $50-$150 annual investment keeps your beds looking sharp and your plants healthy.`,
   sections: [

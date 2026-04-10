@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Replace Your Pillows?',
   metaTitle: 'How Often to Replace Pillows — Hygiene, Comfort & Signs (2026)',
   metaDescription: 'How often to replace pillows for better sleep and hygiene. The fold test, dust mite facts, pillow types and lifespans, plus when to toss them.',
-  publishDate: '2026-06-13',
+  publishDate: '2026-06-12',
   category: 'maintenance' as const,
   intro: `Pillows should be replaced every 1 to 2 years. That might sound aggressive, but here's the uncomfortable truth... after two years of nightly use, up to one-third of your pillow's weight can be dust mites, dead skin cells, body oils, and moisture. Beyond hygiene, a worn-out pillow loses its support and can cause neck pain, headaches, and poor sleep quality.`,
   sections: [

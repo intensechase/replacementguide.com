@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Replace Your Windshield Wipers?',
   metaTitle: 'How Often to Replace Windshield Wipers — Signs & Tips (2026)',
   metaDescription: 'How often to replace windshield wipers, signs they\'re worn out, best wiper brands, and seasonal tips to keep your windshield clear in any weather.',
-  publishDate: '2026-06-09',
+  publishDate: '2026-06-08',
   category: 'maintenance' as const,
   intro: `Windshield wipers should be replaced every 6 to 12 months, depending on your climate and how much you drive. Most people wait way too long... by the time you notice streaking, your wipers have already been underperforming for weeks. At $15-$30 for a pair, this is one of the cheapest safety upgrades you can make on your car.`,
   sections: [

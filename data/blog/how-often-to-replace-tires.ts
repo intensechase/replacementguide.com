@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Replace Your Tires?',
   metaTitle: 'How Often to Replace Tires — Mileage, Age & Signs (2026)',
   metaDescription: 'How long do tires last? When to replace them based on tread depth, age, and driving conditions. Plus the penny test and other ways to check.',
-  publishDate: '2026-05-05',
+  publishDate: '2026-05-04',
   category: 'maintenance' as const,
   intro: `Tires last 3 to 5 years or 25,000 to 50,000 miles for standard all-season tires, though some premium tires are rated for 60,000-80,000 miles. But mileage isn't the only factor... tires degrade from age regardless of how much you drive. A tire that's been sitting in a garage for 6 years is unsafe even if it has full tread.`,
   sections: [

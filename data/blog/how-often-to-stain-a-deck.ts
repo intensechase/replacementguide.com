@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Stain a Deck?',
   metaTitle: 'How Often to Stain a Deck — Water Test, Prep & Best Stains (2026)',
   metaDescription: 'How often to stain a deck (every 2-3 years), the water test to check if it\'s time, prep steps for the best results, and top deck stain recommendations.',
-  publishDate: '2026-06-23',
+  publishDate: '2026-06-22',
   category: 'maintenance' as const,
   intro: `A wood deck should be stained every 2 to 3 years to protect it from moisture, UV damage, and rot. Skip the staining schedule and your deck deteriorates fast... bare wood exposed to the elements can start showing damage within a single season. A $100-$200 staining project every few years protects a deck that cost $5,000-$15,000+ to build.`,
   sections: [

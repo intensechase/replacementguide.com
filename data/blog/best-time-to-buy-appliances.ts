@@ -3,7 +3,7 @@ export const article = {
   title: 'The Best Time to Buy Appliances (And When to Avoid)',
   metaTitle: 'Best Time to Buy Appliances — Sales Calendar & Savings Tips (2026)',
   metaDescription: 'When do appliances go on sale? Holiday sales, model year changeovers, scratch & dent deals, and other ways to save 20-50% on major appliances.',
-  publishDate: '2026-05-19',
+  publishDate: '2026-05-18',
   category: 'money' as const,
   intro: `A new refrigerator, washer, or dishwasher is a big purchase... $500 to $3,000 depending on what you're buying and how fancy you go. The good news is that appliance prices follow predictable cycles throughout the year. Buying at the right time can save you 15-40% compared to walking into a store on a random Tuesday. Here's when to buy and when to wait.`,
   sections: [

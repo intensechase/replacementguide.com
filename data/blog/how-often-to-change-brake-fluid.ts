@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Change Brake Fluid?',
   metaTitle: 'How Often to Change Brake Fluid — DOT Types & Warning Signs (2026)',
   metaDescription: 'Brake fluid change intervals by vehicle type, DOT fluid types, why moisture absorption matters, and signs your brake fluid needs changing now.',
-  publishDate: '2026-06-06',
+  publishDate: '2026-06-05',
   category: 'maintenance' as const,
   intro: `Brake fluid is one of those maintenance items that most people completely ignore... until their brakes feel soft or the ABS light comes on. Unlike oil or coolant, brake fluid doesn't leak or burn off in normal operation. It just quietly absorbs moisture from the air, and that moisture gradually degrades its performance. Here's when and why to change it.`,
   sections: [

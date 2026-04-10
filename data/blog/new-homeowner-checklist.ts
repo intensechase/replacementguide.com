@@ -3,7 +3,7 @@ export const article = {
   title: 'New Homeowner Checklist: Everything to Do When You Move In',
   metaTitle: 'New Homeowner Checklist — First Week, Month & Year (2026)',
   metaDescription: 'Just bought a house? Here is everything you should do in the first week, first month, and first year. Organized by priority so nothing falls through the cracks.',
-  publishDate: '2026-05-26',
+  publishDate: '2026-05-25',
   category: 'maintenance' as const,
   intro: `Congratulations... you own a home. Now what? There's a long list of things you should do when you move in, and it's easy to overlook the important stuff when you're busy unpacking boxes and figuring out where the light switches are. This checklist is organized by urgency so you can knock out the critical items first and spread the rest over your first year.`,
   sections: [

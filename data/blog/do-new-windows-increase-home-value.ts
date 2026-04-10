@@ -3,7 +3,7 @@ export const article = {
   title: 'Do New Windows Increase Home Value?',
   metaTitle: 'Do New Windows Increase Home Value? ROI Breakdown (2026)',
   metaDescription: 'Are new windows worth the investment before selling? Here\'s the real ROI, when they matter most, and when your money is better spent elsewhere.',
-  publishDate: '2026-05-07',
+  publishDate: '2026-05-06',
   category: 'selling' as const,
   intro: `New windows cost $300-$1,000 per window installed, which means $5,000-$15,000 for a typical home. That's a significant investment, so the question is fair: will you get that money back when you sell? The honest answer is... partially. But the ROI depends heavily on what you're replacing and who you're selling to.`,
   sections: [

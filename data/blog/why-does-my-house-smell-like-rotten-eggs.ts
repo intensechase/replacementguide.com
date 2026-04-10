@@ -3,7 +3,7 @@ export const article = {
   title: 'Why Does My House Smell Like Rotten Eggs?',
   metaTitle: 'Why Does My House Smell Like Rotten Eggs? 5 Causes & Fixes (2026)',
   metaDescription: 'Rotten egg smell in your house? It could be a gas leak, water heater problem, dry drain trap, or sewer issue. Here is how to identify the source and fix it.',
-  publishDate: '2026-05-23',
+  publishDate: '2026-05-22',
   category: 'bills' as const,
   intro: `A rotten egg smell in your house is never something to ignore. It ranges from annoying (a dry drain trap) to life-threatening (a natural gas leak). The smell is caused by hydrogen sulfide or mercaptan... and narrowing down which source is producing it determines how urgently you need to act. Let's go through the possibilities from most dangerous to least.`,
   sections: [

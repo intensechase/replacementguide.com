@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Replace Your Smoke Detectors?',
   metaTitle: 'How Often to Replace Smoke Detectors — Lifespan & Types (2026)',
   metaDescription: 'Smoke detectors should be replaced every 8-10 years. Learn why sensors degrade, hardwired vs battery differences, and how interconnected systems work.',
-  publishDate: '2026-06-16',
+  publishDate: '2026-06-15',
   category: 'maintenance' as const,
   intro: `Smoke detectors should be replaced every 8 to 10 years, regardless of whether they still "beep" when you press the test button. The sensors inside degrade over time and become less sensitive to actual smoke... meaning a detector that passes a button test might fail to detect a real fire. This is a life-safety item that costs $15-$40 to replace. Don't gamble on old detectors.`,
   sections: [

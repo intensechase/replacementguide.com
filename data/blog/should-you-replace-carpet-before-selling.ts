@@ -3,7 +3,7 @@ export const article = {
   title: 'Should You Replace Carpet Before Selling Your Home?',
   metaTitle: 'Should You Replace Carpet Before Selling? ROI & Alternatives (2026)',
   metaDescription: 'Is new carpet worth it before listing your home? When to replace, when professional cleaning is enough, and what flooring buyers actually want in 2026.',
-  publishDate: '2026-05-16',
+  publishDate: '2026-05-15',
   category: 'selling' as const,
   intro: `You're getting ready to sell and the carpet looks... tired. Stains that won't come out, matted traffic paths, maybe a pet odor situation. New carpet for the whole house runs $2,000-$6,000 depending on square footage and quality. Professional cleaning is $200-$500. And then there's the question of whether buyers even want carpet anymore. Let's sort through this.`,
   sections: [

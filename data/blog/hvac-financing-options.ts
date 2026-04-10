@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Pay for a New AC or Furnace: HVAC Financing Options',
   metaTitle: 'HVAC Financing Options — How to Pay for a New AC or Furnace (2026)',
   metaDescription: 'Need a new AC or furnace but can\'t pay $5,000+ upfront? Here are the realistic financing options for HVAC replacement, with honest pros and cons.',
-  publishDate: '2026-04-30',
+  publishDate: '2026-04-29',
   category: 'money' as const,
   intro: `A new AC costs $3,000 to $7,000 installed. A new furnace costs $2,500 to $7,500. A full HVAC system (both) can run $7,000 to $15,000. And unlike a roof or a kitchen remodel, an HVAC failure usually can't wait... your family is either freezing or sweltering right now. That urgency makes you vulnerable to bad financing decisions. Here are your real options, ranked from cheapest to most expensive in total cost.`,
   sections: [

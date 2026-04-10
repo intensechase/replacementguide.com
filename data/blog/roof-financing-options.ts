@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Pay for a New Roof: Financing Options Explained',
   metaTitle: 'Roof Financing Options — How to Pay for a New Roof (2026)',
   metaDescription: 'Need a new roof but don\'t have $10,000 cash? Here are the realistic financing options for a roof replacement, with pros, cons, and what to watch out for.',
-  publishDate: '2026-05-02',
+  publishDate: '2026-05-01',
   category: 'money' as const,
   intro: `A new roof costs $5,000 to $15,000 for most homes, and very few people have that sitting in a savings account waiting to go. The good news is there are several ways to finance a roof without draining your emergency fund or putting it all on a credit card at 24% interest. Here's an honest look at each option... what it actually costs you, what the catches are, and which one makes the most sense for your situation.`,
   sections: [

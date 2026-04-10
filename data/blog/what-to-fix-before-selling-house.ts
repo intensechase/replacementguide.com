@@ -3,7 +3,7 @@ export const article = {
   title: 'What to Fix Before Selling Your House (Prioritized List)',
   metaTitle: 'What to Fix Before Selling Your House — Prioritized by ROI (2026)',
   metaDescription: 'A prioritized list of repairs and improvements before listing your home. What actually increases sale price, what buyers notice, and what to skip.',
-  publishDate: '2026-05-30',
+  publishDate: '2026-05-29',
   category: 'selling' as const,
   intro: `You want to maximize your sale price without dumping $30,000 into a house you're about to leave. Smart sellers focus on the repairs that buyers notice most, that home inspectors flag, and that give the best return on investment. Here's the priority list... starting with the items that move the needle the most.`,
   sections: [

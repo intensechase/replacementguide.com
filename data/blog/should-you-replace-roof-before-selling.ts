@@ -3,7 +3,7 @@ export const article = {
   title: 'Should You Replace Your Roof Before Selling?',
   metaTitle: 'Should You Replace Your Roof Before Selling? ROI & When It Matters (2026)',
   metaDescription: 'Is replacing your roof before selling worth the cost? Real ROI data, when buyers care most, and cheaper alternatives that might be enough.',
-  publishDate: '2026-05-12',
+  publishDate: '2026-05-11',
   category: 'selling' as const,
   intro: `A new roof costs $8,000-$15,000 for the average home... and you're wondering if you'll get that money back at the closing table. The honest answer is it depends. Sometimes a new roof is the best investment you can make before listing. Other times it's money you'll never see again. Let's figure out which situation you're in.`,
   sections: [

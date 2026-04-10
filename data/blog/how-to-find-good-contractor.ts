@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Find a Good Contractor (And Avoid Bad Ones)',
   metaTitle: 'How to Find a Good Contractor — Red Flags, Vetting & Contracts (2026)',
   metaDescription: 'How to find, vet, and hire a reliable contractor. Red flags to watch for, how to get estimates, what your contract should include, and payment schedules.',
-  publishDate: '2026-06-04',
+  publishDate: '2026-06-03',
   category: 'money' as const,
   intro: `Hiring the wrong contractor is one of the most expensive mistakes a homeowner can make. Bad contractors leave you with shoddy work, blown budgets, abandoned projects, and the nightmare of trying to get someone else to fix the mess. The good news is that finding a reliable contractor isn't hard if you know what to look for... and more importantly, what to avoid.`,
   sections: [

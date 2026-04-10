@@ -3,7 +3,7 @@ export const article = {
   title: 'What to Do When Your Basement Floods',
   metaTitle: 'What to Do When Your Basement Floods — Emergency Guide (2026)',
   metaDescription: 'Basement flooding? Here\'s what to do right now, step by step. Safety first, then water removal, damage prevention, insurance, and cleanup.',
-  publishDate: '2026-04-16',
+  publishDate: '2026-04-15',
   category: 'emergency' as const,
   intro: `If your basement is flooding right now, don't read this whole article. Do these three things first: 1) Don't walk into standing water if there's any chance electrical outlets, appliances, or your electrical panel are submerged... electrocution is a real risk. 2) If it's safe, shut off the electricity to the basement at the breaker panel. 3) If the water is from a burst pipe, shut off the main water valve. Then come back and read the rest.`,
   sections: [

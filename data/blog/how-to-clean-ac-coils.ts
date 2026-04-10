@@ -3,7 +3,7 @@ export const article = {
   title: 'How to Clean AC Coils (Condenser and Evaporator)',
   metaTitle: 'How to Clean AC Coils — DIY Guide (2026)',
   metaDescription: 'Learn how to clean your AC condenser and evaporator coils yourself. Improves cooling, reduces energy bills, and extends your system\'s life.',
-  publishDate: '2026-04-25',
+  publishDate: '2026-04-24',
   category: 'how-to' as const,
   intro: `Dirty AC coils are the #1 cause of reduced cooling performance and high energy bills. The condenser coils (outside unit) and evaporator coils (inside unit) transfer heat... and when they're coated in dirt, pollen, dust, and grime, they can't do their job. Cleaning the condenser coils yourself takes 20 minutes and a garden hose. The evaporator coils are a bit more involved but still DIY-able. Together, clean coils can reduce your cooling costs by 10-25%.`,
   sections: [

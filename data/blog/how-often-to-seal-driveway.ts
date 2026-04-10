@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Seal Your Driveway?',
   metaTitle: 'How Often to Seal a Driveway — Asphalt & Concrete (2026)',
   metaDescription: 'How often to sealcoat an asphalt driveway and seal a concrete driveway. What it costs, whether it\'s worth it, and how to do it yourself.',
-  publishDate: '2026-05-09',
+  publishDate: '2026-05-08',
   category: 'maintenance' as const,
   intro: `Asphalt driveways should be sealcoated every 2-3 years. Concrete driveways should be sealed every 2-5 years. This is one of the highest-ROI maintenance tasks for your home's exterior... a $100-$300 sealcoat application can add 5-10 years to an asphalt driveway's life and prevent thousands in repair costs.`,
   sections: [

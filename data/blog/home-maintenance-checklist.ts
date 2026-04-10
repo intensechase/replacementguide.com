@@ -3,7 +3,7 @@ export const article = {
   title: 'Home Maintenance Checklist: Monthly and Seasonal Tasks',
   metaTitle: 'Home Maintenance Checklist — Monthly & Seasonal Tasks (2026)',
   metaDescription: 'The complete home maintenance checklist organized by month and season. What to check, clean, and replace to prevent expensive repairs and keep your home running.',
-  publishDate: '2026-04-18',
+  publishDate: '2026-04-17',
   category: 'maintenance' as const,
   intro: `Most expensive home repairs start as cheap maintenance tasks that got ignored. A $5 air filter change prevents a $1,500 heat exchanger repair. A $0 gutter cleaning prevents $5,000 in foundation damage. This checklist organizes every routine task by when it needs to happen... so nothing falls through the cracks.`,
   sections: [

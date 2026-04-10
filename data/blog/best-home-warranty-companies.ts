@@ -3,7 +3,7 @@ export const article = {
   title: 'Best Home Warranty Companies (Honest Comparison)',
   metaTitle: 'Best Home Warranty Companies — Honest Comparison (2026)',
   metaDescription: 'An honest look at the top home warranty companies. What they actually cover, what they don\'t, real costs, and who benefits most from having one.',
-  publishDate: '2026-04-21',
+  publishDate: '2026-04-20',
   category: 'money' as const,
   intro: `Home warranty companies spend a lot on advertising, and the reviews online are mostly affiliate-driven (the site gets paid when you sign up). This isn't that. This is an honest breakdown of how home warranties actually work, which companies have the best track records, and whether one makes sense for your situation. Some people absolutely should have one. Others are wasting $400-$600/year.`,
   sections: [

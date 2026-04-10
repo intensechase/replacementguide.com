@@ -3,7 +3,7 @@ export const article = {
   title: 'Why Is My Electric Bill So High?',
   metaTitle: 'Why Is My Electric Bill So High? 12 Common Causes (2026)',
   metaDescription: 'Electric bill higher than expected? Here are 12 common reasons your electricity costs are up, from HVAC problems to phantom loads, and what to do about each one.',
-  publishDate: '2026-04-07',
+  publishDate: '2026-04-06',
   category: 'bills' as const,
   intro: `Your electric bill jumped and you're not sure why. Before you call the power company to argue, let's walk through the most common causes... starting with the ones that are easiest to check and fix. Most of the time, high electric bills come down to one or two specific things that are quietly running up the meter.`,
   sections: [

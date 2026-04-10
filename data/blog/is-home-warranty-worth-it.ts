@@ -3,7 +3,7 @@ export const article = {
   title: 'Is a Home Warranty Worth It? (What It Actually Covers)',
   metaTitle: 'Is a Home Warranty Worth It? What It Covers & Doesn\'t (2026)',
   metaDescription: 'Should you buy a home warranty? Here\'s what they actually cover, what they don\'t, the real costs, and an honest breakdown of when they make sense.',
-  publishDate: '2026-04-23',
+  publishDate: '2026-04-22',
   category: 'money' as const,
   intro: `Home warranties cost $300-$600/year plus a $75-$125 service fee per repair visit. Whether that's worth it depends on the age of your home's systems, your savings, and your tolerance for surprise repair bills. Here's the honest answer... not the sales pitch.`,
   sections: [

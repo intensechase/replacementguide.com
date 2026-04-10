@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Sharpen Lawn Mower Blades?',
   metaTitle: 'How Often to Sharpen Mower Blades — Signs & DIY Guide (2026)',
   metaDescription: 'How often to sharpen lawn mower blades, signs they\'re dull, DIY sharpening vs replacement, and how dull blades damage your lawn.',
-  publishDate: '2026-06-20',
+  publishDate: '2026-06-19',
   category: 'maintenance' as const,
   intro: `Lawn mower blades should be sharpened every 20-25 hours of mowing time, which works out to about once or twice per mowing season for most homeowners. Dull blades don't cut grass... they tear it, leaving ragged brown tips that make your lawn look rough and invite disease. A sharp blade makes a clean cut that heals quickly, keeping grass green and healthy.`,
   sections: [

@@ -3,7 +3,7 @@ export const article = {
   title: 'How Often Should You Change Transmission Fluid?',
   metaTitle: 'How Often to Change Transmission Fluid — Auto, Manual & CVT (2026)',
   metaDescription: 'Transmission fluid change intervals for automatic, manual, and CVT transmissions. When to flush vs drain, and why "lifetime fluid" is a marketing myth.',
-  publishDate: '2026-05-28',
+  publishDate: '2026-05-27',
   category: 'maintenance' as const,
   intro: `Transmission replacement costs $2,000-$6,000. Transmission fluid change costs $100-$300. The math on preventive maintenance is obvious... but the confusing part is figuring out the right interval, because it varies wildly depending on transmission type, driving conditions, and what the manufacturer tells you vs. what mechanics actually recommend.`,
   sections: [
