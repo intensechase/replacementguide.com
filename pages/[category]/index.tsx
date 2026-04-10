@@ -35,12 +35,13 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
 
 function formatLifespan(p: Product): string {
   const same = p.lifespanMin === p.lifespanMax
-  const unit = p.lifespanUnit === 'months' && p.lifespanMin === 1 && same ? 'month' : p.lifespanUnit === 'years' && p.lifespanMin === 1 && same ? 'year' : p.lifespanUnit
+  const unit = p.lifespanUnit === 'weeks' && p.lifespanMin === 1 && same ? 'week' : p.lifespanUnit === 'months' && p.lifespanMin === 1 && same ? 'month' : p.lifespanUnit === 'years' && p.lifespanMin === 1 && same ? 'year' : p.lifespanUnit
   if (p.lifespanUnit === 'miles') {
     const min = `${(p.lifespanMin / 1000).toFixed(0)}K`
     const max = `${(p.lifespanMax / 1000).toFixed(0)}K`
     return same ? `${min} miles` : `${min}-${max} miles`
   }
+  if (p.lifespanUnit === 'weeks') return same ? `${p.lifespanMin} ${unit}` : `${p.lifespanMin}-${p.lifespanMax} weeks`
   if (p.lifespanUnit === 'months') return same ? `${p.lifespanMin} ${unit}` : `${p.lifespanMin}-${p.lifespanMax} months`
   return same ? `${p.lifespanMin} ${unit}` : `${p.lifespanMin}-${p.lifespanMax} years`
 }

@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'toilet-handle',
+  lifespanDetail: `Toilet handles last 5 to 10 years, though cheap plastic handles can fail in as little as 2 to 3 years. The handle itself is just a lever mounted through the front or side of the tank, connected to a lift arm inside that pulls the flapper up when you push the lever down. Most failures happen at the mounting nut (which is reverse-threaded... lefty tighty, righty loosey), the lift arm connection, or the handle pivot point. Chrome-plated plastic handles are the most common and cheapest ($5 to $10), but the chrome eventually peels and the plastic pivot wears out. Metal handles (brass or stainless steel) cost $10 to $25 and last significantly longer. The lift arm (the rod or chain inside the tank that connects the handle to the flapper) is part of the handle assembly. When the lift arm corrodes, bends, or snaps, the handle becomes useless even if the lever itself still works. Hard water accelerates corrosion on metal lift arms. Some older toilets use a trip lever with a different mounting configuration... front-mount, side-mount, or angled. Before buying a replacement, check whether your handle is front-mount (the most common), side-mount (usually on compact or corner toilets), or right-side-mount. Most universal replacement handles include adapters for multiple mounting positions.`,
+  warningSigns: [
+    { sign: 'Handle is loose and jiggles', detail: 'The mounting nut has loosened or the handle pivot is worn. Remember: toilet handle nuts are reverse-threaded (turn clockwise to loosen, counterclockwise to tighten). Most people make this tighter by accident.' },
+    { sign: 'Have to hold the handle down to flush', detail: 'The flapper is closing too quickly because the lift chain or arm isn\'t pulling it high enough. This is sometimes a chain adjustment, but often the handle\'s lift arm has bent or the pivot point is worn.' },
+    { sign: 'Handle doesn\'t spring back after flushing', detail: 'The handle should return to its resting position on its own. If it stays down or sticks, the pivot is corroded or the mounting hole is worn. Eventually it jams the flapper open and the toilet runs.' },
+    { sign: 'Handle feels gritty or stiff when pressed', detail: 'Mineral deposits have built up around the pivot point where the handle shaft passes through the tank wall. The handle still works but it\'s heading toward failure.' },
+    { sign: 'Chrome is peeling or the handle is corroded', detail: 'Cosmetic at first, but once the chrome peels, the underlying plastic or metal corrodes faster. It also looks terrible and feels rough. Time for a new one.' },
+    { sign: 'The lift arm snapped inside the tank', detail: 'The handle lever moves but nothing happens inside the tank... the lift arm that connects to the flapper has broken. The entire handle assembly needs replacement.' },
+  ],
+  repairOrReplace: `At $5 to $15, toilet handles are always replaced rather than repaired. This is one of the simplest, cheapest, and most satisfying DIY plumbing fixes. The entire job takes 5 to 10 minutes with no tools beyond an adjustable wrench. Shut off the water (optional for this job... you don't need to drain the tank), reach inside the tank to disconnect the lift chain from the old lift arm, unscrew the mounting nut (REMEMBER: it's reverse-threaded... turn clockwise to loosen), pull the old handle out through the front of the tank, insert the new handle, hand-tighten the nut counterclockwise, reconnect the chain to the new lift arm with 1/2 inch of slack, and flush to test. The only way to mess this up is the reverse threading. Every year, people strip the threads by turning the nut the wrong way. Clockwise loosens. Counterclockwise tightens. The opposite of everything else in your house. Nobody knows why toilet handles are reverse-threaded. It's one of plumbing's great mysteries. (The technical reason is to prevent the flushing motion from loosening the nut, but still.) If you're upgrading, consider a dual-flush conversion handle ($15 to $25). It replaces the standard handle with a two-button system... light flush for liquids, full flush for solids. Saves 15,000+ gallons per year for a family of four.`,
+  maintenanceTips: [
+    'If the handle feels loose, tighten the mounting nut... counterclockwise (reverse-threaded). A quarter turn usually does it. Don\'t overtighten or you\'ll crack the porcelain tank.',
+    'Clean the handle pivot point annually by removing the handle and wiping the shaft and mounting hole with vinegar on a cloth. This removes mineral buildup that causes stiffness.',
+    'When replacing the handle, adjust the lift chain so there\'s about 1/2 inch of slack when the handle is at rest. Too much slack requires extra handle travel. Too little slack keeps the flapper partially open.',
+    'Match the finish to your bathroom hardware. Chrome, brushed nickel, oil-rubbed bronze, and matte black handles are all available in the $10 to $25 range. An upgraded handle is a subtle but noticeable improvement.',
+    'If you have kids who push too hard, consider a push-button flush conversion. Button-style flush mechanisms are more durable than lever handles and harder for small hands to break.',
+  ],
+  costBreakdown: {
+    replaceLow: 5,
+    replaceHigh: 25,
+    repairLow: 5,
+    repairHigh: 25,
+    laborPercent: '0% DIY (5-10 minutes)',
+  },
+  recommendedProducts: [
+    { name: 'Fluidmaster 684 Universal Toilet Handle', description: 'Fits most front-mount and side-mount toilets with included adapters. Chrome finish. Includes a new lift arm. The go-to replacement when you just need a handle that works.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=Fluidmaster+684+universal+toilet+handle&tag=replacementgu-20' },
+    { name: 'Danco Toilet Handle in Brushed Nickel', description: 'Same function as the chrome version but in brushed nickel to match modern bathroom hardware. Universal fit with front and side-mount adapters included.', priceRange: '$10-$15', amazonUrl: 'https://www.amazon.com/s?k=Danco+toilet+handle+brushed+nickel+universal&tag=replacementgu-20' },
+    { name: 'Danco HYR460 Dual Flush Converter', description: 'Replaces the standard handle with a two-button dual-flush system. Light flush (0.8 gallons) and full flush (1.6 gallons). Saves a family of four 15,000+ gallons per year. Installs in 15 minutes.', priceRange: '$20-$30', amazonUrl: 'https://www.amazon.com/s?k=Danco+HYR460+dual+flush+converter&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace handle (DIY)', cost: '$5-$15', notes: '5-10 minutes. Only tool needed is an adjustable wrench. Remember: reverse threading.' },
+    { repair: 'Replace handle (plumber)', cost: '$50-$150', notes: 'Paying a plumber for this is like hiring a mechanic to change a wiper blade. Save your money and DIY.' },
+    { repair: 'Tighten loose handle', cost: '$0', notes: 'Turn the mounting nut counterclockwise (reverse-threaded) a quarter turn. Done in 30 seconds.' },
+    { repair: 'Adjust lift chain', cost: '$0', notes: 'If the flush is weak or the toilet runs, the chain between the handle arm and flapper needs adjustment. 1/2 inch of slack is the target.' },
+    { repair: 'Dual flush conversion', cost: '$20-$30 DIY', notes: 'Replaces handle with a two-button system. 15-minute install. Significant water savings.' },
+  ],
+  bestBrands: [
+    { name: 'Fluidmaster', knownFor: 'Their universal handle fits the widest range of toilets. Basic chrome finish, reliable, and stocked at every hardware store. The default recommendation for a quick replacement.' },
+    { name: 'Danco', knownFor: 'Better finish options (brushed nickel, oil-rubbed bronze, matte black) for a few dollars more. Their dual-flush converter is the best-selling upgrade. Good for matching bathroom hardware.' },
+    { name: 'Korky', knownFor: 'Makes a StrongARM handle with a metal lift arm instead of plastic. More durable than standard handles. Good choice if you\'ve been replacing cheap handles frequently.' },
+    { name: 'TOTO', knownFor: 'OEM replacement handles for TOTO toilets. If you have a TOTO, their handles match the aesthetic perfectly. More expensive ($15 to $30) but designed specifically for TOTO tank dimensions.' },
+  ],
+  installationTime: `Toilet handle replacement takes 5 to 10 minutes. Seriously. This is one of the fastest home repairs you can do.\n\nTools needed: adjustable wrench (or channel-lock pliers). That's it.\n\nProcess: reach into the tank and unhook the lift chain from the old lift arm, use the wrench to loosen the mounting nut CLOCKWISE (reverse-threaded... this is the only tricky part), pull the old handle out through the front of the tank, insert the new handle through the hole from the outside, hand-tighten the new nut COUNTERCLOCKWISE, snug with the wrench (quarter turn past hand-tight), reconnect the chain to the new lift arm with about 1/2 inch of slack, flush and check.\n\nIf the handle doesn't fit through the hole, check that you've removed any adapters or spacers from the new handle that aren't needed for your mounting type. Most universal handles include extra pieces for different configurations.\n\nNo need to shut off the water or drain the tank... you're only working above the water line. Keep a towel handy in case you splash.`,
+}

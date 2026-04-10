@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'sprinkler-head',
+  lifespanDetail: `Sprinkler heads last 10 to 15 years under normal conditions, but they're frequently damaged much sooner by lawn mowers, foot traffic, cars, and freeze-thaw cycles. A sprinkler head is a surprisingly simple device... it's a plastic or brass body with a spring-loaded riser that pops up when water pressure is applied, sprays water through an adjustable nozzle, and retracts when the water shuts off. The nozzle and spring are the most common failure points. Pop-up spray heads (the kind that spray a fixed fan pattern) cost $3 to $8 each and are the most common residential type. Rotor heads (the kind that rotate back and forth to cover larger areas) cost $10 to $25 and are used for bigger lawn sections. Impact heads (the classic "chk-chk-chk" sprinklers) are mostly replaced by gear-driven rotors now but still exist in older systems. UV exposure degrades the plastic body over time... heads that sit above the grass line (improperly adjusted or on raised beds) fail faster than flush-mounted heads that retract into the ground. Mineral deposits from hard water can clog the nozzle, and sand or debris in the water supply grinds down the internal components. Most sprinkler system repairs involve replacing individual heads, not the entire system. A typical residential system has 20 to 40 heads across multiple zones, and it's normal to replace a few each year as they fail or get damaged.`,
+  warningSigns: [
+    { sign: 'Head doesn\'t pop up or only partially rises', detail: 'The spring is worn or the riser is jammed with dirt. Sometimes cleaning fixes it, but a worn spring means the head needs replacement. A head that doesn\'t fully extend sprays at ground level and wastes water.' },
+    { sign: 'Water sprays erratically or in the wrong pattern', detail: 'The nozzle is clogged or cracked. Mineral deposits and debris block the spray ports. You can sometimes clean the nozzle, but a cracked or worn nozzle means a new head.' },
+    { sign: 'Water geysers from the head instead of spraying normally', detail: 'The top of the head is cracked or broken off, usually from being hit by a mower, stepped on, or run over. Water shoots straight up instead of in a controlled pattern.' },
+    { sign: 'Water pools around the base of the head', detail: 'The seal between the head and the riser is leaking, or the head body is cracked below ground level. This wastes water and creates a muddy spot that sinks over time.' },
+    { sign: 'Dry spots in the lawn despite running the sprinklers', detail: 'If certain areas aren\'t getting water, a nearby head may be clogged, misaligned, or not popping up. Walk the zone while it\'s running to identify which heads aren\'t performing.' },
+    { sign: 'Head won\'t retract after the zone shuts off', detail: 'The spring is too weak to pull the riser back down, or debris is jamming it in the up position. A stuck-up head gets hit by mowers and foot traffic.' },
+  ],
+  repairOrReplace: `Individual sprinkler heads are cheap enough that repair rarely makes sense. A new pop-up spray head costs $3 to $8. A rotor head costs $10 to $25. Replacing one takes 10 to 15 minutes with no special tools. The process: dig around the head to expose the riser fitting (usually 4 to 6 inches down), unscrew the old head from the riser (turn counterclockwise), screw on the new head (hand-tight plus a quarter turn with pliers), adjust the spray pattern and arc, backfill the soil, and test. Before you replace, try cleaning the existing head. Unscrew it, rinse the filter screen (a small mesh screen inside the bottom of the head), clean the nozzle with a pin or paperclip, and reinstall. This fixes about half of clogged-nozzle problems and costs nothing. If you're replacing more than 5 to 6 heads at once, or if the heads are fine but the coverage pattern needs redesigning, consider hiring a sprinkler company. A full system audit and adjustment runs $75 to $200 and ensures every zone is covering its area efficiently.`,
+  maintenanceTips: [
+    'Adjust your mower height near sprinkler heads. The #1 cause of sprinkler head damage is the mower catching a head that\'s sitting too high. Mark head locations with small flags after installation.',
+    'Run each zone manually in the spring and walk the yard watching every head. Catch problems before the watering season starts rather than discovering dead grass in July.',
+    'Flush the system after winterization by running each zone for 2 minutes before installing nozzles at the start of the season. This clears debris that accumulated in the pipes.',
+    'Clean nozzle filters annually. Pop the head up (turn on the zone or pull it up by hand), unscrew the nozzle, remove and rinse the filter screen. This prevents clogging and maintains proper spray patterns.',
+    'Before winter, blow out the system with compressed air (or hire a company to do it for $50 to $100). Water left in the lines freezes and cracks pipes, fittings, and heads.',
+  ],
+  costBreakdown: {
+    replaceLow: 3,
+    replaceHigh: 25,
+    repairLow: 0,
+    repairHigh: 8,
+    laborPercent: '0% DIY or $50-$100 per zone for a sprinkler company',
+  },
+  recommendedProducts: [
+    { name: 'Rain Bird 1800 Series Pop-Up Spray Head (10-pack)', description: 'The most widely installed residential spray head. 4-inch pop-up height. Accepts interchangeable nozzles for different spray patterns and distances. Buying a 10-pack means you always have spares on hand.', priceRange: '$15-$25 (10-pack)', amazonUrl: 'https://www.amazon.com/s?k=Rain+Bird+1800+pop+up+spray+head+10+pack&tag=replacementgu-20' },
+    { name: 'Hunter PGP Rotor Head', description: 'The industry-standard gear-driven rotor for medium to large lawn areas. Adjustable arc from 40 to 360 degrees. Covers 22 to 52 feet. More durable than spray heads and handles debris better.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=Hunter+PGP+rotor+sprinkler+head&tag=replacementgu-20' },
+    { name: 'Rain Bird Matched Precipitation Nozzle Set', description: 'Replacement nozzles for Rain Bird 1800 series heads. Matched precipitation rate means every head applies the same amount of water per hour regardless of pattern, eliminating dry spots and overwatered areas.', priceRange: '$8-$15 (set)', amazonUrl: 'https://www.amazon.com/s?k=Rain+Bird+matched+precipitation+nozzle+set&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace spray head (DIY)', cost: '$3-$8 per head', notes: '10-15 minutes per head. Dig, unscrew, screw in new one. No special tools needed.' },
+    { repair: 'Replace rotor head (DIY)', cost: '$10-$25 per head', notes: 'Same process as spray heads. Rotors are larger but install the same way.' },
+    { repair: 'Clean clogged nozzle', cost: '$0', notes: 'Remove nozzle, rinse filter screen, clear ports with a pin. Takes 5 minutes. Try this before buying a new head.' },
+    { repair: 'Replace broken riser', cost: '$2-$5', notes: 'If the head is fine but the riser pipe (the threaded nipple connecting the head to the supply line) is cracked, just replace the riser fitting.' },
+    { repair: 'Professional zone repair', cost: '$50-$100 per zone', notes: 'A sprinkler company to fix multiple heads, adjust coverage, and check for line leaks. Worth it for a full-system tune-up.' },
+  ],
+  bestBrands: [
+    { name: 'Rain Bird', knownFor: 'The most installed residential sprinkler brand. Their 1800 series spray head is the industry standard. Parts are available everywhere and interchangeable with a massive nozzle selection.' },
+    { name: 'Hunter', knownFor: 'Premium sprinkler heads and controllers. Their PGP rotor is the go-to for larger lawn areas. Slightly more expensive than Rain Bird but regarded as more durable by many landscapers.' },
+    { name: 'Orbit', knownFor: 'The budget option available at most big-box stores. Their heads work fine for basic residential systems. Less variety in nozzle options than Rain Bird or Hunter.' },
+    { name: 'K-Rain', knownFor: 'Mid-range brand with good rotor heads. Their SuperPro and RPS series compete well with Hunter PGP at a lower price point.' },
+  ],
+  installationTime: `Replacing a single sprinkler head takes 10 to 15 minutes.\n\nTools needed: small shovel or trowel, pliers (optional for stubborn heads), and possibly Teflon tape for the threads.\n\nProcess: turn off the sprinkler system, dig around the head to expose 3 to 4 inches of the riser, grip the riser pipe with one hand (or pliers) and unscrew the head with the other (counterclockwise), check the riser for cracks, wrap 2 to 3 turns of Teflon tape on the riser threads, screw on the new head hand-tight plus a quarter turn with pliers, turn on the zone and adjust the spray pattern and arc while water is flowing, backfill the soil and tamp it down.\n\nAdjusting the spray: most spray heads have a small screw on the nozzle that adjusts the radius (distance). The nozzle itself determines the pattern (quarter circle, half circle, full circle). Rotors have an arc adjustment screw on top... turn it to set the left and right limits of the sweep.\n\nTip: when buying replacement heads, bring the old one to the store to match the nozzle type and thread size. Take a photo of the model number on the old head if it's still readable.`,
+}

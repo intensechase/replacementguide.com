@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'window-screen',
+  lifespanDetail: `Window screens last 10 to 15 years with normal use, though the frame and mesh have different failure timelines. Aluminum frames last 15 to 20 years before they bend, corrode, or lose their spring tension. The mesh itself... whether fiberglass or aluminum... degrades faster. Fiberglass mesh (the most common type, that slightly flexible gray or black screen material) lasts 5 to 10 years before it becomes brittle, tears easily, or develops holes. Aluminum mesh lasts longer (10 to 15 years) but dents permanently and is harder to work with for DIY rescreening. Sun exposure is the biggest enemy. South-facing and west-facing screens take the most UV damage and deteriorate faster than screens on shaded sides of the house. You'll notice the mesh becoming stiff and crumbly on the sun-exposed side while the north-facing screens are still flexible. Pet damage is the second most common reason for replacement. Dogs and cats push against screens, creating stretches, tears, and bulges. If you have pets, consider pet-resistant screen mesh... it costs more ($15 to $30 per roll vs. $8 to $15 for standard) but it's significantly thicker and harder to puncture. Most window screens are a standard size that you can buy pre-made at Home Depot or Lowe's for $15 to $25. If your windows are non-standard sizes, you'll need custom screens ($25 to $50 each) or you can build your own with a frame kit and mesh roll.`,
+  warningSigns: [
+    { sign: 'Visible holes or tears in the mesh', detail: 'Even small holes let insects in. A hole the size of a pencil eraser is enough for mosquitoes. If you can see daylight through tears in the mesh, it\'s time.' },
+    { sign: 'Mesh is pulling away from the frame', detail: 'The spline (the rubber cord that holds the mesh in the frame channel) shrinks and hardens over time. When it loses grip, the mesh starts pulling loose from the edges.' },
+    { sign: 'Mesh feels stiff and brittle to the touch', detail: 'Fresh fiberglass mesh is flexible and springs back when you press it. Old mesh crumbles or cracks when you push on it. This means UV exposure has broken down the material.' },
+    { sign: 'Frame is bent, warped, or won\'t stay in the window', detail: 'Aluminum frames can bend from wind pressure, impact, or improper removal. A warped frame leaves gaps around the edges where insects enter.' },
+    { sign: 'Screen is discolored or hazy', detail: 'A grayish film or faded appearance means the mesh coating has degraded. This reduces airflow and looks bad. The mesh is nearing end of life.' },
+    { sign: 'You\'re finding bugs inside with windows open', detail: 'The whole point of screens is keeping insects out while letting air in. If bugs are getting through, the screen isn\'t doing its job... check for holes, loose spline, and frame gaps.' },
+  ],
+  repairOrReplace: `Small tears (under 2 inches) can be patched with screen repair patches... adhesive-backed mesh squares that cost $3 to $5 for a pack. They work but they're visible and they're a temporary fix. For anything larger, rescreening the existing frame is the better option. A rescreening kit (new mesh roll, spline, and spline roller tool) costs $15 to $25 and covers 3 to 5 standard window screens. The job takes 15 to 20 minutes per screen once you get the technique down. The first one takes longer as you learn the spline roller. If the frame itself is damaged (bent corners, broken tabs, cracked frame), replace the whole screen. Pre-made replacement screens in standard sizes cost $15 to $25 at any hardware store. Custom sizes run $25 to $50 each. For the whole house, a screen repair service charges $25 to $50 per screen (rescreening) or $40 to $75 per screen (new frame and mesh). For a home with 15 to 20 screens, that's $375 to $1,000 professionally vs. $50 to $100 in materials if you DIY. The DIY savings are substantial here... rescreening is genuinely easy once you've done one.`,
+  maintenanceTips: [
+    'Clean screens once a year by removing them and spraying with a garden hose. Dust and pollen buildup reduces airflow by 30% or more. A soft brush helps with stubborn grime.',
+    'Remove screens during winter if you don\'t open windows in cold months. Storing them in a garage or basement protects them from ice, snow, and unnecessary UV exposure.',
+    'When removing or installing screens, lift them straight out of the channel... don\'t force or flex them. Most frame damage happens during rough handling.',
+    'Inspect the spline (rubber cord around the edges) annually. If it\'s hard, cracked, or pulling away from the channel, replace it. New spline costs $3 to $5 per roll and takes 10 minutes per screen.',
+    'For homes with pets, install pet-resistant screen on lower windows and screen doors. The thicker mesh (usually polyester or vinyl-coated polyester) resists claws and pushing far better than standard fiberglass.',
+  ],
+  costBreakdown: {
+    replaceLow: 10,
+    replaceHigh: 30,
+    repairLow: 3,
+    repairHigh: 25,
+    laborPercent: '0% DIY or $25-$50 per screen professional',
+  },
+  recommendedProducts: [
+    { name: 'Phifer 36-inch x 84-inch Fiberglass Screen Roll', description: 'Standard charcoal fiberglass mesh that fits most windows. One roll is enough to rescreen 3 to 5 standard windows. The most common mesh type used by professionals.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=Phifer+fiberglass+window+screen+roll+36&tag=replacementgu-20' },
+    { name: 'Screen Spline and Roller Tool Kit', description: 'Everything you need to rescreen: spline roller tool and a roll of spline cord. Measure your existing spline diameter before ordering... most residential screens use .140 or .160 inch spline.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=window+screen+spline+roller+tool+kit&tag=replacementgu-20' },
+    { name: 'Saint-Gobain ADFORS Pet Screen', description: 'Heavy-duty vinyl-coated polyester mesh designed to resist pet claws and pushing. 7 times stronger than standard fiberglass screen. Worth the upgrade if you have dogs or cats.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Saint+Gobain+pet+resistant+window+screen&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Patch small hole (DIY)', cost: '$3-$5 for a pack of patches', notes: 'Adhesive mesh patches for holes under 2 inches. Quick temporary fix... takes 1 minute.' },
+    { repair: 'Rescreen existing frame (DIY)', cost: '$5-$8 per screen in materials', notes: 'New mesh and spline in the existing frame. 15-20 minutes per screen. The best long-term fix.' },
+    { repair: 'Rescreen (professional)', cost: '$25-$50 per screen', notes: 'Drop screens off at a hardware store or have a screen repair service come to you.' },
+    { repair: 'Full screen replacement (pre-made)', cost: '$15-$25 per screen', notes: 'Standard sizes available at Home Depot and Lowe\'s. Measure your window opening precisely before buying.' },
+    { repair: 'Full screen replacement (custom)', cost: '$25-$50 per screen', notes: 'For non-standard window sizes. Ordered through hardware stores or screen shops. Takes 3 to 7 days.' },
+  ],
+  bestBrands: [
+    { name: 'Phifer', knownFor: 'The largest window screen manufacturer in the US. Their standard fiberglass mesh is what most professionals use. Available everywhere. The default choice for rescreening.' },
+    { name: 'Saint-Gobain ADFORS', knownFor: 'Makes the most popular pet-resistant screen. Their charcoal fiberglass is also excellent. Strong brand in both standard and specialty screen mesh.' },
+    { name: 'New York Wire', knownFor: 'Good quality aluminum and fiberglass mesh. Been around since 1883. A solid alternative to Phifer if it\'s what your local store carries.' },
+    { name: 'Genius Retractable Screens', knownFor: 'Premium retractable screen systems for doors and windows that don\'t have traditional screen tracks. Expensive ($100 to $400 per opening) but clean-looking and durable.' },
+  ],
+  installationTime: `Rescreening an existing frame takes 15 to 20 minutes per screen once you've done a couple. The first one might take 30 minutes as you learn the spline roller technique.\n\nTools needed: spline roller tool ($5 to $8), utility knife, flat screwdriver (to remove old spline), and a flat work surface.\n\nProcess: lay the frame flat, use a screwdriver to pry out the old spline and mesh, lay the new mesh over the frame with 1 to 2 inches of overlap on all sides, start pressing new spline into the channel on one side using the convex wheel of the spline roller, work your way around all four sides pulling the mesh taut as you go, trim the excess mesh with a utility knife along the outside edge of the spline channel.\n\nThe trick is tension... you want the mesh flat and taut but not so tight that it bows the frame inward. If the frame starts curving, you've pulled too hard. Ease up and re-roll that section.\n\nInstalling a pre-made replacement screen takes 2 minutes... slide the tabs into the window track and press the spring-loaded pins into the frame. Make sure you measure your window opening (width x height) accurately before buying.`,
+}

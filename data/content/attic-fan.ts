@@ -1,0 +1,46 @@
+export const content = {
+  slug: 'attic-fan',
+  lifespanDetail: `Attic fans last 10 to 15 years with proper maintenance, though the motor bearings are usually what fails first at the 8 to 12 year mark. An attic fan (also called a powered attic ventilator) sits in the attic and pulls hot air out through a gable vent or roof vent, reducing attic temperatures by 20 to 40 degrees on hot days. This keeps your house cooler, reduces AC load, and extends the life of your roof shingles (extreme attic heat cooks shingles from below). There are two main types. Traditional attic fans are hardwired to your electrical system and controlled by a thermostat... they kick on when the attic reaches a set temperature (usually 90 to 110 degrees) and shut off when it cools. Solar attic fans have a built-in solar panel that powers the motor directly... no wiring, no electricity cost, and they run whenever the sun is shining. Solar fans cost more upfront ($150 to $400) but have zero operating cost. Traditional fans cost $50 to $150 but add $2 to $5/month to your electric bill. The motor is the weak point in both types. Dust, heat, and continuous summer operation wear out the bearings. A fan that starts making grinding or squealing noises is telling you the bearings are going. Some fans have sealed bearings (not serviceable), while others have oil ports for periodic lubrication.`,
+  warningSigns: [
+    { sign: 'Grinding, squealing, or rattling noise from the attic', detail: 'The motor bearings are worn. A healthy attic fan is nearly silent from inside the house. If you can hear it through the ceiling, the bearings are failing and the motor is working harder than it should.' },
+    { sign: 'Attic is noticeably hotter than it used to be', detail: 'If your attic feels like an oven even though the fan appears to be running, the fan may be spinning slower due to motor degradation or the belt (on belt-drive models) may be slipping.' },
+    { sign: 'Fan doesn\'t turn on when the attic is hot', detail: 'Could be the thermostat, the motor, or a tripped breaker. Check the breaker first. If the breaker is fine, the thermostat may need adjustment or replacement ($10 to $20). If neither fixes it, the motor is likely dead.' },
+    { sign: 'Fan runs but barely moves air', detail: 'A fan that spins but doesn\'t create airflow has a motor that\'s lost torque. You can test by holding a tissue near a vent while the fan runs... it should pull the tissue toward the vent firmly.' },
+    { sign: 'Higher than normal electric bills in summer', detail: 'A failing attic fan motor draws more power as it struggles. It also fails to cool the attic effectively, making your AC work harder. Both increase your electric bill.' },
+    { sign: 'Visible rust or corrosion on the motor housing', detail: 'Attic humidity and temperature extremes corrode the motor housing and electrical connections. If the motor housing is heavily rusted, internal components are likely corroded too.' },
+  ],
+  repairOrReplace: `If the motor is dead, replacing the entire fan unit is usually better than replacing just the motor. A new attic fan costs $50 to $150 for traditional or $150 to $400 for solar. A replacement motor alone costs $30 to $80 and requires matching the exact specs (HP, RPM, shaft size, rotation direction). If your fan is less than 8 years old and the motor fails, a motor-only replacement makes sense. Beyond 8 years, the thermostat, wiring, and housing are all aging too... a full replacement gives you a fresh unit with a new warranty. For belt-drive fans (older style), a new belt costs $5 to $10 and takes 15 minutes to replace. If the fan works but the belt is squealing or broken, this is the cheapest fix in home maintenance. Solar attic fans are worth considering as a replacement even if you currently have a traditional fan. They eliminate the wiring, thermostat, and electricity cost. Installation is simpler (just mount and point the panel at the sun). The tradeoff is lower airflow... most solar fans move 800 to 1,200 CFM vs. 1,200 to 1,600 CFM for traditional electric fans.`,
+  maintenanceTips: [
+    'Oil the motor bearings once a year (if your fan has oil ports). A few drops of electric motor oil at each port keeps the bearings smooth and extends motor life by years. Do this in the spring before summer heat starts.',
+    'Clean the fan blades and housing annually. Dust accumulation on the blades reduces efficiency and puts extra load on the motor. A damp cloth wipes them clean in 5 minutes.',
+    'Check the thermostat setting. Most attic fans should kick on between 90 and 110 degrees. Too low and the fan runs constantly (wearing out faster). Too high and the attic overheats before the fan responds.',
+    'Make sure attic vents aren\'t blocked. An attic fan needs intake air from soffit vents or gable vents to work properly. If the intake is blocked by insulation or debris, the fan creates negative pressure that can pull conditioned air from your living space through gaps.',
+    'Inspect the shutter or louver that covers the fan opening. It should open freely when the fan runs and close completely when it stops. A stuck shutter wastes the fan\'s effort or lets outside air in when the fan is off.',
+  ],
+  costBreakdown: {
+    replaceLow: 50,
+    replaceHigh: 150,
+    repairLow: 5,
+    repairHigh: 80,
+    laborPercent: '0% DIY or $100-$300 electrician for hardwired installation',
+  },
+  recommendedProducts: [
+    { name: 'iLiving Gable Mount Attic Fan', description: 'A popular traditional attic fan with adjustable thermostat. 1,020 to 1,620 CFM depending on model. Hardwired installation. Covers attics up to 2,000 square feet.', priceRange: '$80-$130', amazonUrl: 'https://www.amazon.com/s?k=iLiving+gable+mount+attic+fan+thermostat&tag=replacementgu-20' },
+    { name: 'Remington Solar Attic Fan', description: 'Solar-powered with a 25-watt panel. No wiring needed... just mount it on the roof. 1,280 CFM. Runs for free using solar power. Includes a built-in thermostat.', priceRange: '$200-$300', amazonUrl: 'https://www.amazon.com/s?k=Remington+solar+attic+fan&tag=replacementgu-20' },
+    { name: 'Replacement Attic Fan Thermostat', description: 'If the motor works but the fan won\'t kick on, the thermostat is likely the problem. Universal replacement thermostats cost $10 to $20 and take 10 minutes to swap.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=attic+fan+replacement+thermostat&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace thermostat', cost: '$10-$20 DIY', notes: 'If the fan won\'t turn on but the motor spins when powered directly, the thermostat is bad. 10-minute swap.' },
+    { repair: 'Replace belt (belt-drive fans)', cost: '$5-$10', notes: 'For older belt-drive models. Takes 15 minutes. Match the belt number exactly.' },
+    { repair: 'Oil motor bearings', cost: '$0-$5', notes: 'A few drops of motor oil in the bearing ports. Annual maintenance that prevents motor failure.' },
+    { repair: 'Replace motor only', cost: '$30-$80 DIY, $150-$300 installed', notes: 'Must match HP, RPM, shaft size, and rotation direction. Worth it for fans under 8 years old.' },
+    { repair: 'Replace entire fan unit', cost: '$50-$400 DIY, $200-$600 installed', notes: 'For fans over 8-10 years old. A fresh unit with new warranty beats nursing an aging one.' },
+  ],
+  bestBrands: [
+    { name: 'iLiving', knownFor: 'Strong value in traditional electric attic fans. Good CFM output, built-in thermostat, and reasonable pricing. A popular choice on Amazon with solid reviews.' },
+    { name: 'Remington Solar', knownFor: 'The leading solar attic fan brand. No wiring, no electricity cost. Their brushless motor is quieter and longer-lasting than competitors. Worth the premium if you want zero operating costs.' },
+    { name: 'Master Flow (GAF)', knownFor: 'Available at Home Depot. Reliable traditional attic fans with good thermostat controls. The standard recommendation from many roofing contractors.' },
+    { name: 'QuietCool', knownFor: 'Makes both attic fans and whole-house fans. Known for quieter operation. Their Smart Attic Fan has WiFi control and energy monitoring.' },
+  ],
+  installationTime: `Solar attic fan: 1 to 2 hours DIY. Cut a hole in the roof (or use an existing vent opening), mount the fan and flashing, seal with roofing caulk, and point the solar panel toward the sun. No electrical work.\n\nTraditional gable-mount fan: 1 to 2 hours DIY if you're replacing an existing fan in the same location. Remove the old fan, mount the new one, connect the wiring (usually just black-to-black, white-to-white, green to ground), install the thermostat, and test. If you're comfortable with basic electrical connections, this is a manageable DIY job.\n\nNew installation (no existing fan): 2 to 4 hours for a DIYer or $200 to $400 for an electrician. Requires cutting a vent opening, running electrical wire from a junction box, and installing a dedicated circuit or connecting to an existing attic circuit.\n\nSafety: turn off the breaker before touching any wiring. Attic work in summer is brutal... work in the early morning when attic temps are lowest. Stay on the joists or use planks... stepping between joists puts your foot through the ceiling.`,
+}

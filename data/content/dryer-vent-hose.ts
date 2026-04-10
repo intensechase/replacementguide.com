@@ -1,0 +1,47 @@
+export const content = {
+  slug: 'dryer-vent-hose',
+  lifespanDetail: `Dryer vent hoses last 5 to 10 years for rigid or semi-rigid metal, but vinyl and foil flex hoses should be replaced every 2 to 3 years or sooner. The type of vent hose you use matters enormously for both safety and performance. Rigid aluminum or galvanized steel duct is the gold standard... it doesn't sag, doesn't trap lint, and resists crushing. Semi-rigid aluminum (the shiny accordion-style metal hose) is acceptable and lasts 5 to 8 years. Vinyl or plastic flex hose (the white ribbed tube that came with many older dryers) is a fire hazard and is actually banned by most building codes. Dryer lint is extremely flammable, and vinyl hoses trap lint in their ridges, restrict airflow, and can melt if the dryer overheats. Replace vinyl with metal immediately. The U.S. Fire Administration reports that dryers cause approximately 2,900 house fires per year, and failure to clean the vent is the leading cause. A clogged or crushed vent hose forces the dryer to work harder, increases drying time, traps heat, and creates the conditions for lint ignition. The hose length matters too. Every foot of hose and every 90-degree bend reduces airflow. Most dryer manufacturers specify a maximum vent run of 25 to 35 feet (with deductions for each bend). A shorter, straighter vent run dries clothes faster and reduces fire risk.`,
+  warningSigns: [
+    { sign: 'Clothes take more than one cycle to dry', detail: 'The #1 sign of a restricted vent. If your dryer used to dry a load in 45 minutes and now takes 90, the vent hose is clogged, kinked, or crushed. Check the hose before calling a repair tech.' },
+    { sign: 'Dryer or laundry room is unusually hot during operation', detail: 'A blocked vent traps heat in the dryer and the room. If the top of the dryer is hot to the touch or the room feels like a sauna, the vent isn\'t exhausting properly.' },
+    { sign: 'Burning smell during dryer operation', detail: 'This is urgent. A burning smell means lint is overheating. Stop the dryer immediately, disconnect the vent hose, and clean everything before using the dryer again. This is how dryer fires start.' },
+    { sign: 'Lint buildup around the dryer connection point', detail: 'If you see lint on the floor behind the dryer or around the hose connection, the clamp is loose or the hose has a hole. Lint should only exit at the exterior vent.' },
+    { sign: 'Exterior vent flap doesn\'t open during dryer operation', detail: 'Go outside and check the vent while the dryer runs. The flap should be pushed open by the exhaust air. If it barely moves or doesn\'t open at all, the vent is blocked.' },
+    { sign: 'Hose is vinyl or plastic (white ribbed tube)', detail: 'If your vent hose is vinyl, replace it immediately regardless of condition. Vinyl vent hoses are a fire hazard and are banned by code in most areas. Switch to rigid or semi-rigid aluminum.' },
+  ],
+  repairOrReplace: `Always replace rather than repair vent hoses. They cost $10 to $25 for quality semi-rigid aluminum, and the swap takes 10 to 15 minutes. Pull the dryer away from the wall, loosen the hose clamps on both ends (dryer outlet and wall vent), remove the old hose, connect the new one, tighten the clamps, and push the dryer back. While you have the dryer pulled out, use a vent cleaning brush ($15 to $20) to clean the full vent run from inside the house to the exterior. This is the most important dryer maintenance you can do. If your vent run is longer than 10 feet or has multiple bends, consider upgrading to rigid aluminum duct. It has smooth interior walls that don't trap lint, provides better airflow, and lasts 10+ years. Semi-rigid accordion hose is fine for the short connection between the dryer and the wall vent, but rigid duct should be used for the run through the wall and to the exterior.`,
+  maintenanceTips: [
+    'Clean the lint trap before every load. A full lint trap restricts airflow and forces more lint into the vent hose. This is the single most important thing you can do for dryer safety and performance.',
+    'Clean the full vent run (hose to exterior) at least once a year. Use a dryer vent cleaning brush kit... a flexible rod with a brush head that feeds through the duct. $15 to $20 on Amazon and takes 20 minutes.',
+    'Check the vent hose connection every 6 months. Pull the dryer out a few inches and make sure the hose isn\'t kinked, crushed, or disconnected. Reattach and tighten the clamp if it\'s loose.',
+    'Make sure the exterior vent has a proper cover with a flap (not a screen). Screens catch lint and create a clog point. The flap should swing open freely when the dryer runs.',
+    'Don\'t overload the dryer. Oversized loads produce more lint and extend drying time, both of which increase lint buildup in the vent system.',
+    'If you\'re buying a new dryer, position it on the wall closest to the exterior vent. Shorter vent runs dry faster and accumulate less lint.',
+  ],
+  costBreakdown: {
+    replaceLow: 10,
+    replaceHigh: 25,
+    repairLow: 0,
+    repairHigh: 20,
+    laborPercent: '0% DIY (10-15 minutes) or $75-$150 handyman',
+  },
+  recommendedProducts: [
+    { name: 'Semi-Rigid Aluminum Dryer Vent Hose (4" x 8ft)', description: 'The recommended replacement for vinyl hoses. Semi-rigid aluminum resists crushing, doesn\'t sag, and meets code requirements. 4-inch diameter fits all standard residential dryers.', priceRange: '$10-$18', amazonUrl: 'https://www.amazon.com/s?k=semi+rigid+aluminum+dryer+vent+hose+4+inch&tag=replacementgu-20' },
+    { name: 'Dryer Vent Cleaning Brush Kit', description: 'Flexible rods that connect together to reach 12+ feet into the vent. A rotating brush head scrubs lint off the duct walls. Use with a drill for power cleaning. Essential annual maintenance tool.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=dryer+vent+cleaning+brush+kit+drill&tag=replacementgu-20' },
+    { name: 'Worm Gear Hose Clamps (4-inch, 4-pack)', description: 'Secure the vent hose to the dryer outlet and wall vent. Stainless steel clamps that won\'t rust. Always use new clamps when replacing a hose... old clamps lose their grip.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=4+inch+worm+gear+hose+clamp+dryer+vent&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace vent hose (DIY)', cost: '$10-$25', notes: '10-15 minutes. Pull dryer out, swap hose, push back. Do this if the hose is vinyl, crushed, or has any holes.' },
+    { repair: 'Clean full vent run (DIY)', cost: '$15-$25 for brush kit', notes: 'Annual maintenance. Feed the brush from inside through to the exterior vent. Removes accumulated lint. Takes 20 minutes.' },
+    { repair: 'Professional vent cleaning', cost: '$75-$150', notes: 'A service that cleans the entire vent system with commercial equipment. Worth it for long or complex vent runs with multiple bends.' },
+    { repair: 'Replace exterior vent cover', cost: '$8-$15 DIY', notes: 'If the flap is broken, missing, or the opening is clogged with lint. 10-minute swap with 4 screws.' },
+    { repair: 'Upgrade to rigid aluminum duct', cost: '$20-$50 DIY', notes: 'For the run through the wall to the exterior. Better airflow and fire safety than flex hose. More involved installation.' },
+  ],
+  bestBrands: [
+    { name: 'Deflecto', knownFor: 'The most common dryer vent brand at hardware stores. Their semi-rigid aluminum hose and vent accessories are widely available and reasonably priced.' },
+    { name: 'Lambro', knownFor: 'Professional-grade dryer vent products. Their rigid aluminum duct and transition hoses are popular with HVAC installers. Slightly more expensive but better build quality.' },
+    { name: 'Gardus', knownFor: 'Makes the best-selling dryer vent cleaning kit (LintEater). If you\'re buying a cleaning brush, Gardus is the go-to brand.' },
+    { name: 'Whirlpool', knownFor: 'OEM vent accessories for Whirlpool, Maytag, and KitchenAid dryers. Their semi-rigid vent hose is guaranteed to fit and meet code for their dryers.' },
+  ],
+  installationTime: `Vent hose replacement takes 10 to 15 minutes.\n\nTools needed: flathead or Phillips screwdriver (for hose clamps), and optionally a nut driver for the dryer's rear panel clamps.\n\nProcess: unplug the dryer (or turn off the gas valve for gas dryers), pull the dryer away from the wall (have someone help if it's a large unit), loosen the hose clamp on the dryer outlet and remove the old hose, loosen the clamp on the wall vent and remove, inspect both the dryer outlet and wall vent for lint buildup (clean with a brush or vacuum), attach the new hose to the wall vent first and tighten the clamp, attach the other end to the dryer outlet and tighten, push the dryer back (careful not to crush the new hose), plug in and test.\n\nKey tip: make sure the hose isn't kinked or compressed behind the dryer. The hose should have a gentle curve, not a sharp bend. Leave at least 4 inches of space between the dryer and the wall. If the dryer is tight against the wall and crushing the hose, use a slim periscope-style dryer vent connector ($15 to $25) that sits flat against the wall.`,
+}

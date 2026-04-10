@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'shower-head',
+  lifespanDetail: `Shower heads last 5 to 10 years before they need replacing, though many people keep them far longer than they should. The body of a shower head (chrome-plated plastic or brass) holds up fine for a decade or more. What degrades is the internal components... the flow restrictor clogs with mineral scale, the rubber gasket at the connection hardens and leaks, the spray nozzles calcify, and the swivel joint seizes up. Hard water is the biggest factor. In areas with high mineral content, calcium and lime deposits build up inside the shower head within 2 to 3 years, clogging spray holes and reducing water pressure. You can descale with vinegar (soak overnight in a bag of white vinegar), but eventually the buildup becomes permanent and the spray pattern deteriorates beyond what cleaning can fix. Beyond functionality, there's a health reason to replace shower heads regularly. A 2018 study published in mBio found that shower heads harbor biofilm... colonies of bacteria including Mycobacterium, which can cause respiratory issues. The warm, moist environment inside a shower head is ideal for bacterial growth. Regular cleaning helps, but replacement every 5 to 8 years eliminates the biofilm completely. If your shower head predates 1994, it probably uses 3 to 5 gallons per minute (GPM). Federal law now limits new shower heads to 2.5 GPM, and WaterSense models use 2.0 GPM or less. A family of four switching from a 5 GPM head to a 2.0 GPM head saves roughly 15,000 gallons per year.`,
+  warningSigns: [
+    { sign: 'Weak or uneven water pressure', detail: 'If the spray has lost its punch or comes out in random directions instead of a uniform pattern, the nozzles are clogged with mineral deposits. Descaling with vinegar may help temporarily, but it\'s a sign the head is aging.' },
+    { sign: 'Visible mineral buildup on the nozzles', detail: 'White, green, or chalky deposits around the spray holes. You can scrub them off with a toothbrush and vinegar, but if they keep coming back quickly, the interior is even worse.' },
+    { sign: 'Water leaking from the swivel joint or connection', detail: 'The rubber washer inside the connection point has hardened or the threads are corroded. You can try replacing just the washer ($1 at any hardware store), but if the leak persists, the threads are damaged.' },
+    { sign: 'Shower head won\'t stay in position', detail: 'The swivel ball joint is worn out. The head droops or won\'t stay angled where you set it. Internal plastic parts have worn smooth and can\'t grip anymore.' },
+    { sign: 'Black or dark specks in the water', detail: 'Pieces of degraded rubber gasket or biofilm breaking loose from inside the shower head. If you see dark particles in the water stream, especially when you first turn it on, replace the head.' },
+    { sign: 'It\'s been more than 8 years', detail: 'Even if it seems fine, a shower head older than 8 years has accumulated biofilm and mineral deposits internally that you can\'t see or clean. A new $15 to $30 head is a worthwhile hygiene upgrade.' },
+  ],
+  repairOrReplace: `At $15 to $80 for a new shower head, replacement almost always makes more sense than repair. The only repair worth attempting is descaling... fill a plastic bag with white vinegar, rubber band it over the shower head so the head is submerged, leave it overnight, scrub the nozzles with a toothbrush in the morning, and run hot water for a minute to flush. This restores maybe 80% of performance on moderately scaled heads. If descaling doesn't fix it, replace it. The swap takes 5 minutes with no tools beyond an adjustable wrench (and you can usually hand-tighten). Unscrew the old head (counterclockwise), clean the threads on the shower arm pipe, wrap 3 to 4 turns of Teflon tape clockwise, and screw on the new head. If the shower arm pipe itself is corroded or leaking inside the wall, that's a bigger job ($100 to $250 for a plumber), but the shower head itself is always a simple swap.`,
+  maintenanceTips: [
+    'Descale with vinegar every 3 to 6 months. Fill a bag with white vinegar, submerge the shower head, and leave it overnight. This dissolves mineral deposits and extends the head\'s life significantly.',
+    'Wipe the rubber nozzles with your finger after each shower. Many modern shower heads have flexible silicone nozzles that self-clean when you rub them... this breaks loose minor calcium deposits before they harden.',
+    'If you have hard water, consider a shower head with a built-in filter or install an inline shower filter ($15 to $30). It removes chlorine, minerals, and sediment before they reach the shower head.',
+    'Don\'t use harsh chemical cleaners (CLR, Lime-Away) on shower heads with decorative finishes. The chemicals can damage chrome, brushed nickel, and oil-rubbed bronze finishes. Vinegar is safe for all finishes.',
+    'When installing a new shower head, always use Teflon tape on the threads. It prevents leaks and makes the next removal easier. 3 to 4 wraps clockwise.',
+  ],
+  costBreakdown: {
+    replaceLow: 15,
+    replaceHigh: 80,
+    repairLow: 0,
+    repairHigh: 5,
+    laborPercent: '0% DIY (5 minutes)',
+  },
+  recommendedProducts: [
+    { name: 'SparkPod High Pressure Rain Shower Head', description: 'A popular fixed rain-style head with strong water pressure despite the wide face. Easy tool-free installation. Chrome finish matches most bathrooms. The go-to budget upgrade from a basic shower head.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=SparkPod+high+pressure+rain+shower+head&tag=replacementgu-20' },
+    { name: 'Moen Magnetix Handheld Shower Head', description: 'Handheld with a magnetic docking system that snaps the head back into place. 6 spray settings. The magnetic dock is more reliable than traditional cradle mounts that break.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=Moen+Magnetix+handheld+shower+head&tag=replacementgu-20' },
+    { name: 'AquaBliss SF100 Inline Shower Filter', description: 'Installs between the shower arm and shower head. Removes chlorine, heavy metals, and sediment. Extends the life of any shower head by reducing mineral buildup. Filter lasts 6 months.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=AquaBliss+SF100+shower+filter&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Descale with vinegar', cost: '$0-$2', notes: 'Overnight vinegar soak. The first thing to try for clogged nozzles and weak pressure.' },
+    { repair: 'Replace rubber washer', cost: '$1', notes: 'Fixes leaks at the connection point. A flat rubber washer sits inside the shower head nut. Available in any hardware store plumbing aisle.' },
+    { repair: 'Replace shower head', cost: '$15-$80 DIY', notes: '5 minutes. Unscrew old, tape threads, screw on new. No plumber needed.' },
+    { repair: 'Replace shower arm pipe', cost: '$5-$15 DIY, $100-$250 plumber', notes: 'The chrome pipe coming out of the wall. If it\'s corroded or leaking at the wall, unscrew it and replace. Requires Teflon tape and an adjustable wrench.' },
+  ],
+  bestBrands: [
+    { name: 'Moen', knownFor: 'Excellent build quality and finish options. Their Magnetix magnetic dock system is genuinely clever. Lifetime limited warranty on most models. Wide range from $20 to $150.' },
+    { name: 'Delta', knownFor: 'Their H2Okinetic technology creates a unique spray pattern that feels like more water while using less. Good mid-range option. Touch-Clean nozzles make descaling easy.' },
+    { name: 'Kohler', knownFor: 'Premium design and finish quality. Their Flipside model has 4 spray patterns you switch by flipping the head. Higher price point but built to last.' },
+    { name: 'SparkPod', knownFor: 'The best budget shower head on Amazon. Simple, high-pressure design with no gimmicks. Installs in 30 seconds with no tools. Hard to beat for under $20.' },
+  ],
+  installationTime: `Shower head replacement takes 5 minutes. No tools needed for most installations (hand-tight plus a gentle wrench snug).\n\nProcess: unscrew the old shower head by turning the nut at the base counterclockwise. If it's stuck from corrosion or old Teflon tape, wrap a cloth around the nut and use an adjustable wrench or pliers. Clean the threads on the shower arm (the chrome pipe coming from the wall) by removing old Teflon tape and debris. Wrap 3 to 4 turns of new Teflon tape clockwise around the threads. Screw the new shower head on hand-tight, then give it a quarter turn with a wrench. Turn on the water and check for leaks at the connection.\n\nIf it leaks after tightening, you probably need more Teflon tape. Remove the head, add another 2 to 3 wraps, and reinstall. Don't overtighten... you can crack the plastic nut on cheaper shower heads.\n\nFor handheld models with a hose: the hose connects to a diverter mount that screws onto the shower arm just like a regular head. The mount usually has a bracket for the handheld holder that mounts with adhesive or screws into the wall.`,
+}

@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'p-trap',
+  lifespanDetail: `P-traps last 15 to 30 years for brass or PVC, but chrome-plated P-traps can fail in as little as 5 to 10 years. The P-trap is the U-shaped pipe under every sink, tub, and shower drain. Its job is simple but critical... it holds a small amount of water (about 2 inches) that creates a seal preventing sewer gas from coming up through the drain into your home. Without a functioning P-trap, you'd smell raw sewage every time you walked near a drain. PVC P-traps (white or gray plastic) are the most common in modern homes. They don't corrode, handle chemical drain cleaners without damage, and last 20 to 30 years. Brass P-traps last similarly long but cost more. Chrome-plated steel P-traps (the shiny ones under pedestal sinks and older homes) look nicer but corrode from the inside out. You can't see the corrosion until the trap leaks or develops a pinhole. The slip-joint connections (the nuts at each end of the trap) are the most common failure point on any P-trap material. The rubber washers inside these connections harden over 5 to 10 years and lose their seal. The good news: replacing a washer costs $1 and takes 5 minutes. P-traps come in two standard sizes: 1-1/4 inch for bathroom sinks and 1-1/2 inch for kitchen sinks and bathtubs. Measure before you buy.`,
+  warningSigns: [
+    { sign: 'Water leaking under the sink', detail: 'The most obvious sign. Check the slip-joint connections first... they loosen over time and the washers degrade. If water is dripping from the body of the trap itself, the trap has corroded through and needs replacement.' },
+    { sign: 'Sewer smell from the drain', detail: 'If you smell rotten eggs or sewage near a sink that doesn\'t get used often, the water in the P-trap may have evaporated. Run water for 30 seconds to refill the trap. If the smell persists even with water in the trap, the trap has a crack allowing sewer gas to bypass the water seal.' },
+    { sign: 'Slow drain that won\'t clear', detail: 'P-traps accumulate hair, soap, grease, and debris over time. If snaking and chemical cleaners don\'t fix a slow drain, the trap itself may be partially blocked with hardened buildup that can\'t be cleared in place.' },
+    { sign: 'Visible corrosion, green stains, or mineral deposits on the trap', detail: 'Chrome and brass traps develop green patina (verdigris) as they corrode. White mineral deposits indicate hard water buildup. Both suggest the trap is aging and will eventually develop a leak.' },
+    { sign: 'Slip-joint nut won\'t tighten or cross-threads', detail: 'If you can\'t get the connection to stop dripping no matter how much you tighten the nut, the washer is shot or the threads are damaged. New washers cost $1. Damaged threads mean a new trap.' },
+  ],
+  repairOrReplace: `P-traps are cheap enough that replacement usually makes more sense than repair. A PVC P-trap costs $3 to $8 at any hardware store. A chrome or brass trap costs $10 to $25. The entire swap takes 10 to 20 minutes with a pair of channel-lock pliers and a bucket. Before you replace the whole trap, try replacing just the slip-joint washers. Remove the two nuts, pull out the old rubber washers (they're inside the nuts), take them to the hardware store to match size, install new washers, and retighten. This $1 fix solves most leak issues. If the trap body is corroded through (pinholes, green staining, visible rust), replace the entire trap. Don't try to patch it. If you have a chrome P-trap and it's corroding, consider replacing with PVC. PVC is cheaper, easier to work with, and will outlast you. The only reason to use chrome is aesthetics... if the trap is visible (pedestal sink, wall-mount sink), chrome looks better. Under a vanity cabinet where nobody sees it, PVC is the obvious choice.`,
+  maintenanceTips: [
+    'Run water in every drain at least once a week, especially in guest bathrooms and rarely-used sinks. This keeps the P-trap water seal from evaporating and prevents sewer gas from entering the house.',
+    'Never pour grease down any drain. Grease solidifies in the P-trap and builds up over time until the drain slows to a crawl. Wipe greasy pans with a paper towel before washing.',
+    'Clean the P-trap once a year by placing a bucket underneath, unscrewing the two slip-joint nuts, removing the trap, cleaning out debris, and reinstalling. Takes 10 minutes.',
+    'Avoid chemical drain cleaners. They corrode metal P-traps and can soften PVC joints over time. Use a drain snake or enzyme-based cleaner instead.',
+    'If you\'re going on vacation for more than 2 weeks, pour a tablespoon of mineral oil into each drain. The oil floats on the water in the P-trap and prevents evaporation. The water seal stays intact while you\'re away.',
+  ],
+  costBreakdown: {
+    replaceLow: 3,
+    replaceHigh: 25,
+    repairLow: 1,
+    repairHigh: 5,
+    laborPercent: '0% DIY (10-20 minutes) or $75-$150 plumber',
+  },
+  recommendedProducts: [
+    { name: 'Keeney PVC P-Trap (1-1/2 inch)', description: 'Standard PVC P-trap for kitchen sinks. Includes slip-joint washers and nuts. Will last 20+ years. The most common replacement size for kitchen and utility sinks.', priceRange: '$3-$6', amazonUrl: 'https://www.amazon.com/s?k=Keeney+PVC+P+trap+1+1%2F2+inch&tag=replacementgu-20' },
+    { name: 'Keeney Chrome P-Trap (1-1/4 inch)', description: 'For visible installations under pedestal sinks and wall-mount sinks. Chrome finish over brass for longevity. 1-1/4 inch fits most bathroom sinks.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=chrome+P+trap+1+1%2F4+inch+bathroom+sink&tag=replacementgu-20' },
+    { name: 'Slip-Joint Washer Assortment Pack', description: 'A variety pack of rubber washers in common P-trap sizes. The $1 fix that solves most dripping connections without replacing the whole trap. Keep a pack under the sink.', priceRange: '$3-$5', amazonUrl: 'https://www.amazon.com/s?k=slip+joint+washer+assortment+plumbing&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace slip-joint washers', cost: '$1-$3', notes: 'The most common P-trap repair. Remove nuts, swap washers, retighten. 5 minutes. Fixes most drips.' },
+    { repair: 'Replace PVC P-trap', cost: '$3-$8 DIY', notes: '10-20 minutes. Bucket, pliers, new trap. No plumber needed.' },
+    { repair: 'Replace chrome/brass P-trap', cost: '$10-$25 DIY', notes: 'Same process as PVC but the materials cost more. Worth it for visible installations.' },
+    { repair: 'Clear clogged P-trap', cost: '$0', notes: 'Remove the trap, dump the contents in a bucket, clean with a bottle brush, reinstall. 10 minutes.' },
+    { repair: 'Plumber P-trap replacement', cost: '$75-$150', notes: 'A plumber for a P-trap swap is paying $70+ for 10 minutes of labor. DIY this one.' },
+  ],
+  bestBrands: [
+    { name: 'Keeney', knownFor: 'The most widely available P-trap brand. Found at every hardware store. Their PVC and chrome traps are the default choice for residential plumbing.' },
+    { name: 'Oatey', knownFor: 'Professional-grade plumbing fittings. Their PVC traps are what many plumbers install. Slightly heavier-duty than consumer brands.' },
+    { name: 'Danco', knownFor: 'Good for replacement parts, washers, and accessories. Their universal repair kits include everything you need to fix a leaky P-trap without replacing it.' },
+    { name: 'Westbrass', knownFor: 'Premium decorative P-traps in multiple finishes (brushed nickel, oil-rubbed bronze, matte black). For visible installations where appearance matters.' },
+  ],
+  installationTime: `P-trap replacement takes 10 to 20 minutes.\n\nTools needed: channel-lock pliers (or a pipe wrench), a bucket, and an old towel.\n\nProcess: place the bucket under the P-trap to catch water. Loosen the two slip-joint nuts (one where the trap connects to the tailpiece coming down from the sink, one where it connects to the drain pipe going into the wall). The nuts turn counterclockwise to loosen... they may be hand-tight or need pliers. Pull the trap down and dump the water and debris into the bucket.\n\nInstall the new trap: slide the slip-joint nuts and washers onto the tailpiece and wall pipe first (nut, then washer, with the beveled side of the washer facing into the pipe). Position the trap and hand-tighten both nuts. Snug with pliers... don't overtighten PVC or you'll crack the nut. Run water and check for leaks at both connections.\n\nIf the wall pipe and tailpiece don't align with the new trap, you may need an extension piece or a different trap configuration (some come with built-in extensions). Bring the old trap to the hardware store to match the angles and lengths.`,
+}

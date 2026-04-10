@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'night-guard',
+  lifespanDetail: `Over-the-counter night guards last 1 to 3 years depending on the severity of your grinding. Custom-fitted guards from a dentist last 3 to 5 years... sometimes longer with proper care. The difference comes down to material thickness and fit. OTC boil-and-bite guards use a soft thermoplastic that molds roughly to your teeth. They're $15 to $30 and work fine for mild grinders, but heavy grinders chew through them in 3 to 6 months. The material compresses, thins out, and stops providing a meaningful barrier between your upper and lower teeth. Professional-grade OTC guards (like Pro Teeth Guard or Dental Duty) use harder dual-laminate materials... a soft inner layer for comfort and a hard outer layer for durability. These run $50 to $150 and last 1 to 3 years for moderate grinders. Custom guards from a dentist cost $300 to $800 and are made from a precise mold of your teeth. The fit is exact, which means less material stress, better protection, and longer life. Dentists typically use hard acrylic for severe grinders and dual-laminate for moderate cases. The #1 factor that determines lifespan is how hard you grind. Severe bruxism generates 250+ pounds of force per square inch... that's 6x normal chewing force. No guard material lasts forever under that kind of pressure. If you're waking up with jaw pain, headaches, or flat-topped teeth, you're likely a heavy grinder and should budget for more frequent replacements.`,
+  warningSigns: [
+    { sign: 'Visible holes, cracks, or thin spots in the guard', detail: 'Hold the guard up to a light. If you can see through any section or find cracks along the bite surface, the guard is no longer providing adequate protection. Heavy grinders can wear through a soft guard in months.' },
+    { sign: 'The guard no longer fits snugly on your teeth', detail: 'A loose guard shifts around at night and doesn\'t protect consistently. OTC guards lose their shape faster than custom ones. If it falls out during sleep, it\'s not doing its job.' },
+    { sign: 'Jaw pain or headaches return after a period of relief', detail: 'If the guard was helping and symptoms come back, the guard has likely worn down enough that it\'s no longer absorbing the grinding forces. Time for a replacement.' },
+    { sign: 'The guard has a persistent odor even after cleaning', detail: 'Bacteria embed in the porous material over time. If soaking in denture cleaner or hydrogen peroxide doesn\'t eliminate the smell, the material has degraded beyond cleaning.' },
+    { sign: 'Discoloration that won\'t clean off', detail: 'Yellowing or clouding of the material indicates chemical breakdown. Surface staining from coffee or tea is cosmetic, but deep discoloration means the material structure is changing.' },
+    { sign: 'You\'ve had dental work done since the guard was made', detail: 'New crowns, fillings, or extractions change your bite. A guard molded to your old bite won\'t fit correctly and can cause more problems than it solves.' },
+  ],
+  repairOrReplace: `Night guards are always replaced, never repaired. The materials degrade from saliva, grinding force, and bacteria... there's no way to restore them. For OTC boil-and-bite guards ($15-$30), replacement is a no-brainer. They're cheap enough to replace every 6 to 12 months if needed. For professional-grade OTC guards ($50-$150), replacing annually or when wear is visible keeps costs manageable at $4 to $12 per month. Custom dentist guards ($300-$800) are the most cost-effective long-term option for moderate to severe grinders. At $300 over 5 years, that's $5 per month... less than most OTC options replaced more frequently. Some dental insurance covers part of the cost (check your plan for "occlusal guard" coverage). Online custom guard services like Pro Teeth Guard and Sporting Smiles offer a middle ground: $100 to $200 for a lab-made guard from a home impression kit. Quality is close to dentist-made guards at 30-50% of the cost. If you're grinding through OTC guards faster than every 6 months, skip straight to a custom guard. The per-month cost is lower and the protection is significantly better.`,
+  maintenanceTips: [
+    'Rinse the guard with cool water every morning after use and brush it gently with a soft toothbrush (no toothpaste... it\'s abrasive and scratches the surface, creating hiding spots for bacteria).',
+    'Soak in denture cleaner or a 50/50 hydrogen peroxide and water solution once a week for 15 to 30 minutes. This kills bacteria that brushing alone misses.',
+    'Store in a ventilated case, not a sealed container. Moisture trapped in a closed case promotes bacterial and fungal growth. Most guards come with a vented case for this reason.',
+    'Keep the guard away from heat... no hot water, no car dashboards, no dishwashers. Heat warps thermoplastic materials and ruins the fit permanently.',
+    'Bring the guard to dental checkups so your dentist can inspect it for wear patterns and fit. They can spot problems before you notice symptoms.',
+  ],
+  costBreakdown: {
+    replaceLow: 15,
+    replaceHigh: 800,
+    repairLow: 0,
+    repairHigh: 0,
+    laborPercent: '0% (DIY) to 50% (dentist-made)',
+  },
+  recommendedProducts: [
+    { name: 'Dental Duty Professional Night Guard (2-pack)', description: 'Moldable dual-laminate guard with a hard outer shell and soft inner layer. Comes in 2-pack so you have a backup. Trimmable for custom fit. Good option for moderate grinders.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=Dental+Duty+professional+night+guard&tag=replacementgu-20' },
+    { name: 'Pro Teeth Guard Custom Night Guard', description: 'Lab-made custom guard from a home impression kit. Same process dentists use but at a fraction of the cost. Available in hard, soft, and dual-laminate options. 60-day money back guarantee.', priceRange: '$100-$180', amazonUrl: 'https://www.amazon.com/s?k=Pro+Teeth+Guard+custom+night+guard&tag=replacementgu-20' },
+    { name: 'DenTek Maximum Protection Night Guard', description: 'Affordable boil-and-bite option for mild grinders or as a trial before investing in a custom guard. Ready in 5 minutes. Good for determining if a night guard helps your symptoms.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=DenTek+maximum+protection+night+guard&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'OTC boil-and-bite replacement', cost: '$15-$30', notes: 'Replace every 6-12 months for moderate grinders. Every 3-6 months for heavy grinders.' },
+    { repair: 'Professional-grade OTC replacement', cost: '$50-$150', notes: 'Replace every 1-2 years. Dual-laminate material holds up better than soft-only guards.' },
+    { repair: 'Custom dentist guard replacement', cost: '$300-$800', notes: 'Replace every 3-5 years. Insurance may cover part. New impressions needed each time.' },
+    { repair: 'Online custom guard replacement', cost: '$100-$200', notes: 'Lab-made from home impressions. Replace every 2-4 years. Reorder from the same company for consistency.' },
+  ],
+  bestBrands: [
+    { name: 'Pro Teeth Guard', knownFor: 'Best value in custom-fit guards. Lab-made from home impression kits at $100-$180. Multiple material options (hard, soft, dual-laminate). 60-day satisfaction guarantee.' },
+    { name: 'Dental Duty', knownFor: 'Top-selling OTC guard on Amazon. Dual-laminate construction with trimmable fit. 2-packs keep costs low at under $15 per guard.' },
+    { name: 'DenTek', knownFor: 'Widely available boil-and-bite guards at drugstores and Amazon. Good entry-level option at $15-$25. Not as durable as professional-grade but easy to find and replace.' },
+    { name: 'Oral-B', knownFor: 'Trusted dental brand with OTC night guards. Their guards tend toward softer materials, which are more comfortable but wear faster for heavy grinders.' },
+  ],
+  installationTime: `Boil-and-bite guards take about 5 minutes to mold: boil water, submerge the guard for 30-60 seconds (check instructions... timing varies by brand), remove with a spoon, let it cool for 2-3 seconds, then bite down firmly for 30 seconds to mold it to your teeth. You get 1-2 tries before the material won't remold.\n\nCustom guards from a dentist require 2 appointments: the first visit (15-20 minutes) for impressions and the second visit (10 minutes) 1-2 weeks later for fitting and adjustments.\n\nOnline custom guards take about 10 minutes of your time: make impressions using the included putty kit, mail them back, and receive your finished guard in 1-3 weeks. The impression process is the most important step... follow the instructions exactly or the fit will be off.\n\nAdjustment period: expect 3 to 7 nights of getting used to any new night guard. It feels strange at first and you may remove it in your sleep. Most people adapt within a week. If it's still uncomfortable after 2 weeks, the fit needs adjustment.`,
+}

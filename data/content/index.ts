@@ -106,6 +106,103 @@ import { content as chestFreezer } from './chest-freezer'
 import { content as carAirFilter } from './car-air-filter'
 import { content as oilFilter } from './oil-filter'
 import { content as cabinAirFilter } from './cabin-air-filter'
+import { content as toiletFillValve } from './toilet-fill-valve'
+import { content as windowScreen } from './window-screen'
+import { content as acCapacitor } from './ac-capacitor'
+import { content as toiletWaxRing } from './toilet-wax-ring'
+import { content as toiletHandle } from './toilet-handle'
+import { content as bathtubDrain } from './bathtub-drain'
+import { content as roombaBattery } from './roomba-battery'
+import { content as furnaceIgnitor } from './furnace-ignitor'
+import { content as garageDoorRemote } from './garage-door-remote'
+import { content as garageDoorSeal } from './garage-door-seal'
+import { content as sprinklerHead } from './sprinkler-head'
+import { content as dysonVacuumFilter } from './dyson-vacuum-filter'
+import { content as sharkVacuumFilter } from './shark-vacuum-filter'
+import { content as bathroomExhaustFan } from './bathroom-exhaust-fan'
+import { content as waterHeaterAnodeRod } from './water-heater-anode-rod'
+import { content as gfciOutlet } from './gfci-outlet'
+import { content as showerValve } from './shower-valve'
+import { content as airPurifierFilter } from './air-purifier-filter'
+import { content as lightSwitch } from './light-switch'
+import { content as ovenIgniter } from './oven-igniter'
+import { content as humidifierFilter } from './humidifier-filter'
+import { content as showerHead } from './shower-head'
+import { content as retainer } from './retainer'
+import { content as sinkDrain } from './sink-drain'
+import { content as hoseBib } from './hose-bib'
+import { content as chimneyCap } from './chimney-cap'
+import { content as doorbellTransformer } from './doorbell-transformer'
+import { content as smokeDetectorBattery } from './smoke-detector-battery'
+import { content as atticFan } from './attic-fan'
+import { content as dishwasherDrainHose } from './dishwasher-drain-hose'
+import { content as dryerVentHose } from './dryer-vent-hose'
+import { content as dishwasherSprayArm } from './dishwasher-spray-arm'
+import { content as sumpPumpFloatSwitch } from './sump-pump-float-switch'
+import { content as pTrap } from './p-trap'
+import { content as drawerSlides } from './drawer-slides'
+import { content as dimmerSwitch } from './dimmer-switch'
+import { content as fireExtinguisherReplacement } from './fire-extinguisher-replacement'
+import { content as refrigeratorWaterFilter } from './refrigerator-water-filter'
+import { content as iceMakerFilter } from './ice-maker-filter'
+import { content as lawnMowerBlade } from './lawn-mower-blade'
+import { content as washingMachineHose } from './washing-machine-hose'
+import { content as vacuumBelt } from './vacuum-belt'
+import { content as roombaBrush } from './roomba-brush'
+import { content as garbageDisposalSplashGuard } from './garbage-disposal-splash-guard'
+import { content as doorKnob } from './door-knob'
+import { content as washerLidSwitch } from './washer-lid-switch'
+import { content as surgeProtector } from './surge-protector'
+import { content as vacuumFilter } from './vacuum-filter'
+import { content as evaporatorCoil } from './evaporator-coil'
+import { content as refrigeratorWaterLine } from './refrigerator-water-line'
+import { content as powerSteeringFluid } from './power-steering-fluid'
+import { content as vacuumHose } from './vacuum-hose'
+import { content as vacuumBag } from './vacuum-bag'
+import { content as flameSensor } from './flame-sensor'
+import { content as microwaveTurntable } from './microwave-turntable'
+import { content as washerAgitator } from './washer-agitator'
+import { content as ignitionCoil } from './ignition-coil'
+import { content as expansionTank } from './expansion-tank'
+import { content as thermocouple } from './thermocouple'
+import { content as gasValve } from './gas-valve'
+import { content as refrigeratorShelf } from './refrigerator-shelf'
+import { content as blinds } from './blinds'
+import { content as poolFilterCartridge } from './pool-filter-cartridge'
+import { content as blowerMotor } from './blower-motor'
+import { content as rangeHoodFilter } from './range-hood-filter'
+import { content as weatherStrippingDoor } from './weather-stripping-door'
+import { content as mailbox } from './mailbox'
+import { content as thermostatBatteries } from './thermostat-batteries'
+import { content as showerDoorSeal } from './shower-door-seal'
+import { content as wholeHouseFan } from './whole-house-fan'
+import { content as kitchenSponge } from './kitchen-sponge'
+import { content as bathMat } from './bath-mat'
+import { content as grillIgnitor } from './grill-ignitor'
+import { content as nightGuard } from './night-guard'
+import { content as deadbolt } from './deadbolt'
+import { content as dryerDrumBelt } from './dryer-drum-belt'
+import { content as shutOffValve } from './shut-off-valve'
+import { content as backflowPreventer } from './backflow-preventer'
+import { content as bathFanMotor } from './bath-fan-motor'
+import { content as dishwasherFilter } from './dishwasher-filter'
+import { content as grillThermometer } from './grill-thermometer'
+import { content as pressureReliefValve } from './pressure-relief-valve'
+import { content as condensatePump } from './condensate-pump'
+import { content as recessedLight } from './recessed-light'
+import { content as garbageDisposalFlange } from './garbage-disposal-flange'
+import { content as stoveDripPans } from './stove-drip-pans'
+import { content as bathTowels } from './bath-towels'
+import { content as fuelFilter } from './fuel-filter'
+import { content as sillcock } from './sillcock'
+import { content as dipTube } from './dip-tube'
+import { content as cabinetHardware } from './cabinet-hardware'
+import { content as electricToothbrush } from './electric-toothbrush'
+import { content as oxygenSensor } from './oxygen-sensor'
+import { content as motionSensorLight } from './motion-sensor-light'
+import { content as floodLight } from './flood-light'
+import { content as wheelBearings } from './wheel-bearings'
+import { content as pcvValve } from './pcv-valve'
 
 export interface ProductContent {
   slug: string
@@ -237,6 +334,103 @@ const contentMap: Record<string, ProductContent> = {
   'car-air-filter': carAirFilter,
   'oil-filter': oilFilter,
   'cabin-air-filter': cabinAirFilter,
+  'toilet-fill-valve': toiletFillValve,
+  'window-screen': windowScreen,
+  'ac-capacitor': acCapacitor,
+  'toilet-wax-ring': toiletWaxRing,
+  'toilet-handle': toiletHandle,
+  'bathtub-drain': bathtubDrain,
+  'roomba-battery': roombaBattery,
+  'furnace-ignitor': furnaceIgnitor,
+  'garage-door-remote': garageDoorRemote,
+  'garage-door-seal': garageDoorSeal,
+  'sprinkler-head': sprinklerHead,
+  'dyson-vacuum-filter': dysonVacuumFilter,
+  'shark-vacuum-filter': sharkVacuumFilter,
+  'bathroom-exhaust-fan': bathroomExhaustFan,
+  'water-heater-anode-rod': waterHeaterAnodeRod,
+  'gfci-outlet': gfciOutlet,
+  'shower-valve': showerValve,
+  'air-purifier-filter': airPurifierFilter,
+  'light-switch': lightSwitch,
+  'oven-igniter': ovenIgniter,
+  'humidifier-filter': humidifierFilter,
+  'shower-head': showerHead,
+  'retainer': retainer,
+  'sink-drain': sinkDrain,
+  'hose-bib': hoseBib,
+  'chimney-cap': chimneyCap,
+  'doorbell-transformer': doorbellTransformer,
+  'smoke-detector-battery': smokeDetectorBattery,
+  'attic-fan': atticFan,
+  'dishwasher-drain-hose': dishwasherDrainHose,
+  'dryer-vent-hose': dryerVentHose,
+  'dishwasher-spray-arm': dishwasherSprayArm,
+  'sump-pump-float-switch': sumpPumpFloatSwitch,
+  'refrigerator-shelf': refrigeratorShelf,
+  'blinds': blinds,
+  'pool-filter-cartridge': poolFilterCartridge,
+  'blower-motor': blowerMotor,
+  'range-hood-filter': rangeHoodFilter,
+  'weather-stripping-door': weatherStrippingDoor,
+  'mailbox': mailbox,
+  'thermostat-batteries': thermostatBatteries,
+  'shower-door-seal': showerDoorSeal,
+  'p-trap': pTrap,
+  'drawer-slides': drawerSlides,
+  'dimmer-switch': dimmerSwitch,
+  'fire-extinguisher-replacement': fireExtinguisherReplacement,
+  'refrigerator-water-filter': refrigeratorWaterFilter,
+  'ice-maker-filter': iceMakerFilter,
+  'lawn-mower-blade': lawnMowerBlade,
+  'washing-machine-hose': washingMachineHose,
+  'vacuum-belt': vacuumBelt,
+  'roomba-brush': roombaBrush,
+  'garbage-disposal-splash-guard': garbageDisposalSplashGuard,
+  'door-knob': doorKnob,
+  'washer-lid-switch': washerLidSwitch,
+  'surge-protector': surgeProtector,
+  'vacuum-filter': vacuumFilter,
+  'evaporator-coil': evaporatorCoil,
+  'refrigerator-water-line': refrigeratorWaterLine,
+  'power-steering-fluid': powerSteeringFluid,
+  'vacuum-hose': vacuumHose,
+  'vacuum-bag': vacuumBag,
+  'flame-sensor': flameSensor,
+  'microwave-turntable': microwaveTurntable,
+  'washer-agitator': washerAgitator,
+  'ignition-coil': ignitionCoil,
+  'expansion-tank': expansionTank,
+  'thermocouple': thermocouple,
+  'gas-valve': gasValve,
+  'whole-house-fan': wholeHouseFan,
+  'kitchen-sponge': kitchenSponge,
+  'bath-mat': bathMat,
+  'grill-ignitor': grillIgnitor,
+  'night-guard': nightGuard,
+  'deadbolt': deadbolt,
+  'dryer-drum-belt': dryerDrumBelt,
+  'shut-off-valve': shutOffValve,
+  'backflow-preventer': backflowPreventer,
+  'bath-fan-motor': bathFanMotor,
+  'dishwasher-filter': dishwasherFilter,
+  'grill-thermometer': grillThermometer,
+  'pressure-relief-valve': pressureReliefValve,
+  'condensate-pump': condensatePump,
+  'recessed-light': recessedLight,
+  'garbage-disposal-flange': garbageDisposalFlange,
+  'stove-drip-pans': stoveDripPans,
+  'bath-towels': bathTowels,
+  'fuel-filter': fuelFilter,
+  'sillcock': sillcock,
+  'dip-tube': dipTube,
+  'cabinet-hardware': cabinetHardware,
+  'electric-toothbrush': electricToothbrush,
+  'oxygen-sensor': oxygenSensor,
+  'motion-sensor-light': motionSensorLight,
+  'flood-light': floodLight,
+  'wheel-bearings': wheelBearings,
+  'pcv-valve': pcvValve,
 }
 
 export function getProductContent(slug: string): ProductContent | null {

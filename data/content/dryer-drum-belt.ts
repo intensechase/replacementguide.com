@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'dryer-drum-belt',
+  lifespanDetail: `Dryer drum belts last 8 to 12 years under normal use, which lines up roughly with the dryer's overall lifespan. The belt is a thin, flat, ribbed rubber loop (about 1/4" wide) that wraps around the entire drum and connects to a small motor pulley at the bottom of the dryer. When the motor spins, the belt turns the drum. That's it... simple mechanical advantage. The belt handles a lot of stress. A typical residential dryer drum weighs 25 to 40 pounds empty, and a full wet load adds another 15 to 25 pounds. The belt turns this weight at 40 to 60 RPM for 30 to 60 minutes per cycle. Over thousands of cycles, the rubber stretches, the ribs wear down, and the belt eventually snaps. Load size is the biggest factor in belt life. Consistently overloading the dryer puts extra strain on the belt and wears it faster. Running the dryer with no load (just to air something out) also causes extra wear because the belt slips more on a light drum. Belts are model-specific. A Whirlpool belt won't fit a Samsung dryer. The part number is usually printed on the old belt or found in the dryer's manual. Getting the wrong belt is the most common DIY mistake... it might be close in size but won't track correctly on the drum.`,
+  warningSigns: [
+    { sign: 'Drum doesn\'t spin but the motor runs', detail: 'The classic symptom of a broken belt. You\'ll hear the motor humming and maybe the blower pushing air, but the drum sits still. In most dryers, the motor will shut off after a few seconds if the belt breaks (safety switch).' },
+    { sign: 'Squealing or squeaking noise during operation', detail: 'A worn belt slipping on the drum or motor pulley creates a high-pitched squeal, especially when the dryer first starts. This is the "warning phase" before the belt snaps. Could also be the idler pulley, but the belt is the first suspect.' },
+    { sign: 'Thumping or rumbling sound', detail: 'A belt that has developed flat spots or has started to fray can create rhythmic thumping as the damaged section passes over the pulleys each revolution.' },
+    { sign: 'Dryer takes longer to dry clothes than usual', detail: 'A slipping belt means the drum turns slower or inconsistently. Clothes tumble less and don\'t expose evenly to the heated air, extending dry times.' },
+    { sign: 'Burning rubber smell', detail: 'A slipping belt generates friction and heat. If you smell burning rubber when the dryer runs, the belt is likely slipping on the motor pulley or idler pulley. Stop using the dryer and inspect.' },
+    { sign: 'Drum turns by hand but feels loose or has no resistance', detail: 'Open the door and spin the drum by hand. A properly tensioned belt provides noticeable resistance. If the drum spins freely with no tension, the belt has broken or slipped off the pulleys.' },
+  ],
+  repairOrReplace: `This is almost always a repair, not a dryer replacement. A drum belt costs $5 to $15 for the part, and the job takes 30 to 60 minutes for a handy homeowner. Paying a technician runs $100 to $200 total (parts + labor). Compared to a new dryer at $500 to $1,200, replacing the belt is a no-brainer... even with professional labor. The only time to consider replacing the dryer instead is if it's already 10+ years old and showing other problems (bad heating element, failing motor, rusted drum). A belt replacement on a dryer that needs a new heating element next month doesn't make financial sense. While you have the dryer open for a belt replacement, inspect the idler pulley and drum rollers. These wear at similar rates and cost $5 to $15 each. Replacing all 3 components at once (belt, idler pulley, drum rollers) costs $20 to $40 in parts and saves you from opening the dryer again in 6 months. Many repair kits bundle all 3 for exactly this reason.`,
+  maintenanceTips: [
+    'Don\'t overload the dryer. A full load should fill the drum about 3/4 full... clothes need room to tumble. Overloading puts extra strain on the belt, motor, and drum rollers.',
+    'Clean the lint filter before every load. A clogged filter makes the dryer run longer cycles, which means more belt wear. It\'s also a fire hazard... 2,900 dryer fires per year are caused by lint buildup.',
+    'Clean the dryer vent duct annually. A restricted vent forces longer dry times (more belt cycles) and can overheat the dryer. Disconnect the vent from the back and use a vent brush kit to clear it.',
+    'Level the dryer so the drum rotates evenly. An unlevel dryer causes the belt to track off-center, wearing one edge faster than the other.',
+    'Listen for changes in dryer noise. A new squeal or squeak is usually the first sign of belt or pulley wear. Catching it early means replacing a $10 belt instead of dealing with a snapped belt and potentially damaged pulley.',
+  ],
+  costBreakdown: {
+    replaceLow: 5,
+    replaceHigh: 15,
+    repairLow: 5,
+    repairHigh: 15,
+    laborPercent: '60-80%',
+  },
+  recommendedProducts: [
+    { name: 'Dryer Repair Kit (belt + idler pulley + drum rollers)', description: 'Model-specific kit that includes the belt, idler pulley, and drum support rollers. Replacing all 3 at once saves a second repair trip. Available for Whirlpool, GE, Samsung, and LG dryers.', priceRange: '$20-$40', amazonUrl: 'https://www.amazon.com/s?k=dryer+repair+kit+belt+idler+pulley+drum+rollers&tag=replacementgu-20' },
+    { name: 'Whirlpool/Kenmore Dryer Belt 341241', description: 'OEM replacement belt for Whirlpool, Kenmore, Maytag, and other Whirlpool-made dryers. This single part number fits hundreds of models. 92-1/4" length, 4 ribs.', priceRange: '$5-$12', amazonUrl: 'https://www.amazon.com/s?k=Whirlpool+dryer+belt+341241&tag=replacementgu-20' },
+    { name: 'Samsung Dryer Belt 6602-001655', description: 'OEM replacement for Samsung dryers. The part number is critical... Samsung uses different belts across model lines. Check your dryer\'s model number on the door frame sticker before ordering.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=Samsung+dryer+belt+6602-001655&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Belt replacement only', cost: '$5-$15 DIY / $100-$200 with technician', notes: 'The most common dryer repair. 30-60 minutes for a DIY job. Requires removing the top and front panels on most models.' },
+    { repair: 'Belt + idler pulley replacement', cost: '$15-$25 DIY', notes: 'The idler pulley maintains belt tension. If it\'s squeaking or wobbling, replace it with the belt.' },
+    { repair: 'Belt + drum rollers replacement', cost: '$20-$35 DIY', notes: 'Drum rollers support the rear of the drum. Worn rollers cause thumping and add stress to the belt.' },
+    { repair: 'Full repair kit (belt + pulley + rollers)', cost: '$20-$40 DIY', notes: 'Best value. Replace all wear items at once since you already have the dryer apart.' },
+  ],
+  bestBrands: [
+    { name: 'Whirlpool', knownFor: 'Makes dryers under Whirlpool, Maytag, and Kenmore brands. OEM parts are widely available and affordable. Their belt part 341241 fits hundreds of models, making it easy to find.' },
+    { name: 'GE', knownFor: 'GE dryer belts are model-specific but well-stocked at parts suppliers. GE dryers are generally straightforward to work on with good access to the belt and pulleys.' },
+    { name: 'Samsung', knownFor: 'Samsung dryers require specific OEM belts. Third-party alternatives exist but fit can vary. Samsung\'s parts diagrams are available online and make ordering the right belt easier.' },
+    { name: 'LG', knownFor: 'LG dryers use a slightly different drum design than traditional brands. OEM belts are recommended. LG\'s customer support can help identify the correct belt for your model.' },
+  ],
+  installationTime: `Replacing a dryer drum belt takes 30 to 60 minutes for a first-timer and 15 to 30 minutes once you've done it before. The hardest part is accessing the belt, not installing it.\n\nFor most Whirlpool/Kenmore/Maytag dryers: unplug the dryer, remove the lint filter, remove the 2 screws under the lint trap, slide a putty knife under the front corners of the top panel to release the clips, tilt the top up, disconnect the door switch wire, remove the front panel screws, lift the front panel off, and the drum lifts right out. The belt wraps around the drum, loops under the idler pulley, and connects to the motor pulley in a zigzag pattern.\n\nFor Samsung and LG dryers: the process is similar but often involves removing the top panel and then the front panel. The drum support is slightly different.\n\nThe trickiest part is routing the new belt correctly. Take a photo of the old belt path before removing it. The belt wraps around the drum (ribbed side against the drum), then loops under the idler pulley and around the motor pulley. Getting the tension right means the idler pulley spring should feel firm when you push on it.\n\nTools needed: Phillips screwdriver, putty knife, and possibly a 1/4" nut driver. No special tools required.`,
+}

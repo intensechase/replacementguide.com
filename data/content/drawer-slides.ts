@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'drawer-slides',
+  lifespanDetail: `Drawer slides last 10 to 20 years depending on the type and how heavily the drawer is used. Kitchen drawers with pots, pans, and utensils wear out fastest... 8 to 12 years. Bedroom dresser drawers and bathroom vanity drawers last 15 to 20 years with lighter loads. There are three main types. Ball-bearing slides (the modern standard) use steel ball bearings in a track for smooth, quiet operation. They support 75 to 100 lbs per pair and are the most common in kitchen cabinets built after 2000. Roller slides use plastic rollers and are cheaper but noisier and support less weight (50 to 75 lbs). They're common in older cabinets, bathroom vanities, and budget furniture. Undermount slides (also called concealed slides) attach to the bottom of the drawer and are invisible when the drawer is open. They're the premium option found in high-end kitchens. Slides are sold in pairs and come in standard lengths: 10, 12, 14, 16, 18, 20, and 22 inches. The length should match the depth of your cabinet (not the drawer). Full-extension slides let you pull the drawer all the way out... 3/4-extension slides only open about 75% of the way. Full-extension is worth the small price premium for kitchen and bathroom drawers.`,
+  warningSigns: [
+    { sign: 'Drawer is hard to open or close', detail: 'The ball bearings or rollers are worn, dirty, or corroded. If the drawer sticks, catches, or requires extra force, the slides are failing. Try cleaning and lubricating first... if that doesn\'t fix it, they need replacing.' },
+    { sign: 'Drawer sags or tilts when pulled out', detail: 'One or both slides have lost their ability to support the drawer weight. Ball bearings can flatten or the track can bend from overloading. The drawer may tilt down on one side or both.' },
+    { sign: 'Drawer falls off the track or won\'t stay in', detail: 'The most annoying symptom. The slides are too worn to hold the drawer in the track. The drawer derails when you open it or falls completely when pulled too far.' },
+    { sign: 'Grinding or scraping noise when opening/closing', detail: 'Metal-on-metal contact where the bearings or rollers have worn through. The drawer still works but it\'s damaging the slide track further with each use.' },
+    { sign: 'Visible rust or corrosion on the slide tracks', detail: 'Common under kitchen sinks and in bathroom vanities where moisture is present. Rust on the tracks causes binding and eventually freezes the drawer in place.' },
+    { sign: 'Soft-close mechanism no longer works', detail: 'Many modern ball-bearing slides have a built-in soft-close dampener. When it fails, the drawer slams shut instead of closing gently. The dampener can\'t be repaired separately... replace the slide pair.' },
+  ],
+  repairOrReplace: `Drawer slides cost $8 to $30 per pair depending on type and length. Replacement takes 15 to 30 minutes per drawer. Before replacing, try cleaning and lubricating the existing slides. Remove the drawer (most slides have a release lever or tab), wipe down the tracks with a dry cloth, and spray with silicone lubricant (not WD-40... WD-40 attracts dust). Reinstall and test. If lubrication doesn't fix binding, grinding, or sagging, replace the slides. The key measurement is the slide length... measure from the front of the cabinet opening to the back wall (not the drawer itself). Buy slides that match this length. When ordering, also check the mounting type: side-mount (most common), center-mount (older cabinets), or undermount (premium). Most replacements are side-mount ball-bearing slides with full extension... they're the best value and fit the majority of residential cabinets.`,
+  maintenanceTips: [
+    'Spray drawer slides with silicone lubricant once a year. One quick spray on each track keeps them gliding smoothly. Don\'t use WD-40... it attracts dust and dries out, making the problem worse.',
+    'Don\'t overload drawers beyond the slide\'s weight rating. Ball-bearing slides support 75 to 100 lbs per pair. If you\'re stuffing a drawer with heavy cast iron, the slides will fail prematurely.',
+    'Remove drawers annually and wipe the tracks clean. Dust, crumbs, and debris accumulate in the ball-bearing tracks and cause binding.',
+    'If a soft-close drawer starts slamming, check that nothing is blocking the full closing motion. Sometimes items in the drawer shift and prevent the soft-close dampener from engaging.',
+    'Tighten loose mounting screws. Slides can work loose from the cabinet wall or drawer side over time. A quick tighten with a screwdriver prevents the drawer from sagging or derailing.',
+  ],
+  costBreakdown: {
+    replaceLow: 8,
+    replaceHigh: 30,
+    repairLow: 0,
+    repairHigh: 5,
+    laborPercent: '0% DIY (15-30 minutes per drawer)',
+  },
+  recommendedProducts: [
+    { name: 'Liberty D80618C Ball Bearing Drawer Slides (18-inch, pair)', description: 'Full-extension ball-bearing slides with 100-lb load rating. Soft-close damping built in. The most popular replacement slide on Amazon. Available in multiple lengths.', priceRange: '$12-$20 per pair', amazonUrl: 'https://www.amazon.com/s?k=Liberty+ball+bearing+drawer+slides+soft+close&tag=replacementgu-20' },
+    { name: 'LONTAN Ball Bearing Drawer Slides (10-pack)', description: 'If you\'re replacing slides on multiple drawers, a 10-pack drops the per-pair cost significantly. Full extension, 100-lb capacity. Great value for a full kitchen redo.', priceRange: '$40-$70 (10 pairs)', amazonUrl: 'https://www.amazon.com/s?k=LONTAN+ball+bearing+drawer+slides+10+pack&tag=replacementgu-20' },
+    { name: 'Silicone Lubricant Spray', description: 'For maintaining existing slides. A quick spray prevents sticking and extends slide life. Also useful for door hinges, window tracks, and any sliding mechanism in the house.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=silicone+lubricant+spray+household&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Clean and lubricate slides', cost: '$0-$5', notes: 'Try this first. Remove drawer, wipe tracks, spray silicone lubricant. Fixes most sticking issues.' },
+    { repair: 'Tighten mounting screws', cost: '$0', notes: 'Loose screws cause sagging and derailing. Quick fix with a screwdriver.' },
+    { repair: 'Replace slide pair (DIY)', cost: '$8-$30 per pair', notes: '15-30 minutes per drawer. Remove old slides (4-8 screws per side), mount new ones in the same holes.' },
+    { repair: 'Replace all kitchen drawer slides', cost: '$50-$150 for 5-8 pairs', notes: 'If one pair is worn, the others are probably close behind. A bulk replacement is efficient and gives you matching action on all drawers.' },
+  ],
+  bestBrands: [
+    { name: 'Liberty Hardware', knownFor: 'The most popular consumer-grade ball-bearing slides. Wide range of lengths, good soft-close mechanism, and widely available. The default recommendation for DIY replacement.' },
+    { name: 'Blum', knownFor: 'The premium brand used in high-end kitchen cabinets. Their Tandem undermount slides are whisper-quiet and incredibly smooth. More expensive but noticeably better than budget options.' },
+    { name: 'Accuride', knownFor: 'Professional-grade side-mount slides. Heavy-duty options up to 500 lbs for specialized applications. Their 3832 series is the industry standard for side-mount full-extension.' },
+    { name: 'LONTAN', knownFor: 'Best value on Amazon for bulk purchases. Good quality ball-bearing slides at a fraction of Liberty or Blum pricing. Popular for multi-drawer kitchen projects.' },
+  ],
+  installationTime: `Replacing one pair of drawer slides takes 15 to 30 minutes.\n\nTools needed: Phillips screwdriver (or drill with Phillips bit), tape measure, and a pencil for marking.\n\nProcess: remove the drawer (lift up and pull out, or press the release lever on the slides). Unscrew the old slides from both the cabinet wall and the drawer sides (usually 2 to 4 screws per piece). The cabinet-side slide and drawer-side slide separate when you release the lever.\n\nMount the new cabinet-side slides using the existing screw holes if they line up. If not, drill new pilot holes. Use a level or measure from the cabinet bottom to ensure both sides are at the same height... even a 1/16-inch difference causes binding. Mount the drawer-side slides on the drawer, making sure they're flush with the front edge of the drawer.\n\nSlide the drawer in to test. It should glide smoothly with no binding. If it's tight, check that both cabinet-side slides are level and at the same height. Adjust as needed.\n\nTip: if you're replacing slides on multiple drawers, do them all at once. Measure each cabinet individually... they're not always the same depth, even in the same kitchen.`,
+}

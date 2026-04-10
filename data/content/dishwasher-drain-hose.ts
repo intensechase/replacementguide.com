@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'dishwasher-drain-hose',
+  lifespanDetail: `Dishwasher drain hoses last 5 to 10 years, though they can fail sooner if kinked during installation, exposed to high heat, or clogged with food debris. The drain hose is a corrugated rubber or plastic tube that runs from the dishwasher pump to the garbage disposal or sink drain. It's usually 5 to 7 feet long and connects with hose clamps at each end. The hose itself doesn't do anything complex... it just carries dirty water from the dishwasher to the drain. But it sits in a dark, warm, wet environment behind the dishwasher for years, which means it's prone to cracking, clogging, and developing leaks at the connection points. The corrugated design (those ridges along the hose) serves a purpose... it allows the hose to bend around corners without kinking. But those ridges also trap food particles, grease, and biofilm that can restrict flow over time. The most common failure point is where the hose connects to the disposal or drain tailpiece. The rubber hardens over years of heat exposure (hot wash cycles push 130 to 150-degree water through it), and the hose clamp compresses the material until it can no longer seal. One important installation detail that many people miss: the drain hose should loop up to the underside of the countertop (called a "high loop") or connect through an air gap device. This prevents dirty sink water from backflowing into the dishwasher. Many plumbing codes require one or the other.`,
+  warningSigns: [
+    { sign: 'Water leaking under or behind the dishwasher', detail: 'The most common sign. If you see water on the floor near the dishwasher after a cycle, the drain hose has a crack, loose clamp, or failed connection. Pull the dishwasher out and inspect the hose with a flashlight.' },
+    { sign: 'Dishwasher isn\'t draining completely', detail: 'Standing water in the bottom of the dishwasher after a cycle can mean a clogged or kinked drain hose. It can also be a pump issue, but the hose is the easier and cheaper fix to check first.' },
+    { sign: 'Foul smell from the dishwasher', detail: 'Biofilm and food debris trapped in the corrugated hose create a rotting smell that no amount of cleaning the dishwasher interior will fix. If running an empty hot cycle with vinegar doesn\'t eliminate the smell, the hose is the culprit.' },
+    { sign: 'Drain hose is visibly cracked, hardened, or discolored', detail: 'Pull out the dishwasher (or look under the sink) and inspect the hose. If the rubber is brittle, cracked, or has white mineral deposits on the outside, it\'s at end of life.' },
+    { sign: 'Water backing up into the dishwasher from the sink', detail: 'If dirty sink water is appearing in the dishwasher, the high loop or air gap is missing or the hose has collapsed, allowing backflow. This is both a hose issue and an installation issue.' },
+  ],
+  repairOrReplace: `At $8 to $20 for a replacement hose, always replace rather than trying to patch cracks or reuse an old hose. The job takes 20 to 30 minutes. You'll need to pull the dishwasher out from under the counter (disconnect power and water supply first), disconnect the old hose at both ends (garbage disposal or drain tailpiece, and the dishwasher pump outlet), route the new hose the same way, secure with new hose clamps (included with most replacement hoses), and push the dishwasher back in. The trickiest part is getting the dishwasher in and out without damaging the floor. Put a piece of cardboard down to slide it on. If the hose connections are fine but the hose is clogged, try clearing it first. Disconnect at the disposal end, hold the hose over a bucket, and run a quick rinse cycle. If water flows freely, the clog is in the disposal (run the disposal while running water). If water barely trickles or doesn't come out, the hose is clogged. You can try flushing with hot water and vinegar, but a new hose is usually the better fix. A plumber charges $100 to $250 for this job, mostly for the labor of pulling out and reinstalling the dishwasher.`,
+  maintenanceTips: [
+    'Run the garbage disposal before starting the dishwasher. The dishwasher drains into the disposal, so a clogged disposal backs up the dishwasher. Clear the disposal first.',
+    'Scrape plates before loading the dishwasher. Large food particles end up in the drain hose and build up over time. You don\'t need to pre-rinse, but scrape the big stuff off.',
+    'Run a hot water cycle with 2 cups of white vinegar every month. This helps dissolve grease and biofilm buildup in the hose and dishwasher interior.',
+    'Check that the drain hose has a high loop (secured to the underside of the countertop) or connects through an air gap. This prevents sink water from backflowing into the dishwasher.',
+    'When you replace the hose, inspect the dishwasher pump outlet and the disposal inlet for corrosion or buildup. Clean both connection points before attaching the new hose.',
+  ],
+  costBreakdown: {
+    replaceLow: 8,
+    replaceHigh: 20,
+    repairLow: 0,
+    repairHigh: 8,
+    laborPercent: '0% DIY (20-30 minutes) or $100-$250 plumber',
+  },
+  recommendedProducts: [
+    { name: 'Eastman Universal Dishwasher Drain Hose (6 ft)', description: 'Universal fit corrugated hose that works with most dishwasher brands. Includes hose clamps. 6-foot length handles most under-counter runs.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=Eastman+universal+dishwasher+drain+hose&tag=replacementgu-20' },
+    { name: 'Dishwasher Air Gap Kit', description: 'Mounts on the countertop or sink and prevents backflow from the sink into the dishwasher. Required by code in some states. Includes the air gap body, cap, and hoses.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=dishwasher+air+gap+kit&tag=replacementgu-20' },
+    { name: 'Stainless Steel Hose Clamps (10-pack)', description: 'Replacement hose clamps for securing the drain hose at both connection points. Stainless steel won\'t rust. Always use new clamps when replacing a hose... old clamps lose their grip.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=stainless+steel+hose+clamps+dishwasher&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace drain hose (DIY)', cost: '$8-$20', notes: '20-30 minutes. Pull out dishwasher, swap hose, push back in. The most common dishwasher repair after the door latch.' },
+    { repair: 'Replace drain hose (plumber)', cost: '$100-$250', notes: 'Most of the cost is labor to pull out and reinstall the dishwasher. The hose itself is $8-$20.' },
+    { repair: 'Clear clogged hose', cost: '$0', notes: 'Disconnect at the disposal end, flush with hot water. Sometimes this buys enough time to order a replacement.' },
+    { repair: 'Install air gap or high loop', cost: '$10-$20 DIY', notes: 'If backflow is the issue, adding proper backflow prevention fixes it without replacing the hose.' },
+    { repair: 'Replace hose clamps only', cost: '$5-$8', notes: 'If the hose is fine but the connection leaks, new clamps may be all you need. Tighten with a flathead screwdriver.' },
+  ],
+  bestBrands: [
+    { name: 'Eastman', knownFor: 'The most common universal dishwasher drain hose brand. Available at every hardware store. Includes clamps and fits the majority of dishwashers.' },
+    { name: 'Whirlpool/Maytag (OEM)', knownFor: 'If you have a Whirlpool, Maytag, or KitchenAid dishwasher, their OEM hose is a guaranteed fit. More expensive but eliminates compatibility concerns.' },
+    { name: 'GE (OEM)', knownFor: 'OEM replacement for GE and Hotpoint dishwashers. Available on Amazon and from GE directly.' },
+    { name: 'Certified Appliance Accessories', knownFor: 'Makes universal replacement hoses and supply lines for multiple appliances. Good quality, widely available, and competitive pricing.' },
+  ],
+  installationTime: `Drain hose replacement takes 20 to 30 minutes.\n\nTools needed: Phillips and flathead screwdrivers, adjustable pliers, towels, and a shallow pan (to catch residual water).\n\nProcess: turn off the dishwasher breaker, shut off the water supply valve under the sink, place towels on the floor, remove the lower kick plate from the dishwasher (usually 2 screws), disconnect the water supply line and drain hose under the sink, remove the mounting brackets holding the dishwasher to the countertop (usually 2 screws), carefully slide the dishwasher out on the cardboard.\n\nWith the dishwasher pulled out, disconnect the old drain hose from the pump outlet (it's on the bottom of the dishwasher... squeeze the hose clamp with pliers and slide it back, then pull the hose off). Connect the new hose to the pump outlet with a new clamp. Route the hose through the cabinet wall to under the sink. Create a high loop by securing the hose to the underside of the countertop with a zip tie or hose bracket. Connect to the disposal inlet or drain tailpiece with a clamp. Slide the dishwasher back, reconnect water and power, and run a test cycle while checking for leaks.`,
+}

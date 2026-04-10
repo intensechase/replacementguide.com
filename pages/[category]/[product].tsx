@@ -38,12 +38,13 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
 
 function formatLifespan(p: Product): string {
   const same = p.lifespanMin === p.lifespanMax
-  const unit = p.lifespanUnit === 'months' && p.lifespanMin === 1 && same ? 'month' : p.lifespanUnit === 'years' && p.lifespanMin === 1 && same ? 'year' : p.lifespanUnit
+  const unit = p.lifespanUnit === 'weeks' && p.lifespanMin === 1 && same ? 'week' : p.lifespanUnit === 'months' && p.lifespanMin === 1 && same ? 'month' : p.lifespanUnit === 'years' && p.lifespanMin === 1 && same ? 'year' : p.lifespanUnit
   if (p.lifespanUnit === 'miles') {
     const min = `${(p.lifespanMin / 1000).toFixed(0)}K`
     const max = `${(p.lifespanMax / 1000).toFixed(0)}K`
     return same ? `${min} miles` : `${min}-${max} miles`
   }
+  if (p.lifespanUnit === 'weeks') return same ? `${p.lifespanMin} ${unit}` : `${p.lifespanMin}-${p.lifespanMax} weeks`
   if (p.lifespanUnit === 'months') return same ? `${p.lifespanMin} ${unit}` : `${p.lifespanMin}-${p.lifespanMax} months`
   return same ? `${p.lifespanMin} ${unit}` : `${p.lifespanMin}-${p.lifespanMax} years`
 }
@@ -140,7 +141,7 @@ export default function ProductPage({ product, related, content }: Props) {
                 The average {p.name.toLowerCase()} lasts {lifespan}. That said... yours might last longer or shorter depending on how it was installed, how often you maintain it, the brand, and your local conditions.
               </p>
               <p className="text-slate-600 leading-relaxed mb-3">
-                If your {p.name.toLowerCase()} is approaching the {p.lifespanUnit === 'years' ? `${p.lifespanMin}-year` : p.lifespanUnit === 'miles' ? `${(p.lifespanMin/1000).toFixed(0)}K-mile` : `${p.lifespanMin}-month`} mark, start paying attention. You don&apos;t need to replace it immediately... but you should know the warning signs.
+                If your {p.name.toLowerCase()} is approaching the {p.lifespanUnit === 'years' ? `${p.lifespanMin}-year` : p.lifespanUnit === 'miles' ? `${(p.lifespanMin/1000).toFixed(0)}K-mile` : p.lifespanUnit === 'weeks' ? `${p.lifespanMin}-week` : `${p.lifespanMin}-month`} mark, start paying attention. You don&apos;t need to replace it immediately... but you should know the warning signs.
               </p>
             </>
           )}

@@ -1,0 +1,45 @@
+export const content = {
+  slug: 'garage-door-seal',
+  lifespanDetail: `Garage door bottom seals last 3 to 7 years depending on climate and how often the door operates. The bottom seal (also called a threshold seal or astragal) is the rubber or vinyl strip along the bottom edge of the door that creates a seal against the garage floor when closed. It keeps out rain, snow, leaves, insects, rodents, and cold air. Sun exposure and temperature extremes are the primary killers. UV light hardens and cracks rubber over time. In hot climates (Arizona, Texas, Florida), a seal exposed to afternoon sun can degrade in 2 to 3 years. In moderate climates with a shaded garage, the same seal might last 7 to 10 years. The material matters. Rubber seals are the most common and cheapest, but they crack and harden fastest. Vinyl seals are more flexible in cold weather and resist UV better. EPDM rubber (the same material used in car weatherstripping) is the premium option... it stays flexible in freezing temperatures and lasts the longest. There are two types of bottom seals. A T-style or bulb seal slides into a retaining channel (a metal track) on the bottom of the door panel. A wrap-around or U-shape seal nails or screws directly to the bottom of the door. Most modern garage doors use the T-style channel system. Side and top weatherstripping are separate from the bottom seal and have different lifespans... the sides and top usually last 5 to 10 years since they're not in contact with the ground.`,
+  warningSigns: [
+    { sign: 'Daylight visible under the closed door', detail: 'Stand inside the garage with the door closed during the day. If you see light gaps along the bottom edge, the seal has compressed, cracked, or pulled away from the door.' },
+    { sign: 'Water, leaves, or debris getting into the garage', detail: 'If rain puddles appear inside the garage near the door, or you\'re finding leaves and dirt blown in, the seal isn\'t making contact with the floor anymore.' },
+    { sign: 'Rodents or insects entering the garage', detail: 'Mice can squeeze through a gap as small as 1/4 inch. If you\'re finding droppings, chewed items, or insects in the garage, check the bottom seal for gaps.' },
+    { sign: 'Seal is cracked, brittle, or flattened', detail: 'Inspect the bottom seal by lifting the garage door a few feet. If the rubber is cracked, hardened, or permanently compressed flat (no longer bouncy), it\'s not sealing properly.' },
+    { sign: 'Cold drafts in the garage during winter', detail: 'A good bottom seal blocks cold air from flowing under the door. If your attached garage is noticeably colder and you can feel drafts at floor level, the seal needs replacement.' },
+    { sign: 'Seal is torn or has chunks missing', detail: 'The seal drags across the concrete every time the door opens and closes. Rough concrete, debris, or ice can tear chunks out of the rubber over time.' },
+  ],
+  repairOrReplace: `Bottom seals are always replaced, not repaired. They cost $15 to $40 for a standard 16-foot (two-car) garage door and the job takes 15 to 30 minutes. This is one of the cheapest and most impactful garage improvements you can make. For T-style seals (slide into a channel): measure the width of your garage door, buy the correct length of replacement seal, remove the old seal by sliding it out of the channel from one end, clean the channel of debris and old rubber bits, lubricate the channel with silicone spray, and slide the new seal in from one end. For wrap-around seals (nailed or screwed on): pry off the old seal, scrape any remaining material, align the new seal along the bottom of the door, and nail or screw it in place every 6 to 8 inches. You can also add a threshold seal... a rubber strip that adheres to the garage floor and creates a secondary barrier. Threshold seals ($20 to $35) are especially useful if the garage floor is uneven or slopes away from the door, which makes it hard for the bottom seal alone to close the gap. A plumber or handyman charges $75 to $200 for this job, but it's genuinely easy DIY.`,
+  maintenanceTips: [
+    'Clean the bottom seal twice a year with mild soap and water. Dirt, salt, and chemical buildup (ice melt, fertilizer) accelerate rubber degradation.',
+    'Apply silicone-based lubricant to the bottom seal annually. This keeps the rubber flexible and prevents it from sticking to the concrete floor in extreme cold (frozen seal gets torn when the door opens).',
+    'Keep the garage floor clean where the seal contacts the concrete. Sand, gravel, and debris grind against the seal every time the door cycles, wearing it down faster.',
+    'In freezing weather, don\'t force the door open if the seal is frozen to the floor. Pour warm (not boiling) water along the seal to melt the ice first. Forcing the door tears the seal off.',
+    'If you park on the garage floor with wet or snowy tires, a threshold seal prevents meltwater from flowing outside under the door and refreezing on the driveway.',
+  ],
+  costBreakdown: {
+    replaceLow: 15,
+    replaceHigh: 40,
+    repairLow: 15,
+    repairHigh: 40,
+    laborPercent: '0% DIY (15-30 minutes) or $75-$200 handyman',
+  },
+  recommendedProducts: [
+    { name: 'Garage Door Bottom Seal T-Style (16 ft)', description: 'Fits most standard two-car garage doors with a retaining channel on the bottom panel. Slides into the existing channel. EPDM rubber for maximum durability and cold-weather flexibility.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=garage+door+bottom+seal+T+style+16+foot+EPDM&tag=replacementgu-20' },
+    { name: 'Garage Door Threshold Seal (16 ft)', description: 'Adheres to the garage floor with included adhesive. Creates a secondary barrier that compensates for uneven floors and worn bottom seals. Especially useful for sloped garage floors.', priceRange: '$20-$35', amazonUrl: 'https://www.amazon.com/s?k=garage+door+threshold+seal+16+foot&tag=replacementgu-20' },
+    { name: 'Garage Door Side and Top Weatherstrip Kit', description: 'While you\'re replacing the bottom seal, check the side and top weatherstripping too. This kit replaces all three sides. Reduces drafts and improves the overall garage seal.', priceRange: '$20-$40', amazonUrl: 'https://www.amazon.com/s?k=garage+door+side+top+weatherstrip+seal+kit&tag=replacementgu-20' },
+  ],
+  commonRepairs: [
+    { repair: 'Replace bottom seal (DIY)', cost: '$15-$40', notes: '15-30 minutes. Slide old one out of channel, slide new one in. Easiest garage door repair there is.' },
+    { repair: 'Add threshold seal (DIY)', cost: '$20-$35', notes: 'Clean the floor, apply adhesive, press the seal down, park a car on it for 24 hours to set. Supplements the bottom seal.' },
+    { repair: 'Replace side/top weatherstrip (DIY)', cost: '$20-$40', notes: 'Nails or screws into the door frame. 30-45 minutes for all three sides.' },
+    { repair: 'Professional seal replacement', cost: '$75-$200', notes: 'For a handyman or garage door company. Usually done as part of a door tune-up that includes spring adjustment and lubrication.' },
+  ],
+  bestBrands: [
+    { name: 'Clopay', knownFor: 'The largest residential garage door manufacturer. Their replacement seals are guaranteed to fit Clopay doors. Also available in universal sizes for other brands.' },
+    { name: 'Universal (various)', knownFor: 'Most bottom seals are sold as generic/universal fits by size and style (T-type, bulb, beaded). As long as you match the retaining channel type and door width, brand doesn\'t matter much for seals.' },
+    { name: 'Tsunami Seal', knownFor: 'Makes the most popular threshold seals. Their garage floor seal is the top seller on Amazon for a reason... it adheres well, holds up to tire traffic, and creates a solid barrier.' },
+    { name: 'M-D Building Products', knownFor: 'Weatherstripping specialist. Makes quality garage door seals in multiple materials and sizes. Available at Home Depot and most hardware stores.' },
+  ],
+  installationTime: `Bottom seal replacement takes 15 to 30 minutes.\n\nFor T-style (channel) seals: open the garage door fully. Look at the bottom of the door... you'll see a metal retaining channel (a U-shaped track). The old seal slides out from one end. Pull it all the way out, clean the channel with a rag, spray silicone lubricant inside the channel, and feed the new seal in from one end. The T-shaped top of the seal clicks into the channel. Push it all the way across, trim any excess with a utility knife, and close the door to check the seal.\n\nFor wrap-around seals: open the door. Pry off the old seal (it's nailed or screwed to the bottom of the door). Align the new seal with the flat side against the door bottom and the bulb hanging down. Nail or screw every 6 to 8 inches. Close the door and check for gaps.\n\nFor threshold seals: clean the garage floor where the seal will sit (wire brush and degreaser for oil stains). Apply the included adhesive in a zigzag pattern. Press the seal into place. Park a car on it for 24 hours to ensure full adhesion. Don't drive over it for the first 24 hours.`,
+}
