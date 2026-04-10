@@ -86,7 +86,6 @@ import { content as hvacAirFilter } from './hvac-air-filter'
 import { content as mulch } from './mulch'
 import { content as artificialGrass } from './artificial-grass'
 import { content as pillows } from './pillows'
-import { content as runningShoes } from './running-shoes'
 import { content as toothbrush } from './toothbrush'
 import { content as contactLenses } from './contact-lenses'
 import { content as razorBlades } from './razor-blades'
@@ -309,7 +308,6 @@ const contentMap: Record<string, ProductContent> = {
   'mulch': mulch,
   'artificial-grass': artificialGrass,
   'pillows': pillows,
-  'running-shoes': runningShoes,
   'toothbrush': toothbrush,
   'contact-lenses': contactLenses,
   'razor-blades': razorBlades,

@@ -94,7 +94,6 @@ export const products: Product[] = [
   // ==================== PERSONAL (15) ====================
   { name: 'Mattress', slug: 'mattress', category: 'personal', lifespanMin: 7, lifespanMax: 10, lifespanUnit: 'years', costLow: 300, costHigh: 2000 },
   { name: 'Pillows', slug: 'pillows', category: 'personal', lifespanMin: 1, lifespanMax: 2, lifespanUnit: 'years', costLow: 20, costHigh: 80 },
-  { name: 'Running Shoes', slug: 'running-shoes', category: 'personal', lifespanMin: 300, lifespanMax: 500, lifespanUnit: 'miles', costLow: 80, costHigh: 200 },
   { name: 'Toothbrush', slug: 'toothbrush', category: 'personal', lifespanMin: 3, lifespanMax: 4, lifespanUnit: 'months', costLow: 3, costHigh: 10 },
   { name: 'Contact Lenses (Daily)', slug: 'contact-lenses', category: 'personal', lifespanMin: 1, lifespanMax: 1, lifespanUnit: 'months', costLow: 20, costHigh: 50 },
   { name: 'Razor Blades', slug: 'razor-blades', category: 'personal', lifespanMin: 5, lifespanMax: 10, lifespanUnit: 'months', costLow: 10, costHigh: 30 },
