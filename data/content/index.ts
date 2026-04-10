@@ -60,7 +60,6 @@ import { content as hardwoodFloors } from './hardwood-floors'
 import { content as exteriorPaint } from './exterior-paint'
 import { content as driveway } from './driveway'
 import { content as hotTub } from './hot-tub'
-import { content as smartphone } from './smartphone'
 import { content as waterFilter } from './water-filter'
 import { content as muffler } from './muffler'
 import { content as shocksStruts } from './shocks-struts'
@@ -92,9 +91,6 @@ import { content as toothbrush } from './toothbrush'
 import { content as contactLenses } from './contact-lenses'
 import { content as razorBlades } from './razor-blades'
 import { content as printer } from './printer'
-import { content as sunglasses } from './sunglasses'
-import { content as workBoots } from './work-boots'
-import { content as electricToothbrushHead } from './electric-toothbrush-head'
 import { content as hearingAidBatteries } from './hearing-aid-batteries'
 import { content as bicycleTires } from './bicycle-tires'
 import { content as smartDoorbell } from './smart-doorbell'
@@ -197,7 +193,6 @@ import { content as fuelFilter } from './fuel-filter'
 import { content as sillcock } from './sillcock'
 import { content as dipTube } from './dip-tube'
 import { content as cabinetHardware } from './cabinet-hardware'
-import { content as electricToothbrush } from './electric-toothbrush'
 import { content as oxygenSensor } from './oxygen-sensor'
 import { content as motionSensorLight } from './motion-sensor-light'
 import { content as floodLight } from './flood-light'
@@ -288,7 +283,6 @@ const contentMap: Record<string, ProductContent> = {
   'exterior-paint': exteriorPaint,
   'driveway': driveway,
   'hot-tub': hotTub,
-  'smartphone': smartphone,
   'water-filter': waterFilter,
   'muffler': muffler,
   'shocks-struts': shocksStruts,
@@ -320,9 +314,6 @@ const contentMap: Record<string, ProductContent> = {
   'contact-lenses': contactLenses,
   'razor-blades': razorBlades,
   'printer': printer,
-  'sunglasses': sunglasses,
-  'work-boots': workBoots,
-  'electric-toothbrush-head': electricToothbrushHead,
   'hearing-aid-batteries': hearingAidBatteries,
   'bicycle-tires': bicycleTires,
   'smart-doorbell': smartDoorbell,
@@ -425,7 +416,6 @@ const contentMap: Record<string, ProductContent> = {
   'sillcock': sillcock,
   'dip-tube': dipTube,
   'cabinet-hardware': cabinetHardware,
-  'electric-toothbrush': electricToothbrush,
   'oxygen-sensor': oxygenSensor,
   'motion-sensor-light': motionSensorLight,
   'flood-light': floodLight,
