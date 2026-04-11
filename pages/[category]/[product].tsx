@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { products, type Product } from '@/data/products'
 import { getProductContent, type ProductContent } from '@/data/content'
+import { getRelatedParts, type RelatedPart } from '@/data/related-parts'
 
 const CATEGORY_NAMES: Record<string, string> = {
   home: 'Home', auto: 'Auto', personal: 'Personal', outdoor: 'Outdoor',
@@ -12,6 +13,7 @@ interface Props {
   product: Product
   related: Product[]
   content: ProductContent | null
+  relatedParts: RelatedPart[]
 }
 
 export const getStaticPaths: GetStaticPaths = async () => ({
@@ -32,8 +34,9 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
     .slice(0, 6)
 
   const content = getProductContent(slug)
+  const relatedParts = getRelatedParts(slug)
 
-  return { props: { product, related, content } }
+  return { props: { product, related, content, relatedParts } }
 }
 
 function formatLifespan(p: Product): string {
@@ -53,7 +56,7 @@ function formatCost(low: number, high: number): string {
   return `$${low.toLocaleString()} - $${high.toLocaleString()}`
 }
 
-export default function ProductPage({ product, related, content }: Props) {
+export default function ProductPage({ product, related, content, relatedParts }: Props) {
   const p = product
   const catName = CATEGORY_NAMES[p.category]
   const lifespan = formatLifespan(p)
@@ -407,6 +410,29 @@ export default function ProductPage({ product, related, content }: Props) {
               })}
             </div>
             <p className="text-xs text-slate-400 mt-3">Prices are approximate and may change. As an Amazon Associate we earn from qualifying purchases at no additional cost to you.</p>
+          </section>
+        )}
+
+        {/* Related Parts & Accessories */}
+        {relatedParts.length > 0 && (
+          <section className="mt-12 pt-8 border-t border-slate-200">
+            <h2 className="text-xl font-bold mb-4">
+              {relatedParts.some(r => r.relationship === 'part') ? 'Parts & Accessories' : relatedParts.some(r => r.relationship === 'parent') ? 'Part of' : 'Related Parts'}
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {relatedParts.map(r => (
+                <Link
+                  key={r.slug}
+                  href={`/${r.category}/${r.slug}`}
+                  className="border border-emerald-200 bg-emerald-50 rounded-lg px-4 py-3 hover:border-emerald-400 transition-colors group"
+                >
+                  <span className="text-sm font-medium text-slate-700 group-hover:text-emerald-600 block">{r.name}</span>
+                  <span className="text-xs text-emerald-600">
+                    {r.relationship === 'parent' ? 'Main guide →' : r.relationship === 'part' ? 'Replacement part →' : 'Related →'}
+                  </span>
+                </Link>
+              ))}
+            </div>
           </section>
         )}
 
