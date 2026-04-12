@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If the transmission is shot (grinding noises, won't spin in one direction) or the motor has burned out on a washer that's 8-10+ years old, replacement makes more sense than repair. A transmission replacement can cost $400-600 installed... at that point a new washer with a warranty is the better call. Same if the tub bearings are gone (loud rumbling during spin).`,
   whenToCallPro: `Call an appliance tech if the washer smells like burning during the spin cycle (motor issue), if the drum makes loud grinding or banging noises, or if you've checked everything here and can't find the problem. Also call if you're not comfortable pulling the washer apart to check the belt, coupler, or pump.`,
+  recommendedProducts: [
+    { name: 'Washer Lid Switch', description: 'If a top-load washer won\'t spin, the lid switch is one of the first things to check. When it fails, the washer thinks the lid is open and refuses to spin.', priceRange: '$10-$25', amazonUrl: 'https://www.amazon.com/s?k=washing+machine+lid+switch+replacement&tag=replacementgu-20' },
+    { name: 'Washing Machine Drive Belt', description: 'If the motor runs but the drum won\'t spin, a broken or slipped belt is a likely cause. Match the belt to your model number for the right fit.', priceRange: '$8-$20', amazonUrl: 'https://www.amazon.com/s?k=washing+machine+drive+belt+replacement&tag=replacementgu-20' },
+    { name: 'Washer Drain Pump', description: 'The washer has to drain before it can spin... if the pump is clogged or dead, everything stalls. A universal pump works for many models.', priceRange: '$15-$35', amazonUrl: 'https://www.amazon.com/s?k=washing+machine+drain+pump+replacement&tag=replacementgu-20' },
+  ],
 }

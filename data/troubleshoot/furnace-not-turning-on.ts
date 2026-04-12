@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If a tech tells you the heat exchanger is cracked, stop using the furnace immediately. A cracked heat exchanger can leak carbon monoxide into your home. This is not a repair... it's a replacement. If your furnace is 15-20+ years old, it's at the end of its life anyway and a new unit will be significantly more efficient.`,
   whenToCallPro: `Call an HVAC tech if you smell gas (actually, call the gas company first), if the furnace keeps shutting down after you've checked the basics, or if you see error codes flashing on the circuit board. Also call immediately if your CO detector goes off... get out of the house first, then call.`,
+  recommendedProducts: [
+    { name: 'Universal Furnace Ignitor', description: 'The ignitor is one of the most common furnace failures... when it cracks or burns out, the burners can\'t light. Universal fit works with most brands.', priceRange: '$15-$30', amazonUrl: 'https://www.amazon.com/s?k=universal+furnace+hot+surface+ignitor&tag=replacementgu-20' },
+    { name: 'Furnace Flame Sensor', description: 'If your furnace starts then shuts off after a few seconds, a dirty or failed flame sensor is usually why. Cleaning it with steel wool works, but having a spare on hand doesn\'t hurt.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=universal+furnace+flame+sensor&tag=replacementgu-20' },
+    { name: 'AstroAI Digital Multimeter', description: 'Lets you test the ignitor, flame sensor, and thermostat so you know exactly which part needs replacing... no guessing required.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=AstroAI+digital+multimeter&tag=replacementgu-20' },
+  ],
 }

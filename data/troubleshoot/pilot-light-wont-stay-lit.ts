@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If the gas valve has failed on a furnace that's over 15-18 years old, replacement of the whole furnace makes more sense than a $300-$500 gas valve repair. At that age, other expensive components (heat exchanger, blower motor) are likely to fail within a few years. A pilot light issue on a newer furnace (under 10 years) is almost always a cheap thermocouple fix.`,
   whenToCallPro: `Call a professional if you smell gas at any point, if replacing the thermocouple doesn't fix the problem, or if you're not comfortable working around gas connections. Also call if your furnace has a sealed combustion chamber that you can't easily access... modern high-efficiency furnaces have electronic ignition rather than standing pilot lights, and their ignition systems are more complex.`,
+  recommendedProducts: [
+    { name: 'Honeywell Universal Thermocouple', description: 'This is the fix about 90% of the time. A universal thermocouple fits most gas furnaces and water heaters... 15-minute swap and you\'re done.', priceRange: '$10-$15', amazonUrl: 'https://www.amazon.com/s?k=Honeywell+universal+thermocouple&tag=replacementgu-20' },
+    { name: 'Long Reach Utility Lighter', description: 'Makes relighting the pilot way easier than trying to reach in there with a match. The flexible neck versions are especially handy for tight spots.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=long+reach+utility+lighter+flexible&tag=replacementgu-20' },
+    { name: 'Pipe Thread Sealant Tape (Yellow Gas Rated)', description: 'If you\'re reconnecting any gas fittings during the repair, always use yellow gas-rated tape... not the white plumbing tape. It\'s made specifically for gas connections.', priceRange: '$3-$6', amazonUrl: 'https://www.amazon.com/s?k=yellow+gas+line+thread+sealant+tape&tag=replacementgu-20' },
+  ],
 }

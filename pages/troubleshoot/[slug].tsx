@@ -111,6 +111,34 @@ export default function TroubleshootPage({ guide, crossLinks }: Props) {
           </div>
         </section>
 
+        {/* What You'll Need */}
+        {g.recommendedProducts && g.recommendedProducts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold mb-4">What You&apos;ll Need</h2>
+            <p className="text-sm text-slate-500 mb-4">Common parts and tools for this fix. Prices are approximate.</p>
+            <div className="grid gap-3">
+              {g.recommendedProducts.map((product, i) => (
+                <a
+                  key={i}
+                  href={product.amazonUrl}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="border border-slate-200 rounded-xl p-5 hover:border-emerald-300 hover:shadow-sm transition-all group block"
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors">{product.name}</h3>
+                      <p className="text-sm text-slate-500 mt-1">{product.description}</p>
+                    </div>
+                    <span className="shrink-0 text-sm font-semibold text-slate-700">{product.priceRange}</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <p className="text-xs text-slate-400 mt-3">Prices are approximate. As an Amazon Associate, we earn from qualifying purchases.</p>
+          </section>
+        )}
+
         {/* Cross-Section Links */}
         {crossLinks.length > 0 && (
           <section className="mt-12 pt-8 border-t border-slate-200">
@@ -123,9 +151,10 @@ export default function TroubleshootPage({ guide, crossLinks }: Props) {
                   maintenance: { border: 'border-emerald-200', bg: 'bg-emerald-50', badge: 'bg-emerald-100 text-emerald-700', hoverBorder: 'hover:border-emerald-400' },
                   troubleshoot: { border: 'border-red-200', bg: 'bg-red-50', badge: 'bg-red-100 text-red-700', hoverBorder: 'hover:border-red-400' },
                   'pest-control': { border: 'border-amber-200', bg: 'bg-amber-50', badge: 'bg-amber-100 text-amber-700', hoverBorder: 'hover:border-amber-400' },
+                  'cost-to-hire': { border: 'border-purple-200', bg: 'bg-purple-50', badge: 'bg-purple-100 text-purple-700', hoverBorder: 'hover:border-purple-400' },
                 }
-                const s = styles[link.section] || styles.product
-                const badgeLabel = { product: 'Replacement Guide', insurance: 'Insurance', maintenance: 'Maintenance', troubleshoot: 'Troubleshoot', 'pest-control': 'Pest Control' }
+                const s = styles[link.section as keyof typeof styles] || styles.product
+                const badgeLabel: Record<string, string> = { product: 'Replacement Guide', insurance: 'Insurance', maintenance: 'Maintenance', troubleshoot: 'Troubleshoot', 'pest-control': 'Pest Control', 'cost-to-hire': 'Cost to Hire' }
                 return (
                   <Link
                     key={`${link.section}/${link.slug}`}

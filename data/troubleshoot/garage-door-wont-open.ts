@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If your opener is 15+ years old and keeps having issues, a new one is $200-400 installed and comes with modern features like smartphone control and battery backup. If the door panels themselves are badly dented, rotting, or coming apart, it's time for a new door.`,
   whenToCallPro: `Always call a pro for broken springs... no exceptions. Also call if the door is off its tracks, the cables are frayed or loose, or if the opener motor runs but the door doesn't move (could be a stripped gear). Spring and cable work is genuinely dangerous for DIYers.`,
+  recommendedProducts: [
+    { name: 'Garage Door Remote Battery (CR2032)', description: 'Dead batteries are the most common reason the remote stops working. Keep a pack of these around... they\'re cheap and it saves you a trip to the store.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=CR2032+battery+garage+door+remote&tag=replacementgu-20' },
+    { name: 'White Lithium Grease Spray', description: 'Keeps the tracks, rollers, and hinges moving smoothly. A quick spray every 6 months prevents a lot of the binding and sticking that causes opener problems.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=white+lithium+grease+spray+garage+door&tag=replacementgu-20' },
+    { name: 'Garage Door Safety Sensor', description: 'If the door closes a few inches then reverses, the safety sensors are probably misaligned or dead. Universal replacement sensors work with most opener brands.', priceRange: '$15-$30', amazonUrl: 'https://www.amazon.com/s?k=garage+door+safety+sensor+replacement&tag=replacementgu-20' },
+  ],
 }

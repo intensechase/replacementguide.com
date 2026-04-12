@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `Dishwasher drainage issues are almost always fixable without replacement. The exceptions: if the tub itself is cracked and leaking, if the control board is dead and the drain pump won't activate, or if the machine is 12+ years old and this is just the latest in a string of problems. At that point, a new dishwasher ($400-700 installed) is the better investment.`,
   whenToCallPro: `Call a plumber if the kitchen sink also isn't draining (the problem is in your main drain line, not the dishwasher). Call an appliance tech if the drain pump has failed and you're not comfortable replacing it yourself. And if the dishwasher trips a breaker or you see any electrical issues, stop and call someone.`,
+  recommendedProducts: [
+    { name: 'Dishwasher Drain Hose', description: 'If your drain hose is kinked, cracked, or clogged beyond cleaning... a new universal hose is a cheap fix that takes a few minutes to swap.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=universal+dishwasher+drain+hose&tag=replacementgu-20' },
+    { name: 'Enzymatic Drain Cleaner', description: 'Breaks down grease and food buildup in the drain line without harsh chemicals. Safer for your dishwasher and plumbing than chemical drain openers.', priceRange: '$10-$15', amazonUrl: 'https://www.amazon.com/s?k=enzymatic+drain+cleaner+kitchen&tag=replacementgu-20' },
+    { name: 'Drain Snake (25 ft)', description: 'If the clog is deeper in the drain line, a drain snake reaches where liquid cleaners can\'t. A 25-foot snake handles most kitchen drain blockages.', priceRange: '$15-$30', amazonUrl: 'https://www.amazon.com/s?k=drain+snake+25+ft+kitchen&tag=replacementgu-20' },
+  ],
 }

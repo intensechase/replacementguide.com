@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If the compressor is dead on a fridge that's 10 or more years old, replace the fridge. A compressor replacement costs $800-1,200 installed... that's a significant chunk of what a new, more efficient fridge costs. Same goes for a sealed system refrigerant leak on an older unit. The repair cost just doesn't make sense.`,
   whenToCallPro: `Call an appliance tech if the compressor won't run, if you suspect a refrigerant leak, or if the defrost system keeps failing. Also call if the fridge is making new clicking, buzzing, or grinding sounds. And if you need to move a full-size fridge to access the coils and aren't up for it, no shame in that... some of these things weigh 300 pounds.`,
+  recommendedProducts: [
+    { name: 'Refrigerator Thermometer', description: 'Don\'t trust the built-in dial... an actual thermometer tells you the real temperature inside your fridge so you know exactly how far off it is.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=refrigerator+thermometer&tag=replacementgu-20' },
+    { name: 'Condenser Coil Cleaning Brush', description: 'The long, flexible brush that reaches behind and under the fridge to clean dust off the condenser coils. Dirty coils are the most common reason a fridge stops cooling properly.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=refrigerator+condenser+coil+cleaning+brush&tag=replacementgu-20' },
+    { name: 'Refrigerator Evaporator Fan Motor', description: 'If the freezer is cold but the fridge section is warm, the evaporator fan is likely dead. This motor circulates cold air from the freezer into the fridge compartment.', priceRange: '$15-$40', amazonUrl: 'https://www.amazon.com/s?k=refrigerator+evaporator+fan+motor+replacement&tag=replacementgu-20' },
+  ],
 }

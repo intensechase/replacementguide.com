@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If the motor is dead (no hum, no response with confirmed power), if it jams constantly despite clearing, or if it leaks from the bottom (internal seal failure), it's replacement time. Disposals last 8-15 years. A new 1/2 HP disposal ($50-$100) is a straightforward DIY swap for someone handy, or $150-$300 installed by a plumber. If yours is more than 10 years old and giving you repeated problems, replacing it is simpler and cheaper than repeated repair visits.`,
   whenToCallPro: `Call a plumber if: the disposal leaks from the bottom or side (seal or housing failure), you can't free the jam with the Allen wrench method, the reset button won't stay engaged (possible electrical issue), or you need the disposal replaced and aren't comfortable with basic plumbing connections. Most disposal replacements take a plumber 30-60 minutes.`,
+  recommendedProducts: [
+    { name: 'Allen Wrench Set (Hex Key Set)', description: 'The 1/4-inch hex key is the one tool you absolutely need for this job. A full set means you\'re covered for this and a hundred other household repairs.', priceRange: '$6-$12', amazonUrl: 'https://www.amazon.com/s?k=allen+wrench+hex+key+set&tag=replacementgu-20' },
+    { name: 'InSinkErator Jam-Buster Wrench', description: 'Designed to fit InSinkErator disposals perfectly... gives you more leverage than a regular Allen key so you can break stubborn jams free.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=InSinkErator+jam+buster+wrench&tag=replacementgu-20' },
+    { name: 'Garbage Disposal Splash Guard', description: 'While you\'re down there fixing the jam, check the splash guard too. If it\'s torn or missing, food and water splash back up... a new one snaps right in.', priceRange: '$5-$10', amazonUrl: 'https://www.amazon.com/s?k=garbage+disposal+splash+guard+replacement&tag=replacementgu-20' },
+  ],
 }

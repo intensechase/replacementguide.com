@@ -450,10 +450,11 @@ export default function ProductPage({ product, related, content, relatedParts, c
                   insurance: { border: 'border-blue-200', bg: 'bg-blue-50', badge: 'bg-blue-100 text-blue-700', hoverBorder: 'hover:border-blue-400' },
                   maintenance: { border: 'border-emerald-200', bg: 'bg-emerald-50', badge: 'bg-emerald-100 text-emerald-700', hoverBorder: 'hover:border-emerald-400' },
                   'pest-control': { border: 'border-amber-200', bg: 'bg-amber-50', badge: 'bg-amber-100 text-amber-700', hoverBorder: 'hover:border-amber-400' },
+                  'cost-to-hire': { border: 'border-purple-200', bg: 'bg-purple-50', badge: 'bg-purple-100 text-purple-700', hoverBorder: 'hover:border-purple-400' },
                   product: { border: 'border-slate-200', bg: 'bg-slate-50', badge: 'bg-slate-100 text-slate-700', hoverBorder: 'hover:border-slate-400' },
                 }
-                const s = styles[link.section] || styles.product
-                const badgeLabel = { troubleshoot: 'Troubleshoot', insurance: 'Insurance', maintenance: 'Maintenance', 'pest-control': 'Pest Control', product: 'Replacement Guide' }
+                const s = styles[link.section as keyof typeof styles] || styles.product
+                const badgeLabel: Record<string, string> = { troubleshoot: 'Troubleshoot', insurance: 'Insurance', maintenance: 'Maintenance', 'pest-control': 'Pest Control', 'cost-to-hire': 'Cost to Hire', product: 'Replacement Guide' }
                 return (
                   <Link
                     key={`${link.section}/${link.slug}`}

@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If the porcelain is cracked (you'll see water on the floor that isn't coming from supply lines or the wax ring), the toilet needs to be replaced. Cracked porcelain can't be reliably repaired. Also consider replacing if you have a pre-1994 toilet that uses 3.5-5 gallons per flush... modern toilets use 1.28 gallons and work better.`,
   whenToCallPro: `Call a plumber if you've tried plunging and augering and the clog won't budge... it might be further down in the drain line. Also call if the toilet rocks on the floor (bad wax ring or flange issue) or if you see water damage on the ceiling below a second-floor bathroom.`,
+  recommendedProducts: [
+    { name: 'Korky Toilet Flapper', description: 'If the flapper is warped or not sealing, the tank can\'t hold enough water for a proper flush. Korky makes a universal fit that works with most toilets... no tools needed.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=Korky+universal+toilet+flapper&tag=replacementgu-20' },
+    { name: 'Fluidmaster 400A Fill Valve', description: 'The go-to replacement fill valve if your tank won\'t fill properly. Fits almost every toilet and installs in about 15 minutes.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=Fluidmaster+400A+fill+valve&tag=replacementgu-20' },
+    { name: 'Toilet Handle and Lever', description: 'If the handle is loose, stuck, or the lever arm inside is bent, a new handle set gets the flush mechanism working properly again.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=universal+toilet+handle+lever+replacement&tag=replacementgu-20' },
+  ],
 }

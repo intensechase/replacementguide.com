@@ -95,6 +95,18 @@ export default function HomePage() {
             <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors mb-1">Troubleshooting Guides</h3>
             <p className="text-xs text-slate-500">Something not working? Step-by-step diagnosis before you call someone.</p>
           </Link>
+          <Link href="/cost-to-hire" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
+            <h3 className="font-semibold text-slate-800 group-hover:text-purple-600 transition-colors mb-1">Cost to Hire a Pro</h3>
+            <p className="text-xs text-slate-500">Real pricing for plumbers, electricians, HVAC techs, and more.</p>
+          </Link>
+          <Link href="/checklist" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
+            <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors mb-1">Seasonal Checklists</h3>
+            <p className="text-xs text-slate-500">What to inspect and service each season to prevent expensive surprises.</p>
+          </Link>
+          <Link href="/pest-control" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
+            <h3 className="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors mb-1">Pest Control Guides</h3>
+            <p className="text-xs text-slate-500">DIY treatments, prevention tips, and when to call an exterminator.</p>
+          </Link>
           <Link href="/maintenance" className="border border-slate-200 rounded-xl p-5 hover:border-slate-400 hover:shadow-sm transition-all group">
             <h3 className="font-semibold text-slate-800 group-hover:text-emerald-600 transition-colors mb-1">Maintenance Schedules</h3>
             <p className="text-xs text-slate-500">How often to change, clean, and service the things that keep your home running.</p>

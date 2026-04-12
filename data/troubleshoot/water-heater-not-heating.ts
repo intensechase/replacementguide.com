@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If the water heater is over 10 years old and you're facing a $200+ repair (gas valve, multiple elements, thermostat), seriously consider replacement instead. A new tank water heater costs $800-$2,500 installed. You're putting repair money into a unit that's near end of life, and the next component will fail soon too. Also replace if you see rust in the hot water (tank is corroding internally) or water leaking from the tank body.`,
   whenToCallPro: `Call a plumber if: you smell gas at any point, the breaker keeps tripping (electrical hazard), you're not comfortable working with gas connections or 240V electricity, or the pilot light won't stay lit after replacing the thermocouple. A diagnostic service call ($75-$150) is cheaper than guessing wrong and buying parts you don't need.`,
+  recommendedProducts: [
+    { name: 'Honeywell Universal Thermocouple', description: 'The most common fix for a gas water heater that won\'t heat... if the pilot light keeps going out, this is almost always the part you need.', priceRange: '$10-$15', amazonUrl: 'https://www.amazon.com/s?k=Honeywell+universal+thermocouple+water+heater&tag=replacementgu-20' },
+    { name: 'Water Heater Element', description: 'Replacement heating element for electric water heaters. If you\'re only getting lukewarm water, the lower element is probably burned out.', priceRange: '$10-$25', amazonUrl: 'https://www.amazon.com/s?k=universal+water+heater+element&tag=replacementgu-20' },
+    { name: 'AstroAI Digital Multimeter', description: 'Essential for testing electric water heater elements and thermostats... tells you in seconds whether a part is good or dead.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=AstroAI+digital+multimeter&tag=replacementgu-20' },
+  ],
 }

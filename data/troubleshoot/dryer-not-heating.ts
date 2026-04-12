@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If the motor is failing (grinding noises, burning smell) or the drum bearings are shot (loud squealing), repairs start approaching the cost of a new dryer. A dryer that's 12+ years old with a dead heating element and a clogged vent history... it might be time. New dryers with moisture sensors are much better at not over-drying and reducing fire risk.`,
   whenToCallPro: `Get your dryer vent professionally cleaned if the vent run is longer than 15 feet or has more than two elbows... a brush kit won't fully clear it. Call an appliance tech if you're not comfortable opening the dryer cabinet or working with electrical components. And if you smell gas from a gas dryer, shut off the gas valve and call for service.`,
+  recommendedProducts: [
+    { name: 'Dryer Heating Element', description: 'The most common cause of an electric dryer not heating. Universal elements fit many models... just match the wattage and shape to your dryer.', priceRange: '$20-$45', amazonUrl: 'https://www.amazon.com/s?k=dryer+heating+element+replacement&tag=replacementgu-20' },
+    { name: 'Dryer Thermal Fuse', description: 'If your dryer stopped heating suddenly, the thermal fuse probably blew from a clogged vent. It\'s a one-time part... replace it, then clean the vent so it doesn\'t blow again.', priceRange: '$5-$12', amazonUrl: 'https://www.amazon.com/s?k=dryer+thermal+fuse+replacement&tag=replacementgu-20' },
+    { name: 'Dryer Vent Cleaning Kit', description: 'A lint-clogged vent is the #1 cause of dryer heating failures and a serious fire hazard. This brush kit reaches up to 12 feet into the vent line to clear it out.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=dryer+vent+cleaning+brush+kit&tag=replacementgu-20' },
+  ],
 }

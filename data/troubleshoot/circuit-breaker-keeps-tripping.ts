@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If your home has a Federal Pacific (FPE/Stab-Lok) or Zinsco electrical panel, replace the entire panel. These panels are known fire hazards... the breakers fail to trip during overloads. This isn't optional or something to put off. Budget $1,500-3,000 for a panel replacement. If your panel is any brand but over 40 years old and you're having regular tripping issues, it's also time to upgrade.`,
   whenToCallPro: `Call an electrician if a breaker trips immediately when flipped on (short circuit), if you see scorch marks or smell burning at the panel, if a breaker feels hot, or if you hear buzzing from the panel. Also call if a breaker trips with nothing plugged in on that circuit... that means the wiring itself has a problem.`,
+  recommendedProducts: [
+    { name: 'Klein Tools Circuit Breaker Finder', description: 'Tells you exactly which breaker controls which outlet... way easier than flipping breakers one at a time while someone yells from the other room.', priceRange: '$30-$50', amazonUrl: 'https://www.amazon.com/s?k=Klein+Tools+circuit+breaker+finder&tag=replacementgu-20' },
+    { name: 'GFCI Outlet Tester', description: 'Plug it into any outlet and it instantly tells you if the wiring is correct, if the ground is good, and if the GFCI protection is working. Every homeowner should have one of these.', priceRange: '$10-$15', amazonUrl: 'https://www.amazon.com/s?k=GFCI+outlet+tester+with+indicator&tag=replacementgu-20' },
+    { name: 'Whole House Surge Protector', description: 'Protects your entire electrical panel from power surges that can damage appliances and trip breakers. Installs at the panel and covers everything downstream.', priceRange: '$40-$80', amazonUrl: 'https://www.amazon.com/s?k=whole+house+surge+protector+panel&tag=replacementgu-20' },
+  ],
 }

@@ -8,6 +8,7 @@ export interface TroubleshootGuide {
   steps: { title: string; detail: string; fix: string }[]
   whenToReplace: string
   whenToCallPro: string
+  recommendedProducts?: { name: string; description: string; priceRange: string; amazonUrl: string }[]
 }
 
 import { guide as waterHeaterLeaking } from './water-heater-leaking'

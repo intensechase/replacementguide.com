@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If the compressor is dead and your system is over 10 years old, replacement is almost always the better call. Same if you're still running R-22 refrigerant (phased out... refills are extremely expensive now). A new system will be more efficient and comes with a warranty.`,
   whenToCallPro: `Call an HVAC tech if the breaker keeps tripping (electrical issue), if the outdoor unit hums but nothing spins (capacitor or compressor), or if the system runs but produces zero cooling. Also call if you smell anything burning... shut the system off first, then call.`,
+  recommendedProducts: [
+    { name: 'AC Capacitor (35/5 MFD)', description: 'The most commonly replaced AC part... when the outdoor unit hums but won\'t start, a blown capacitor is usually the culprit. Match the MFD rating on your old one.', priceRange: '$12-$25', amazonUrl: 'https://www.amazon.com/s?k=AC+capacitor+35+5+MFD+370V&tag=replacementgu-20' },
+    { name: 'AC Contactor', description: 'The relay that sends power to the compressor and fan motor. If it\'s pitted or burnt, the outdoor unit won\'t kick on at all.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=AC+contactor+2+pole+30+amp&tag=replacementgu-20' },
+    { name: 'AC Condensate Drain Line Cleaning Kit', description: 'Clogged condensate lines cause shutdowns on a lot of systems. This kit clears the line so water drains properly and the safety switch doesn\'t trip.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=AC+condensate+drain+line+cleaning+kit&tag=replacementgu-20' },
+  ],
 }

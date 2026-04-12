@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `Sump pumps last 7 to 10 years. If yours is in that range and having problems, replacement ($200-$600 installed) is smarter than repair. A dead motor, burned-out pump, or cracked housing all mean it's time for a new one. If your pump runs constantly during rain but can't keep up, you may need a larger pump (1/3 HP to 1/2 HP upgrade) or a secondary backup pump.`,
   whenToCallPro: `Call a plumber if water is actively rising in the basement and you can't get the pump working... this is a time-sensitive emergency. Also call if the pump is hardwired (not plugged in) and you can't diagnose the electrical issue, or if you need to upsize the pump or discharge line, which may require modifying the plumbing.`,
+  recommendedProducts: [
+    { name: 'Sump Pump Float Switch', description: 'If the pump has power but won\'t turn on when water rises, the float switch is usually the problem. A replacement switch is a quick fix that saves you from buying a whole new pump.', priceRange: '$15-$30', amazonUrl: 'https://www.amazon.com/s?k=sump+pump+float+switch+replacement&tag=replacementgu-20' },
+    { name: 'Wayne Battery Backup Sump Pump', description: 'When the power goes out during a storm, your main pump is useless... which is exactly when you need it most. A battery backup kicks in automatically and keeps your basement dry.', priceRange: '$150-$300', amazonUrl: 'https://www.amazon.com/s?k=Wayne+battery+backup+sump+pump&tag=replacementgu-20' },
+    { name: 'Sump Pump Check Valve', description: 'Prevents water from flowing back into the pit after the pump shuts off. If yours is stuck or installed backward, the pump cycles endlessly and burns out fast.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=sump+pump+check+valve+1.5+inch&tag=replacementgu-20' },
+  ],
 }

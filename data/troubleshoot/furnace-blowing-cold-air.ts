@@ -39,4 +39,9 @@ export const guide = {
   ],
   whenToReplace: `If the heat exchanger is cracked (a tech can check this with a camera or combustion analyzer), you need a new furnace. A cracked heat exchanger is a carbon monoxide risk and not worth repairing. If your furnace is 20+ years old and needing frequent repairs, the math usually favors replacement.`,
   whenToCallPro: `Call a tech if the burners light then go out repeatedly after you've cleaned the flame sensor, if you hear unusual noises from the furnace, or if you see error codes flashing on the control board. If your CO detector goes off, get everyone out of the house first... then call.`,
+  recommendedProducts: [
+    { name: 'HVAC Air Filter (MERV 8)', description: 'A clogged filter is the hidden cause behind most "furnace blows cold" complaints. Swap it every 1-3 months during heating season and you\'ll avoid a lot of headaches.', priceRange: '$8-$20', amazonUrl: 'https://www.amazon.com/s?k=HVAC+air+filter+MERV+8&tag=replacementgu-20' },
+    { name: 'Honeywell Home Programmable Thermostat', description: 'If your thermostat is acting up or the fan setting keeps causing confusion, a reliable programmable thermostat makes everything simpler... and pays for itself in energy savings.', priceRange: '$25-$50', amazonUrl: 'https://www.amazon.com/s?k=Honeywell+Home+programmable+thermostat&tag=replacementgu-20' },
+    { name: 'Furnace Flame Sensor', description: 'The flame sensor is the most common reason a furnace lights then shuts right off. Cleaning it works most of the time, but a new one is cheap insurance.', priceRange: '$8-$15', amazonUrl: 'https://www.amazon.com/s?k=universal+furnace+flame+sensor&tag=replacementgu-20' },
+  ],
 }

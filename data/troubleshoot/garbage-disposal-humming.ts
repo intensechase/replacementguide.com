@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If the motor is burned out (you freed the jam, hit reset, and it still just hums or does nothing), it's replacement time. A new garbage disposal is $80-200 for the unit and about 30 minutes to install if you're handy... the hardest part is the plumbing connections. If the disposal is leaking from the bottom (internal seal failure), that's also a replace situation.`,
   whenToCallPro: `Most people can handle this themselves, but call a plumber if you can't free the jam, if the disposal is leaking, or if you're not comfortable working under the sink with plumbing connections. If the disposal is hardwired (no plug) and you need to replace it, call an electrician unless you know what you're doing.`,
+  recommendedProducts: [
+    { name: 'Allen Wrench Set (Hex Key Set)', description: 'You need a 1/4-inch hex key to unjam the disposal from the bottom. A full set is handy to have around the house for all kinds of repairs.', priceRange: '$6-$12', amazonUrl: 'https://www.amazon.com/s?k=allen+wrench+hex+key+set&tag=replacementgu-20' },
+    { name: 'InSinkErator Jam-Buster Wrench', description: 'Made specifically for InSinkErator disposals... fits the hex socket on the bottom and gives you better leverage than a standard Allen key.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=InSinkErator+jam+buster+wrench&tag=replacementgu-20' },
+    { name: 'InSinkErator Badger 5 Garbage Disposal', description: 'If the motor is burned out, this is a solid and affordable replacement. The Badger 5 is a 1/2 HP workhorse that handles everyday kitchen waste without fuss.', priceRange: '$80-$110', amazonUrl: 'https://www.amazon.com/s?k=InSinkErator+Badger+5+garbage+disposal&tag=replacementgu-20' },
+  ],
 }

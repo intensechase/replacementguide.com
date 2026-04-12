@@ -4,6 +4,9 @@ import { guides } from '@/data/troubleshoot'
 import { guides as pestGuides } from '@/data/pest-control'
 import { maintenanceGuides } from '@/data/maintenance'
 import { guides as insuranceGuides } from '@/data/insurance'
+import { guides as costToHireGuides } from '@/data/cost-to-hire'
+import { checklists } from '@/data/checklists'
+import { comparisonGuides } from '@/data/compare'
 import { getAllArticles } from '@/data/blog'
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
@@ -22,6 +25,12 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     ...maintenanceGuides.map(g => `<url><loc>${base}/maintenance/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/insurance</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     ...insuranceGuides.map(g => `<url><loc>${base}/insurance/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
+    `<url><loc>${base}/checklist</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`,
+    ...checklists.map(c => `<url><loc>${base}/checklist/${c.slug}</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`),
+    `<url><loc>${base}/compare</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+    ...comparisonGuides.map(g => `<url><loc>${base}/compare/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
+    `<url><loc>${base}/cost-to-hire</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+    ...costToHireGuides.map(g => `<url><loc>${base}/cost-to-hire/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     ...getAllArticles().map(a => `<url><loc>${base}/blog/${a.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>`,

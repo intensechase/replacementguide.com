@@ -4,7 +4,7 @@
 export interface CrossLink {
   slug: string
   name: string
-  section: 'product' | 'troubleshoot' | 'pest-control' | 'insurance' | 'maintenance'
+  section: 'product' | 'troubleshoot' | 'pest-control' | 'insurance' | 'maintenance' | 'cost-to-hire'
   category?: string // only for product pages
 }
 
@@ -193,6 +193,71 @@ const linkMap: LinkEntry[] = [
     ],
   },
 
+  // ==================== COST TO HIRE → PRODUCT / TROUBLESHOOT ====================
+  {
+    section: 'cost-to-hire', slug: 'plumber',
+    links: [
+      { slug: 'water-heater', name: 'Water Heater Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'toilet', name: 'Toilet Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'water-heater-leaking', name: 'Water Heater Leaking', section: 'troubleshoot' },
+      { slug: 'toilet-wont-flush', name: 'Toilet Won\'t Flush', section: 'troubleshoot' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'electrician',
+    links: [
+      { slug: 'electrical-panel', name: 'Electrical Panel Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'circuit-breaker', name: 'Circuit Breaker Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'circuit-breaker-keeps-tripping', name: 'Circuit Breaker Keeps Tripping', section: 'troubleshoot' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'hvac-technician',
+    links: [
+      { slug: 'air-conditioner', name: 'Air Conditioner Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'furnace', name: 'Furnace Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'ac-not-working', name: 'AC Not Working', section: 'troubleshoot' },
+      { slug: 'furnace-not-turning-on', name: 'Furnace Not Turning On', section: 'troubleshoot' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'roofer',
+    links: [
+      { slug: 'roof', name: 'Roof Replacement Guide', section: 'product', category: 'home' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'exterminator',
+    links: [
+      { slug: 'termites', name: 'How to Get Rid of Termites', section: 'pest-control' },
+      { slug: 'roaches', name: 'How to Get Rid of Roaches', section: 'pest-control' },
+      { slug: 'mice', name: 'How to Get Rid of Mice', section: 'pest-control' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'appliance-repair',
+    links: [
+      { slug: 'refrigerator', name: 'Refrigerator Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'washing-machine', name: 'Washing Machine Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'dishwasher-not-draining', name: 'Dishwasher Not Draining', section: 'troubleshoot' },
+      { slug: 'dryer-not-heating', name: 'Dryer Not Heating', section: 'troubleshoot' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'garage-door-repair',
+    links: [
+      { slug: 'garage-door', name: 'Garage Door Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'garage-door-wont-open', name: 'Garage Door Won\'t Open', section: 'troubleshoot' },
+    ],
+  },
+  {
+    section: 'cost-to-hire', slug: 'chimney-sweep',
+    links: [
+      { slug: 'furnace', name: 'Furnace Replacement Guide', section: 'product', category: 'home' },
+      { slug: 'pilot-light-wont-stay-lit', name: 'Pilot Light Won\'t Stay Lit', section: 'troubleshoot' },
+    ],
+  },
+
   // ==================== TROUBLESHOOT → INSURANCE ====================
   {
     section: 'troubleshoot', slug: 'water-heater-leaking',
@@ -319,6 +384,8 @@ function formatProductName(slug: string): string {
     'fence': 'Fence Replacement Guide',
     'sprinkler-head': 'Sprinkler Head Replacement Guide',
     'pool-filter-cartridge': 'Pool Filter Cartridge Replacement Guide',
+    'electrical-panel': 'Electrical Panel Replacement Guide',
+    'roof': 'Roof Replacement Guide',
   }
   return names[slug] || slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ')
 }
@@ -360,6 +427,17 @@ function formatSectionName(section: string, slug: string): string {
       'mice': 'How to Get Rid of Mice',
       'termites': 'How to Get Rid of Termites',
       'mosquitoes': 'How to Get Rid of Mosquitoes',
+      'roaches': 'How to Get Rid of Roaches',
+    },
+    'cost-to-hire': {
+      'plumber': 'How Much Does a Plumber Cost?',
+      'electrician': 'How Much Does an Electrician Cost?',
+      'hvac-technician': 'How Much Does HVAC Repair Cost?',
+      'roofer': 'How Much Does a Roofer Cost?',
+      'exterminator': 'How Much Does an Exterminator Cost?',
+      'appliance-repair': 'How Much Does Appliance Repair Cost?',
+      'garage-door-repair': 'How Much Does Garage Door Repair Cost?',
+      'chimney-sweep': 'How Much Does a Chimney Sweep Cost?',
     },
   }
   return names[section]?.[slug] || slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ')

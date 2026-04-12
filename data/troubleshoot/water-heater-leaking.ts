@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If water is coming from the tank body itself... not a valve, not a fitting, not condensation... the tank has corroded through and replacement is your only option. This is especially common on units over 8-10 years old. Don't wait on this one. A small seep becomes a 40-gallon flood fast.`,
   whenToCallPro: `If you're not comfortable working with gas lines or electrical connections, call a plumber. Also call one if the T&P valve is constantly discharging (that could mean dangerous pressure levels) or if you can't identify where the water is coming from. A diagnostic visit is way cheaper than water damage.`,
+  recommendedProducts: [
+    { name: 'Brass Garden Hose Cap', description: 'Screws right onto the drain valve to stop a drip... the quickest fix if the valve won\'t seal on its own.', priceRange: '$5-$8', amazonUrl: 'https://www.amazon.com/s?k=brass+garden+hose+cap&tag=replacementgu-20' },
+    { name: 'Watts T&P Relief Valve', description: 'Replacement temperature and pressure relief valve for standard residential water heaters. If yours is dripping constantly, this is the part you need.', priceRange: '$15-$25', amazonUrl: 'https://www.amazon.com/s?k=water+heater+T%26P+relief+valve&tag=replacementgu-20' },
+    { name: 'Braided Stainless Steel Water Heater Supply Lines', description: 'Much more durable than the old copper flex lines... these resist corrosion and last for years without leaking.', priceRange: '$10-$20', amazonUrl: 'https://www.amazon.com/s?k=braided+stainless+steel+water+heater+supply+lines&tag=replacementgu-20' },
+  ],
 }

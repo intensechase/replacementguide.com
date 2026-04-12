@@ -34,4 +34,9 @@ export const guide = {
   ],
   whenToReplace: `If your system uses R-22 refrigerant (common in units made before 2010) and it needs a recharge, seriously consider replacing the whole system. R-22 is no longer manufactured and costs $100-200 per pound now... a recharge can cost more than a monthly payment on a new system. Any unit over 15 years old with a major refrigerant leak is better replaced than repaired.`,
   whenToCallPro: `Call a tech if the outdoor unit won't run, if you see ice on the refrigerant lines, or if you've checked everything here and still get warm air. Refrigerant work requires specialized equipment and EPA certification... there's no DIY option for that part.`,
+  recommendedProducts: [
+    { name: 'HVAC Air Filter (MERV 8)', description: 'A clean filter is the easiest way to prevent frozen coils and warm air problems. Keep a few spares on hand so you never run a dirty one too long.', priceRange: '$8-$20', amazonUrl: 'https://www.amazon.com/s?k=HVAC+air+filter+MERV+8&tag=replacementgu-20' },
+    { name: 'AC Fin Comb', description: 'Straightens bent condenser fins so your outdoor unit can move air properly. Bent fins are surprisingly common and hurt cooling performance more than you\'d think.', priceRange: '$8-$12', amazonUrl: 'https://www.amazon.com/s?k=AC+fin+comb+straightener&tag=replacementgu-20' },
+    { name: 'Condensate Pump', description: 'If your AC condensate line can\'t drain by gravity, a pump moves the water out for you... prevents overflow shutdowns and water damage.', priceRange: '$30-$60', amazonUrl: 'https://www.amazon.com/s?k=HVAC+condensate+pump&tag=replacementgu-20' },
+  ],
 }
