@@ -7,6 +7,7 @@ const CATEGORIES = [
   { name: 'Outdoor', href: '/outdoor' },
   { name: 'Maintenance', href: '/maintenance' },
   { name: 'Troubleshoot', href: '/troubleshoot' },
+  { name: 'Pest Control', href: '/pest-control' },
   { name: 'Insurance', href: '/insurance' },
   { name: 'Blog', href: '/blog' },
 ]

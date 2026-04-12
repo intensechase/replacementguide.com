@@ -1,6 +1,7 @@
 import type { GetServerSideProps } from 'next'
 import { products } from '@/data/products'
 import { guides } from '@/data/troubleshoot'
+import { guides as pestGuides } from '@/data/pest-control'
 import { maintenanceGuides } from '@/data/maintenance'
 import { guides as insuranceGuides } from '@/data/insurance'
 import { getAllArticles } from '@/data/blog'
@@ -15,6 +16,8 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     ...products.map(p => `<url><loc>${base}/${p.category}/${p.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/troubleshoot</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     ...guides.map(g => `<url><loc>${base}/troubleshoot/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
+    `<url><loc>${base}/pest-control</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+    ...pestGuides.map(g => `<url><loc>${base}/pest-control/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/maintenance</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     ...maintenanceGuides.map(g => `<url><loc>${base}/maintenance/${g.slug}</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`),
     `<url><loc>${base}/insurance</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
