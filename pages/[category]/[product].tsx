@@ -4,6 +4,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { products, type Product } from '@/data/products'
 import { getProductContent, type ProductContent } from '@/data/content'
 import { getRelatedParts, type RelatedPart } from '@/data/related-parts'
+import { getCrossLinks, getCrossLinkUrl, type CrossLink } from '@/data/cross-links'
 
 const CATEGORY_NAMES: Record<string, string> = {
   home: 'Home', auto: 'Auto', personal: 'Personal', outdoor: 'Outdoor',
@@ -14,6 +15,7 @@ interface Props {
   related: Product[]
   content: ProductContent | null
   relatedParts: RelatedPart[]
+  crossLinks: CrossLink[]
 }
 
 export const getStaticPaths: GetStaticPaths = async () => ({
@@ -35,8 +37,9 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
 
   const content = getProductContent(slug)
   const relatedParts = getRelatedParts(slug)
+  const crossLinks = getCrossLinks('product', slug)
 
-  return { props: { product, related, content, relatedParts } }
+  return { props: { product, related, content, relatedParts, crossLinks } }
 }
 
 function formatLifespan(p: Product): string {
@@ -56,7 +59,7 @@ function formatCost(low: number, high: number): string {
   return `$${low.toLocaleString()} - $${high.toLocaleString()}`
 }
 
-export default function ProductPage({ product, related, content, relatedParts }: Props) {
+export default function ProductPage({ product, related, content, relatedParts, crossLinks }: Props) {
   const p = product
   const catName = CATEGORY_NAMES[p.category]
   const lifespan = formatLifespan(p)
@@ -432,6 +435,40 @@ export default function ProductPage({ product, related, content, relatedParts }:
                   </span>
                 </Link>
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* Cross-Section Links */}
+        {crossLinks.length > 0 && (
+          <section className="mt-12 pt-8 border-t border-slate-200">
+            <h2 className="text-xl font-bold mb-4">Related Guides</h2>
+            <div className="grid gap-3">
+              {crossLinks.map(link => {
+                const styles = {
+                  troubleshoot: { border: 'border-red-200', bg: 'bg-red-50', badge: 'bg-red-100 text-red-700', hoverBorder: 'hover:border-red-400' },
+                  insurance: { border: 'border-blue-200', bg: 'bg-blue-50', badge: 'bg-blue-100 text-blue-700', hoverBorder: 'hover:border-blue-400' },
+                  maintenance: { border: 'border-emerald-200', bg: 'bg-emerald-50', badge: 'bg-emerald-100 text-emerald-700', hoverBorder: 'hover:border-emerald-400' },
+                  'pest-control': { border: 'border-amber-200', bg: 'bg-amber-50', badge: 'bg-amber-100 text-amber-700', hoverBorder: 'hover:border-amber-400' },
+                  product: { border: 'border-slate-200', bg: 'bg-slate-50', badge: 'bg-slate-100 text-slate-700', hoverBorder: 'hover:border-slate-400' },
+                }
+                const s = styles[link.section] || styles.product
+                const badgeLabel = { troubleshoot: 'Troubleshoot', insurance: 'Insurance', maintenance: 'Maintenance', 'pest-control': 'Pest Control', product: 'Replacement Guide' }
+                return (
+                  <Link
+                    key={`${link.section}/${link.slug}`}
+                    href={getCrossLinkUrl(link)}
+                    className={`${s.border} ${s.bg} rounded-lg px-4 py-3 ${s.hoverBorder} transition-colors group flex items-center justify-between gap-3`}
+                  >
+                    <div>
+                      <span className="text-sm font-medium text-slate-700 group-hover:text-slate-900 block">{link.name}</span>
+                    </div>
+                    <span className={`shrink-0 text-xs font-medium ${s.badge} rounded-full px-2.5 py-0.5`}>
+                      {badgeLabel[link.section] || link.section}
+                    </span>
+                  </Link>
+                )
+              })}
             </div>
           </section>
         )}

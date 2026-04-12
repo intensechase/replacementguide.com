@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { guides, getGuide, type TroubleshootGuide } from '@/data/troubleshoot'
+import { getCrossLinks, getCrossLinkUrl, type CrossLink } from '@/data/cross-links'
 
 interface Props {
   guide: TroubleshootGuide
+  crossLinks: CrossLink[]
 }
 
 export const getStaticPaths: GetStaticPaths = async () => ({
@@ -15,10 +17,11 @@ export const getStaticPaths: GetStaticPaths = async () => ({
 export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const guide = getGuide(params?.slug as string)
   if (!guide) return { notFound: true }
-  return { props: { guide } }
+  const crossLinks = getCrossLinks('troubleshoot', params?.slug as string)
+  return { props: { guide, crossLinks } }
 }
 
-export default function TroubleshootPage({ guide }: Props) {
+export default function TroubleshootPage({ guide, crossLinks }: Props) {
   const g = guide
 
   return (
@@ -107,6 +110,40 @@ export default function TroubleshootPage({ guide }: Props) {
             <p className="text-slate-700 leading-relaxed">{g.whenToCallPro}</p>
           </div>
         </section>
+
+        {/* Cross-Section Links */}
+        {crossLinks.length > 0 && (
+          <section className="mt-12 pt-8 border-t border-slate-200">
+            <h2 className="text-xl font-bold mb-4">Related Guides</h2>
+            <div className="grid gap-3">
+              {crossLinks.map(link => {
+                const styles = {
+                  product: { border: 'border-emerald-200', bg: 'bg-emerald-50', badge: 'bg-emerald-100 text-emerald-700', hoverBorder: 'hover:border-emerald-400' },
+                  insurance: { border: 'border-blue-200', bg: 'bg-blue-50', badge: 'bg-blue-100 text-blue-700', hoverBorder: 'hover:border-blue-400' },
+                  maintenance: { border: 'border-emerald-200', bg: 'bg-emerald-50', badge: 'bg-emerald-100 text-emerald-700', hoverBorder: 'hover:border-emerald-400' },
+                  troubleshoot: { border: 'border-red-200', bg: 'bg-red-50', badge: 'bg-red-100 text-red-700', hoverBorder: 'hover:border-red-400' },
+                  'pest-control': { border: 'border-amber-200', bg: 'bg-amber-50', badge: 'bg-amber-100 text-amber-700', hoverBorder: 'hover:border-amber-400' },
+                }
+                const s = styles[link.section] || styles.product
+                const badgeLabel = { product: 'Replacement Guide', insurance: 'Insurance', maintenance: 'Maintenance', troubleshoot: 'Troubleshoot', 'pest-control': 'Pest Control' }
+                return (
+                  <Link
+                    key={`${link.section}/${link.slug}`}
+                    href={getCrossLinkUrl(link)}
+                    className={`${s.border} ${s.bg} rounded-lg px-4 py-3 ${s.hoverBorder} transition-colors group flex items-center justify-between gap-3`}
+                  >
+                    <div>
+                      <span className="text-sm font-medium text-slate-700 group-hover:text-slate-900 block">{link.name}</span>
+                    </div>
+                    <span className={`shrink-0 text-xs font-medium ${s.badge} rounded-full px-2.5 py-0.5`}>
+                      {badgeLabel[link.section] || link.section}
+                    </span>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        )}
 
         {/* Related */}
         <div className="mt-12 pt-8 border-t border-slate-200">

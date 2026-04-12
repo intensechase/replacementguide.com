@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { guides, getGuide, type PestGuide } from '@/data/pest-control'
+import { getCrossLinks, getCrossLinkUrl, type CrossLink } from '@/data/cross-links'
 
 interface Props {
   guide: PestGuide
+  crossLinks: CrossLink[]
 }
 
 export const getStaticPaths: GetStaticPaths = async () => ({
@@ -15,10 +17,11 @@ export const getStaticPaths: GetStaticPaths = async () => ({
 export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const guide = getGuide(params?.slug as string)
   if (!guide) return { notFound: true }
-  return { props: { guide } }
+  const crossLinks = getCrossLinks('pest-control', params?.slug as string)
+  return { props: { guide, crossLinks } }
 }
 
-export default function PestControlPage({ guide }: Props) {
+export default function PestControlPage({ guide, crossLinks }: Props) {
   const g = guide
 
   return (
@@ -178,6 +181,29 @@ export default function PestControlPage({ guide }: Props) {
             ))}
           </div>
         </div>
+
+        {/* Cross-Section Links */}
+        {crossLinks.length > 0 && (
+          <section className="mt-8 pt-8 border-t border-slate-200">
+            <h2 className="text-lg font-bold mb-4">Related Replacement Guides</h2>
+            <div className="grid gap-3">
+              {crossLinks.map(link => (
+                <Link
+                  key={`${link.section}/${link.slug}`}
+                  href={getCrossLinkUrl(link)}
+                  className="border border-emerald-200 bg-emerald-50 rounded-lg px-4 py-3 hover:border-emerald-400 transition-colors group flex items-center justify-between gap-3"
+                >
+                  <div>
+                    <span className="text-sm font-medium text-slate-700 group-hover:text-slate-900 block">{link.name}</span>
+                  </div>
+                  <span className="shrink-0 text-xs font-medium bg-emerald-100 text-emerald-700 rounded-full px-2.5 py-0.5">
+                    Replacement Guide
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         <p className="text-xs text-slate-400 mt-10 text-center">
           This guide is for informational purposes. For severe infestations or health concerns, consult a licensed pest control professional.
